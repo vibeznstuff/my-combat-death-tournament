@@ -2,15 +2,27 @@ from combatant import Combatant
 from random import uniform
 import time
 from copy import deepcopy
+from csv import DictWriter
+
 
 MAX_FIGHT_MOMENTS = 300
 
-def fight(combatant_one, combatant_two):
+def fight(combatant_one, combatant_two, log_results=True, spectate=False, round_number=None):
+
+    if not spectate:
+        fight_start_sleep = 0
+        round_sleep = 0
+    else:
+        fight_start_sleep = 10
+        round_sleep = 1
+    
     combatant_one.print_stats()
     combatant_two.print_stats()
     print("FIGHT!")
-    time.sleep(10)
+    time.sleep(fight_start_sleep)
     fight_timer = MAX_FIGHT_MOMENTS
+
+    fight_name = "{0} vs {1}".format(combatant_one.name, combatant_two.name)
 
     healthy_combat_one = deepcopy(combatant_one)
     healthy_combat_two = deepcopy(combatant_two)
@@ -28,7 +40,7 @@ def fight(combatant_one, combatant_two):
 
     while combatant_one.health > 0 and combatant_two.health > 0 and fight_timer > 0:
         print("\n Fight Timer: {}\n".format(fight_timer))
-        time.sleep(1)
+        time.sleep(round_sleep)
         fight_timer = max(0, fight_timer - 1)
         combat_one_cooldown = max(combat_one_cooldown - 1, 0)
         combat_two_cooldown = max(combat_two_cooldown - 1, 0)
@@ -157,6 +169,27 @@ def fight(combatant_one, combatant_two):
         
     print("{} wins the fight!".format(winner.name))
     
+
+    if log_results:
+
+        out_file = open('tournament_log.csv', 'a', newline='')
+        field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'strength', 'defense', 'agility', 'stamina', 'wisdom', 'fight_result']
+
+        writer = DictWriter(out_file, fieldnames=field_names)
+
+        if winner == healthy_combat_one:
+            win_result = healthy_combat_one.get_result_data(round_number, fight_name, 'Won')
+            writer.writerow(win_result)
+
+            loss_result = healthy_combat_two.get_result_data(round_number, fight_name, 'Lost')
+            writer.writerow(loss_result)
+        elif winner == healthy_combat_two:
+            win_result = healthy_combat_two.get_result_data(round_number, fight_name, 'Won')
+            writer.writerow(win_result)
+
+            loss_result = healthy_combat_one.get_result_data(round_number, fight_name, 'Lost')
+            writer.writerow(loss_result)
+
     return winner
 
     

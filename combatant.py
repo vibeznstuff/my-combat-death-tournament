@@ -54,7 +54,7 @@ CLASS_STATS = {
 
 CLASS_LIST = ['TANK', 'MARTIAL ARTIST', 'TACTICIAN', 'BERSERKER', 'HEART', 'HERO', 'SAMURAI']
 
-FIRST_NAMES = ['Xiao', 'Davey', 'Ken', 'Ryu', 'Bobobo', 'The', 'Henry', 'Xavier', 'Jason' \
+FIRST_NAMES = ['Xiao', 'Davey', 'Ken', 'Ryu', 'Bobobo', 'The', 'Henry', 'Xavier', 'Jason', \
     'Susana', 'Mei', 'Mai', 'Kupo', 'Cloud', 'Happy', 'Shaq', 'Moses', 'Cortana', 'Alexa']
 LAST_NAMES = ['Jenkins', 'Chen', 'Lee', 'Hisaishi', 'Johnson', 'Bobobobo', 'Chosen One', 'Moon', 'Sun', 'Balrog', \
     'Badass', 'Mysterious', 'Hall', 'Nevers', 'Bitto', 'Keely', 'Yikes', 'X']
@@ -76,7 +76,7 @@ class Combatant:
             self.set_class()
             self.set_name()
         else:
-            self.combat_class = 'HERO'
+            self.combat_class = 'NEW CHALLENGER'
             self.strength = profile['strength']
             self.defense = profile['defense']
             self.agility = profile['agility']
@@ -92,6 +92,24 @@ class Combatant:
         fname = FIRST_NAMES[round(uniform(0,fname_len-1))]
         lname = LAST_NAMES[round(uniform(0,lname_len-1))]
         self.name = "{0} {1}".format(fname, lname)
+
+    def get_result_data(self, round_number, fight_name, fight_result):
+
+        result = {
+            'round_number': round_number,
+            'fight_name': fight_name,
+            'combatant': self.name,
+            'combat_class': self.combat_class,
+            'rank': self.rank,
+            'strength': self.strength,
+            'defense': self.defense,
+            'agility': self.agility,
+            'stamina': self.stamina,
+            'wisdom': self.wisdom,
+            'fight_result': fight_result
+        }
+    
+        return result
 
     def set_class(self):
         selector = round(uniform(0,4))
