@@ -6,7 +6,10 @@ from copy import deepcopy
 MAX_FIGHT_MOMENTS = 300
 
 def fight(combatant_one, combatant_two):
-    #time.sleep(10)
+    combatant_one.print_stats()
+    combatant_two.print_stats()
+    print("FIGHT!")
+    time.sleep(10)
     fight_timer = MAX_FIGHT_MOMENTS
 
     healthy_combat_one = deepcopy(combatant_one)
@@ -24,14 +27,14 @@ def fight(combatant_one, combatant_two):
     winner = None
 
     while combatant_one.health > 0 and combatant_two.health > 0 and fight_timer > 0:
-        #print("\n Fight Timer: {}\n".format(fight_timer))
-        #time.sleep(1)
+        print("\n Fight Timer: {}\n".format(fight_timer))
+        time.sleep(1)
         fight_timer = max(0, fight_timer - 1)
         combat_one_cooldown = max(combat_one_cooldown - 1, 0)
         combat_two_cooldown = max(combat_two_cooldown - 1, 0)
 
-        #print("Cooldown for {0}: {1}".format(combatant_one.name, combat_one_cooldown))
-        #print("Cooldown for {0}: {1}".format(combatant_two.name, combat_two_cooldown))
+        print("Cooldown for {0}: {1}".format(combatant_one.name, combat_one_cooldown))
+        print("Cooldown for {0}: {1}".format(combatant_two.name, combat_two_cooldown))
 
         dodge_chances_1 = combatant_one.wisdom
         combat_one_dodge = False
