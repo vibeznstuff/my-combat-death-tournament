@@ -19,10 +19,19 @@ def run_tournament(combatants):
 
 combatant_list = []
 
-num_combatants = 8
+my_profile = {
+    'name': 'Vibey Wednesday',
+    'strength': 0,
+    'defense': 0,
+    'agility': 0,
+    'stamina': 0,
+    'wisdom': 0
+}
 
-while num_combatants > 0:
-    num_combatants = num_combatants - 1
+num_ai_combatants = 4
+
+while num_ai_combatants > 0:
+    num_ai_combatants = num_ai_combatants - 1
     combatant_list.append(Combatant())
     
 winner = run_tournament(combatant_list)

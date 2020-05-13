@@ -4,60 +4,87 @@ CLASS_STATS = {
     'TANK': {
         'strength': 10,
         'defense': 10,
-        'agility': 1,
-        'stamina': 3,
+        'agility': 3,
+        'stamina': 5,
         'wisdom': 2
     }, 
     'MARTIAL ARTIST': {
-        'strength': 7,
-        'defense': 4,
-        'agility': 8,
-        'stamina': 9,
-        'wisdom': 6
+        'strength': 5,
+        'defense': 5,
+        'agility': 9,
+        'stamina': 7,
+        'wisdom': 4
     }, 
     'TACTICIAN': {
         'strength': 2,
         'defense': 2,
-        'agility': 5,
-        'stamina': 8,
+        'agility': 6,
+        'stamina': 10,
         'wisdom': 10
     }, 
     'BERSERKER': {
         'strength': 10,
         'defense': 4,
-        'agility': 7,
-        'stamina': 6,
-        'wisdom': 1
+        'agility': 6,
+        'stamina': 10,
+        'wisdom': 0
     },
     'HEART': {
-       'strength': 4,
-        'defense': 8,
+       'strength': 5,
+        'defense': 10,
         'agility': 5,
-        'stamina': 10,
+        'stamina': 6,
         'wisdom': 4 
+    },
+    'HERO': {
+       'strength': 6,
+        'defense': 7,
+        'agility': 3,
+        'stamina': 4,
+        'wisdom': 10 
+    },
+    'SAMURAI': {
+       'strength': 10,
+        'defense': 3,
+        'agility': 3,
+        'stamina': 4,
+        'wisdom': 10 
     }
 }
 
-CLASS_LIST = ['TANK', 'MARTIAL ARTIST', 'TACTICIAN', 'BERSERKER', 'HEART']
+CLASS_LIST = ['TANK', 'MARTIAL ARTIST', 'TACTICIAN', 'BERSERKER', 'HEART', 'HERO', 'SAMURAI']
 
-FIRST_NAMES = ['Xiao', 'Davey', 'Ken', 'Ryu', 'Bobobo', 'The', 'Henry', 'Xavier', 'Jason']
-LAST_NAMES = ['Jenkins', 'Chen', 'Lee', 'Hisaishi', 'Johnson', 'Bobobobo', 'Chosen One', 'Moon', 'Sun', 'Balrog']
+FIRST_NAMES = ['Xiao', 'Davey', 'Ken', 'Ryu', 'Bobobo', 'The', 'Henry', 'Xavier', 'Jason' \
+    'Susana', 'Mei', 'Mai', 'Kupo', 'Cloud', 'Happy', 'Shaq', 'Moses', 'Cortana', 'Alexa']
+LAST_NAMES = ['Jenkins', 'Chen', 'Lee', 'Hisaishi', 'Johnson', 'Bobobobo', 'Chosen One', 'Moon', 'Sun', 'Balrog', \
+    'Badass', 'Mysterious', 'Hall', 'Nevers', 'Bitto', 'Keely', 'Yikes', 'X']
 
 class Combatant:
 
-    def __init__(self):
-        self.combat_class = None
-        self.strength = None
-        self.defense = None
-        self.agility = None
-        self.stamina = None
-        self.wisdom = None
-        self.health = None
-        self.rank = 'WARRIOR'
-        self.name = None
+    def __init__(self, profile=None):
+        if profile == None:
+            self.combat_class = None
+            self.strength = None
+            self.defense = None
+            self.agility = None
+            self.stamina = None
+            self.wisdom = None
+            self.health = None
+            self.rank = 'WARRIOR'
+            self.name = None
 
-        self.set_class()
-        self.set_name()
+            self.set_class()
+            self.set_name()
+        else:
+            self.combat_class = 'HERO'
+            self.strength = profile['strength']
+            self.defense = profile['defense']
+            self.agility = profile['agility']
+            self.stamina = profile['stamina']
+            self.wisdom = profile['wisdom']
+            self.health = profile['stamina'] * 4 + profile['defense'] * 6
+            self.rank = 'MYSTERY'
+            self.name = profile['name']
 
     def set_name(self):
         fname_len = len(FIRST_NAMES)
