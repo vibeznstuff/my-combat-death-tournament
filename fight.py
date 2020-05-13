@@ -1,12 +1,16 @@
 from combatant import Combatant
 from random import uniform
 import time
+from copy import deepcopy
 
 MAX_FIGHT_MOMENTS = 300
 
 def fight(combatant_one, combatant_two):
-    time.sleep(10)
+    #time.sleep(10)
     fight_timer = MAX_FIGHT_MOMENTS
+
+    healthy_combat_one = deepcopy(combatant_one)
+    healthy_combat_two = deepcopy(combatant_two)
 
     combat_one_cooldown = 20 - combatant_one.stamina
     combat_two_cooldown = 20 - combatant_two.stamina
@@ -20,14 +24,14 @@ def fight(combatant_one, combatant_two):
     winner = None
 
     while combatant_one.health > 0 and combatant_two.health > 0 and fight_timer > 0:
-        print("\n Fight Timer: {}\n".format(fight_timer))
-        time.sleep(2)
+        #print("\n Fight Timer: {}\n".format(fight_timer))
+        #time.sleep(1)
         fight_timer = max(0, fight_timer - 1)
         combat_one_cooldown = max(combat_one_cooldown - 1, 0)
         combat_two_cooldown = max(combat_two_cooldown - 1, 0)
 
-        print("Cooldown for {0}: {1}".format(combatant_one.name, combat_one_cooldown))
-        print("Cooldown for {0}: {1}".format(combatant_two.name, combat_two_cooldown))
+        #print("Cooldown for {0}: {1}".format(combatant_one.name, combat_one_cooldown))
+        #print("Cooldown for {0}: {1}".format(combatant_two.name, combat_two_cooldown))
 
         dodge_chances_1 = combatant_one.wisdom
         combat_one_dodge = False
@@ -70,7 +74,7 @@ def fight(combatant_one, combatant_two):
                 combat_one_attack = False
                 if combatant_two.health == 0:
                     print("{} has been Defeated!".format(combatant_two.name))
-                    winner = combatant_one
+                    winner = healthy_combat_one
                     break
             if combat_two_attack:
                 print("{0} Attacks {1}!".format(combatant_two.name, combatant_one.name))
@@ -79,7 +83,7 @@ def fight(combatant_one, combatant_two):
                 combat_two_attack = False
                 if combatant_one.health == 0:
                     print("{} has been Defeated!".format(combatant_one.name))
-                    winner = combatant_two
+                    winner = healthy_combat_two
                     break
         elif combat_two_first:
             if combat_two_attack:
@@ -89,7 +93,7 @@ def fight(combatant_one, combatant_two):
                 combat_two_attack = False
                 if combatant_one.health == 0:
                     print("{} has been Defeated!".format(combatant_one.name))
-                    winner = combatant_two
+                    winner = healthy_combat_two
                     break
             if combat_one_attack:
                 print("{0} Attacks {1}!".format(combatant_one.name, combatant_two.name))
@@ -98,7 +102,7 @@ def fight(combatant_one, combatant_two):
                 combat_one_attack = False
                 if combatant_two.health == 0:
                     print("{} has been Defeated!".format(combatant_two.name))
-                    winner = combatant_one
+                    winner = healthy_combat_one
                     break  
         elif not combat_one_first and not combat_two_first:
             if uniform(0,1) > 0.5:
@@ -110,7 +114,7 @@ def fight(combatant_one, combatant_two):
                     combat_one_attack = False
                     if combatant_two.health == 0:
                         print("{} has been Defeated!".format(combatant_two.name))
-                        winner = combatant_one
+                        winner = healthy_combat_one
                         break
                 if combat_two_attack:
                     print("{0} Attacks {1}!".format(combatant_two.name, combatant_one.name))
@@ -119,7 +123,7 @@ def fight(combatant_one, combatant_two):
                     combat_two_attack = False
                     if combatant_one.health == 0:
                         print("{} has been Defeated!".format(combatant_one.name))
-                        winner = combatant_two
+                        winner = healthy_combat_two
                         break
             else:
                 # Combat two attacks first
@@ -130,7 +134,7 @@ def fight(combatant_one, combatant_two):
                     combat_two_attack = False
                     if combatant_one.health == 0:
                         print("{} has been Defeated!".format(combatant_one.name))
-                        winner = combatant_two
+                        winner = healthy_combat_two
                         break
                 if combat_one_attack:
                     print("{0} Attacks {1}!".format(combatant_one.name, combatant_two.name))
@@ -139,15 +143,17 @@ def fight(combatant_one, combatant_two):
                     combat_one_attack = False
                     if combatant_two.health == 0:
                         print("{} has been Defeated!".format(combatant_two.name))
-                        winner = combatant_one
+                        winner = healthy_combat_one
                         break
     
     if winner == None:
         if combatant_one.health > combatant_two.health:
-            winner = combatant_one
+            winner = healthy_combat_one
         else:
-            winner = combatant_two
+            winner = healthy_combat_two
         
+    print("{} wins the fight!".format(winner.name))
+    
     return winner
 
     
