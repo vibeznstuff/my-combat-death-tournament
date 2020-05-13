@@ -1,62 +1,63 @@
-1,Moses Jenkins vs The Hisaishi,The Hisaishi,TANK,WARRIOR,10,10,3,5,2,Won
-1,Moses Jenkins vs The Hisaishi,Moses Jenkins,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
-2,Shaq Balrog vs Happy Chosen One,Happy Chosen One,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Won
-2,Shaq Balrog vs Happy Chosen One,Shaq Balrog,HEART,WARRIOR,5,10,5,6,4,Lost
-3,The Hisaishi vs Happy Chosen One,The Hisaishi,TANK,WARRIOR,10,10,3,5,2,Won
-3,The Hisaishi vs Happy Chosen One,Happy Chosen One,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
-3,The Yikes vs Mei Lee,Mei Lee,TACTICIAN,ELITE,2,2,6,15,10,Won
-3,The Yikes vs Mei Lee,The Yikes,BERSERKER,WARRIOR,10,4,6,10,0,Lost
-4,Alexa Bitto vs Shaq Lee,Shaq Lee,TACTICIAN,ELITE,2,2,6,15,10,Won
-4,Alexa Bitto vs Shaq Lee,Alexa Bitto,BERSERKER,WARRIOR,10,4,6,10,0,Lost
-5,Mei Lee vs Shaq Lee,Mei Lee,TACTICIAN,ELITE,2,2,6,15,10,Won
-5,Mei Lee vs Shaq Lee,Shaq Lee,TACTICIAN,ELITE,2,2,6,15,10,Lost
-5,The Hisaishi vs Mei Lee,Mei Lee,TACTICIAN,ELITE,2,2,6,15,10,Won
-5,The Hisaishi vs Mei Lee,The Hisaishi,TANK,WARRIOR,10,10,3,5,2,Lost
-5,Happy Sun vs Cortana Yikes,Happy Sun,BERSERKER,WARRIOR,10,4,6,10,0,Won
-5,Happy Sun vs Cortana Yikes,Cortana Yikes,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-6,Cortana Hisaishi vs Ryu Nevers,Ryu Nevers,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Won
-6,Cortana Hisaishi vs Ryu Nevers,Cortana Hisaishi,MARTIAL ARTIST,ELITE,5,10,9,7,4,Lost
-7,Happy Sun vs Ryu Nevers,Happy Sun,BERSERKER,WARRIOR,10,4,6,10,0,Won
-7,Happy Sun vs Ryu Nevers,Ryu Nevers,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
-7,Ken Chen vs Xavier Hisaishi,Ken Chen,TANK,WARRIOR,10,10,3,5,2,Won
-7,Ken Chen vs Xavier Hisaishi,Xavier Hisaishi,BERSERKER,WARRIOR,10,4,6,10,0,Lost
-8,Ryu Nevers vs Xiao Moon,Ryu Nevers,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Won
-8,Ryu Nevers vs Xiao Moon,Xiao Moon,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-9,Ken Chen vs Ryu Nevers,Ken Chen,TANK,WARRIOR,10,10,3,5,2,Won
-9,Ken Chen vs Ryu Nevers,Ryu Nevers,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
-9,Happy Sun vs Ken Chen,Ken Chen,TANK,WARRIOR,10,10,3,5,2,Won
-9,Happy Sun vs Ken Chen,Happy Sun,BERSERKER,WARRIOR,10,4,6,10,0,Lost
-9,Mei Lee vs Ken Chen,Mei Lee,TACTICIAN,ELITE,2,2,6,15,10,Won
-9,Mei Lee vs Ken Chen,Ken Chen,TANK,WARRIOR,10,10,3,5,2,Lost
-9,Mei Sun vs Mei Hall,Mei Sun,TACTICIAN,WARRIOR,2,2,6,10,10,Won
-9,Mei Sun vs Mei Hall,Mei Hall,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-10,Ken Bobobobo vs Cloud Balrog,Ken Bobobobo,TANK,ELITE,10,10,3,5,7,Won
-10,Ken Bobobobo vs Cloud Balrog,Cloud Balrog,MARTIAL ARTIST,ELITE,5,5,14,7,4,Lost
-11,Mei Sun vs Ken Bobobobo,Ken Bobobobo,TANK,ELITE,10,10,3,5,7,Won
-11,Mei Sun vs Ken Bobobobo,Mei Sun,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-11,Ken Jenkins vs Ryu Yikes,Ken Jenkins,TANK,ELITE,10,10,3,5,7,Won
-11,Ken Jenkins vs Ryu Yikes,Ryu Yikes,MARTIAL ARTIST,ELITE,5,5,9,7,4,Lost
-12,Mei Sun vs Mai Bobobobo,Mei Sun,TACTICIAN,WARRIOR,2,2,6,10,10,Won
-12,Mei Sun vs Mai Bobobobo,Mai Bobobobo,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-13,Ken Jenkins vs Mei Sun,Ken Jenkins,TANK,ELITE,10,10,3,5,7,Won
-13,Ken Jenkins vs Mei Sun,Mei Sun,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-13,Ken Bobobobo vs Ken Jenkins,Ken Bobobobo,TANK,ELITE,10,10,3,5,7,Won
-13,Ken Bobobobo vs Ken Jenkins,Ken Jenkins,TANK,ELITE,10,10,3,5,7,Lost
-13,Henry Sun vs Bobobo Hisaishi,Bobobo Hisaishi,BERSERKER,MASTER,10,4,11,10,5,Won
-13,Henry Sun vs Bobobo Hisaishi,Henry Sun,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
-14,Bobobo Moon vs Shaq Chen,Bobobo Moon,TANK,WARRIOR,10,10,3,5,2,Won
-14,Bobobo Moon vs Shaq Chen,Shaq Chen,MARTIAL ARTIST,ELITE,5,5,14,7,4,Lost
-15,Bobobo Hisaishi vs Bobobo Moon,Bobobo Moon,TANK,WARRIOR,10,10,3,5,2,Won
-15,Bobobo Hisaishi vs Bobobo Moon,Bobobo Hisaishi,BERSERKER,MASTER,10,4,11,10,5,Lost
-15,Moses Johnson vs Cloud Hall,Cloud Hall,TACTICIAN,ELITE,2,2,6,15,10,Won
-15,Moses Johnson vs Cloud Hall,Moses Johnson,HEART,WARRIOR,5,10,5,6,4,Lost
-16,Jason Sun vs Vibey Wednesday,Jason Sun,HEART,ELITE,5,10,5,11,4,Won
-16,Jason Sun vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,10,5,10,0,5,Lost
-17,Cloud Hall vs Jason Sun,Jason Sun,HEART,ELITE,5,10,5,11,4,Won
-17,Cloud Hall vs Jason Sun,Cloud Hall,TACTICIAN,ELITE,2,2,6,15,10,Lost
-17,Bobobo Moon vs Jason Sun,Jason Sun,HEART,ELITE,5,10,5,11,4,Won
-17,Bobobo Moon vs Jason Sun,Bobobo Moon,TANK,WARRIOR,10,10,3,5,2,Lost
-17,Ken Bobobobo vs Jason Sun,Jason Sun,HEART,ELITE,5,10,5,11,4,Won
-17,Ken Bobobobo vs Jason Sun,Ken Bobobobo,TANK,ELITE,10,10,3,5,7,Lost
-17,Mei Lee vs Jason Sun,Jason Sun,HEART,ELITE,5,10,5,11,4,Won
-17,Mei Lee vs Jason Sun,Mei Lee,TACTICIAN,ELITE,2,2,6,15,10,Lost
+round_number,fight_name,combatant,combat_class,rank,strength,defense,agility,stamina,wisdom,fight_result
+1,Susana Bitto vs Moses Moon,Moses Moon,BERSERKER,WARRIOR,10,4,6,10,0,Won
+1,Susana Bitto vs Moses Moon,Susana Bitto,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+2,Shaq Hall vs Susana Mysterious,Shaq Hall,BERSERKER,WARRIOR,10,4,6,10,0,Won
+2,Shaq Hall vs Susana Mysterious,Susana Mysterious,TACTICIAN,MASTER,2,2,11,10,15,Lost
+3,Moses Moon vs Shaq Hall,Moses Moon,BERSERKER,WARRIOR,10,4,6,10,0,Won
+3,Moses Moon vs Shaq Hall,Shaq Hall,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+3,Cortana Mysterious vs Henry Chosen One,Cortana Mysterious,HEART,WARRIOR,5,10,5,6,4,Won
+3,Cortana Mysterious vs Henry Chosen One,Henry Chosen One,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+4,The Mysterious vs Mai Hall,The Mysterious,TACTICIAN,WARRIOR,2,2,6,10,10,Won
+4,The Mysterious vs Mai Hall,Mai Hall,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+5,Cortana Mysterious vs The Mysterious,Cortana Mysterious,HEART,WARRIOR,5,10,5,6,4,Won
+5,Cortana Mysterious vs The Mysterious,The Mysterious,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+5,Moses Moon vs Cortana Mysterious,Cortana Mysterious,HEART,WARRIOR,5,10,5,6,4,Won
+5,Moses Moon vs Cortana Mysterious,Moses Moon,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+5,Mei Moon vs Cortana Mysterious,Mei Moon,TANK,WARRIOR,10,10,3,5,2,Won
+5,Mei Moon vs Cortana Mysterious,Cortana Mysterious,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
+6,Jason Chosen One vs Jason Keely,Jason Chosen One,BERSERKER,WARRIOR,10,4,6,10,0,Won
+6,Jason Chosen One vs Jason Keely,Jason Keely,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+7,Mei Moon vs Jason Chosen One,Mei Moon,TANK,WARRIOR,10,10,3,5,2,Won
+7,Mei Moon vs Jason Chosen One,Jason Chosen One,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+7,Kupo Sun vs Jason Badass,Kupo Sun,TANK,ELITE,10,10,8,5,2,Won
+7,Kupo Sun vs Jason Badass,Jason Badass,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+8,The Chen vs The Hall,The Hall,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Won
+8,The Chen vs The Hall,The Chen,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+9,Kupo Sun vs The Hall,Kupo Sun,TANK,ELITE,10,10,8,5,2,Won
+9,Kupo Sun vs The Hall,The Hall,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
+9,Mei Moon vs Kupo Sun,Kupo Sun,TANK,ELITE,10,10,8,5,2,Won
+9,Mei Moon vs Kupo Sun,Mei Moon,TANK,WARRIOR,10,10,3,5,2,Lost
+9,Cortana Mysterious vs Kupo Sun,Cortana Mysterious,HEART,WARRIOR,5,10,5,6,4,Won
+9,Cortana Mysterious vs Kupo Sun,Kupo Sun,TANK,ELITE,10,10,8,5,2,Lost
+9,Bobobo Moon vs Kupo Lee,Bobobo Moon,BERSERKER,WARRIOR,10,4,6,10,0,Won
+9,Bobobo Moon vs Kupo Lee,Kupo Lee,TACTICIAN,ELITE,2,2,6,10,15,Lost
+10,Henry Badass vs Ken Hall,Henry Badass,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Won
+10,Henry Badass vs Ken Hall,Ken Hall,HEART,WARRIOR,5,10,5,6,4,Lost
+11,Bobobo Moon vs Henry Badass,Bobobo Moon,BERSERKER,WARRIOR,10,4,6,10,0,Won
+11,Bobobo Moon vs Henry Badass,Henry Badass,MARTIAL ARTIST,WARRIOR,5,5,9,7,4,Lost
+11,Susana Chosen One vs Cortana Nevers,Cortana Nevers,TANK,WARRIOR,10,10,3,5,2,Won
+11,Susana Chosen One vs Cortana Nevers,Susana Chosen One,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+12,Ken Badass vs Alexa Sun,Alexa Sun,TACTICIAN,MASTER,7,7,6,10,10,Won
+12,Ken Badass vs Alexa Sun,Ken Badass,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+13,Cortana Nevers vs Alexa Sun,Alexa Sun,TACTICIAN,MASTER,7,7,6,10,10,Won
+13,Cortana Nevers vs Alexa Sun,Cortana Nevers,TANK,WARRIOR,10,10,3,5,2,Lost
+13,Bobobo Moon vs Alexa Sun,Alexa Sun,TACTICIAN,MASTER,7,7,6,10,10,Won
+13,Bobobo Moon vs Alexa Sun,Bobobo Moon,BERSERKER,WARRIOR,10,4,6,10,0,Lost
+13,Kupo Jenkins vs Ryu Chosen One,Kupo Jenkins,TANK,ELITE,10,10,3,5,2,Won
+13,Kupo Jenkins vs Ryu Chosen One,Ryu Chosen One,TANK,WARRIOR,10,10,3,5,2,Lost
+14,Xavier Lee vs Cloud Moon,Cloud Moon,TACTICIAN,WARRIOR,2,2,6,10,10,Won
+14,Xavier Lee vs Cloud Moon,Xavier Lee,HEART,WARRIOR,5,10,5,6,4,Lost
+15,Kupo Jenkins vs Cloud Moon,Kupo Jenkins,TANK,ELITE,10,10,3,5,2,Won
+15,Kupo Jenkins vs Cloud Moon,Cloud Moon,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+15,Ryu Badass vs Jason Chosen One,Jason Chosen One,HEART,ELITE,5,10,10,6,4,Won
+15,Ryu Badass vs Jason Chosen One,Ryu Badass,HEART,WARRIOR,5,10,5,6,4,Lost
+16,Xiao Chen vs Vibey Wednesday,Xiao Chen,TACTICIAN,WARRIOR,2,2,6,10,10,Won
+16,Xiao Chen vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,10,5,10,0,5,Lost
+17,Jason Chosen One vs Xiao Chen,Jason Chosen One,HEART,ELITE,5,10,10,6,4,Won
+17,Jason Chosen One vs Xiao Chen,Xiao Chen,TACTICIAN,WARRIOR,2,2,6,10,10,Lost
+17,Kupo Jenkins vs Jason Chosen One,Jason Chosen One,HEART,ELITE,5,10,10,6,4,Won
+17,Kupo Jenkins vs Jason Chosen One,Kupo Jenkins,TANK,ELITE,10,10,3,5,2,Lost
+17,Alexa Sun vs Jason Chosen One,Jason Chosen One,HEART,ELITE,5,10,10,6,4,Won
+17,Alexa Sun vs Jason Chosen One,Alexa Sun,TACTICIAN,MASTER,7,7,6,10,10,Lost
+17,Cortana Mysterious vs Jason Chosen One,Jason Chosen One,HEART,ELITE,5,10,10,6,4,Won
+17,Cortana Mysterious vs Jason Chosen One,Cortana Mysterious,HEART,WARRIOR,5,10,5,6,4,Lost

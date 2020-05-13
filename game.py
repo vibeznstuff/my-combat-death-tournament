@@ -1,6 +1,6 @@
 from combatant import Combatant
 from fight import fight
-
+from csv import DictWriter
 
 
 def run_tournament(combatants, log_results=True, spectate=False, tournament_start=False):
@@ -52,6 +52,9 @@ combatant_list.append(Combatant(my_fighter))
 
 # Clear out contents of tournament log
 out_file = open('tournament_log.csv', 'w', newline='')
+field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'strength', 'defense', 'agility', 'stamina', 'wisdom', 'fight_result']
+writer = DictWriter(out_file, fieldnames=field_names)
+writer.writeheader()
 out_file.close()
 
 winner = run_tournament(combatant_list, spectate=False, tournament_start=True)
