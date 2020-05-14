@@ -1,6 +1,6 @@
 from combatant import Combatant
 from fight import fight
-from csv import DictWriter
+import csv
 import constants
 
 
@@ -58,13 +58,19 @@ combatant_list = generate_combatants(num_ai_fighters) + custom_fighters
 out_file = open('tournament_log.csv', 'w', newline='')
 field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'max_health', 'health', 'strength', 'defense', 'agility', \
     'stamina', 'wisdom', 'fight_result', 'remaining_health']
-writer = DictWriter(out_file, fieldnames=field_names)
+writer = csv.DictWriter(out_file, fieldnames=field_names)
 writer.writeheader()
 out_file.close()
+
+# Clear out contents of fight log
+out_file2 = open('fight_log.csv', 'w', newline='')
+field_names2 = ['round_number', 'fight_name', 'time_elapsed', 'event', 'combatant_one', 'combatant_one_health', 'combatant_two', 'combatant_two_health']
+writer2 = csv.writer(out_file2)
+writer2.writerow(field_names2)
+out_file2.close()
 
 winner = run_tournament(combatant_list, spectate=False, tournament_start=True)
 
 print("Winner of the tournament is {}!".format(winner.name))
 winner.print_stats()
 
-out_file.close()
