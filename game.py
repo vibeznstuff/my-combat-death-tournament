@@ -1,13 +1,10 @@
 from combatant import Combatant
 from fight import fight
 from csv import DictWriter
+import constants
 
 
 def run_tournament(combatants, log_results=True, spectate=False, tournament_start=False):
-
-    if tournament_start:
-        global round_number
-        round_number = 1
 
     if len(combatants) > 2:
         split = int(len(combatants)/2)
@@ -15,12 +12,15 @@ def run_tournament(combatants, log_results=True, spectate=False, tournament_star
         bracket_one = combatants[:split]
         bracket_two = combatants[-split:]
 
-        return fight(run_tournament(bracket_one), run_tournament(bracket_two), log_results=log_results, spectate=spectate, round_number=round_number)
+        winner = fight(run_tournament(bracket_one), run_tournament(bracket_two), log_results=log_results, spectate=spectate)
+        constants.ROUND_NUMBER = constants.ROUND_NUMBER + 1
+
+        return winner
 
     elif len(combatants) == 2:
         print("Going in")
-        winner = fight(combatants[0], combatants[1], log_results=log_results, spectate=spectate, round_number=round_number)
-        round_number = round_number + 1
+        winner = fight(combatants[0], combatants[1], log_results=log_results, spectate=spectate)
+        constants.ROUND_NUMBER = constants.ROUND_NUMBER + 1
         print(winner.name)
         return winner
 
@@ -36,8 +36,7 @@ def generate_combatants(num_combatants=4):
     return combatant_list
 
 
-# Decide how many AI fighters for tournament
-combatant_list = generate_combatants(31)
+custom_fighters = []
 
 # Add manually created fighter
 my_fighter = {
@@ -48,11 +47,17 @@ my_fighter = {
     'stamina': 0,
     'wisdom': 5
 }
-combatant_list.append(Combatant(my_fighter))
+custom_fighters.append(Combatant(my_fighter))
+
+num_ai_fighters = constants.FIGHTER_COUNT - len(custom_fighters)
+
+# Randomly generate AI fighters for tournament
+combatant_list = generate_combatants(num_ai_fighters) + custom_fighters
 
 # Clear out contents of tournament log
 out_file = open('tournament_log.csv', 'w', newline='')
-field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'strength', 'defense', 'agility', 'stamina', 'wisdom', 'fight_result']
+field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'max_health', 'health', 'strength', 'defense', 'agility', \
+    'stamina', 'wisdom', 'fight_result', 'remaining_health']
 writer = DictWriter(out_file, fieldnames=field_names)
 writer.writeheader()
 out_file.close()

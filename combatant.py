@@ -70,6 +70,7 @@ class Combatant:
             self.stamina = None
             self.wisdom = None
             self.health = None
+            self.max_health = None
             self.rank = 'WARRIOR'
             self.name = None
 
@@ -82,7 +83,8 @@ class Combatant:
             self.agility = profile['agility']
             self.stamina = profile['stamina']
             self.wisdom = profile['wisdom']
-            self.health = profile['stamina'] * 4 + profile['defense'] * 6
+            self.max_health = profile['stamina'] * 4 + profile['defense'] * 6
+            self.health = self.max_health
             self.rank = 'MYSTERY'
             self.name = profile['name']
 
@@ -93,7 +95,7 @@ class Combatant:
         lname = LAST_NAMES[round(uniform(0,lname_len-1))]
         self.name = "{0} {1}".format(fname, lname)
 
-    def get_result_data(self, round_number, fight_name, fight_result):
+    def get_result_data(self, round_number, fight_name, fight_result, remaining_health):
 
         result = {
             'round_number': round_number,
@@ -101,12 +103,15 @@ class Combatant:
             'combatant': self.name,
             'combat_class': self.combat_class,
             'rank': self.rank,
+            'max_health': self.max_health,
+            'health': self.health,
             'strength': self.strength,
             'defense': self.defense,
             'agility': self.agility,
             'stamina': self.stamina,
             'wisdom': self.wisdom,
-            'fight_result': fight_result
+            'fight_result': fight_result,
+            'remaining_health': remaining_health
         }
     
         return result
@@ -121,7 +126,8 @@ class Combatant:
         self.agility = stats_dict['agility']
         self.stamina = stats_dict['stamina']
         self.wisdom = stats_dict['wisdom']
-        self.health = stats_dict['stamina'] * 4 + stats_dict['defense'] * 6
+        self.max_health = stats_dict['stamina'] * 4 + stats_dict['defense'] * 6
+        self.health = self.max_health
 
         # Assess Rank
         rank_dice_roll = uniform(0,1)
@@ -163,7 +169,9 @@ class Combatant:
             elif stat_dice_roll == 6:
                 self.health = self.health * 1.5
 
-
+    def recooperate(self):
+        self.health = min(self.max_health, round(self.health * 1.5))
+    
     def print_stats(self):
         print("Combatant Name: {}".format(self.name))
         print("Combat Class: {}".format(self.combat_class))
