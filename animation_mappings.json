@@ -1,0 +1,20 @@
+{
+    "rock" : {
+        "actions": {
+            "rest": [[350,363], [363,350]],
+            "punch": [[579, 590]],
+            "dash_attack": [[766, 800]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Rock Howard\\",
+        "img_prefix": "Rock Howard",
+        "starting_pos": [-90, 135]
+    },
+    "haohmaru": {
+        "actions": {
+            "rest": [[141,165],[165,141]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Haohmaru\\",
+        "img_prefix": "Haohmaru",
+        "starting_pos": [445, 130]
+    }
+}
