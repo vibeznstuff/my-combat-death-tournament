@@ -20,5 +20,16 @@
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Haohmaru\\",
         "img_prefix": "Haohmaru",
         "starting_pos": [445, 130]
+    },
+    "yuri": {
+        "actions": {
+            "rest": [[97,103]],
+            "dash_attack": [[171,176], [171,176], [327,342]],
+            "injured": [[206,209], [209,206]],
+            "dodge": [[113, 120]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Yuri Sakazaki\\",
+        "img_prefix": "Yuri Sakazaki",
+        "starting_pos": [445, 130]
     }
 }
