@@ -31,5 +31,16 @@
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Yuri Sakazaki\\",
         "img_prefix": "Yuri Sakazaki",
         "starting_pos": [445, 130]
+    },
+    "iori": {
+        "actions": {
+            "rest": [[219,225]],
+            "dash_attack": [[288,293], [288,293], [416,430]],
+            "injured": [[328,331], [333,337]],
+            "dodge": [[295, 301]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Orochi Iori\\",
+        "img_prefix": "Orochi Iori",
+        "starting_pos": [445, 130]
     }
 }

@@ -14,7 +14,7 @@ mappings = json.load(open("animation_mappings.json"))
 print(mappings)
 
 player_one = 'yuri'
-player_two = 'rock'
+player_two = 'iori'
 
 x = -90
 x_default = x
