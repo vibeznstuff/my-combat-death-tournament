@@ -1,46 +1,85 @@
 {
-    "rock" : {
+    "hero_male" : {
         "actions": {
             "rest": [[350,363], [363,350]],
             "dash_attack": [[766, 800]],
             "injured": [[944,947], [947,944]],
-            "dodge": [[427,432]]
+            "dodge": [[427,432]],
+            "defeat": [[983,987]],
+            "victory": [[494,516]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Rock Howard\\",
         "img_prefix": "Rock Howard",
-        "starting_pos": [-90, 135]
+        "starting_pos": [-90, 135],
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 1
     },
-    "haohmaru": {
+    "samurai_male": {
         "actions": {
             "rest": [[141,165], [165,141]],
             "dash_attack": [[227,233], [228,233], [427,437]],
             "injured": [[650,654], [654,650]],
-            "dodge": [[234, 238]]
+            "dodge": [[234, 238]],
+            "defeat": [[282,288]], 
+            "victory": [[314,333]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Haohmaru\\",
         "img_prefix": "Haohmaru",
-        "starting_pos": [445, 130]
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0
     },
-    "yuri": {
+    "martial_artist_female": {
         "actions": {
             "rest": [[97,103]],
             "dash_attack": [[171,176], [171,176], [327,342]],
             "injured": [[206,209], [209,206]],
-            "dodge": [[113, 120]]
+            "dodge": [[199, 206]],
+            "defeat": [[575,581]],
+            "victory": [[238,251]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Yuri Sakazaki\\",
         "img_prefix": "Yuri Sakazaki",
-        "starting_pos": [445, 130]
+        "dodge_space": 80,
+        "dodge_slow_factor": 0,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0
     },
-    "iori": {
+    "berserker_male": {
         "actions": {
             "rest": [[219,225]],
             "dash_attack": [[288,293], [288,293], [416,430]],
             "injured": [[328,331], [333,337]],
-            "dodge": [[295, 301]]
+            "dodge": [[295, 301]],
+            "defeat": [[347, 359]],
+            "victory": [[339, 346]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Orochi Iori\\",
         "img_prefix": "Orochi Iori",
-        "starting_pos": [445, 130]
+        "starting_pos": [445, 130],
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0
+    },
+    "martial_artist_male": {
+        "actions": {
+            "rest": [[184,194]],
+            "dash_attack": [[255,260], [255,260], [469,490]],
+            "injured": [[810,813], [813,810]],
+            "dodge": [[682, 672]],
+            "defeat": [[330,338]], 
+            "victory": [[412,421]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Yun\\",
+        "img_prefix": "Yun",
+        "starting_pos": [445, 130],
+        "dodge_space": 130,
+        "dodge_slow_factor": 0,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0
     }
 }
