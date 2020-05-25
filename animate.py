@@ -14,7 +14,7 @@ mappings = json.load(open("animation_mappings.json"))
 print(mappings)
 
 player_one = 'tank_female'
-player_two = 'hero_female'
+player_two = 'heart_male'
 
 # 350 Max
 p1_health_max = 100
@@ -38,8 +38,8 @@ p2_victory_sf = mappings[player_two]['victory_slow_factor']
 p1_rest_sf = mappings[player_one]['rest_slow_factor']
 p2_rest_sf = mappings[player_two]['rest_slow_factor']
 
-p1_dodge_rate = 0.5
-p2_dodge_rate = 0.5
+p1_dodge_rate = 0.25
+p2_dodge_rate = 0.25
 
 
 x = -90

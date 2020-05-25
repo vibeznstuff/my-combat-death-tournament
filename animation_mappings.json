@@ -55,12 +55,12 @@
     },
     "heart_male": {
         "actions": {
-            "rest": [[]],
-            "dash_attack": [[]],
-            "injured": [[]],
-            "dodge": [[]],
-            "defeat": [[]],
-            "victory": [[]]
+            "rest": [[371,378]],
+            "dash_attack": [[435,440],[435,440],[812,831],[863,879]],
+            "injured": [[958,961],[961,958]],
+            "dodge": [[409,403],[399,399],[396,396]],
+            "defeat": [[995,1002],[985,986]],
+            "victory": [[472,476],[476,472],[472,476],[476,472],[472,476]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Kyo Kusanagi\\",
         "img_prefix": "Kyo Kusanagi",
