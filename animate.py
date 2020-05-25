@@ -13,14 +13,15 @@ mappings = json.load(open("animation_mappings.json"))
 
 print(mappings)
 
-player_one = 'samurai_male'
-player_two = 'hero_male'
+player_one = 'tank_female'
+player_two = 'hero_female'
 
+# 350 Max
 p1_health_max = 100
 p2_health_max = 100
 p1_health = p1_health_max
 p2_health = p2_health_max
-# 350 Max
+
 
 p1_dodge_space = mappings[player_one]['dodge_space']
 p2_dodge_space = mappings[player_two]['dodge_space']
@@ -34,8 +35,11 @@ p2_defeat_sf = mappings[player_two]['defeat_slow_factor']
 p1_victory_sf = mappings[player_one]['victory_slow_factor']
 p2_victory_sf = mappings[player_two]['victory_slow_factor']
 
-p1_dodge_rate = 0
-p2_dodge_rate = 0
+p1_rest_sf = mappings[player_one]['rest_slow_factor']
+p2_rest_sf = mappings[player_two]['rest_slow_factor']
+
+p1_dodge_rate = 0.5
+p2_dodge_rate = 0.5
 
 
 x = -90
@@ -184,8 +188,8 @@ def draw():
 
 run = True
 
-p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True)
-p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False)
+p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
+p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
 p1_resting = True
 p2_resting = True
 p1_attacking = False
@@ -232,13 +236,13 @@ while run:
         p2_victory = True
 
     if not p1_resting and not p1_attacking and not p1_recoiling and not p1_dodging and not p1_defeat and not p1_victory:
-        p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True)
+        p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
         p1_step_count = 0
         p1_resting = True
         x = -90
 
     if not p2_resting and not p2_attacking and not p2_recoiling and not p2_dodging and not p2_defeat and not p2_victory:
-        p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False)
+        p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False,slow_factor=p2_rest_sf)
         p2_step_count = 0
         p2_resting = True
         x_2 = 445
@@ -268,7 +272,7 @@ while run:
 
     if p2_dodging and p2_step_count > 0:
         if x_2 > x_2_default + p2_dodge_space:
-            p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False)
+            p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
             p2_step_count = 0
             x_2 = x_2_default + p2_dodge_space
         elif x_2 < x_2_default + p2_dodge_space:
@@ -309,7 +313,7 @@ while run:
 
     if p1_dodging and p1_step_count > 0:
         if x < x_default - p1_dodge_space:
-            p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True)
+            p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
             p1_step_count = 0
             x = x_default - p1_dodge_space
         elif x > x_default - p1_dodge_space:

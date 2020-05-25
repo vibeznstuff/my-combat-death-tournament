@@ -1,436 +1,229 @@
 round_number,fight_name,time_elapsed,event,combatant_one,combatant_one_health,combatant_two,combatant_two_health
-1,Davey Hisaishi vs Bobobo Moon,300,Fight starts!,Davey Hisaishi,64,Bobobo Moon,84
-1,Davey Hisaishi vs Bobobo Moon,290,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,64,Bobobo Moon,84
-1,Davey Hisaishi vs Bobobo Moon,286,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,61,Bobobo Moon,84
-1,Davey Hisaishi vs Bobobo Moon,280,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,61,Bobobo Moon,84
-1,Davey Hisaishi vs Bobobo Moon,272,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,57,Bobobo Moon,84
-1,Davey Hisaishi vs Bobobo Moon,270,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,57,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,260,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,57,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,258,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,56,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,250,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,56,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,244,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,55,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,240,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,55,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,230,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,55,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,230,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,51,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,220,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,51,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,216,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,50,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,210,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,50,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,202,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,46,Bobobo Moon,78
-1,Davey Hisaishi vs Bobobo Moon,200,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,46,Bobobo Moon,74
-1,Davey Hisaishi vs Bobobo Moon,190,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,46,Bobobo Moon,74
-1,Davey Hisaishi vs Bobobo Moon,188,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,41,Bobobo Moon,74
-1,Davey Hisaishi vs Bobobo Moon,180,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,41,Bobobo Moon,69
-1,Davey Hisaishi vs Bobobo Moon,174,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,38,Bobobo Moon,69
-1,Davey Hisaishi vs Bobobo Moon,170,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,38,Bobobo Moon,65
-1,Davey Hisaishi vs Bobobo Moon,160,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,38,Bobobo Moon,61
-1,Davey Hisaishi vs Bobobo Moon,160,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,37,Bobobo Moon,61
-1,Davey Hisaishi vs Bobobo Moon,150,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,37,Bobobo Moon,61
-1,Davey Hisaishi vs Bobobo Moon,146,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,36,Bobobo Moon,61
-1,Davey Hisaishi vs Bobobo Moon,140,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,36,Bobobo Moon,57
-1,Davey Hisaishi vs Bobobo Moon,132,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,31,Bobobo Moon,57
-1,Davey Hisaishi vs Bobobo Moon,130,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,31,Bobobo Moon,55
-1,Davey Hisaishi vs Bobobo Moon,120,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,31,Bobobo Moon,52
-1,Davey Hisaishi vs Bobobo Moon,118,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,27,Bobobo Moon,52
-1,Davey Hisaishi vs Bobobo Moon,110,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,27,Bobobo Moon,49
-1,Davey Hisaishi vs Bobobo Moon,104,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,23,Bobobo Moon,49
-1,Davey Hisaishi vs Bobobo Moon,100,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,23,Bobobo Moon,43
-1,Davey Hisaishi vs Bobobo Moon,90,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,23,Bobobo Moon,37
-1,Davey Hisaishi vs Bobobo Moon,90,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,21,Bobobo Moon,37
-1,Davey Hisaishi vs Bobobo Moon,80,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,21,Bobobo Moon,37
-1,Davey Hisaishi vs Bobobo Moon,76,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,18,Bobobo Moon,37
-1,Davey Hisaishi vs Bobobo Moon,70,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,18,Bobobo Moon,34
-1,Davey Hisaishi vs Bobobo Moon,62,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,14,Bobobo Moon,34
-1,Davey Hisaishi vs Bobobo Moon,60,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,14,Bobobo Moon,30
-1,Davey Hisaishi vs Bobobo Moon,50,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,14,Bobobo Moon,27
-1,Davey Hisaishi vs Bobobo Moon,48,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,10,Bobobo Moon,27
-1,Davey Hisaishi vs Bobobo Moon,40,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,10,Bobobo Moon,27
-1,Davey Hisaishi vs Bobobo Moon,34,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,7,Bobobo Moon,27
-1,Davey Hisaishi vs Bobobo Moon,30,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,7,Bobobo Moon,21
-1,Davey Hisaishi vs Bobobo Moon,20,Bobobo Moon dodged Davey Hisaishi's Attack!,Davey Hisaishi,7,Bobobo Moon,21
-1,Davey Hisaishi vs Bobobo Moon,20,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,6,Bobobo Moon,21
-1,Davey Hisaishi vs Bobobo Moon,10,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,6,Bobobo Moon,15
-1,Davey Hisaishi vs Bobobo Moon,6,Bobobo Moon Attacks Davey Hisaishi!,Davey Hisaishi,2,Bobobo Moon,15
-1,Davey Hisaishi vs Bobobo Moon,0,Davey Hisaishi Attacks Bobobo Moon!,Davey Hisaishi,2,Bobobo Moon,14
-1,Davey Hisaishi vs Bobobo Moon,0,Bobobo Moon wins the fight!,Davey Hisaishi,2,Bobobo Moon,14
-2,Shaq Yikes vs Bobobo Mysterious,300,Fight starts!,Shaq Yikes,58,Bobobo Mysterious,64
-2,Shaq Yikes vs Bobobo Mysterious,290,Shaq Yikes dodged Bobobo Mysterious's Attack!,Shaq Yikes,58,Bobobo Mysterious,64
-2,Shaq Yikes vs Bobobo Mysterious,287,Shaq Yikes Attacks Bobobo Mysterious!,Shaq Yikes,58,Bobobo Mysterious,62
-2,Shaq Yikes vs Bobobo Mysterious,280,Shaq Yikes dodged Bobobo Mysterious's Attack!,Shaq Yikes,58,Bobobo Mysterious,62
-2,Shaq Yikes vs Bobobo Mysterious,274,Shaq Yikes Attacks Bobobo Mysterious!,Shaq Yikes,58,Bobobo Mysterious,56
-2,Shaq Yikes vs Bobobo Mysterious,270,Bobobo Mysterious Attacks Shaq Yikes!,Shaq Yikes,38,Bobobo Mysterious,56
-2,Shaq Yikes vs Bobobo Mysterious,261,Shaq Yikes Attacks Bobobo Mysterious!,Shaq Yikes,38,Bobobo Mysterious,53
-2,Shaq Yikes vs Bobobo Mysterious,260,Shaq Yikes dodged Bobobo Mysterious's Attack!,Shaq Yikes,38,Bobobo Mysterious,53
-2,Shaq Yikes vs Bobobo Mysterious,250,Shaq Yikes dodged Bobobo Mysterious's Attack!,Shaq Yikes,38,Bobobo Mysterious,53
-2,Shaq Yikes vs Bobobo Mysterious,248,Shaq Yikes Attacks Bobobo Mysterious!,Shaq Yikes,38,Bobobo Mysterious,50
-2,Shaq Yikes vs Bobobo Mysterious,240,Bobobo Mysterious Attacks Shaq Yikes!,Shaq Yikes,28,Bobobo Mysterious,50
-2,Shaq Yikes vs Bobobo Mysterious,235,Shaq Yikes Attacks Bobobo Mysterious!,Shaq Yikes,28,Bobobo Mysterious,44
-2,Shaq Yikes vs Bobobo Mysterious,230,Bobobo Mysterious Attacks Shaq Yikes!,Shaq Yikes,8,Bobobo Mysterious,44
-2,Shaq Yikes vs Bobobo Mysterious,222,Shaq Yikes Attacks Bobobo Mysterious!,Shaq Yikes,8,Bobobo Mysterious,41
-2,Shaq Yikes vs Bobobo Mysterious,220,Shaq Yikes dodged Bobobo Mysterious's Attack!,Shaq Yikes,8,Bobobo Mysterious,41
-2,Shaq Yikes vs Bobobo Mysterious,210,Bobobo Mysterious Attacks Shaq Yikes!,Shaq Yikes,0,Bobobo Mysterious,41
-2,Shaq Yikes vs Bobobo Mysterious,210,Shaq Yikes has been Defeated!,Shaq Yikes,0,Bobobo Mysterious,41
-2,Shaq Yikes vs Bobobo Mysterious,210,Bobobo Mysterious wins the fight!,Shaq Yikes,0,Bobobo Mysterious,41
-3,Bobobo Moon vs Bobobo Mysterious,300,Fight starts!,Bobobo Moon,21,Bobobo Mysterious,62
-3,Bobobo Moon vs Bobobo Mysterious,290,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,20,Bobobo Mysterious,62
-3,Bobobo Moon vs Bobobo Mysterious,286,Bobobo Moon Attacks Bobobo Mysterious!,Bobobo Moon,20,Bobobo Mysterious,61
-3,Bobobo Moon vs Bobobo Mysterious,280,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,17,Bobobo Mysterious,61
-3,Bobobo Moon vs Bobobo Mysterious,272,Bobobo Moon Attacks Bobobo Mysterious!,Bobobo Moon,17,Bobobo Mysterious,59
-3,Bobobo Moon vs Bobobo Mysterious,270,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,15,Bobobo Mysterious,59
-3,Bobobo Moon vs Bobobo Mysterious,260,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,12,Bobobo Mysterious,59
-3,Bobobo Moon vs Bobobo Mysterious,258,Bobobo Moon Attacks Bobobo Mysterious!,Bobobo Moon,12,Bobobo Mysterious,56
-3,Bobobo Moon vs Bobobo Mysterious,250,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,8,Bobobo Mysterious,56
-3,Bobobo Moon vs Bobobo Mysterious,244,Bobobo Moon Attacks Bobobo Mysterious!,Bobobo Moon,8,Bobobo Mysterious,53
-3,Bobobo Moon vs Bobobo Mysterious,240,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,3,Bobobo Mysterious,53
-3,Bobobo Moon vs Bobobo Mysterious,230,Bobobo Mysterious Attacks Bobobo Moon!,Bobobo Moon,0,Bobobo Mysterious,53
-3,Bobobo Moon vs Bobobo Mysterious,230,Bobobo Moon has been Defeated!,Bobobo Moon,0,Bobobo Mysterious,53
-3,Bobobo Moon vs Bobobo Mysterious,230,Bobobo Mysterious wins the fight!,Bobobo Moon,0,Bobobo Mysterious,53
-4,Ken Moon vs Kupo Johnson,300,Fight starts!,Ken Moon,64,Kupo Johnson,80
-4,Ken Moon vs Kupo Johnson,290,Ken Moon Attacks Kupo Johnson!,Ken Moon,64,Kupo Johnson,75
-4,Ken Moon vs Kupo Johnson,285,Kupo Johnson Attacks Ken Moon!,Ken Moon,46,Kupo Johnson,75
-4,Ken Moon vs Kupo Johnson,280,Kupo Johnson dodged Ken Moon's Attack!,Ken Moon,46,Kupo Johnson,75
-4,Ken Moon vs Kupo Johnson,270,Ken Moon Attacks Kupo Johnson!,Ken Moon,46,Kupo Johnson,71
-4,Ken Moon vs Kupo Johnson,270,Kupo Johnson Attacks Ken Moon!,Ken Moon,40,Kupo Johnson,71
-4,Ken Moon vs Kupo Johnson,260,Ken Moon Attacks Kupo Johnson!,Ken Moon,40,Kupo Johnson,70
-4,Ken Moon vs Kupo Johnson,255,Kupo Johnson Attacks Ken Moon!,Ken Moon,34,Kupo Johnson,70
-4,Ken Moon vs Kupo Johnson,250,Ken Moon Attacks Kupo Johnson!,Ken Moon,34,Kupo Johnson,65
-4,Ken Moon vs Kupo Johnson,240,Ken Moon Attacks Kupo Johnson!,Ken Moon,34,Kupo Johnson,64
-4,Ken Moon vs Kupo Johnson,240,Kupo Johnson Attacks Ken Moon!,Ken Moon,16,Kupo Johnson,64
-4,Ken Moon vs Kupo Johnson,230,Ken Moon Attacks Kupo Johnson!,Ken Moon,16,Kupo Johnson,58
-4,Ken Moon vs Kupo Johnson,225,Kupo Johnson Attacks Ken Moon!,Ken Moon,10,Kupo Johnson,58
-4,Ken Moon vs Kupo Johnson,220,Ken Moon Attacks Kupo Johnson!,Ken Moon,10,Kupo Johnson,54
-4,Ken Moon vs Kupo Johnson,210,Ken Moon Attacks Kupo Johnson!,Ken Moon,10,Kupo Johnson,51
-4,Ken Moon vs Kupo Johnson,210,Kupo Johnson Attacks Ken Moon!,Ken Moon,0,Kupo Johnson,51
-4,Ken Moon vs Kupo Johnson,210,Ken Moon has been Defeated!,Ken Moon,0,Kupo Johnson,51
-4,Ken Moon vs Kupo Johnson,210,Kupo Johnson wins the fight!,Ken Moon,0,Kupo Johnson,51
-5,Mei Bitto vs Cortana Nevers,300,Fight starts!,Mei Bitto,64,Cortana Nevers,64
-5,Mei Bitto vs Cortana Nevers,290,Cortana Nevers Attacks Mei Bitto!,Mei Bitto,52,Cortana Nevers,64
-5,Mei Bitto vs Cortana Nevers,290,Mei Bitto Attacks Cortana Nevers!,Mei Bitto,52,Cortana Nevers,40
-5,Mei Bitto vs Cortana Nevers,280,Cortana Nevers Attacks Mei Bitto!,Mei Bitto,34,Cortana Nevers,40
-5,Mei Bitto vs Cortana Nevers,280,Mei Bitto Attacks Cortana Nevers!,Mei Bitto,34,Cortana Nevers,22
-5,Mei Bitto vs Cortana Nevers,270,Cortana Nevers Attacks Mei Bitto!,Mei Bitto,10,Cortana Nevers,22
-5,Mei Bitto vs Cortana Nevers,270,Mei Bitto Attacks Cortana Nevers!,Mei Bitto,10,Cortana Nevers,16
-5,Mei Bitto vs Cortana Nevers,260,Mei Bitto Attacks Cortana Nevers!,Mei Bitto,10,Cortana Nevers,0
-5,Mei Bitto vs Cortana Nevers,260,Cortana Nevers has been Defeated!,Mei Bitto,10,Cortana Nevers,0
-5,Mei Bitto vs Cortana Nevers,260,Mei Bitto wins the fight!,Mei Bitto,10,Cortana Nevers,0
-6,Kupo Johnson vs Mei Bitto,300,Fight starts!,Kupo Johnson,76,Mei Bitto,15
-6,Kupo Johnson vs Mei Bitto,290,Mei Bitto Attacks Kupo Johnson!,Kupo Johnson,71,Mei Bitto,15
-6,Kupo Johnson vs Mei Bitto,285,Kupo Johnson Attacks Mei Bitto!,Kupo Johnson,71,Mei Bitto,9
-6,Kupo Johnson vs Mei Bitto,280,Mei Bitto Attacks Kupo Johnson!,Kupo Johnson,66,Mei Bitto,9
-6,Kupo Johnson vs Mei Bitto,270,Mei Bitto Attacks Kupo Johnson!,Kupo Johnson,63,Mei Bitto,9
-6,Kupo Johnson vs Mei Bitto,270,Kupo Johnson Attacks Mei Bitto!,Kupo Johnson,63,Mei Bitto,0
-6,Kupo Johnson vs Mei Bitto,270,Mei Bitto has been Defeated!,Kupo Johnson,63,Mei Bitto,0
-6,Kupo Johnson vs Mei Bitto,270,Kupo Johnson wins the fight!,Kupo Johnson,63,Mei Bitto,0
-7,Bobobo Mysterious vs Kupo Johnson,300,Fight starts!,Bobobo Mysterious,64,Kupo Johnson,80
-7,Bobobo Mysterious vs Kupo Johnson,290,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,64,Kupo Johnson,80
-7,Bobobo Mysterious vs Kupo Johnson,285,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,62,Kupo Johnson,80
-7,Bobobo Mysterious vs Kupo Johnson,280,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,62,Kupo Johnson,76
-7,Bobobo Mysterious vs Kupo Johnson,270,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,62,Kupo Johnson,74
-7,Bobobo Mysterious vs Kupo Johnson,270,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,61,Kupo Johnson,74
-7,Bobobo Mysterious vs Kupo Johnson,260,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,61,Kupo Johnson,70
-7,Bobobo Mysterious vs Kupo Johnson,255,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,59,Kupo Johnson,70
-7,Bobobo Mysterious vs Kupo Johnson,250,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,59,Kupo Johnson,65
-7,Bobobo Mysterious vs Kupo Johnson,240,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,59,Kupo Johnson,64
-7,Bobobo Mysterious vs Kupo Johnson,240,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,57,Kupo Johnson,64
-7,Bobobo Mysterious vs Kupo Johnson,230,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,57,Kupo Johnson,58
-7,Bobobo Mysterious vs Kupo Johnson,225,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,55,Kupo Johnson,58
-7,Bobobo Mysterious vs Kupo Johnson,220,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,55,Kupo Johnson,56
-7,Bobobo Mysterious vs Kupo Johnson,210,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,55,Kupo Johnson,53
-7,Bobobo Mysterious vs Kupo Johnson,210,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,54,Kupo Johnson,53
-7,Bobobo Mysterious vs Kupo Johnson,200,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,54,Kupo Johnson,51
-7,Bobobo Mysterious vs Kupo Johnson,195,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,52,Kupo Johnson,51
-7,Bobobo Mysterious vs Kupo Johnson,190,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,52,Kupo Johnson,49
-7,Bobobo Mysterious vs Kupo Johnson,180,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,52,Kupo Johnson,45
-7,Bobobo Mysterious vs Kupo Johnson,180,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,50,Kupo Johnson,45
-7,Bobobo Mysterious vs Kupo Johnson,170,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,50,Kupo Johnson,45
-7,Bobobo Mysterious vs Kupo Johnson,165,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,47,Kupo Johnson,45
-7,Bobobo Mysterious vs Kupo Johnson,160,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,47,Kupo Johnson,39
-7,Bobobo Mysterious vs Kupo Johnson,150,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,47,Kupo Johnson,39
-7,Bobobo Mysterious vs Kupo Johnson,150,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,44,Kupo Johnson,39
-7,Bobobo Mysterious vs Kupo Johnson,140,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,44,Kupo Johnson,36
-7,Bobobo Mysterious vs Kupo Johnson,135,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,41,Kupo Johnson,36
-7,Bobobo Mysterious vs Kupo Johnson,130,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,41,Kupo Johnson,36
-7,Bobobo Mysterious vs Kupo Johnson,120,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,41,Kupo Johnson,33
-7,Bobobo Mysterious vs Kupo Johnson,120,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,39,Kupo Johnson,33
-7,Bobobo Mysterious vs Kupo Johnson,110,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,39,Kupo Johnson,33
-7,Bobobo Mysterious vs Kupo Johnson,105,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,38,Kupo Johnson,33
-7,Bobobo Mysterious vs Kupo Johnson,100,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,38,Kupo Johnson,33
-7,Bobobo Mysterious vs Kupo Johnson,90,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,38,Kupo Johnson,32
-7,Bobobo Mysterious vs Kupo Johnson,90,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,36,Kupo Johnson,32
-7,Bobobo Mysterious vs Kupo Johnson,80,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,36,Kupo Johnson,30
-7,Bobobo Mysterious vs Kupo Johnson,75,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,35,Kupo Johnson,30
-7,Bobobo Mysterious vs Kupo Johnson,70,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,35,Kupo Johnson,25
-7,Bobobo Mysterious vs Kupo Johnson,60,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,35,Kupo Johnson,20
-7,Bobobo Mysterious vs Kupo Johnson,60,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,34,Kupo Johnson,20
-7,Bobobo Mysterious vs Kupo Johnson,50,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,34,Kupo Johnson,17
-7,Bobobo Mysterious vs Kupo Johnson,45,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,32,Kupo Johnson,17
-7,Bobobo Mysterious vs Kupo Johnson,40,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,32,Kupo Johnson,11
-7,Bobobo Mysterious vs Kupo Johnson,30,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,32,Kupo Johnson,7
-7,Bobobo Mysterious vs Kupo Johnson,30,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,30,Kupo Johnson,7
-7,Bobobo Mysterious vs Kupo Johnson,20,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,30,Kupo Johnson,4
-7,Bobobo Mysterious vs Kupo Johnson,15,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,28,Kupo Johnson,4
-7,Bobobo Mysterious vs Kupo Johnson,10,Kupo Johnson dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,28,Kupo Johnson,4
-7,Bobobo Mysterious vs Kupo Johnson,0,Bobobo Mysterious Attacks Kupo Johnson!,Bobobo Mysterious,28,Kupo Johnson,1
-7,Bobobo Mysterious vs Kupo Johnson,0,Kupo Johnson Attacks Bobobo Mysterious!,Bobobo Mysterious,26,Kupo Johnson,1
-7,Bobobo Mysterious vs Kupo Johnson,0,Bobobo Mysterious wins the fight!,Bobobo Mysterious,26,Kupo Johnson,1
-8,Xavier Johnson vs Ryu Johnson,300,Fight starts!,Xavier Johnson,80,Ryu Johnson,58
-8,Xavier Johnson vs Ryu Johnson,287,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,76,Ryu Johnson,58
-8,Xavier Johnson vs Ryu Johnson,285,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,76,Ryu Johnson,58
-8,Xavier Johnson vs Ryu Johnson,274,Xavier Johnson dodged Ryu Johnson's Attack!,Xavier Johnson,76,Ryu Johnson,58
-8,Xavier Johnson vs Ryu Johnson,270,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,76,Ryu Johnson,58
-8,Xavier Johnson vs Ryu Johnson,261,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,72,Ryu Johnson,58
-8,Xavier Johnson vs Ryu Johnson,255,Xavier Johnson Attacks Ryu Johnson!,Xavier Johnson,72,Ryu Johnson,43
-8,Xavier Johnson vs Ryu Johnson,248,Xavier Johnson dodged Ryu Johnson's Attack!,Xavier Johnson,72,Ryu Johnson,43
-8,Xavier Johnson vs Ryu Johnson,240,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,72,Ryu Johnson,43
-8,Xavier Johnson vs Ryu Johnson,235,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,70,Ryu Johnson,43
-8,Xavier Johnson vs Ryu Johnson,225,Xavier Johnson Attacks Ryu Johnson!,Xavier Johnson,70,Ryu Johnson,28
-8,Xavier Johnson vs Ryu Johnson,222,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,67,Ryu Johnson,28
-8,Xavier Johnson vs Ryu Johnson,210,Xavier Johnson Attacks Ryu Johnson!,Xavier Johnson,67,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,209,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,62,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,196,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,60,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,195,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,60,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,183,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,54,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,180,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,54,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,170,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,50,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,165,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,50,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,157,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,46,Ryu Johnson,18
-8,Xavier Johnson vs Ryu Johnson,150,Xavier Johnson Attacks Ryu Johnson!,Xavier Johnson,46,Ryu Johnson,8
-8,Xavier Johnson vs Ryu Johnson,144,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,42,Ryu Johnson,8
-8,Xavier Johnson vs Ryu Johnson,135,Xavier Johnson Attacks Ryu Johnson!,Xavier Johnson,42,Ryu Johnson,3
-8,Xavier Johnson vs Ryu Johnson,131,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,37,Ryu Johnson,3
-8,Xavier Johnson vs Ryu Johnson,120,Ryu Johnson dodged Xavier Johnson's Attack!,Xavier Johnson,37,Ryu Johnson,3
-8,Xavier Johnson vs Ryu Johnson,118,Ryu Johnson Attacks Xavier Johnson!,Xavier Johnson,32,Ryu Johnson,3
-8,Xavier Johnson vs Ryu Johnson,105,Xavier Johnson dodged Ryu Johnson's Attack!,Xavier Johnson,32,Ryu Johnson,3
-8,Xavier Johnson vs Ryu Johnson,105,Xavier Johnson Attacks Ryu Johnson!,Xavier Johnson,32,Ryu Johnson,0
-8,Xavier Johnson vs Ryu Johnson,105,Ryu Johnson has been Defeated!,Xavier Johnson,32,Ryu Johnson,0
-8,Xavier Johnson vs Ryu Johnson,105,Xavier Johnson wins the fight!,Xavier Johnson,32,Ryu Johnson,0
-9,Happy Keely vs Davey Sun,300,Fight starts!,Happy Keely,78.0,Davey Sun,52
-9,Happy Keely vs Davey Sun,290,Happy Keely dodged Davey Sun's Attack!,Happy Keely,78.0,Davey Sun,52
-9,Happy Keely vs Davey Sun,290,Happy Keely Attacks Davey Sun!,Happy Keely,78.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,280,Davey Sun dodged Happy Keely's Attack!,Happy Keely,78.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,280,Happy Keely dodged Davey Sun's Attack!,Happy Keely,78.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,270,Davey Sun dodged Happy Keely's Attack!,Happy Keely,78.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,270,Davey Sun Attacks Happy Keely!,Happy Keely,76.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,260,Davey Sun dodged Happy Keely's Attack!,Happy Keely,76.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,260,Happy Keely dodged Davey Sun's Attack!,Happy Keely,76.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,250,Davey Sun dodged Happy Keely's Attack!,Happy Keely,76.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,250,Happy Keely dodged Davey Sun's Attack!,Happy Keely,76.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,240,Happy Keely dodged Davey Sun's Attack!,Happy Keely,76.0,Davey Sun,50
-9,Happy Keely vs Davey Sun,240,Happy Keely Attacks Davey Sun!,Happy Keely,76.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,230,Davey Sun dodged Happy Keely's Attack!,Happy Keely,76.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,230,Davey Sun Attacks Happy Keely!,Happy Keely,71.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,220,Davey Sun dodged Happy Keely's Attack!,Happy Keely,71.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,220,Davey Sun Attacks Happy Keely!,Happy Keely,68.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,210,Davey Sun dodged Happy Keely's Attack!,Happy Keely,68.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,210,Davey Sun Attacks Happy Keely!,Happy Keely,65.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,200,Davey Sun dodged Happy Keely's Attack!,Happy Keely,65.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,200,Happy Keely dodged Davey Sun's Attack!,Happy Keely,65.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,190,Davey Sun dodged Happy Keely's Attack!,Happy Keely,65.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,190,Happy Keely dodged Davey Sun's Attack!,Happy Keely,65.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,180,Davey Sun dodged Happy Keely's Attack!,Happy Keely,65.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,180,Davey Sun Attacks Happy Keely!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,170,Davey Sun dodged Happy Keely's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,170,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,160,Davey Sun dodged Happy Keely's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,160,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,150,Davey Sun dodged Happy Keely's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,150,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,140,Davey Sun dodged Happy Keely's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,140,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,130,Davey Sun dodged Happy Keely's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,130,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,120,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,47
-9,Happy Keely vs Davey Sun,120,Happy Keely Attacks Davey Sun!,Happy Keely,60.0,Davey Sun,44
-9,Happy Keely vs Davey Sun,110,Happy Keely dodged Davey Sun's Attack!,Happy Keely,60.0,Davey Sun,44
-9,Happy Keely vs Davey Sun,110,Happy Keely Attacks Davey Sun!,Happy Keely,60.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,100,Davey Sun dodged Happy Keely's Attack!,Happy Keely,60.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,100,Davey Sun Attacks Happy Keely!,Happy Keely,55.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,90,Davey Sun dodged Happy Keely's Attack!,Happy Keely,55.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,90,Happy Keely dodged Davey Sun's Attack!,Happy Keely,55.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,80,Davey Sun dodged Happy Keely's Attack!,Happy Keely,55.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,80,Happy Keely dodged Davey Sun's Attack!,Happy Keely,55.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,70,Davey Sun dodged Happy Keely's Attack!,Happy Keely,55.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,70,Davey Sun Attacks Happy Keely!,Happy Keely,53.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,60,Happy Keely dodged Davey Sun's Attack!,Happy Keely,53.0,Davey Sun,38
-9,Happy Keely vs Davey Sun,60,Happy Keely Attacks Davey Sun!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,50,Davey Sun dodged Happy Keely's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,50,Happy Keely dodged Davey Sun's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,40,Davey Sun dodged Happy Keely's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,40,Happy Keely dodged Davey Sun's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,30,Davey Sun dodged Happy Keely's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,30,Happy Keely dodged Davey Sun's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,20,Happy Keely dodged Davey Sun's Attack!,Happy Keely,53.0,Davey Sun,36
-9,Happy Keely vs Davey Sun,20,Happy Keely Attacks Davey Sun!,Happy Keely,53.0,Davey Sun,33
-9,Happy Keely vs Davey Sun,10,Davey Sun dodged Happy Keely's Attack!,Happy Keely,53.0,Davey Sun,33
-9,Happy Keely vs Davey Sun,10,Davey Sun Attacks Happy Keely!,Happy Keely,49.0,Davey Sun,33
-9,Happy Keely vs Davey Sun,0,Happy Keely dodged Davey Sun's Attack!,Happy Keely,49.0,Davey Sun,33
-9,Happy Keely vs Davey Sun,0,Happy Keely Attacks Davey Sun!,Happy Keely,49.0,Davey Sun,28
-9,Happy Keely vs Davey Sun,0,Happy Keely wins the fight!,Happy Keely,49.0,Davey Sun,28
-10,Xavier Johnson vs Happy Keely,300,Fight starts!,Xavier Johnson,48,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,290,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,46,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,285,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,46,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,280,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,40,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,270,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,40,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,270,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,39,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,260,Xavier Johnson dodged Happy Keely's Attack!,Xavier Johnson,39,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,255,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,39,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,250,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,36,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,240,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,32,Happy Keely,52
-10,Xavier Johnson vs Happy Keely,240,Xavier Johnson Attacks Happy Keely!,Xavier Johnson,32,Happy Keely,44
-10,Xavier Johnson vs Happy Keely,230,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,27,Happy Keely,44
-10,Xavier Johnson vs Happy Keely,225,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,27,Happy Keely,44
-10,Xavier Johnson vs Happy Keely,220,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,24,Happy Keely,44
-10,Xavier Johnson vs Happy Keely,210,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,21,Happy Keely,44
-10,Xavier Johnson vs Happy Keely,210,Xavier Johnson Attacks Happy Keely!,Xavier Johnson,21,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,200,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,18,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,195,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,18,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,190,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,15,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,180,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,15,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,180,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,13,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,170,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,9,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,165,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,9,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,160,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,5,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,150,Happy Keely dodged Xavier Johnson's Attack!,Xavier Johnson,5,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,150,Happy Keely Attacks Xavier Johnson!,Xavier Johnson,0,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,150,Xavier Johnson has been Defeated!,Xavier Johnson,0,Happy Keely,20
-10,Xavier Johnson vs Happy Keely,150,Happy Keely wins the fight!,Xavier Johnson,0,Happy Keely,20
-11,Xavier Nevers vs Ken Badass,300,Fight starts!,Xavier Nevers,52,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,295,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,52,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,290,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,52,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,290,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,52,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,285,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,52,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,280,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,52,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,280,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,49,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,275,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,49,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,270,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,49,Ken Badass,52
-11,Xavier Nevers vs Ken Badass,270,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,49,Ken Badass,47
-11,Xavier Nevers vs Ken Badass,265,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,49,Ken Badass,47
-11,Xavier Nevers vs Ken Badass,260,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,49,Ken Badass,47
-11,Xavier Nevers vs Ken Badass,260,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,43,Ken Badass,47
-11,Xavier Nevers vs Ken Badass,255,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,43,Ken Badass,47
-11,Xavier Nevers vs Ken Badass,250,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,37,Ken Badass,47
-11,Xavier Nevers vs Ken Badass,250,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,37,Ken Badass,46
-11,Xavier Nevers vs Ken Badass,245,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,37,Ken Badass,46
-11,Xavier Nevers vs Ken Badass,240,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,37,Ken Badass,46
-11,Xavier Nevers vs Ken Badass,240,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,37,Ken Badass,46
-11,Xavier Nevers vs Ken Badass,235,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,37,Ken Badass,46
-11,Xavier Nevers vs Ken Badass,230,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,34,Ken Badass,46
-11,Xavier Nevers vs Ken Badass,230,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,34,Ken Badass,40
-11,Xavier Nevers vs Ken Badass,225,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,34,Ken Badass,34
-11,Xavier Nevers vs Ken Badass,220,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,34,Ken Badass,34
-11,Xavier Nevers vs Ken Badass,220,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,28,Ken Badass,34
-11,Xavier Nevers vs Ken Badass,215,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,28,Ken Badass,34
-11,Xavier Nevers vs Ken Badass,210,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,28,Ken Badass,34
-11,Xavier Nevers vs Ken Badass,210,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,25,Ken Badass,34
-11,Xavier Nevers vs Ken Badass,205,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,25,Ken Badass,30
-11,Xavier Nevers vs Ken Badass,200,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,25,Ken Badass,30
-11,Xavier Nevers vs Ken Badass,200,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,25,Ken Badass,30
-11,Xavier Nevers vs Ken Badass,195,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,25,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,190,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,25,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,190,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,25,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,185,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,25,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,180,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,25,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,180,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,23,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,175,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,23,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,170,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,23,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,170,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,23,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,165,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,23,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,160,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,18,Ken Badass,28
-11,Xavier Nevers vs Ken Badass,160,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,18,Ken Badass,22
-11,Xavier Nevers vs Ken Badass,155,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,18,Ken Badass,22
-11,Xavier Nevers vs Ken Badass,150,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,18,Ken Badass,22
-11,Xavier Nevers vs Ken Badass,150,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,18,Ken Badass,22
-11,Xavier Nevers vs Ken Badass,145,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,18,Ken Badass,22
-11,Xavier Nevers vs Ken Badass,140,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,18,Ken Badass,22
-11,Xavier Nevers vs Ken Badass,140,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,18,Ken Badass,21
-11,Xavier Nevers vs Ken Badass,135,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,18,Ken Badass,17
-11,Xavier Nevers vs Ken Badass,130,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,18,Ken Badass,17
-11,Xavier Nevers vs Ken Badass,130,Ken Badass Attacks Xavier Nevers!,Xavier Nevers,13,Ken Badass,17
-11,Xavier Nevers vs Ken Badass,125,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,13,Ken Badass,12
-11,Xavier Nevers vs Ken Badass,120,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,13,Ken Badass,12
-11,Xavier Nevers vs Ken Badass,120,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,13,Ken Badass,12
-11,Xavier Nevers vs Ken Badass,115,Ken Badass dodged Xavier Nevers's Attack!,Xavier Nevers,13,Ken Badass,12
-11,Xavier Nevers vs Ken Badass,110,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,13,Ken Badass,12
-11,Xavier Nevers vs Ken Badass,110,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,13,Ken Badass,9
-11,Xavier Nevers vs Ken Badass,105,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,13,Ken Badass,4
-11,Xavier Nevers vs Ken Badass,100,Xavier Nevers dodged Ken Badass's Attack!,Xavier Nevers,13,Ken Badass,4
-11,Xavier Nevers vs Ken Badass,100,Xavier Nevers Attacks Ken Badass!,Xavier Nevers,13,Ken Badass,0
-11,Xavier Nevers vs Ken Badass,100,Ken Badass has been Defeated!,Xavier Nevers,13,Ken Badass,0
-11,Xavier Nevers vs Ken Badass,100,Xavier Nevers wins the fight!,Xavier Nevers,13,Ken Badass,0
-12,Bobobo Badass vs Vibey Wednesday,300,Fight starts!,Bobobo Badass,58,Vibey Wednesday,30
-12,Bobobo Badass vs Vibey Wednesday,287,Vibey Wednesday dodged Bobobo Badass's Attack!,Bobobo Badass,58,Vibey Wednesday,30
-12,Bobobo Badass vs Vibey Wednesday,280,Bobobo Badass dodged Vibey Wednesday's Attack!,Bobobo Badass,58,Vibey Wednesday,30
-12,Bobobo Badass vs Vibey Wednesday,274,Bobobo Badass Attacks Vibey Wednesday!,Bobobo Badass,58,Vibey Wednesday,23
-12,Bobobo Badass vs Vibey Wednesday,261,Bobobo Badass Attacks Vibey Wednesday!,Bobobo Badass,58,Vibey Wednesday,17
-12,Bobobo Badass vs Vibey Wednesday,260,Bobobo Badass dodged Vibey Wednesday's Attack!,Bobobo Badass,58,Vibey Wednesday,17
-12,Bobobo Badass vs Vibey Wednesday,248,Vibey Wednesday dodged Bobobo Badass's Attack!,Bobobo Badass,58,Vibey Wednesday,17
-12,Bobobo Badass vs Vibey Wednesday,240,Bobobo Badass dodged Vibey Wednesday's Attack!,Bobobo Badass,58,Vibey Wednesday,17
-12,Bobobo Badass vs Vibey Wednesday,235,Bobobo Badass Attacks Vibey Wednesday!,Bobobo Badass,58,Vibey Wednesday,10
-12,Bobobo Badass vs Vibey Wednesday,222,Vibey Wednesday dodged Bobobo Badass's Attack!,Bobobo Badass,58,Vibey Wednesday,10
-12,Bobobo Badass vs Vibey Wednesday,220,Vibey Wednesday Attacks Bobobo Badass!,Bobobo Badass,43,Vibey Wednesday,10
-12,Bobobo Badass vs Vibey Wednesday,209,Vibey Wednesday dodged Bobobo Badass's Attack!,Bobobo Badass,43,Vibey Wednesday,10
-12,Bobobo Badass vs Vibey Wednesday,200,Bobobo Badass dodged Vibey Wednesday's Attack!,Bobobo Badass,43,Vibey Wednesday,10
-12,Bobobo Badass vs Vibey Wednesday,196,Bobobo Badass Attacks Vibey Wednesday!,Bobobo Badass,43,Vibey Wednesday,4
-12,Bobobo Badass vs Vibey Wednesday,183,Vibey Wednesday dodged Bobobo Badass's Attack!,Bobobo Badass,43,Vibey Wednesday,4
-12,Bobobo Badass vs Vibey Wednesday,180,Vibey Wednesday Attacks Bobobo Badass!,Bobobo Badass,23,Vibey Wednesday,4
-12,Bobobo Badass vs Vibey Wednesday,170,Bobobo Badass Attacks Vibey Wednesday!,Bobobo Badass,23,Vibey Wednesday,0
-12,Bobobo Badass vs Vibey Wednesday,170,Vibey Wednesday has been Defeated!,Bobobo Badass,23,Vibey Wednesday,0
-12,Bobobo Badass vs Vibey Wednesday,170,Bobobo Badass wins the fight!,Bobobo Badass,23,Vibey Wednesday,0
-13,Xavier Nevers vs Bobobo Badass,300,Fight starts!,Xavier Nevers,20,Bobobo Badass,34
-13,Xavier Nevers vs Bobobo Badass,295,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,28
-13,Xavier Nevers vs Bobobo Badass,290,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,25
-13,Xavier Nevers vs Bobobo Badass,287,Xavier Nevers dodged Bobobo Badass's Attack!,Xavier Nevers,20,Bobobo Badass,25
-13,Xavier Nevers vs Bobobo Badass,285,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,23
-13,Xavier Nevers vs Bobobo Badass,280,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,17
-13,Xavier Nevers vs Bobobo Badass,275,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,12
-13,Xavier Nevers vs Bobobo Badass,274,Xavier Nevers dodged Bobobo Badass's Attack!,Xavier Nevers,20,Bobobo Badass,12
-13,Xavier Nevers vs Bobobo Badass,270,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,8
-13,Xavier Nevers vs Bobobo Badass,265,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,5
-13,Xavier Nevers vs Bobobo Badass,261,Xavier Nevers dodged Bobobo Badass's Attack!,Xavier Nevers,20,Bobobo Badass,5
-13,Xavier Nevers vs Bobobo Badass,260,Bobobo Badass dodged Xavier Nevers's Attack!,Xavier Nevers,20,Bobobo Badass,5
-13,Xavier Nevers vs Bobobo Badass,255,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,2
-13,Xavier Nevers vs Bobobo Badass,250,Bobobo Badass dodged Xavier Nevers's Attack!,Xavier Nevers,20,Bobobo Badass,2
-13,Xavier Nevers vs Bobobo Badass,248,Xavier Nevers dodged Bobobo Badass's Attack!,Xavier Nevers,20,Bobobo Badass,2
-13,Xavier Nevers vs Bobobo Badass,245,Bobobo Badass dodged Xavier Nevers's Attack!,Xavier Nevers,20,Bobobo Badass,2
-13,Xavier Nevers vs Bobobo Badass,240,Xavier Nevers Attacks Bobobo Badass!,Xavier Nevers,20,Bobobo Badass,0
-13,Xavier Nevers vs Bobobo Badass,240,Bobobo Badass has been Defeated!,Xavier Nevers,20,Bobobo Badass,0
-13,Xavier Nevers vs Bobobo Badass,240,Xavier Nevers wins the fight!,Xavier Nevers,20,Bobobo Badass,0
-14,Happy Keely vs Xavier Nevers,300,Fight starts!,Happy Keely,30,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,295,Xavier Nevers Attacks Happy Keely!,Happy Keely,25,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,290,Xavier Nevers dodged Happy Keely's Attack!,Happy Keely,25,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,290,Xavier Nevers Attacks Happy Keely!,Happy Keely,19,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,285,Happy Keely dodged Xavier Nevers's Attack!,Happy Keely,19,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,280,Xavier Nevers dodged Happy Keely's Attack!,Happy Keely,19,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,280,Xavier Nevers Attacks Happy Keely!,Happy Keely,18,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,275,Xavier Nevers Attacks Happy Keely!,Happy Keely,12,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,270,Xavier Nevers Attacks Happy Keely!,Happy Keely,10,Xavier Nevers,30
-14,Happy Keely vs Xavier Nevers,270,Happy Keely Attacks Xavier Nevers!,Happy Keely,10,Xavier Nevers,28
-14,Happy Keely vs Xavier Nevers,265,Happy Keely dodged Xavier Nevers's Attack!,Happy Keely,10,Xavier Nevers,28
-14,Happy Keely vs Xavier Nevers,260,Happy Keely Attacks Xavier Nevers!,Happy Keely,10,Xavier Nevers,25
-14,Happy Keely vs Xavier Nevers,260,Xavier Nevers Attacks Happy Keely!,Happy Keely,9,Xavier Nevers,25
-14,Happy Keely vs Xavier Nevers,255,Happy Keely dodged Xavier Nevers's Attack!,Happy Keely,9,Xavier Nevers,25
-14,Happy Keely vs Xavier Nevers,250,Xavier Nevers dodged Happy Keely's Attack!,Happy Keely,9,Xavier Nevers,25
-14,Happy Keely vs Xavier Nevers,250,Xavier Nevers Attacks Happy Keely!,Happy Keely,4,Xavier Nevers,25
-14,Happy Keely vs Xavier Nevers,245,Happy Keely dodged Xavier Nevers's Attack!,Happy Keely,4,Xavier Nevers,25
-14,Happy Keely vs Xavier Nevers,240,Happy Keely Attacks Xavier Nevers!,Happy Keely,4,Xavier Nevers,20
-14,Happy Keely vs Xavier Nevers,240,Xavier Nevers Attacks Happy Keely!,Happy Keely,0,Xavier Nevers,20
-14,Happy Keely vs Xavier Nevers,240,Happy Keely has been Defeated!,Happy Keely,0,Xavier Nevers,20
-14,Happy Keely vs Xavier Nevers,240,Xavier Nevers wins the fight!,Happy Keely,0,Xavier Nevers,20
-15,Bobobo Mysterious vs Xavier Nevers,300,Fight starts!,Bobobo Mysterious,39,Xavier Nevers,30
-15,Bobobo Mysterious vs Xavier Nevers,295,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,38,Xavier Nevers,30
-15,Bobobo Mysterious vs Xavier Nevers,290,Xavier Nevers dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,38,Xavier Nevers,30
-15,Bobobo Mysterious vs Xavier Nevers,290,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,34,Xavier Nevers,30
-15,Bobobo Mysterious vs Xavier Nevers,285,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,33,Xavier Nevers,30
-15,Bobobo Mysterious vs Xavier Nevers,280,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,27,Xavier Nevers,30
-15,Bobobo Mysterious vs Xavier Nevers,280,Bobobo Mysterious Attacks Xavier Nevers!,Bobobo Mysterious,27,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,275,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,23,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,270,Xavier Nevers dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,23,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,270,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,17,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,265,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,13,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,260,Xavier Nevers dodged Bobobo Mysterious's Attack!,Bobobo Mysterious,13,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,260,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,8,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,255,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,4,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,250,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,1,Xavier Nevers,22
-15,Bobobo Mysterious vs Xavier Nevers,250,Bobobo Mysterious Attacks Xavier Nevers!,Bobobo Mysterious,1,Xavier Nevers,14
-15,Bobobo Mysterious vs Xavier Nevers,245,Xavier Nevers Attacks Bobobo Mysterious!,Bobobo Mysterious,0,Xavier Nevers,14
-15,Bobobo Mysterious vs Xavier Nevers,245,Bobobo Mysterious has been Defeated!,Bobobo Mysterious,0,Xavier Nevers,14
-15,Bobobo Mysterious vs Xavier Nevers,245,Xavier Nevers wins the fight!,Bobobo Mysterious,0,Xavier Nevers,14
+1,Moses Badass vs Mai X,300,Fight starts!,Moses Badass,52,Mai X,58
+1,Moses Badass vs Mai X,290,Moses Badass Attacks Mai X!,Moses Badass,52,Mai X,57
+1,Moses Badass vs Mai X,287,Mai X Attacks Moses Badass!,Moses Badass,46,Mai X,57
+1,Moses Badass vs Mai X,280,Mai X dodged Moses Badass's Attack!,Moses Badass,46,Mai X,57
+1,Moses Badass vs Mai X,274,Moses Badass dodged Mai X's Attack!,Moses Badass,46,Mai X,57
+1,Moses Badass vs Mai X,270,Moses Badass Attacks Mai X!,Moses Badass,46,Mai X,54
+1,Moses Badass vs Mai X,261,Mai X Attacks Moses Badass!,Moses Badass,25,Mai X,54
+1,Moses Badass vs Mai X,260,Moses Badass Attacks Mai X!,Moses Badass,25,Mai X,49
+1,Moses Badass vs Mai X,250,Moses Badass Attacks Mai X!,Moses Badass,25,Mai X,44
+1,Moses Badass vs Mai X,248,Moses Badass dodged Mai X's Attack!,Moses Badass,25,Mai X,44
+1,Moses Badass vs Mai X,240,Moses Badass Attacks Mai X!,Moses Badass,25,Mai X,42
+1,Moses Badass vs Mai X,235,Mai X Attacks Moses Badass!,Moses Badass,10,Mai X,42
+1,Moses Badass vs Mai X,230,Moses Badass Attacks Mai X!,Moses Badass,10,Mai X,39
+1,Moses Badass vs Mai X,222,Moses Badass dodged Mai X's Attack!,Moses Badass,10,Mai X,39
+1,Moses Badass vs Mai X,220,Mai X dodged Moses Badass's Attack!,Moses Badass,10,Mai X,39
+1,Moses Badass vs Mai X,210,Mai X dodged Moses Badass's Attack!,Moses Badass,10,Mai X,39
+1,Moses Badass vs Mai X,209,Mai X Attacks Moses Badass!,Moses Badass,0,Mai X,39
+1,Moses Badass vs Mai X,209,Moses Badass has been Defeated!,Moses Badass,0,Mai X,39
+1,Moses Badass vs Mai X,209,Mai X wins the fight!,Moses Badass,0,Mai X,39
+2,Davey Hisaishi vs Mai Hisaishi,300,Fight starts!,Davey Hisaishi,120.0,Mai Hisaishi,84
+2,Davey Hisaishi vs Mai Hisaishi,290,Mai Hisaishi dodged Davey Hisaishi's Attack!,Davey Hisaishi,120.0,Mai Hisaishi,84
+2,Davey Hisaishi vs Mai Hisaishi,286,Mai Hisaishi Attacks Davey Hisaishi!,Davey Hisaishi,118.0,Mai Hisaishi,84
+2,Davey Hisaishi vs Mai Hisaishi,280,Mai Hisaishi dodged Davey Hisaishi's Attack!,Davey Hisaishi,118.0,Mai Hisaishi,84
+2,Davey Hisaishi vs Mai Hisaishi,272,Mai Hisaishi Attacks Davey Hisaishi!,Davey Hisaishi,116.0,Mai Hisaishi,84
+2,Davey Hisaishi vs Mai Hisaishi,270,Davey Hisaishi Attacks Mai Hisaishi!,Davey Hisaishi,116.0,Mai Hisaishi,59
+2,Davey Hisaishi vs Mai Hisaishi,260,Davey Hisaishi Attacks Mai Hisaishi!,Davey Hisaishi,116.0,Mai Hisaishi,49
+2,Davey Hisaishi vs Mai Hisaishi,258,Mai Hisaishi Attacks Davey Hisaishi!,Davey Hisaishi,112.0,Mai Hisaishi,49
+2,Davey Hisaishi vs Mai Hisaishi,250,Davey Hisaishi Attacks Mai Hisaishi!,Davey Hisaishi,112.0,Mai Hisaishi,44
+2,Davey Hisaishi vs Mai Hisaishi,244,Davey Hisaishi dodged Mai Hisaishi's Attack!,Davey Hisaishi,112.0,Mai Hisaishi,44
+2,Davey Hisaishi vs Mai Hisaishi,240,Davey Hisaishi Attacks Mai Hisaishi!,Davey Hisaishi,112.0,Mai Hisaishi,9
+2,Davey Hisaishi vs Mai Hisaishi,230,Mai Hisaishi dodged Davey Hisaishi's Attack!,Davey Hisaishi,112.0,Mai Hisaishi,9
+2,Davey Hisaishi vs Mai Hisaishi,230,Mai Hisaishi Attacks Davey Hisaishi!,Davey Hisaishi,109.0,Mai Hisaishi,9
+2,Davey Hisaishi vs Mai Hisaishi,220,Davey Hisaishi Attacks Mai Hisaishi!,Davey Hisaishi,109.0,Mai Hisaishi,0
+2,Davey Hisaishi vs Mai Hisaishi,220,Mai Hisaishi has been Defeated!,Davey Hisaishi,109.0,Mai Hisaishi,0
+2,Davey Hisaishi vs Mai Hisaishi,220,Davey Hisaishi wins the fight!,Davey Hisaishi,109.0,Mai Hisaishi,0
+3,Mai X vs Davey Hisaishi,300,Fight starts!,Mai X,58,Davey Hisaishi,80
+3,Mai X vs Davey Hisaishi,290,Davey Hisaishi Attacks Mai X!,Mai X,38,Davey Hisaishi,80
+3,Mai X vs Davey Hisaishi,287,Mai X Attacks Davey Hisaishi!,Mai X,38,Davey Hisaishi,75
+3,Mai X vs Davey Hisaishi,280,Davey Hisaishi Attacks Mai X!,Mai X,0,Davey Hisaishi,75
+3,Mai X vs Davey Hisaishi,280,Mai X has been Defeated!,Mai X,0,Davey Hisaishi,75
+3,Mai X vs Davey Hisaishi,280,Davey Hisaishi wins the fight!,Mai X,0,Davey Hisaishi,75
+4,Ryu Balrog vs Mai Moon,300,Fight starts!,Ryu Balrog,52,Mai Moon,52
+4,Ryu Balrog vs Mai Moon,290,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,48,Mai Moon,52
+4,Ryu Balrog vs Mai Moon,290,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,48,Mai Moon,48
+4,Ryu Balrog vs Mai Moon,280,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,48,Mai Moon,48
+4,Ryu Balrog vs Mai Moon,280,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,44,Mai Moon,48
+4,Ryu Balrog vs Mai Moon,270,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,44,Mai Moon,48
+4,Ryu Balrog vs Mai Moon,270,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,44,Mai Moon,48
+4,Ryu Balrog vs Mai Moon,260,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,44,Mai Moon,48
+4,Ryu Balrog vs Mai Moon,260,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,44,Mai Moon,42
+4,Ryu Balrog vs Mai Moon,250,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,44,Mai Moon,42
+4,Ryu Balrog vs Mai Moon,250,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,44,Mai Moon,36
+4,Ryu Balrog vs Mai Moon,240,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,44,Mai Moon,36
+4,Ryu Balrog vs Mai Moon,240,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,44,Mai Moon,32
+4,Ryu Balrog vs Mai Moon,230,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,44,Mai Moon,32
+4,Ryu Balrog vs Mai Moon,230,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,39,Mai Moon,32
+4,Ryu Balrog vs Mai Moon,220,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,39,Mai Moon,32
+4,Ryu Balrog vs Mai Moon,220,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,39,Mai Moon,26
+4,Ryu Balrog vs Mai Moon,210,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,39,Mai Moon,26
+4,Ryu Balrog vs Mai Moon,210,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,39,Mai Moon,26
+4,Ryu Balrog vs Mai Moon,200,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,39,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,200,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,33,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,190,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,33,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,190,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,33,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,180,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,33,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,180,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,33,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,170,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,33,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,170,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,29,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,160,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,29,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,160,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,29,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,150,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,29,Mai Moon,22
+4,Ryu Balrog vs Mai Moon,150,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,29,Mai Moon,20
+4,Ryu Balrog vs Mai Moon,140,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,29,Mai Moon,20
+4,Ryu Balrog vs Mai Moon,140,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,27,Mai Moon,20
+4,Ryu Balrog vs Mai Moon,130,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,27,Mai Moon,16
+4,Ryu Balrog vs Mai Moon,130,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,23,Mai Moon,16
+4,Ryu Balrog vs Mai Moon,120,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,23,Mai Moon,13
+4,Ryu Balrog vs Mai Moon,120,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,20,Mai Moon,13
+4,Ryu Balrog vs Mai Moon,110,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,20,Mai Moon,13
+4,Ryu Balrog vs Mai Moon,110,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,20,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,100,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,20,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,100,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,15,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,90,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,15,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,90,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,15,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,80,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,15,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,80,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,9,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,70,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,9,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,70,Mai Moon Attacks Ryu Balrog!,Ryu Balrog,3,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,60,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,3,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,60,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,3,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,50,Mai Moon dodged Ryu Balrog's Attack!,Ryu Balrog,3,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,50,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,3,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,40,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,3,Mai Moon,8
+4,Ryu Balrog vs Mai Moon,40,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,3,Mai Moon,4
+4,Ryu Balrog vs Mai Moon,30,Ryu Balrog dodged Mai Moon's Attack!,Ryu Balrog,3,Mai Moon,4
+4,Ryu Balrog vs Mai Moon,30,Ryu Balrog Attacks Mai Moon!,Ryu Balrog,3,Mai Moon,0
+4,Ryu Balrog vs Mai Moon,30,Mai Moon has been Defeated!,Ryu Balrog,3,Mai Moon,0
+4,Ryu Balrog vs Mai Moon,30,Ryu Balrog wins the fight!,Ryu Balrog,3,Mai Moon,0
+5,Ken Hisaishi vs Davey Nevers,300,Fight starts!,Ken Hisaishi,64,Davey Nevers,58
+5,Ken Hisaishi vs Davey Nevers,295,Ken Hisaishi Attacks Davey Nevers!,Ken Hisaishi,64,Davey Nevers,48
+5,Ken Hisaishi vs Davey Nevers,290,Ken Hisaishi Attacks Davey Nevers!,Ken Hisaishi,64,Davey Nevers,13
+5,Ken Hisaishi vs Davey Nevers,287,Davey Nevers Attacks Ken Hisaishi!,Ken Hisaishi,60,Davey Nevers,13
+5,Ken Hisaishi vs Davey Nevers,285,Davey Nevers dodged Ken Hisaishi's Attack!,Ken Hisaishi,60,Davey Nevers,13
+5,Ken Hisaishi vs Davey Nevers,280,Ken Hisaishi Attacks Davey Nevers!,Ken Hisaishi,60,Davey Nevers,0
+5,Ken Hisaishi vs Davey Nevers,280,Davey Nevers has been Defeated!,Ken Hisaishi,60,Davey Nevers,0
+5,Ken Hisaishi vs Davey Nevers,280,Ken Hisaishi wins the fight!,Ken Hisaishi,60,Davey Nevers,0
+6,Ryu Balrog vs Ken Hisaishi,300,Fight starts!,Ryu Balrog,4,Ken Hisaishi,64
+6,Ryu Balrog vs Ken Hisaishi,295,Ken Hisaishi Attacks Ryu Balrog!,Ryu Balrog,0,Ken Hisaishi,64
+6,Ryu Balrog vs Ken Hisaishi,295,Ryu Balrog has been Defeated!,Ryu Balrog,0,Ken Hisaishi,64
+6,Ryu Balrog vs Ken Hisaishi,295,Ken Hisaishi wins the fight!,Ryu Balrog,0,Ken Hisaishi,64
+7,Davey Hisaishi vs Ken Hisaishi,300,Fight starts!,Davey Hisaishi,80,Ken Hisaishi,64
+7,Davey Hisaishi vs Ken Hisaishi,295,Ken Hisaishi Attacks Davey Hisaishi!,Davey Hisaishi,75,Ken Hisaishi,64
+7,Davey Hisaishi vs Ken Hisaishi,290,Ken Hisaishi Attacks Davey Hisaishi!,Davey Hisaishi,70,Ken Hisaishi,64
+7,Davey Hisaishi vs Ken Hisaishi,290,Davey Hisaishi Attacks Ken Hisaishi!,Davey Hisaishi,70,Ken Hisaishi,0
+7,Davey Hisaishi vs Ken Hisaishi,290,Ken Hisaishi has been Defeated!,Davey Hisaishi,70,Ken Hisaishi,0
+7,Davey Hisaishi vs Ken Hisaishi,290,Davey Hisaishi wins the fight!,Davey Hisaishi,70,Ken Hisaishi,0
+8,Henry Johnson vs Xiao Bitto,300,Fight starts!,Henry Johnson,58,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,290,Henry Johnson dodged Xiao Bitto's Attack!,Henry Johnson,58,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,287,Xiao Bitto dodged Henry Johnson's Attack!,Henry Johnson,58,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,280,Xiao Bitto Attacks Henry Johnson!,Henry Johnson,52,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,274,Xiao Bitto dodged Henry Johnson's Attack!,Henry Johnson,52,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,270,Xiao Bitto Attacks Henry Johnson!,Henry Johnson,50,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,261,Xiao Bitto dodged Henry Johnson's Attack!,Henry Johnson,50,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,260,Henry Johnson dodged Xiao Bitto's Attack!,Henry Johnson,50,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,250,Henry Johnson dodged Xiao Bitto's Attack!,Henry Johnson,50,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,248,Xiao Bitto dodged Henry Johnson's Attack!,Henry Johnson,50,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,240,Xiao Bitto Attacks Henry Johnson!,Henry Johnson,47,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,235,Xiao Bitto dodged Henry Johnson's Attack!,Henry Johnson,47,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,230,Xiao Bitto Attacks Henry Johnson!,Henry Johnson,42,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,222,Xiao Bitto dodged Henry Johnson's Attack!,Henry Johnson,42,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,220,Henry Johnson dodged Xiao Bitto's Attack!,Henry Johnson,42,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,210,Henry Johnson dodged Xiao Bitto's Attack!,Henry Johnson,42,Xiao Bitto,52
+8,Henry Johnson vs Xiao Bitto,209,Henry Johnson Attacks Xiao Bitto!,Henry Johnson,42,Xiao Bitto,25
+8,Henry Johnson vs Xiao Bitto,200,Xiao Bitto Attacks Henry Johnson!,Henry Johnson,41,Xiao Bitto,25
+8,Henry Johnson vs Xiao Bitto,196,Henry Johnson Attacks Xiao Bitto!,Henry Johnson,41,Xiao Bitto,7
+8,Henry Johnson vs Xiao Bitto,190,Xiao Bitto Attacks Henry Johnson!,Henry Johnson,37,Xiao Bitto,7
+8,Henry Johnson vs Xiao Bitto,183,Henry Johnson Attacks Xiao Bitto!,Henry Johnson,37,Xiao Bitto,0
+8,Henry Johnson vs Xiao Bitto,183,Xiao Bitto has been Defeated!,Henry Johnson,37,Xiao Bitto,0
+8,Henry Johnson vs Xiao Bitto,183,Henry Johnson wins the fight!,Henry Johnson,37,Xiao Bitto,0
+9,Kupo Bitto vs Shaq Mysterious,300,Fight starts!,Kupo Bitto,120.0,Shaq Mysterious,64
+9,Kupo Bitto vs Shaq Mysterious,290,Shaq Mysterious Attacks Kupo Bitto!,Kupo Bitto,114.0,Shaq Mysterious,64
+9,Kupo Bitto vs Shaq Mysterious,285,Kupo Bitto Attacks Shaq Mysterious!,Kupo Bitto,114.0,Shaq Mysterious,46
+9,Kupo Bitto vs Shaq Mysterious,280,Kupo Bitto dodged Shaq Mysterious's Attack!,Kupo Bitto,114.0,Shaq Mysterious,46
+9,Kupo Bitto vs Shaq Mysterious,270,Shaq Mysterious Attacks Kupo Bitto!,Kupo Bitto,113.0,Shaq Mysterious,46
+9,Kupo Bitto vs Shaq Mysterious,270,Kupo Bitto Attacks Shaq Mysterious!,Kupo Bitto,113.0,Shaq Mysterious,40
+9,Kupo Bitto vs Shaq Mysterious,260,Shaq Mysterious Attacks Kupo Bitto!,Kupo Bitto,111.0,Shaq Mysterious,40
+9,Kupo Bitto vs Shaq Mysterious,255,Kupo Bitto Attacks Shaq Mysterious!,Kupo Bitto,111.0,Shaq Mysterious,22
+9,Kupo Bitto vs Shaq Mysterious,250,Shaq Mysterious Attacks Kupo Bitto!,Kupo Bitto,106.0,Shaq Mysterious,22
+9,Kupo Bitto vs Shaq Mysterious,240,Kupo Bitto dodged Shaq Mysterious's Attack!,Kupo Bitto,106.0,Shaq Mysterious,22
+9,Kupo Bitto vs Shaq Mysterious,240,Kupo Bitto Attacks Shaq Mysterious!,Kupo Bitto,106.0,Shaq Mysterious,4
+9,Kupo Bitto vs Shaq Mysterious,230,Shaq Mysterious Attacks Kupo Bitto!,Kupo Bitto,103.0,Shaq Mysterious,4
+9,Kupo Bitto vs Shaq Mysterious,225,Kupo Bitto Attacks Shaq Mysterious!,Kupo Bitto,103.0,Shaq Mysterious,0
+9,Kupo Bitto vs Shaq Mysterious,225,Shaq Mysterious has been Defeated!,Kupo Bitto,103.0,Shaq Mysterious,0
+9,Kupo Bitto vs Shaq Mysterious,225,Kupo Bitto wins the fight!,Kupo Bitto,103.0,Shaq Mysterious,0
+10,Henry Johnson vs Kupo Bitto,300,Fight starts!,Henry Johnson,56,Kupo Bitto,80
+10,Henry Johnson vs Kupo Bitto,287,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,56,Kupo Bitto,72
+10,Henry Johnson vs Kupo Bitto,285,Kupo Bitto Attacks Henry Johnson!,Henry Johnson,41,Kupo Bitto,72
+10,Henry Johnson vs Kupo Bitto,274,Kupo Bitto dodged Henry Johnson's Attack!,Henry Johnson,41,Kupo Bitto,72
+10,Henry Johnson vs Kupo Bitto,270,Kupo Bitto Attacks Henry Johnson!,Henry Johnson,26,Kupo Bitto,72
+10,Henry Johnson vs Kupo Bitto,261,Kupo Bitto dodged Henry Johnson's Attack!,Henry Johnson,26,Kupo Bitto,72
+10,Henry Johnson vs Kupo Bitto,255,Kupo Bitto Attacks Henry Johnson!,Henry Johnson,16,Kupo Bitto,72
+10,Henry Johnson vs Kupo Bitto,248,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,16,Kupo Bitto,66
+10,Henry Johnson vs Kupo Bitto,240,Kupo Bitto Attacks Henry Johnson!,Henry Johnson,6,Kupo Bitto,66
+10,Henry Johnson vs Kupo Bitto,235,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,6,Kupo Bitto,61
+10,Henry Johnson vs Kupo Bitto,225,Henry Johnson dodged Kupo Bitto's Attack!,Henry Johnson,6,Kupo Bitto,61
+10,Henry Johnson vs Kupo Bitto,222,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,6,Kupo Bitto,54
+10,Henry Johnson vs Kupo Bitto,210,Henry Johnson dodged Kupo Bitto's Attack!,Henry Johnson,6,Kupo Bitto,54
+10,Henry Johnson vs Kupo Bitto,209,Kupo Bitto dodged Henry Johnson's Attack!,Henry Johnson,6,Kupo Bitto,54
+10,Henry Johnson vs Kupo Bitto,196,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,6,Kupo Bitto,48
+10,Henry Johnson vs Kupo Bitto,195,Henry Johnson dodged Kupo Bitto's Attack!,Henry Johnson,6,Kupo Bitto,48
+10,Henry Johnson vs Kupo Bitto,183,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,6,Kupo Bitto,43
+10,Henry Johnson vs Kupo Bitto,180,Kupo Bitto Attacks Henry Johnson!,Henry Johnson,1,Kupo Bitto,43
+10,Henry Johnson vs Kupo Bitto,170,Henry Johnson Attacks Kupo Bitto!,Henry Johnson,1,Kupo Bitto,38
+10,Henry Johnson vs Kupo Bitto,165,Kupo Bitto Attacks Henry Johnson!,Henry Johnson,0,Kupo Bitto,38
+10,Henry Johnson vs Kupo Bitto,165,Henry Johnson has been Defeated!,Henry Johnson,0,Kupo Bitto,38
+10,Henry Johnson vs Kupo Bitto,165,Kupo Bitto wins the fight!,Henry Johnson,0,Kupo Bitto,38
+11,Cortana Keely vs Cortana Moon,300,Fight starts!,Cortana Keely,64,Cortana Moon,52
+11,Cortana Keely vs Cortana Moon,295,Cortana Moon Attacks Cortana Keely!,Cortana Keely,61,Cortana Moon,52
+11,Cortana Keely vs Cortana Moon,290,Cortana Moon dodged Cortana Keely's Attack!,Cortana Keely,61,Cortana Moon,52
+11,Cortana Keely vs Cortana Moon,290,Cortana Moon Attacks Cortana Keely!,Cortana Keely,56,Cortana Moon,52
+11,Cortana Keely vs Cortana Moon,285,Cortana Moon Attacks Cortana Keely!,Cortana Keely,51,Cortana Moon,52
+11,Cortana Keely vs Cortana Moon,280,Cortana Moon Attacks Cortana Keely!,Cortana Keely,45,Cortana Moon,52
+11,Cortana Keely vs Cortana Moon,280,Cortana Keely Attacks Cortana Moon!,Cortana Keely,45,Cortana Moon,36
+11,Cortana Keely vs Cortana Moon,275,Cortana Moon Attacks Cortana Keely!,Cortana Keely,40,Cortana Moon,36
+11,Cortana Keely vs Cortana Moon,270,Cortana Moon dodged Cortana Keely's Attack!,Cortana Keely,40,Cortana Moon,36
+11,Cortana Keely vs Cortana Moon,270,Cortana Moon Attacks Cortana Keely!,Cortana Keely,36,Cortana Moon,36
+11,Cortana Keely vs Cortana Moon,265,Cortana Moon Attacks Cortana Keely!,Cortana Keely,31,Cortana Moon,36
+11,Cortana Keely vs Cortana Moon,260,Cortana Keely Attacks Cortana Moon!,Cortana Keely,31,Cortana Moon,0
+11,Cortana Keely vs Cortana Moon,260,Cortana Moon has been Defeated!,Cortana Keely,31,Cortana Moon,0
+11,Cortana Keely vs Cortana Moon,260,Cortana Keely wins the fight!,Cortana Keely,31,Cortana Moon,0
+12,Jason Bitto vs Vibey Wednesday,300,Fight starts!,Jason Bitto,64,Vibey Wednesday,30
+12,Jason Bitto vs Vibey Wednesday,290,Jason Bitto Attacks Vibey Wednesday!,Jason Bitto,64,Vibey Wednesday,10
+12,Jason Bitto vs Vibey Wednesday,280,Vibey Wednesday dodged Jason Bitto's Attack!,Jason Bitto,64,Vibey Wednesday,10
+12,Jason Bitto vs Vibey Wednesday,280,Vibey Wednesday Attacks Jason Bitto!,Jason Bitto,52,Vibey Wednesday,10
+12,Jason Bitto vs Vibey Wednesday,270,Vibey Wednesday dodged Jason Bitto's Attack!,Jason Bitto,52,Vibey Wednesday,10
+12,Jason Bitto vs Vibey Wednesday,260,Vibey Wednesday dodged Jason Bitto's Attack!,Jason Bitto,52,Vibey Wednesday,10
+12,Jason Bitto vs Vibey Wednesday,260,Vibey Wednesday Attacks Jason Bitto!,Jason Bitto,34,Vibey Wednesday,10
+12,Jason Bitto vs Vibey Wednesday,250,Jason Bitto Attacks Vibey Wednesday!,Jason Bitto,34,Vibey Wednesday,0
+12,Jason Bitto vs Vibey Wednesday,250,Vibey Wednesday has been Defeated!,Jason Bitto,34,Vibey Wednesday,0
+12,Jason Bitto vs Vibey Wednesday,250,Jason Bitto wins the fight!,Jason Bitto,34,Vibey Wednesday,0
+13,Cortana Keely vs Jason Bitto,300,Fight starts!,Cortana Keely,46,Jason Bitto,51
+13,Cortana Keely vs Jason Bitto,290,Jason Bitto Attacks Cortana Keely!,Cortana Keely,22,Jason Bitto,51
+13,Cortana Keely vs Jason Bitto,290,Cortana Keely Attacks Jason Bitto!,Cortana Keely,22,Jason Bitto,33
+13,Cortana Keely vs Jason Bitto,280,Jason Bitto Attacks Cortana Keely!,Cortana Keely,0,Jason Bitto,33
+13,Cortana Keely vs Jason Bitto,280,Cortana Keely has been Defeated!,Cortana Keely,0,Jason Bitto,33
+13,Cortana Keely vs Jason Bitto,280,Jason Bitto wins the fight!,Cortana Keely,0,Jason Bitto,33
+14,Kupo Bitto vs Jason Bitto,300,Fight starts!,Kupo Bitto,57,Jason Bitto,50
+14,Kupo Bitto vs Jason Bitto,290,Jason Bitto Attacks Kupo Bitto!,Kupo Bitto,53,Jason Bitto,50
+14,Kupo Bitto vs Jason Bitto,285,Kupo Bitto Attacks Jason Bitto!,Kupo Bitto,53,Jason Bitto,38
+14,Kupo Bitto vs Jason Bitto,280,Jason Bitto Attacks Kupo Bitto!,Kupo Bitto,52,Jason Bitto,38
+14,Kupo Bitto vs Jason Bitto,270,Jason Bitto Attacks Kupo Bitto!,Kupo Bitto,47,Jason Bitto,38
+14,Kupo Bitto vs Jason Bitto,270,Kupo Bitto Attacks Jason Bitto!,Kupo Bitto,47,Jason Bitto,20
+14,Kupo Bitto vs Jason Bitto,260,Jason Bitto Attacks Kupo Bitto!,Kupo Bitto,46,Jason Bitto,20
+14,Kupo Bitto vs Jason Bitto,255,Kupo Bitto Attacks Jason Bitto!,Kupo Bitto,46,Jason Bitto,8
+14,Kupo Bitto vs Jason Bitto,250,Jason Bitto Attacks Kupo Bitto!,Kupo Bitto,41,Jason Bitto,8
+14,Kupo Bitto vs Jason Bitto,240,Jason Bitto Attacks Kupo Bitto!,Kupo Bitto,36,Jason Bitto,8
+14,Kupo Bitto vs Jason Bitto,240,Kupo Bitto Attacks Jason Bitto!,Kupo Bitto,36,Jason Bitto,0
+14,Kupo Bitto vs Jason Bitto,240,Jason Bitto has been Defeated!,Kupo Bitto,36,Jason Bitto,0
+14,Kupo Bitto vs Jason Bitto,240,Kupo Bitto wins the fight!,Kupo Bitto,36,Jason Bitto,0
+15,Davey Hisaishi vs Kupo Bitto,300,Fight starts!,Davey Hisaishi,80,Kupo Bitto,54
+15,Davey Hisaishi vs Kupo Bitto,290,Davey Hisaishi Attacks Kupo Bitto!,Davey Hisaishi,80,Kupo Bitto,44
+15,Davey Hisaishi vs Kupo Bitto,285,Kupo Bitto Attacks Davey Hisaishi!,Davey Hisaishi,79,Kupo Bitto,44
+15,Davey Hisaishi vs Kupo Bitto,280,Davey Hisaishi Attacks Kupo Bitto!,Davey Hisaishi,79,Kupo Bitto,34
+15,Davey Hisaishi vs Kupo Bitto,270,Davey Hisaishi Attacks Kupo Bitto!,Davey Hisaishi,79,Kupo Bitto,19
+15,Davey Hisaishi vs Kupo Bitto,270,Kupo Bitto Attacks Davey Hisaishi!,Davey Hisaishi,77,Kupo Bitto,19
+15,Davey Hisaishi vs Kupo Bitto,260,Davey Hisaishi Attacks Kupo Bitto!,Davey Hisaishi,77,Kupo Bitto,0
+15,Davey Hisaishi vs Kupo Bitto,260,Kupo Bitto has been Defeated!,Davey Hisaishi,77,Kupo Bitto,0
+15,Davey Hisaishi vs Kupo Bitto,260,Davey Hisaishi wins the fight!,Davey Hisaishi,77,Kupo Bitto,0

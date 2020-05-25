@@ -1,31 +1,31 @@
 round_number,fight_name,combatant,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
-1,Davey Hisaishi vs Bobobo Moon,Bobobo Moon,HEART,WARRIOR,84,84,5,10,5,6,4,Won,14
-1,Davey Hisaishi vs Bobobo Moon,Davey Hisaishi,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,2
-2,Shaq Yikes vs Bobobo Mysterious,Bobobo Mysterious,BERSERKER,ELITE,64,64,10,9,6,10,0,Won,41
-2,Shaq Yikes vs Bobobo Mysterious,Shaq Yikes,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-3,Bobobo Moon vs Bobobo Mysterious,Bobobo Mysterious,BERSERKER,ELITE,64,62,10,9,6,10,0,Won,53
-3,Bobobo Moon vs Bobobo Mysterious,Bobobo Moon,HEART,WARRIOR,84,21,5,10,5,6,4,Lost,0
-4,Ken Moon vs Kupo Johnson,Kupo Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Won,51
-4,Ken Moon vs Kupo Johnson,Ken Moon,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
-5,Mei Bitto vs Cortana Nevers,Mei Bitto,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,10
-5,Mei Bitto vs Cortana Nevers,Cortana Nevers,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
-6,Kupo Johnson vs Mei Bitto,Kupo Johnson,TANK,WARRIOR,80,76,10,10,3,5,2,Won,63
-6,Kupo Johnson vs Mei Bitto,Mei Bitto,BERSERKER,WARRIOR,64,15,10,4,6,10,0,Lost,0
-7,Bobobo Mysterious vs Kupo Johnson,Bobobo Mysterious,BERSERKER,ELITE,64,64,10,9,6,10,0,Won,26
-7,Bobobo Mysterious vs Kupo Johnson,Kupo Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Lost,1
-8,Xavier Johnson vs Ryu Johnson,Xavier Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Won,32
-8,Xavier Johnson vs Ryu Johnson,Ryu Johnson,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-9,Happy Keely vs Davey Sun,Happy Keely,TACTICIAN,ELITE,52,78.0,2,2,6,10,10,Won,49.0
-9,Happy Keely vs Davey Sun,Davey Sun,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,28
-10,Xavier Johnson vs Happy Keely,Happy Keely,TACTICIAN,ELITE,52,52,2,2,6,10,10,Won,20
-10,Xavier Johnson vs Happy Keely,Xavier Johnson,TANK,WARRIOR,80,48,10,10,3,5,2,Lost,0
-11,Xavier Nevers vs Ken Badass,Xavier Nevers,TACTICIAN,ELITE,52,52,2,2,6,15,10,Won,13
-11,Xavier Nevers vs Ken Badass,Ken Badass,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
-12,Bobobo Badass vs Vibey Wednesday,Bobobo Badass,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,23
-12,Bobobo Badass vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,30,30,10,5,10,0,5,Lost,0
-13,Xavier Nevers vs Bobobo Badass,Xavier Nevers,TACTICIAN,ELITE,52,20,2,2,6,15,10,Won,20
-13,Xavier Nevers vs Bobobo Badass,Bobobo Badass,MARTIAL ARTIST,WARRIOR,58,34,5,5,9,7,4,Lost,0
-14,Happy Keely vs Xavier Nevers,Xavier Nevers,TACTICIAN,ELITE,52,30,2,2,6,15,10,Won,20
-14,Happy Keely vs Xavier Nevers,Happy Keely,TACTICIAN,ELITE,52,30,2,2,6,10,10,Lost,0
-15,Bobobo Mysterious vs Xavier Nevers,Xavier Nevers,TACTICIAN,ELITE,52,30,2,2,6,15,10,Won,14
-15,Bobobo Mysterious vs Xavier Nevers,Bobobo Mysterious,BERSERKER,ELITE,64,39,10,9,6,10,0,Lost,0
+1,Moses Badass vs Mai X,Mai X,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,39
+1,Moses Badass vs Mai X,Moses Badass,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
+2,Davey Hisaishi vs Mai Hisaishi,Davey Hisaishi,TANK,LEGENDARY,80,120.0,15,10,8,10,2,Won,109.0
+2,Davey Hisaishi vs Mai Hisaishi,Mai Hisaishi,HEART,WARRIOR,84,84,5,10,5,6,4,Lost,0
+3,Mai X vs Davey Hisaishi,Davey Hisaishi,TANK,LEGENDARY,80,80,15,10,8,10,2,Won,75
+3,Mai X vs Davey Hisaishi,Mai X,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+4,Ryu Balrog vs Mai Moon,Ryu Balrog,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Won,3
+4,Ryu Balrog vs Mai Moon,Mai Moon,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
+5,Ken Hisaishi vs Davey Nevers,Ken Hisaishi,BERSERKER,MASTER,64,64,10,4,11,15,0,Won,60
+5,Ken Hisaishi vs Davey Nevers,Davey Nevers,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+6,Ryu Balrog vs Ken Hisaishi,Ken Hisaishi,BERSERKER,MASTER,64,64,10,4,11,15,0,Won,64
+6,Ryu Balrog vs Ken Hisaishi,Ryu Balrog,TACTICIAN,WARRIOR,52,4,2,2,6,10,10,Lost,0
+7,Davey Hisaishi vs Ken Hisaishi,Davey Hisaishi,TANK,LEGENDARY,80,80,15,10,8,10,2,Won,70
+7,Davey Hisaishi vs Ken Hisaishi,Ken Hisaishi,BERSERKER,MASTER,64,64,10,4,11,15,0,Lost,0
+8,Henry Johnson vs Xiao Bitto,Henry Johnson,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,37
+8,Henry Johnson vs Xiao Bitto,Xiao Bitto,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
+9,Kupo Bitto vs Shaq Mysterious,Kupo Bitto,TANK,ELITE,80,120.0,10,10,3,5,2,Won,103.0
+9,Kupo Bitto vs Shaq Mysterious,Shaq Mysterious,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
+10,Henry Johnson vs Kupo Bitto,Kupo Bitto,TANK,ELITE,80,80,10,10,3,5,2,Won,38
+10,Henry Johnson vs Kupo Bitto,Henry Johnson,MARTIAL ARTIST,WARRIOR,58,56,5,5,9,7,4,Lost,0
+11,Cortana Keely vs Cortana Moon,Cortana Keely,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,31
+11,Cortana Keely vs Cortana Moon,Cortana Moon,TACTICIAN,ELITE,52,52,2,2,6,15,10,Lost,0
+12,Jason Bitto vs Vibey Wednesday,Jason Bitto,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,34
+12,Jason Bitto vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,30,30,10,5,10,0,5,Lost,0
+13,Cortana Keely vs Jason Bitto,Jason Bitto,BERSERKER,WARRIOR,64,51,10,4,6,10,0,Won,33
+13,Cortana Keely vs Jason Bitto,Cortana Keely,BERSERKER,WARRIOR,64,46,10,4,6,10,0,Lost,0
+14,Kupo Bitto vs Jason Bitto,Kupo Bitto,TANK,ELITE,80,57,10,10,3,5,2,Won,36
+14,Kupo Bitto vs Jason Bitto,Jason Bitto,BERSERKER,WARRIOR,64,50,10,4,6,10,0,Lost,0
+15,Davey Hisaishi vs Kupo Bitto,Davey Hisaishi,TANK,LEGENDARY,80,80,15,10,8,10,2,Won,77
+15,Davey Hisaishi vs Kupo Bitto,Kupo Bitto,TANK,ELITE,80,54,10,10,3,5,2,Lost,0
