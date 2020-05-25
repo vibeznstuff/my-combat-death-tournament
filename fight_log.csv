@@ -1,339 +1,198 @@
 round_number,fight_name,time_elapsed,event,combatant_one,combatant_one_health,combatant_one_dodged,combatant_one_attacked,combatant_two,combatant_two_health,combatant_two_dodged,combatant_two_attacked
-1,Cloud Sun vs Kupo Bitto,300,Fight starts!,Cloud Sun,64,False,False,Kupo Bitto,52,False,False
-1,Cloud Sun vs Kupo Bitto,290,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,60,False,False,Kupo Bitto,52,False,True
-1,Cloud Sun vs Kupo Bitto,290,Cloud Sun Attacks Kupo Bitto!,Cloud Sun,60,False,True,Kupo Bitto,36,False,False
-1,Cloud Sun vs Kupo Bitto,280,Kupo Bitto dodged Cloud Sun's Attack!,Cloud Sun,60,False,True,Kupo Bitto,36,True,False
-1,Cloud Sun vs Kupo Bitto,280,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,55,False,False,Kupo Bitto,36,False,True
-1,Cloud Sun vs Kupo Bitto,270,Kupo Bitto dodged Cloud Sun's Attack!,Cloud Sun,55,False,True,Kupo Bitto,36,True,False
-1,Cloud Sun vs Kupo Bitto,270,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,50,False,False,Kupo Bitto,36,False,True
-1,Cloud Sun vs Kupo Bitto,260,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,48,False,False,Kupo Bitto,36,False,True
-1,Cloud Sun vs Kupo Bitto,260,Cloud Sun Attacks Kupo Bitto!,Cloud Sun,48,False,True,Kupo Bitto,12,False,False
-1,Cloud Sun vs Kupo Bitto,250,Kupo Bitto dodged Cloud Sun's Attack!,Cloud Sun,48,False,True,Kupo Bitto,12,True,False
-1,Cloud Sun vs Kupo Bitto,250,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,44,False,False,Kupo Bitto,12,False,True
-1,Cloud Sun vs Kupo Bitto,240,Kupo Bitto dodged Cloud Sun's Attack!,Cloud Sun,44,False,True,Kupo Bitto,12,True,False
-1,Cloud Sun vs Kupo Bitto,240,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,42,False,False,Kupo Bitto,12,False,True
-1,Cloud Sun vs Kupo Bitto,230,Kupo Bitto dodged Cloud Sun's Attack!,Cloud Sun,42,False,True,Kupo Bitto,12,True,False
-1,Cloud Sun vs Kupo Bitto,230,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,40,False,False,Kupo Bitto,12,False,True
-1,Cloud Sun vs Kupo Bitto,220,Kupo Bitto dodged Cloud Sun's Attack!,Cloud Sun,40,False,True,Kupo Bitto,12,True,False
-1,Cloud Sun vs Kupo Bitto,220,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,37,False,False,Kupo Bitto,12,False,True
-1,Cloud Sun vs Kupo Bitto,210,Kupo Bitto Attacks Cloud Sun!,Cloud Sun,31,False,False,Kupo Bitto,12,False,True
-1,Cloud Sun vs Kupo Bitto,210,Cloud Sun Attacks Kupo Bitto!,Cloud Sun,31,False,True,Kupo Bitto,0,False,False
-1,Cloud Sun vs Kupo Bitto,210,Kupo Bitto has been Defeated!,Cloud Sun,31,False,False,Kupo Bitto,0,False,False
-1,Cloud Sun vs Kupo Bitto,210,Cloud Sun wins the fight!,Cloud Sun,31,False,False,Kupo Bitto,0,False,False
-2,Shaq Hall vs Mai Moon,300,Fight starts!,Shaq Hall,58,False,False,Mai Moon,64,False,False
-2,Shaq Hall vs Mai Moon,295,Mai Moon Attacks Shaq Hall!,Shaq Hall,33,False,False,Mai Moon,64,False,True
-2,Shaq Hall vs Mai Moon,290,Mai Moon Attacks Shaq Hall!,Shaq Hall,3,False,False,Mai Moon,64,False,True
-2,Shaq Hall vs Mai Moon,287,Shaq Hall Attacks Mai Moon!,Shaq Hall,3,False,True,Mai Moon,62,False,False
-2,Shaq Hall vs Mai Moon,285,Mai Moon Attacks Shaq Hall!,Shaq Hall,0,False,False,Mai Moon,62,False,True
-2,Shaq Hall vs Mai Moon,285,Shaq Hall has been Defeated!,Shaq Hall,0,False,False,Mai Moon,62,False,False
-2,Shaq Hall vs Mai Moon,285,Mai Moon wins the fight!,Shaq Hall,0,False,False,Mai Moon,62,False,False
-3,Cloud Sun vs Mai Moon,300,Fight starts!,Cloud Sun,46,False,False,Mai Moon,64,False,False
-3,Cloud Sun vs Mai Moon,295,Mai Moon Attacks Cloud Sun!,Cloud Sun,28,False,False,Mai Moon,64,False,True
-3,Cloud Sun vs Mai Moon,290,Mai Moon dodged Cloud Sun's Attack!,Cloud Sun,28,False,True,Mai Moon,64,True,False
-3,Cloud Sun vs Mai Moon,290,Mai Moon Attacks Cloud Sun!,Cloud Sun,4,False,False,Mai Moon,64,False,True
-3,Cloud Sun vs Mai Moon,285,Mai Moon Attacks Cloud Sun!,Cloud Sun,0,False,False,Mai Moon,64,False,True
-3,Cloud Sun vs Mai Moon,285,Cloud Sun has been Defeated!,Cloud Sun,0,False,False,Mai Moon,64,False,False
-3,Cloud Sun vs Mai Moon,285,Mai Moon wins the fight!,Cloud Sun,0,False,False,Mai Moon,64,False,False
-4,The Bitto vs Bobobo Keely,300,Fight starts!,The Bitto,64,False,False,Bobobo Keely,58,False,False
-4,The Bitto vs Bobobo Keely,292,Bobobo Keely Attacks The Bitto!,The Bitto,60,False,False,Bobobo Keely,58,False,True
-4,The Bitto vs Bobobo Keely,290,The Bitto Attacks Bobobo Keely!,The Bitto,60,False,True,Bobobo Keely,43,False,False
-4,The Bitto vs Bobobo Keely,284,Bobobo Keely Attacks The Bitto!,The Bitto,57,False,False,Bobobo Keely,43,False,True
-4,The Bitto vs Bobobo Keely,280,Bobobo Keely dodged The Bitto's Attack!,The Bitto,57,False,True,Bobobo Keely,43,True,False
-4,The Bitto vs Bobobo Keely,276,Bobobo Keely Attacks The Bitto!,The Bitto,54,False,False,Bobobo Keely,43,False,True
-4,The Bitto vs Bobobo Keely,270,The Bitto Attacks Bobobo Keely!,The Bitto,54,False,True,Bobobo Keely,33,False,False
-4,The Bitto vs Bobobo Keely,268,Bobobo Keely Attacks The Bitto!,The Bitto,50,False,False,Bobobo Keely,33,False,True
-4,The Bitto vs Bobobo Keely,260,Bobobo Keely dodged The Bitto's Attack!,The Bitto,50,False,True,Bobobo Keely,33,True,False
-4,The Bitto vs Bobobo Keely,260,Bobobo Keely Attacks The Bitto!,The Bitto,45,False,False,Bobobo Keely,33,False,True
-4,The Bitto vs Bobobo Keely,252,Bobobo Keely Attacks The Bitto!,The Bitto,41,False,False,Bobobo Keely,33,False,True
-4,The Bitto vs Bobobo Keely,250,The Bitto Attacks Bobobo Keely!,The Bitto,41,False,True,Bobobo Keely,18,False,False
-4,The Bitto vs Bobobo Keely,244,Bobobo Keely Attacks The Bitto!,The Bitto,35,False,False,Bobobo Keely,18,False,True
-4,The Bitto vs Bobobo Keely,240,The Bitto Attacks Bobobo Keely!,The Bitto,35,False,True,Bobobo Keely,0,False,False
-4,The Bitto vs Bobobo Keely,240,Bobobo Keely has been Defeated!,The Bitto,35,False,False,Bobobo Keely,0,False,False
-4,The Bitto vs Bobobo Keely,240,The Bitto wins the fight!,The Bitto,35,False,False,Bobobo Keely,0,False,False
-5,Mai Yikes vs Mei Chen,300,Fight starts!,Mai Yikes,64,False,False,Mei Chen,84,False,False
-5,Mai Yikes vs Mei Chen,290,Mai Yikes Attacks Mei Chen!,Mai Yikes,64,False,True,Mei Chen,79,False,False
-5,Mai Yikes vs Mei Chen,286,Mei Chen Attacks Mai Yikes!,Mai Yikes,63,False,False,Mei Chen,79,False,True
-5,Mai Yikes vs Mei Chen,280,Mai Yikes Attacks Mei Chen!,Mai Yikes,63,False,True,Mei Chen,76,False,False
-5,Mai Yikes vs Mei Chen,272,Mei Chen Attacks Mai Yikes!,Mai Yikes,60,False,False,Mei Chen,76,False,True
-5,Mai Yikes vs Mei Chen,270,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,60,False,True,Mei Chen,76,True,False
-5,Mai Yikes vs Mei Chen,260,Mai Yikes Attacks Mei Chen!,Mai Yikes,60,False,True,Mei Chen,73,False,False
-5,Mai Yikes vs Mei Chen,258,Mei Chen Attacks Mai Yikes!,Mai Yikes,59,False,False,Mei Chen,73,False,True
-5,Mai Yikes vs Mei Chen,250,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,59,False,True,Mei Chen,73,True,False
-5,Mai Yikes vs Mei Chen,244,Mei Chen Attacks Mai Yikes!,Mai Yikes,56,False,False,Mei Chen,73,False,True
-5,Mai Yikes vs Mei Chen,240,Mai Yikes Attacks Mei Chen!,Mai Yikes,56,False,True,Mei Chen,69,False,False
-5,Mai Yikes vs Mei Chen,230,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,56,False,True,Mei Chen,69,True,False
-5,Mai Yikes vs Mei Chen,230,Mei Chen Attacks Mai Yikes!,Mai Yikes,52,False,False,Mei Chen,69,False,True
-5,Mai Yikes vs Mei Chen,220,Mai Yikes Attacks Mei Chen!,Mai Yikes,52,False,True,Mei Chen,66,False,False
-5,Mai Yikes vs Mei Chen,216,Mei Chen Attacks Mai Yikes!,Mai Yikes,48,False,False,Mei Chen,66,False,True
-5,Mai Yikes vs Mei Chen,210,Mai Yikes Attacks Mei Chen!,Mai Yikes,48,False,True,Mei Chen,61,False,False
-5,Mai Yikes vs Mei Chen,202,Mei Chen Attacks Mai Yikes!,Mai Yikes,46,False,False,Mei Chen,61,False,True
-5,Mai Yikes vs Mei Chen,200,Mai Yikes Attacks Mei Chen!,Mai Yikes,46,False,True,Mei Chen,59,False,False
-5,Mai Yikes vs Mei Chen,190,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,46,False,True,Mei Chen,59,True,False
-5,Mai Yikes vs Mei Chen,188,Mei Chen Attacks Mai Yikes!,Mai Yikes,42,False,False,Mei Chen,59,False,True
-5,Mai Yikes vs Mei Chen,180,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,42,False,True,Mei Chen,59,True,False
-5,Mai Yikes vs Mei Chen,174,Mei Chen Attacks Mai Yikes!,Mai Yikes,38,False,False,Mei Chen,59,False,True
-5,Mai Yikes vs Mei Chen,170,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,38,False,True,Mei Chen,59,True,False
-5,Mai Yikes vs Mei Chen,160,Mai Yikes Attacks Mei Chen!,Mai Yikes,38,False,True,Mei Chen,54,False,False
-5,Mai Yikes vs Mei Chen,160,Mei Chen Attacks Mai Yikes!,Mai Yikes,33,False,False,Mei Chen,54,False,True
-5,Mai Yikes vs Mei Chen,150,Mai Yikes Attacks Mei Chen!,Mai Yikes,33,False,True,Mei Chen,53,False,False
-5,Mai Yikes vs Mei Chen,146,Mei Chen Attacks Mai Yikes!,Mai Yikes,31,False,False,Mei Chen,53,False,True
-5,Mai Yikes vs Mei Chen,140,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,31,False,True,Mei Chen,53,True,False
-5,Mai Yikes vs Mei Chen,132,Mei Chen Attacks Mai Yikes!,Mai Yikes,29,False,False,Mei Chen,53,False,True
-5,Mai Yikes vs Mei Chen,130,Mai Yikes Attacks Mei Chen!,Mai Yikes,29,False,True,Mei Chen,47,False,False
-5,Mai Yikes vs Mei Chen,120,Mai Yikes Attacks Mei Chen!,Mai Yikes,29,False,True,Mei Chen,44,False,False
-5,Mai Yikes vs Mei Chen,118,Mei Chen Attacks Mai Yikes!,Mai Yikes,26,False,False,Mei Chen,44,False,True
-5,Mai Yikes vs Mei Chen,110,Mai Yikes Attacks Mei Chen!,Mai Yikes,26,False,True,Mei Chen,39,False,False
-5,Mai Yikes vs Mei Chen,104,Mei Chen Attacks Mai Yikes!,Mai Yikes,24,False,False,Mei Chen,39,False,True
-5,Mai Yikes vs Mei Chen,100,Mai Yikes Attacks Mei Chen!,Mai Yikes,24,False,True,Mei Chen,38,False,False
-5,Mai Yikes vs Mei Chen,90,Mai Yikes Attacks Mei Chen!,Mai Yikes,24,False,True,Mei Chen,36,False,False
-5,Mai Yikes vs Mei Chen,90,Mei Chen Attacks Mai Yikes!,Mai Yikes,19,False,False,Mei Chen,36,False,True
-5,Mai Yikes vs Mei Chen,80,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,19,False,True,Mei Chen,36,True,False
-5,Mai Yikes vs Mei Chen,76,Mei Chen Attacks Mai Yikes!,Mai Yikes,17,False,False,Mei Chen,36,False,True
-5,Mai Yikes vs Mei Chen,70,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,17,False,True,Mei Chen,36,True,False
-5,Mai Yikes vs Mei Chen,62,Mei Chen Attacks Mai Yikes!,Mai Yikes,16,False,False,Mei Chen,36,False,True
-5,Mai Yikes vs Mei Chen,60,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,16,False,True,Mei Chen,36,True,False
-5,Mai Yikes vs Mei Chen,50,Mai Yikes Attacks Mei Chen!,Mai Yikes,16,False,True,Mei Chen,30,False,False
-5,Mai Yikes vs Mei Chen,48,Mei Chen Attacks Mai Yikes!,Mai Yikes,12,False,False,Mei Chen,30,False,True
-5,Mai Yikes vs Mei Chen,40,Mei Chen dodged Mai Yikes's Attack!,Mai Yikes,12,False,True,Mei Chen,30,True,False
-5,Mai Yikes vs Mei Chen,34,Mei Chen Attacks Mai Yikes!,Mai Yikes,7,False,False,Mei Chen,30,False,True
-5,Mai Yikes vs Mei Chen,30,Mai Yikes Attacks Mei Chen!,Mai Yikes,7,False,True,Mei Chen,28,False,False
-5,Mai Yikes vs Mei Chen,20,Mai Yikes Attacks Mei Chen!,Mai Yikes,7,False,True,Mei Chen,24,False,False
-5,Mai Yikes vs Mei Chen,20,Mei Chen Attacks Mai Yikes!,Mai Yikes,5,False,False,Mei Chen,24,False,True
-5,Mai Yikes vs Mei Chen,10,Mai Yikes Attacks Mei Chen!,Mai Yikes,5,False,True,Mei Chen,19,False,False
-5,Mai Yikes vs Mei Chen,6,Mei Chen Attacks Mai Yikes!,Mai Yikes,4,False,False,Mei Chen,19,False,True
-5,Mai Yikes vs Mei Chen,0,Mai Yikes Attacks Mei Chen!,Mai Yikes,4,False,True,Mei Chen,17,False,False
-5,Mai Yikes vs Mei Chen,0,Mei Chen wins the fight!,Mai Yikes,4,False,False,Mei Chen,17,False,False
-6,The Bitto vs Mei Chen,300,Fight starts!,The Bitto,52,False,False,Mei Chen,26,False,False
-6,The Bitto vs Mei Chen,290,The Bitto Attacks Mei Chen!,The Bitto,52,False,True,Mei Chen,23,False,False
-6,The Bitto vs Mei Chen,286,Mei Chen Attacks The Bitto!,The Bitto,49,False,False,Mei Chen,23,False,True
-6,The Bitto vs Mei Chen,280,The Bitto Attacks Mei Chen!,The Bitto,49,False,True,Mei Chen,17,False,False
-6,The Bitto vs Mei Chen,272,Mei Chen Attacks The Bitto!,The Bitto,46,False,False,Mei Chen,17,False,True
-6,The Bitto vs Mei Chen,270,The Bitto Attacks Mei Chen!,The Bitto,46,False,True,Mei Chen,16,False,False
-6,The Bitto vs Mei Chen,260,The Bitto Attacks Mei Chen!,The Bitto,46,False,True,Mei Chen,11,False,False
-6,The Bitto vs Mei Chen,258,Mei Chen Attacks The Bitto!,The Bitto,43,False,False,Mei Chen,11,False,True
-6,The Bitto vs Mei Chen,250,Mei Chen dodged The Bitto's Attack!,The Bitto,43,False,True,Mei Chen,11,True,False
-6,The Bitto vs Mei Chen,244,Mei Chen Attacks The Bitto!,The Bitto,40,False,False,Mei Chen,11,False,True
-6,The Bitto vs Mei Chen,240,The Bitto Attacks Mei Chen!,The Bitto,40,False,True,Mei Chen,10,False,False
-6,The Bitto vs Mei Chen,230,The Bitto Attacks Mei Chen!,The Bitto,40,False,True,Mei Chen,8,False,False
-6,The Bitto vs Mei Chen,230,Mei Chen Attacks The Bitto!,The Bitto,39,False,False,Mei Chen,8,False,True
-6,The Bitto vs Mei Chen,220,Mei Chen dodged The Bitto's Attack!,The Bitto,39,False,True,Mei Chen,8,True,False
-6,The Bitto vs Mei Chen,216,Mei Chen Attacks The Bitto!,The Bitto,37,False,False,Mei Chen,8,False,True
-6,The Bitto vs Mei Chen,210,Mei Chen dodged The Bitto's Attack!,The Bitto,37,False,True,Mei Chen,8,True,False
-6,The Bitto vs Mei Chen,202,Mei Chen Attacks The Bitto!,The Bitto,33,False,False,Mei Chen,8,False,True
-6,The Bitto vs Mei Chen,200,Mei Chen dodged The Bitto's Attack!,The Bitto,33,False,True,Mei Chen,8,True,False
-6,The Bitto vs Mei Chen,190,Mei Chen dodged The Bitto's Attack!,The Bitto,33,False,True,Mei Chen,8,True,False
-6,The Bitto vs Mei Chen,188,Mei Chen Attacks The Bitto!,The Bitto,29,False,False,Mei Chen,8,False,True
-6,The Bitto vs Mei Chen,180,Mei Chen dodged The Bitto's Attack!,The Bitto,29,False,True,Mei Chen,8,True,False
-6,The Bitto vs Mei Chen,174,Mei Chen Attacks The Bitto!,The Bitto,27,False,False,Mei Chen,8,False,True
-6,The Bitto vs Mei Chen,170,The Bitto Attacks Mei Chen!,The Bitto,27,False,True,Mei Chen,5,False,False
-6,The Bitto vs Mei Chen,160,Mei Chen dodged The Bitto's Attack!,The Bitto,27,False,True,Mei Chen,5,True,False
-6,The Bitto vs Mei Chen,160,Mei Chen Attacks The Bitto!,The Bitto,23,False,False,Mei Chen,5,False,True
-6,The Bitto vs Mei Chen,150,The Bitto Attacks Mei Chen!,The Bitto,23,False,True,Mei Chen,2,False,False
-6,The Bitto vs Mei Chen,146,Mei Chen Attacks The Bitto!,The Bitto,18,False,False,Mei Chen,2,False,True
-6,The Bitto vs Mei Chen,140,The Bitto Attacks Mei Chen!,The Bitto,18,False,True,Mei Chen,0,False,False
-6,The Bitto vs Mei Chen,140,Mei Chen has been Defeated!,The Bitto,18,False,False,Mei Chen,0,False,False
-6,The Bitto vs Mei Chen,140,The Bitto wins the fight!,The Bitto,18,False,False,Mei Chen,0,False,False
-7,Mai Moon vs The Bitto,300,Fight starts!,Mai Moon,64,False,False,The Bitto,27,False,False
-7,Mai Moon vs The Bitto,295,Mai Moon Attacks The Bitto!,Mai Moon,64,False,True,The Bitto,15,False,False
-7,Mai Moon vs The Bitto,290,Mai Moon dodged The Bitto's Attack!,Mai Moon,64,True,False,The Bitto,15,False,True
-7,Mai Moon vs The Bitto,290,Mai Moon Attacks The Bitto!,Mai Moon,64,False,True,The Bitto,0,False,False
-7,Mai Moon vs The Bitto,290,The Bitto has been Defeated!,Mai Moon,64,False,False,The Bitto,0,False,False
-7,Mai Moon vs The Bitto,290,Mai Moon wins the fight!,Mai Moon,64,False,False,The Bitto,0,False,False
-8,Shaq Balrog vs The Johnson,300,Fight starts!,Shaq Balrog,52,False,False,The Johnson,80,False,False
-8,Shaq Balrog vs The Johnson,290,Shaq Balrog Attacks The Johnson!,Shaq Balrog,52,False,True,The Johnson,76,False,False
-8,Shaq Balrog vs The Johnson,285,Shaq Balrog dodged The Johnson's Attack!,Shaq Balrog,52,True,False,The Johnson,76,False,True
-8,Shaq Balrog vs The Johnson,280,The Johnson dodged Shaq Balrog's Attack!,Shaq Balrog,52,False,True,The Johnson,76,True,False
-8,Shaq Balrog vs The Johnson,270,Shaq Balrog dodged The Johnson's Attack!,Shaq Balrog,52,True,False,The Johnson,76,False,True
-8,Shaq Balrog vs The Johnson,270,Shaq Balrog Attacks The Johnson!,Shaq Balrog,52,False,True,The Johnson,73,False,False
-8,Shaq Balrog vs The Johnson,260,The Johnson dodged Shaq Balrog's Attack!,Shaq Balrog,52,False,True,The Johnson,73,True,False
-8,Shaq Balrog vs The Johnson,255,The Johnson Attacks Shaq Balrog!,Shaq Balrog,36,False,False,The Johnson,73,False,True
-8,Shaq Balrog vs The Johnson,250,The Johnson dodged Shaq Balrog's Attack!,Shaq Balrog,36,False,True,The Johnson,73,True,False
-8,Shaq Balrog vs The Johnson,240,Shaq Balrog dodged The Johnson's Attack!,Shaq Balrog,36,True,False,The Johnson,73,False,True
-8,Shaq Balrog vs The Johnson,240,Shaq Balrog Attacks The Johnson!,Shaq Balrog,36,False,True,The Johnson,72,False,False
-8,Shaq Balrog vs The Johnson,230,The Johnson dodged Shaq Balrog's Attack!,Shaq Balrog,36,False,True,The Johnson,72,True,False
-8,Shaq Balrog vs The Johnson,225,The Johnson Attacks Shaq Balrog!,Shaq Balrog,12,False,False,The Johnson,72,False,True
-8,Shaq Balrog vs The Johnson,220,Shaq Balrog Attacks The Johnson!,Shaq Balrog,12,False,True,The Johnson,70,False,False
-8,Shaq Balrog vs The Johnson,210,Shaq Balrog Attacks The Johnson!,Shaq Balrog,12,False,True,The Johnson,65,False,False
-8,Shaq Balrog vs The Johnson,210,The Johnson Attacks Shaq Balrog!,Shaq Balrog,4,False,False,The Johnson,65,False,True
-8,Shaq Balrog vs The Johnson,200,Shaq Balrog Attacks The Johnson!,Shaq Balrog,4,False,True,The Johnson,60,False,False
-8,Shaq Balrog vs The Johnson,195,The Johnson Attacks Shaq Balrog!,Shaq Balrog,0,False,False,The Johnson,60,False,True
-8,Shaq Balrog vs The Johnson,195,Shaq Balrog has been Defeated!,Shaq Balrog,0,False,False,The Johnson,60,False,False
-8,Shaq Balrog vs The Johnson,195,The Johnson wins the fight!,Shaq Balrog,0,False,False,The Johnson,60,False,False
-9,Mei Badass vs Shaq Mysterious,300,Fight starts!,Mei Badass,58,False,False,Shaq Mysterious,58,False,False
-9,Mei Badass vs Shaq Mysterious,287,Mei Badass dodged Shaq Mysterious's Attack!,Mei Badass,58,True,False,Shaq Mysterious,58,False,True
-9,Mei Badass vs Shaq Mysterious,287,Mei Badass Attacks Shaq Mysterious!,Mei Badass,58,False,True,Shaq Mysterious,56,False,False
-9,Mei Badass vs Shaq Mysterious,274,Shaq Mysterious dodged Mei Badass's Attack!,Mei Badass,58,False,True,Shaq Mysterious,56,True,False
-9,Mei Badass vs Shaq Mysterious,274,Shaq Mysterious Attacks Mei Badass!,Mei Badass,55,False,False,Shaq Mysterious,56,False,True
-9,Mei Badass vs Shaq Mysterious,261,Mei Badass dodged Shaq Mysterious's Attack!,Mei Badass,55,True,False,Shaq Mysterious,56,False,True
-9,Mei Badass vs Shaq Mysterious,261,Mei Badass Attacks Shaq Mysterious!,Mei Badass,55,False,True,Shaq Mysterious,53,False,False
-9,Mei Badass vs Shaq Mysterious,248,Mei Badass Attacks Shaq Mysterious!,Mei Badass,55,False,True,Shaq Mysterious,43,False,False
-9,Mei Badass vs Shaq Mysterious,248,Shaq Mysterious Attacks Mei Badass!,Mei Badass,51,False,False,Shaq Mysterious,43,False,True
-9,Mei Badass vs Shaq Mysterious,235,Mei Badass Attacks Shaq Mysterious!,Mei Badass,51,False,True,Shaq Mysterious,41,False,False
-9,Mei Badass vs Shaq Mysterious,235,Shaq Mysterious Attacks Mei Badass!,Mei Badass,43,False,False,Shaq Mysterious,41,False,True
-9,Mei Badass vs Shaq Mysterious,222,Mei Badass Attacks Shaq Mysterious!,Mei Badass,43,False,True,Shaq Mysterious,36,False,False
-9,Mei Badass vs Shaq Mysterious,222,Shaq Mysterious Attacks Mei Badass!,Mei Badass,41,False,False,Shaq Mysterious,36,False,True
-9,Mei Badass vs Shaq Mysterious,209,Shaq Mysterious dodged Mei Badass's Attack!,Mei Badass,41,False,True,Shaq Mysterious,36,True,False
-9,Mei Badass vs Shaq Mysterious,209,Mei Badass dodged Shaq Mysterious's Attack!,Mei Badass,41,True,False,Shaq Mysterious,36,False,True
-9,Mei Badass vs Shaq Mysterious,196,Shaq Mysterious dodged Mei Badass's Attack!,Mei Badass,41,False,True,Shaq Mysterious,36,True,False
-9,Mei Badass vs Shaq Mysterious,196,Shaq Mysterious Attacks Mei Badass!,Mei Badass,35,False,False,Shaq Mysterious,36,False,True
-9,Mei Badass vs Shaq Mysterious,183,Shaq Mysterious dodged Mei Badass's Attack!,Mei Badass,35,False,True,Shaq Mysterious,36,True,False
-9,Mei Badass vs Shaq Mysterious,183,Shaq Mysterious Attacks Mei Badass!,Mei Badass,28,False,False,Shaq Mysterious,36,False,True
-9,Mei Badass vs Shaq Mysterious,170,Mei Badass dodged Shaq Mysterious's Attack!,Mei Badass,28,True,False,Shaq Mysterious,36,False,True
-9,Mei Badass vs Shaq Mysterious,170,Mei Badass Attacks Shaq Mysterious!,Mei Badass,28,False,True,Shaq Mysterious,30,False,False
-9,Mei Badass vs Shaq Mysterious,157,Mei Badass Attacks Shaq Mysterious!,Mei Badass,28,False,True,Shaq Mysterious,27,False,False
-9,Mei Badass vs Shaq Mysterious,157,Shaq Mysterious Attacks Mei Badass!,Mei Badass,26,False,False,Shaq Mysterious,27,False,True
-9,Mei Badass vs Shaq Mysterious,144,Shaq Mysterious dodged Mei Badass's Attack!,Mei Badass,26,False,True,Shaq Mysterious,27,True,False
-9,Mei Badass vs Shaq Mysterious,144,Shaq Mysterious Attacks Mei Badass!,Mei Badass,20,False,False,Shaq Mysterious,27,False,True
-9,Mei Badass vs Shaq Mysterious,131,Mei Badass dodged Shaq Mysterious's Attack!,Mei Badass,20,True,False,Shaq Mysterious,27,False,True
-9,Mei Badass vs Shaq Mysterious,131,Mei Badass Attacks Shaq Mysterious!,Mei Badass,20,False,True,Shaq Mysterious,22,False,False
-9,Mei Badass vs Shaq Mysterious,118,Mei Badass dodged Shaq Mysterious's Attack!,Mei Badass,20,True,False,Shaq Mysterious,22,False,True
-9,Mei Badass vs Shaq Mysterious,118,Mei Badass Attacks Shaq Mysterious!,Mei Badass,20,False,True,Shaq Mysterious,10,False,False
-9,Mei Badass vs Shaq Mysterious,105,Mei Badass Attacks Shaq Mysterious!,Mei Badass,20,False,True,Shaq Mysterious,1,False,False
-9,Mei Badass vs Shaq Mysterious,105,Shaq Mysterious Attacks Mei Badass!,Mei Badass,15,False,False,Shaq Mysterious,1,False,True
-9,Mei Badass vs Shaq Mysterious,92,Mei Badass Attacks Shaq Mysterious!,Mei Badass,15,False,True,Shaq Mysterious,0,False,False
-9,Mei Badass vs Shaq Mysterious,92,Shaq Mysterious has been Defeated!,Mei Badass,15,False,False,Shaq Mysterious,0,False,False
-9,Mei Badass vs Shaq Mysterious,92,Mei Badass wins the fight!,Mei Badass,15,False,False,Shaq Mysterious,0,False,False
-10,The Johnson vs Mei Badass,300,Fight starts!,The Johnson,80,False,False,Mei Badass,22,False,False
-10,The Johnson vs Mei Badass,287,Mei Badass Attacks The Johnson!,The Johnson,77,False,False,Mei Badass,22,False,True
-10,The Johnson vs Mei Badass,285,Mei Badass dodged The Johnson's Attack!,The Johnson,77,False,True,Mei Badass,22,True,False
-10,The Johnson vs Mei Badass,274,Mei Badass Attacks The Johnson!,The Johnson,67,False,False,Mei Badass,22,False,True
-10,The Johnson vs Mei Badass,270,Mei Badass dodged The Johnson's Attack!,The Johnson,67,False,True,Mei Badass,22,True,False
-10,The Johnson vs Mei Badass,261,Mei Badass Attacks The Johnson!,The Johnson,56,False,False,Mei Badass,22,False,True
-10,The Johnson vs Mei Badass,255,Mei Badass dodged The Johnson's Attack!,The Johnson,56,False,True,Mei Badass,22,True,False
-10,The Johnson vs Mei Badass,248,Mei Badass Attacks The Johnson!,The Johnson,51,False,False,Mei Badass,22,False,True
-10,The Johnson vs Mei Badass,240,Mei Badass dodged The Johnson's Attack!,The Johnson,51,False,True,Mei Badass,22,True,False
-10,The Johnson vs Mei Badass,235,Mei Badass Attacks The Johnson!,The Johnson,50,False,False,Mei Badass,22,False,True
-10,The Johnson vs Mei Badass,225,The Johnson Attacks Mei Badass!,The Johnson,50,False,True,Mei Badass,7,False,False
-10,The Johnson vs Mei Badass,222,Mei Badass Attacks The Johnson!,The Johnson,39,False,False,Mei Badass,7,False,True
-10,The Johnson vs Mei Badass,210,The Johnson Attacks Mei Badass!,The Johnson,39,False,True,Mei Badass,0,False,False
-10,The Johnson vs Mei Badass,210,Mei Badass has been Defeated!,The Johnson,39,False,False,Mei Badass,0,False,False
-10,The Johnson vs Mei Badass,210,The Johnson wins the fight!,The Johnson,39,False,False,Mei Badass,0,False,False
-11,Xavier Chosen One vs Cloud Johnson,300,Fight starts!,Xavier Chosen One,58,False,False,Cloud Johnson,58,False,False
-11,Xavier Chosen One vs Cloud Johnson,287,Cloud Johnson dodged Xavier Chosen One's Attack!,Xavier Chosen One,58,False,True,Cloud Johnson,58,True,False
-11,Xavier Chosen One vs Cloud Johnson,287,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,54,False,False,Cloud Johnson,58,False,True
-11,Xavier Chosen One vs Cloud Johnson,274,Xavier Chosen One dodged Cloud Johnson's Attack!,Xavier Chosen One,54,True,False,Cloud Johnson,58,False,True
-11,Xavier Chosen One vs Cloud Johnson,274,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,54,False,True,Cloud Johnson,55,False,False
-11,Xavier Chosen One vs Cloud Johnson,261,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,54,False,True,Cloud Johnson,50,False,False
-11,Xavier Chosen One vs Cloud Johnson,261,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,47,False,False,Cloud Johnson,50,False,True
-11,Xavier Chosen One vs Cloud Johnson,248,Cloud Johnson dodged Xavier Chosen One's Attack!,Xavier Chosen One,47,False,True,Cloud Johnson,50,True,False
-11,Xavier Chosen One vs Cloud Johnson,248,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,43,False,False,Cloud Johnson,50,False,True
-11,Xavier Chosen One vs Cloud Johnson,235,Cloud Johnson dodged Xavier Chosen One's Attack!,Xavier Chosen One,43,False,True,Cloud Johnson,50,True,False
-11,Xavier Chosen One vs Cloud Johnson,235,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,35,False,False,Cloud Johnson,50,False,True
-11,Xavier Chosen One vs Cloud Johnson,222,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,35,False,True,Cloud Johnson,47,False,False
-11,Xavier Chosen One vs Cloud Johnson,222,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,33,False,False,Cloud Johnson,47,False,True
-11,Xavier Chosen One vs Cloud Johnson,209,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,26,False,False,Cloud Johnson,47,False,True
-11,Xavier Chosen One vs Cloud Johnson,209,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,26,False,True,Cloud Johnson,38,False,False
-11,Xavier Chosen One vs Cloud Johnson,196,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,20,False,False,Cloud Johnson,38,False,True
-11,Xavier Chosen One vs Cloud Johnson,196,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,20,False,True,Cloud Johnson,35,False,False
-11,Xavier Chosen One vs Cloud Johnson,183,Xavier Chosen One dodged Cloud Johnson's Attack!,Xavier Chosen One,20,True,False,Cloud Johnson,35,False,True
-11,Xavier Chosen One vs Cloud Johnson,183,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,20,False,True,Cloud Johnson,33,False,False
-11,Xavier Chosen One vs Cloud Johnson,170,Cloud Johnson dodged Xavier Chosen One's Attack!,Xavier Chosen One,20,False,True,Cloud Johnson,33,True,False
-11,Xavier Chosen One vs Cloud Johnson,170,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,14,False,False,Cloud Johnson,33,False,True
-11,Xavier Chosen One vs Cloud Johnson,157,Cloud Johnson dodged Xavier Chosen One's Attack!,Xavier Chosen One,14,False,True,Cloud Johnson,33,True,False
-11,Xavier Chosen One vs Cloud Johnson,157,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,12,False,False,Cloud Johnson,33,False,True
-11,Xavier Chosen One vs Cloud Johnson,144,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,12,False,True,Cloud Johnson,25,False,False
-11,Xavier Chosen One vs Cloud Johnson,144,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,7,False,False,Cloud Johnson,25,False,True
-11,Xavier Chosen One vs Cloud Johnson,131,Xavier Chosen One Attacks Cloud Johnson!,Xavier Chosen One,7,False,True,Cloud Johnson,19,False,False
-11,Xavier Chosen One vs Cloud Johnson,131,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,4,False,False,Cloud Johnson,19,False,True
-11,Xavier Chosen One vs Cloud Johnson,118,Cloud Johnson dodged Xavier Chosen One's Attack!,Xavier Chosen One,4,False,True,Cloud Johnson,19,True,False
-11,Xavier Chosen One vs Cloud Johnson,118,Cloud Johnson Attacks Xavier Chosen One!,Xavier Chosen One,0,False,False,Cloud Johnson,19,False,True
-11,Xavier Chosen One vs Cloud Johnson,118,Xavier Chosen One has been Defeated!,Xavier Chosen One,0,False,False,Cloud Johnson,19,False,False
-11,Xavier Chosen One vs Cloud Johnson,118,Cloud Johnson wins the fight!,Xavier Chosen One,0,False,False,Cloud Johnson,19,False,False
-12,Shaq Balrog vs Vibey Wednesday,300,Fight starts!,Shaq Balrog,58,False,False,Vibey Wednesday,30,False,False
-12,Shaq Balrog vs Vibey Wednesday,292,Vibey Wednesday dodged Shaq Balrog's Attack!,Shaq Balrog,58,False,True,Vibey Wednesday,30,True,False
-12,Shaq Balrog vs Vibey Wednesday,284,Shaq Balrog Attacks Vibey Wednesday!,Shaq Balrog,58,False,True,Vibey Wednesday,25,False,False
-12,Shaq Balrog vs Vibey Wednesday,280,Vibey Wednesday Attacks Shaq Balrog!,Shaq Balrog,49,False,False,Vibey Wednesday,25,False,True
-12,Shaq Balrog vs Vibey Wednesday,276,Shaq Balrog Attacks Vibey Wednesday!,Shaq Balrog,49,False,True,Vibey Wednesday,16,False,False
-12,Shaq Balrog vs Vibey Wednesday,268,Vibey Wednesday dodged Shaq Balrog's Attack!,Shaq Balrog,49,False,True,Vibey Wednesday,16,True,False
-12,Shaq Balrog vs Vibey Wednesday,260,Vibey Wednesday dodged Shaq Balrog's Attack!,Shaq Balrog,49,False,True,Vibey Wednesday,16,True,False
-12,Shaq Balrog vs Vibey Wednesday,260,Vibey Wednesday Attacks Shaq Balrog!,Shaq Balrog,41,False,False,Vibey Wednesday,16,False,True
-12,Shaq Balrog vs Vibey Wednesday,252,Shaq Balrog Attacks Vibey Wednesday!,Shaq Balrog,41,False,True,Vibey Wednesday,10,False,False
-12,Shaq Balrog vs Vibey Wednesday,244,Shaq Balrog Attacks Vibey Wednesday!,Shaq Balrog,41,False,True,Vibey Wednesday,8,False,False
-12,Shaq Balrog vs Vibey Wednesday,240,Vibey Wednesday Attacks Shaq Balrog!,Shaq Balrog,37,False,False,Vibey Wednesday,8,False,True
-12,Shaq Balrog vs Vibey Wednesday,236,Shaq Balrog Attacks Vibey Wednesday!,Shaq Balrog,37,False,True,Vibey Wednesday,0,False,False
-12,Shaq Balrog vs Vibey Wednesday,236,Vibey Wednesday has been Defeated!,Shaq Balrog,37,False,False,Vibey Wednesday,0,False,False
-12,Shaq Balrog vs Vibey Wednesday,236,Shaq Balrog wins the fight!,Shaq Balrog,37,False,False,Vibey Wednesday,0,False,False
-13,Cloud Johnson vs Shaq Balrog,300,Fight starts!,Cloud Johnson,28,False,False,Shaq Balrog,56,False,False
-13,Cloud Johnson vs Shaq Balrog,292,Cloud Johnson dodged Shaq Balrog's Attack!,Cloud Johnson,28,True,False,Shaq Balrog,56,False,True
-13,Cloud Johnson vs Shaq Balrog,287,Shaq Balrog dodged Cloud Johnson's Attack!,Cloud Johnson,28,False,True,Shaq Balrog,56,True,False
-13,Cloud Johnson vs Shaq Balrog,284,Cloud Johnson dodged Shaq Balrog's Attack!,Cloud Johnson,28,True,False,Shaq Balrog,56,False,True
-13,Cloud Johnson vs Shaq Balrog,276,Cloud Johnson dodged Shaq Balrog's Attack!,Cloud Johnson,28,True,False,Shaq Balrog,56,False,True
-13,Cloud Johnson vs Shaq Balrog,274,Cloud Johnson Attacks Shaq Balrog!,Cloud Johnson,28,False,True,Shaq Balrog,55,False,False
-13,Cloud Johnson vs Shaq Balrog,268,Shaq Balrog Attacks Cloud Johnson!,Cloud Johnson,20,False,False,Shaq Balrog,55,False,True
-13,Cloud Johnson vs Shaq Balrog,261,Shaq Balrog dodged Cloud Johnson's Attack!,Cloud Johnson,20,False,True,Shaq Balrog,55,True,False
-13,Cloud Johnson vs Shaq Balrog,260,Shaq Balrog Attacks Cloud Johnson!,Cloud Johnson,12,False,False,Shaq Balrog,55,False,True
-13,Cloud Johnson vs Shaq Balrog,252,Cloud Johnson dodged Shaq Balrog's Attack!,Cloud Johnson,12,True,False,Shaq Balrog,55,False,True
-13,Cloud Johnson vs Shaq Balrog,248,Cloud Johnson Attacks Shaq Balrog!,Cloud Johnson,12,False,True,Shaq Balrog,51,False,False
-13,Cloud Johnson vs Shaq Balrog,244,Shaq Balrog Attacks Cloud Johnson!,Cloud Johnson,5,False,False,Shaq Balrog,51,False,True
-13,Cloud Johnson vs Shaq Balrog,236,Shaq Balrog Attacks Cloud Johnson!,Cloud Johnson,4,False,False,Shaq Balrog,51,False,True
-13,Cloud Johnson vs Shaq Balrog,235,Shaq Balrog dodged Cloud Johnson's Attack!,Cloud Johnson,4,False,True,Shaq Balrog,51,True,False
-13,Cloud Johnson vs Shaq Balrog,228,Shaq Balrog Attacks Cloud Johnson!,Cloud Johnson,0,False,False,Shaq Balrog,51,False,True
-13,Cloud Johnson vs Shaq Balrog,228,Cloud Johnson has been Defeated!,Cloud Johnson,0,False,False,Shaq Balrog,51,False,False
-13,Cloud Johnson vs Shaq Balrog,228,Shaq Balrog wins the fight!,Cloud Johnson,0,False,False,Shaq Balrog,51,False,False
-14,The Johnson vs Shaq Balrog,300,Fight starts!,The Johnson,58,False,False,Shaq Balrog,58,False,False
-14,The Johnson vs Shaq Balrog,292,Shaq Balrog Attacks The Johnson!,The Johnson,52,False,False,Shaq Balrog,58,False,True
-14,The Johnson vs Shaq Balrog,285,The Johnson Attacks Shaq Balrog!,The Johnson,52,False,True,Shaq Balrog,56,False,False
-14,The Johnson vs Shaq Balrog,284,Shaq Balrog Attacks The Johnson!,The Johnson,46,False,False,Shaq Balrog,56,False,True
-14,The Johnson vs Shaq Balrog,276,The Johnson dodged Shaq Balrog's Attack!,The Johnson,46,True,False,Shaq Balrog,56,False,True
-14,The Johnson vs Shaq Balrog,270,Shaq Balrog dodged The Johnson's Attack!,The Johnson,46,False,True,Shaq Balrog,56,True,False
-14,The Johnson vs Shaq Balrog,268,Shaq Balrog Attacks The Johnson!,The Johnson,41,False,False,Shaq Balrog,56,False,True
-14,The Johnson vs Shaq Balrog,260,The Johnson dodged Shaq Balrog's Attack!,The Johnson,41,True,False,Shaq Balrog,56,False,True
-14,The Johnson vs Shaq Balrog,255,The Johnson Attacks Shaq Balrog!,The Johnson,41,False,True,Shaq Balrog,53,False,False
-14,The Johnson vs Shaq Balrog,252,Shaq Balrog Attacks The Johnson!,The Johnson,38,False,False,Shaq Balrog,53,False,True
-14,The Johnson vs Shaq Balrog,244,Shaq Balrog Attacks The Johnson!,The Johnson,36,False,False,Shaq Balrog,53,False,True
-14,The Johnson vs Shaq Balrog,240,Shaq Balrog dodged The Johnson's Attack!,The Johnson,36,False,True,Shaq Balrog,53,True,False
-14,The Johnson vs Shaq Balrog,236,Shaq Balrog Attacks The Johnson!,The Johnson,28,False,False,Shaq Balrog,53,False,True
-14,The Johnson vs Shaq Balrog,228,The Johnson dodged Shaq Balrog's Attack!,The Johnson,28,True,False,Shaq Balrog,53,False,True
-14,The Johnson vs Shaq Balrog,225,The Johnson Attacks Shaq Balrog!,The Johnson,28,False,True,Shaq Balrog,50,False,False
-14,The Johnson vs Shaq Balrog,220,Shaq Balrog Attacks The Johnson!,The Johnson,26,False,False,Shaq Balrog,50,False,True
-14,The Johnson vs Shaq Balrog,212,Shaq Balrog Attacks The Johnson!,The Johnson,18,False,False,Shaq Balrog,50,False,True
-14,The Johnson vs Shaq Balrog,210,Shaq Balrog dodged The Johnson's Attack!,The Johnson,18,False,True,Shaq Balrog,50,True,False
-14,The Johnson vs Shaq Balrog,204,Shaq Balrog Attacks The Johnson!,The Johnson,11,False,False,Shaq Balrog,50,False,True
-14,The Johnson vs Shaq Balrog,196,Shaq Balrog Attacks The Johnson!,The Johnson,4,False,False,Shaq Balrog,50,False,True
-14,The Johnson vs Shaq Balrog,195,Shaq Balrog dodged The Johnson's Attack!,The Johnson,4,False,True,Shaq Balrog,50,True,False
-14,The Johnson vs Shaq Balrog,188,Shaq Balrog Attacks The Johnson!,The Johnson,0,False,False,Shaq Balrog,50,False,True
-14,The Johnson vs Shaq Balrog,188,The Johnson has been Defeated!,The Johnson,0,False,False,Shaq Balrog,50,False,False
-14,The Johnson vs Shaq Balrog,188,Shaq Balrog wins the fight!,The Johnson,0,False,False,Shaq Balrog,50,False,False
-15,Mai Moon vs Shaq Balrog,300,Fight starts!,Mai Moon,64,False,False,Shaq Balrog,58,False,False
-15,Mai Moon vs Shaq Balrog,295,Mai Moon Attacks Shaq Balrog!,Mai Moon,64,False,True,Shaq Balrog,56,False,False
-15,Mai Moon vs Shaq Balrog,292,Mai Moon dodged Shaq Balrog's Attack!,Mai Moon,64,True,False,Shaq Balrog,56,False,True
-15,Mai Moon vs Shaq Balrog,290,Mai Moon Attacks Shaq Balrog!,Mai Moon,64,False,True,Shaq Balrog,52,False,False
-15,Mai Moon vs Shaq Balrog,285,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,64,False,True,Shaq Balrog,52,True,False
-15,Mai Moon vs Shaq Balrog,284,Shaq Balrog Attacks Mai Moon!,Mai Moon,57,False,False,Shaq Balrog,52,False,True
-15,Mai Moon vs Shaq Balrog,280,Mai Moon Attacks Shaq Balrog!,Mai Moon,57,False,True,Shaq Balrog,47,False,False
-15,Mai Moon vs Shaq Balrog,276,Mai Moon dodged Shaq Balrog's Attack!,Mai Moon,57,True,False,Shaq Balrog,47,False,True
-15,Mai Moon vs Shaq Balrog,275,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,57,False,True,Shaq Balrog,47,True,False
-15,Mai Moon vs Shaq Balrog,270,Mai Moon Attacks Shaq Balrog!,Mai Moon,57,False,True,Shaq Balrog,42,False,False
-15,Mai Moon vs Shaq Balrog,268,Mai Moon dodged Shaq Balrog's Attack!,Mai Moon,57,True,False,Shaq Balrog,42,False,True
-15,Mai Moon vs Shaq Balrog,265,Mai Moon Attacks Shaq Balrog!,Mai Moon,57,False,True,Shaq Balrog,39,False,False
-15,Mai Moon vs Shaq Balrog,260,Mai Moon dodged Shaq Balrog's Attack!,Mai Moon,57,True,False,Shaq Balrog,39,False,True
-15,Mai Moon vs Shaq Balrog,260,Mai Moon Attacks Shaq Balrog!,Mai Moon,57,False,True,Shaq Balrog,36,False,False
-15,Mai Moon vs Shaq Balrog,255,Mai Moon Attacks Shaq Balrog!,Mai Moon,57,False,True,Shaq Balrog,34,False,False
-15,Mai Moon vs Shaq Balrog,252,Shaq Balrog Attacks Mai Moon!,Mai Moon,51,False,False,Shaq Balrog,34,False,True
-15,Mai Moon vs Shaq Balrog,250,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,51,False,True,Shaq Balrog,34,True,False
-15,Mai Moon vs Shaq Balrog,245,Mai Moon Attacks Shaq Balrog!,Mai Moon,51,False,True,Shaq Balrog,31,False,False
-15,Mai Moon vs Shaq Balrog,244,Mai Moon dodged Shaq Balrog's Attack!,Mai Moon,51,True,False,Shaq Balrog,31,False,True
-15,Mai Moon vs Shaq Balrog,240,Mai Moon Attacks Shaq Balrog!,Mai Moon,51,False,True,Shaq Balrog,28,False,False
-15,Mai Moon vs Shaq Balrog,236,Shaq Balrog Attacks Mai Moon!,Mai Moon,49,False,False,Shaq Balrog,28,False,True
-15,Mai Moon vs Shaq Balrog,235,Mai Moon Attacks Shaq Balrog!,Mai Moon,49,False,True,Shaq Balrog,25,False,False
-15,Mai Moon vs Shaq Balrog,230,Mai Moon Attacks Shaq Balrog!,Mai Moon,49,False,True,Shaq Balrog,23,False,False
-15,Mai Moon vs Shaq Balrog,228,Shaq Balrog Attacks Mai Moon!,Mai Moon,43,False,False,Shaq Balrog,23,False,True
-15,Mai Moon vs Shaq Balrog,225,Mai Moon Attacks Shaq Balrog!,Mai Moon,43,False,True,Shaq Balrog,20,False,False
-15,Mai Moon vs Shaq Balrog,220,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,43,False,True,Shaq Balrog,20,True,False
-15,Mai Moon vs Shaq Balrog,220,Shaq Balrog Attacks Mai Moon!,Mai Moon,38,False,False,Shaq Balrog,20,False,True
-15,Mai Moon vs Shaq Balrog,215,Mai Moon Attacks Shaq Balrog!,Mai Moon,38,False,True,Shaq Balrog,15,False,False
-15,Mai Moon vs Shaq Balrog,212,Mai Moon dodged Shaq Balrog's Attack!,Mai Moon,38,True,False,Shaq Balrog,15,False,True
-15,Mai Moon vs Shaq Balrog,210,Mai Moon Attacks Shaq Balrog!,Mai Moon,38,False,True,Shaq Balrog,11,False,False
-15,Mai Moon vs Shaq Balrog,205,Mai Moon Attacks Shaq Balrog!,Mai Moon,38,False,True,Shaq Balrog,7,False,False
-15,Mai Moon vs Shaq Balrog,204,Shaq Balrog Attacks Mai Moon!,Mai Moon,31,False,False,Shaq Balrog,7,False,True
-15,Mai Moon vs Shaq Balrog,200,Mai Moon Attacks Shaq Balrog!,Mai Moon,31,False,True,Shaq Balrog,5,False,False
-15,Mai Moon vs Shaq Balrog,196,Shaq Balrog Attacks Mai Moon!,Mai Moon,30,False,False,Shaq Balrog,5,False,True
-15,Mai Moon vs Shaq Balrog,195,Mai Moon Attacks Shaq Balrog!,Mai Moon,30,False,True,Shaq Balrog,1,False,False
-15,Mai Moon vs Shaq Balrog,190,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,30,False,True,Shaq Balrog,1,True,False
-15,Mai Moon vs Shaq Balrog,188,Shaq Balrog Attacks Mai Moon!,Mai Moon,25,False,False,Shaq Balrog,1,False,True
-15,Mai Moon vs Shaq Balrog,185,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,25,False,True,Shaq Balrog,1,True,False
-15,Mai Moon vs Shaq Balrog,180,Shaq Balrog dodged Mai Moon's Attack!,Mai Moon,25,False,True,Shaq Balrog,1,True,False
-15,Mai Moon vs Shaq Balrog,180,Shaq Balrog Attacks Mai Moon!,Mai Moon,19,False,False,Shaq Balrog,1,False,True
-15,Mai Moon vs Shaq Balrog,175,Mai Moon Attacks Shaq Balrog!,Mai Moon,19,False,True,Shaq Balrog,0,False,False
-15,Mai Moon vs Shaq Balrog,175,Shaq Balrog has been Defeated!,Mai Moon,19,False,False,Shaq Balrog,0,False,False
-15,Mai Moon vs Shaq Balrog,175,Mai Moon wins the fight!,Mai Moon,19,False,False,Shaq Balrog,0,False,False
+1,Cortana Bitto vs Sung Mina Keely,120,Fight starts!,Cortana Bitto,64,False,False,Sung Mina Keely,58,False,False
+1,Cortana Bitto vs Sung Mina Keely,110,Cortana Bitto Attacks Sung Mina Keely!,Cortana Bitto,64,False,True,Sung Mina Keely,53,False,False
+1,Cortana Bitto vs Sung Mina Keely,107,Sung Mina Keely Attacks Cortana Bitto!,Cortana Bitto,59,False,False,Sung Mina Keely,53,False,True
+1,Cortana Bitto vs Sung Mina Keely,100,Sung Mina Keely dodged Cortana Bitto's Attack!,Cortana Bitto,59,False,True,Sung Mina Keely,53,True,False
+1,Cortana Bitto vs Sung Mina Keely,94,Sung Mina Keely Attacks Cortana Bitto!,Cortana Bitto,56,False,False,Sung Mina Keely,53,False,True
+1,Cortana Bitto vs Sung Mina Keely,90,Sung Mina Keely dodged Cortana Bitto's Attack!,Cortana Bitto,56,False,True,Sung Mina Keely,53,True,False
+1,Cortana Bitto vs Sung Mina Keely,81,Sung Mina Keely Attacks Cortana Bitto!,Cortana Bitto,50,False,False,Sung Mina Keely,53,False,True
+1,Cortana Bitto vs Sung Mina Keely,80,Sung Mina Keely dodged Cortana Bitto's Attack!,Cortana Bitto,50,False,True,Sung Mina Keely,53,True,False
+1,Cortana Bitto vs Sung Mina Keely,70,Cortana Bitto Attacks Sung Mina Keely!,Cortana Bitto,50,False,True,Sung Mina Keely,43,False,False
+1,Cortana Bitto vs Sung Mina Keely,68,Sung Mina Keely Attacks Cortana Bitto!,Cortana Bitto,46,False,False,Sung Mina Keely,43,False,True
+1,Cortana Bitto vs Sung Mina Keely,60,Cortana Bitto Attacks Sung Mina Keely!,Cortana Bitto,46,False,True,Sung Mina Keely,28,False,False
+1,Cortana Bitto vs Sung Mina Keely,55,Sung Mina Keely Attacks Cortana Bitto!,Cortana Bitto,40,False,False,Sung Mina Keely,28,False,True
+1,Cortana Bitto vs Sung Mina Keely,50,Cortana Bitto Attacks Sung Mina Keely!,Cortana Bitto,40,False,True,Sung Mina Keely,3,False,False
+1,Cortana Bitto vs Sung Mina Keely,42,Sung Mina Keely Attacks Cortana Bitto!,Cortana Bitto,38,False,False,Sung Mina Keely,3,False,True
+1,Cortana Bitto vs Sung Mina Keely,40,Cortana Bitto Attacks Sung Mina Keely!,Cortana Bitto,38,False,True,Sung Mina Keely,0,False,False
+1,Cortana Bitto vs Sung Mina Keely,40,Sung Mina Keely has been Defeated!,Cortana Bitto,38,False,False,Sung Mina Keely,0,False,False
+1,Cortana Bitto vs Sung Mina Keely,40,Cortana Bitto wins the fight!,Cortana Bitto,38,False,False,Sung Mina Keely,0,False,False
+2,Henry Hisaishi vs Bobobo Hall,120,Fight starts!,Henry Hisaishi,64,False,False,Bobobo Hall,96.0,False,False
+2,Henry Hisaishi vs Bobobo Hall,115,Bobobo Hall Attacks Henry Hisaishi!,Henry Hisaishi,0,False,False,Bobobo Hall,96.0,False,True
+2,Henry Hisaishi vs Bobobo Hall,115,Henry Hisaishi has been Defeated!,Henry Hisaishi,0,False,False,Bobobo Hall,96.0,False,False
+2,Henry Hisaishi vs Bobobo Hall,115,Bobobo Hall wins the fight!,Henry Hisaishi,0,False,False,Bobobo Hall,96.0,False,False
+3,Cortana Bitto vs Bobobo Hall,120,Fight starts!,Cortana Bitto,57,False,False,Bobobo Hall,64,False,False
+3,Cortana Bitto vs Bobobo Hall,115,Bobobo Hall Attacks Cortana Bitto!,Cortana Bitto,27,False,False,Bobobo Hall,64,False,True
+3,Cortana Bitto vs Bobobo Hall,110,Bobobo Hall Attacks Cortana Bitto!,Cortana Bitto,3,False,False,Bobobo Hall,64,False,True
+3,Cortana Bitto vs Bobobo Hall,110,Cortana Bitto Attacks Bobobo Hall!,Cortana Bitto,3,False,True,Bobobo Hall,63,False,False
+3,Cortana Bitto vs Bobobo Hall,105,Bobobo Hall Attacks Cortana Bitto!,Cortana Bitto,0,False,False,Bobobo Hall,63,False,True
+3,Cortana Bitto vs Bobobo Hall,105,Cortana Bitto has been Defeated!,Cortana Bitto,0,False,False,Bobobo Hall,63,False,False
+3,Cortana Bitto vs Bobobo Hall,105,Bobobo Hall wins the fight!,Cortana Bitto,0,False,False,Bobobo Hall,63,False,False
+4,The Balrog vs The Bobobobo,120,Fight starts!,The Balrog,52,False,False,The Bobobobo,80,False,False
+4,The Balrog vs The Bobobobo,110,The Balrog Attacks The Bobobobo!,The Balrog,52,False,True,The Bobobobo,69,False,False
+4,The Balrog vs The Bobobobo,105,The Balrog dodged The Bobobobo's Attack!,The Balrog,52,True,False,The Bobobobo,69,False,True
+4,The Balrog vs The Bobobobo,100,The Balrog Attacks The Bobobobo!,The Balrog,52,False,True,The Bobobobo,60,False,False
+4,The Balrog vs The Bobobobo,90,The Bobobobo dodged The Balrog's Attack!,The Balrog,52,False,True,The Bobobobo,60,True,False
+4,The Balrog vs The Bobobobo,90,The Bobobobo Attacks The Balrog!,The Balrog,36,False,False,The Bobobobo,60,False,True
+4,The Balrog vs The Bobobobo,80,The Balrog Attacks The Bobobobo!,The Balrog,36,False,True,The Bobobobo,51,False,False
+4,The Balrog vs The Bobobobo,75,The Balrog dodged The Bobobobo's Attack!,The Balrog,36,True,False,The Bobobobo,51,False,True
+4,The Balrog vs The Bobobobo,70,The Balrog Attacks The Bobobobo!,The Balrog,36,False,True,The Bobobobo,43,False,False
+4,The Balrog vs The Bobobobo,60,The Balrog dodged The Bobobobo's Attack!,The Balrog,36,True,False,The Bobobobo,43,False,True
+4,The Balrog vs The Bobobobo,60,The Balrog Attacks The Bobobobo!,The Balrog,36,False,True,The Bobobobo,33,False,False
+4,The Balrog vs The Bobobobo,50,The Balrog Attacks The Bobobobo!,The Balrog,36,False,True,The Bobobobo,27,False,False
+4,The Balrog vs The Bobobobo,45,The Bobobobo Attacks The Balrog!,The Balrog,12,False,False,The Bobobobo,27,False,True
+4,The Balrog vs The Bobobobo,40,The Balrog Attacks The Bobobobo!,The Balrog,12,False,True,The Bobobobo,23,False,False
+4,The Balrog vs The Bobobobo,30,The Balrog Attacks The Bobobobo!,The Balrog,12,False,True,The Bobobobo,21,False,False
+4,The Balrog vs The Bobobobo,30,The Bobobobo Attacks The Balrog!,The Balrog,0,False,False,The Bobobobo,21,False,True
+4,The Balrog vs The Bobobobo,30,The Balrog has been Defeated!,The Balrog,0,False,False,The Bobobobo,21,False,False
+4,The Balrog vs The Bobobobo,30,The Bobobobo wins the fight!,The Balrog,0,False,False,The Bobobobo,21,False,False
+5,Jack Keely vs Carey Bobobobo,120,Fight starts!,Jack Keely,64,False,False,Carey Bobobobo,64,False,False
+5,Jack Keely vs Carey Bobobobo,110,Jack Keely Attacks Carey Bobobobo!,Jack Keely,64,False,True,Carey Bobobobo,0,False,False
+5,Jack Keely vs Carey Bobobobo,110,Carey Bobobobo has been Defeated!,Jack Keely,64,False,False,Carey Bobobobo,0,False,False
+5,Jack Keely vs Carey Bobobobo,110,Jack Keely wins the fight!,Jack Keely,64,False,False,Carey Bobobobo,0,False,False
+6,The Bobobobo vs Jack Keely,120,Fight starts!,The Bobobobo,32,False,False,Jack Keely,64,False,False
+6,The Bobobobo vs Jack Keely,110,Jack Keely Attacks The Bobobobo!,The Bobobobo,26,False,False,Jack Keely,64,False,True
+6,The Bobobobo vs Jack Keely,105,The Bobobobo Attacks Jack Keely!,The Bobobobo,26,False,True,Jack Keely,58,False,False
+6,The Bobobobo vs Jack Keely,100,Jack Keely Attacks The Bobobobo!,The Bobobobo,24,False,False,Jack Keely,58,False,True
+6,The Bobobobo vs Jack Keely,90,The Bobobobo dodged Jack Keely's Attack!,The Bobobobo,24,True,False,Jack Keely,58,False,True
+6,The Bobobobo vs Jack Keely,90,The Bobobobo Attacks Jack Keely!,The Bobobobo,24,False,True,Jack Keely,46,False,False
+6,The Bobobobo vs Jack Keely,80,Jack Keely Attacks The Bobobobo!,The Bobobobo,13,False,False,Jack Keely,46,False,True
+6,The Bobobobo vs Jack Keely,75,The Bobobobo Attacks Jack Keely!,The Bobobobo,13,False,True,Jack Keely,34,False,False
+6,The Bobobobo vs Jack Keely,70,Jack Keely Attacks The Bobobobo!,The Bobobobo,9,False,False,Jack Keely,34,False,True
+6,The Bobobobo vs Jack Keely,60,Jack Keely Attacks The Bobobobo!,The Bobobobo,7,False,False,Jack Keely,34,False,True
+6,The Bobobobo vs Jack Keely,60,The Bobobobo Attacks Jack Keely!,The Bobobobo,7,False,True,Jack Keely,16,False,False
+6,The Bobobobo vs Jack Keely,50,Jack Keely Attacks The Bobobobo!,The Bobobobo,0,False,False,Jack Keely,16,False,True
+6,The Bobobobo vs Jack Keely,50,The Bobobobo has been Defeated!,The Bobobobo,0,False,False,Jack Keely,16,False,False
+6,The Bobobobo vs Jack Keely,50,Jack Keely wins the fight!,The Bobobobo,0,False,False,Jack Keely,16,False,False
+7,Bobobo Hall vs Jack Keely,120,Fight starts!,Bobobo Hall,64,False,False,Jack Keely,24,False,False
+7,Bobobo Hall vs Jack Keely,115,Bobobo Hall Attacks Jack Keely!,Bobobo Hall,64,False,True,Jack Keely,0,False,False
+7,Bobobo Hall vs Jack Keely,115,Jack Keely has been Defeated!,Bobobo Hall,64,False,False,Jack Keely,0,False,False
+7,Bobobo Hall vs Jack Keely,115,Bobobo Hall wins the fight!,Bobobo Hall,64,False,False,Jack Keely,0,False,False
+8,The Mysterious vs Davey Lee,120,Fight starts!,The Mysterious,64,False,False,Davey Lee,58,False,False
+8,The Mysterious vs Davey Lee,110,The Mysterious Attacks Davey Lee!,The Mysterious,64,False,True,Davey Lee,28,False,False
+8,The Mysterious vs Davey Lee,107,Davey Lee Attacks The Mysterious!,The Mysterious,62,False,False,Davey Lee,28,False,True
+8,The Mysterious vs Davey Lee,100,The Mysterious Attacks Davey Lee!,The Mysterious,62,False,True,Davey Lee,3,False,False
+8,The Mysterious vs Davey Lee,94,Davey Lee Attacks The Mysterious!,The Mysterious,59,False,False,Davey Lee,3,False,True
+8,The Mysterious vs Davey Lee,90,Davey Lee dodged The Mysterious's Attack!,The Mysterious,59,False,True,Davey Lee,3,True,False
+8,The Mysterious vs Davey Lee,81,Davey Lee Attacks The Mysterious!,The Mysterious,56,False,False,Davey Lee,3,False,True
+8,The Mysterious vs Davey Lee,80,Davey Lee dodged The Mysterious's Attack!,The Mysterious,56,False,True,Davey Lee,3,True,False
+8,The Mysterious vs Davey Lee,70,The Mysterious Attacks Davey Lee!,The Mysterious,56,False,True,Davey Lee,0,False,False
+8,The Mysterious vs Davey Lee,70,Davey Lee has been Defeated!,The Mysterious,56,False,False,Davey Lee,0,False,False
+8,The Mysterious vs Davey Lee,70,The Mysterious wins the fight!,The Mysterious,56,False,False,Davey Lee,0,False,False
+9,Davey Moon vs Mindy Balrog,120,Fight starts!,Davey Moon,80,False,False,Mindy Balrog,58,False,False
+9,Davey Moon vs Mindy Balrog,107,Mindy Balrog Attacks Davey Moon!,Davey Moon,74,False,False,Mindy Balrog,58,False,True
+9,Davey Moon vs Mindy Balrog,105,Davey Moon Attacks Mindy Balrog!,Davey Moon,74,False,True,Mindy Balrog,28,False,False
+9,Davey Moon vs Mindy Balrog,94,Davey Moon dodged Mindy Balrog's Attack!,Davey Moon,74,True,False,Mindy Balrog,28,False,True
+9,Davey Moon vs Mindy Balrog,90,Davey Moon Attacks Mindy Balrog!,Davey Moon,74,False,True,Mindy Balrog,23,False,False
+9,Davey Moon vs Mindy Balrog,81,Mindy Balrog Attacks Davey Moon!,Davey Moon,65,False,False,Mindy Balrog,23,False,True
+9,Davey Moon vs Mindy Balrog,75,Mindy Balrog dodged Davey Moon's Attack!,Davey Moon,65,False,True,Mindy Balrog,23,True,False
+9,Davey Moon vs Mindy Balrog,68,Mindy Balrog Attacks Davey Moon!,Davey Moon,59,False,False,Mindy Balrog,23,False,True
+9,Davey Moon vs Mindy Balrog,60,Davey Moon Attacks Mindy Balrog!,Davey Moon,59,False,True,Mindy Balrog,13,False,False
+9,Davey Moon vs Mindy Balrog,55,Davey Moon dodged Mindy Balrog's Attack!,Davey Moon,59,True,False,Mindy Balrog,13,False,True
+9,Davey Moon vs Mindy Balrog,45,Davey Moon Attacks Mindy Balrog!,Davey Moon,59,False,True,Mindy Balrog,0,False,False
+9,Davey Moon vs Mindy Balrog,45,Mindy Balrog has been Defeated!,Davey Moon,59,False,False,Mindy Balrog,0,False,False
+9,Davey Moon vs Mindy Balrog,45,Davey Moon wins the fight!,Davey Moon,59,False,False,Mindy Balrog,0,False,False
+10,The Mysterious vs Davey Moon,120,Fight starts!,The Mysterious,64,False,False,Davey Moon,80,False,False
+10,The Mysterious vs Davey Moon,110,The Mysterious Attacks Davey Moon!,The Mysterious,64,False,True,Davey Moon,78,False,False
+10,The Mysterious vs Davey Moon,105,Davey Moon Attacks The Mysterious!,The Mysterious,28,False,False,Davey Moon,78,False,True
+10,The Mysterious vs Davey Moon,100,The Mysterious Attacks Davey Moon!,The Mysterious,28,False,True,Davey Moon,74,False,False
+10,The Mysterious vs Davey Moon,90,Davey Moon Attacks The Mysterious!,The Mysterious,16,False,False,Davey Moon,74,False,True
+10,The Mysterious vs Davey Moon,90,The Mysterious Attacks Davey Moon!,The Mysterious,16,False,True,Davey Moon,71,False,False
+10,The Mysterious vs Davey Moon,80,The Mysterious Attacks Davey Moon!,The Mysterious,16,False,True,Davey Moon,67,False,False
+10,The Mysterious vs Davey Moon,75,Davey Moon Attacks The Mysterious!,The Mysterious,0,False,False,Davey Moon,67,False,True
+10,The Mysterious vs Davey Moon,75,The Mysterious has been Defeated!,The Mysterious,0,False,False,Davey Moon,67,False,False
+10,The Mysterious vs Davey Moon,75,Davey Moon wins the fight!,The Mysterious,0,False,False,Davey Moon,67,False,False
+11,The Bobobobo vs Jessica Mysterious,120,Fight starts!,The Bobobobo,84,False,False,Jessica Mysterious,80,False,False
+11,The Bobobobo vs Jessica Mysterious,106,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,84,False,True,Jessica Mysterious,76,False,False
+11,The Bobobobo vs Jessica Mysterious,105,Jessica Mysterious Attacks The Bobobobo!,The Bobobobo,82,False,False,Jessica Mysterious,76,False,True
+11,The Bobobobo vs Jessica Mysterious,92,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,82,False,True,Jessica Mysterious,73,False,False
+11,The Bobobobo vs Jessica Mysterious,90,The Bobobobo dodged Jessica Mysterious's Attack!,The Bobobobo,82,True,False,Jessica Mysterious,73,False,True
+11,The Bobobobo vs Jessica Mysterious,78,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,82,False,True,Jessica Mysterious,68,False,False
+11,The Bobobobo vs Jessica Mysterious,75,Jessica Mysterious Attacks The Bobobobo!,The Bobobobo,80,False,False,Jessica Mysterious,68,False,True
+11,The Bobobobo vs Jessica Mysterious,64,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,80,False,True,Jessica Mysterious,64,False,False
+11,The Bobobobo vs Jessica Mysterious,60,Jessica Mysterious Attacks The Bobobobo!,The Bobobobo,78,False,False,Jessica Mysterious,64,False,True
+11,The Bobobobo vs Jessica Mysterious,50,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,78,False,True,Jessica Mysterious,61,False,False
+11,The Bobobobo vs Jessica Mysterious,45,Jessica Mysterious Attacks The Bobobobo!,The Bobobobo,76,False,False,Jessica Mysterious,61,False,True
+11,The Bobobobo vs Jessica Mysterious,36,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,76,False,True,Jessica Mysterious,57,False,False
+11,The Bobobobo vs Jessica Mysterious,30,Jessica Mysterious Attacks The Bobobobo!,The Bobobobo,75,False,False,Jessica Mysterious,57,False,True
+11,The Bobobobo vs Jessica Mysterious,22,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,75,False,True,Jessica Mysterious,55,False,False
+11,The Bobobobo vs Jessica Mysterious,15,The Bobobobo dodged Jessica Mysterious's Attack!,The Bobobobo,75,True,False,Jessica Mysterious,55,False,True
+11,The Bobobobo vs Jessica Mysterious,8,The Bobobobo Attacks Jessica Mysterious!,The Bobobobo,75,False,True,Jessica Mysterious,50,False,False
+11,The Bobobobo vs Jessica Mysterious,0,Jessica Mysterious Attacks The Bobobobo!,The Bobobobo,74,False,False,Jessica Mysterious,50,False,True
+11,The Bobobobo vs Jessica Mysterious,0,The Bobobobo wins the fight!,The Bobobobo,74,False,False,Jessica Mysterious,50,False,False
+12,Carey Badass vs Vibey Wednesday,120,Fight starts!,Carey Badass,64,False,False,Vibey Wednesday,30,False,False
+12,Carey Badass vs Vibey Wednesday,110,Carey Badass Attacks Vibey Wednesday!,Carey Badass,64,False,True,Vibey Wednesday,15,False,False
+12,Carey Badass vs Vibey Wednesday,100,Vibey Wednesday dodged Carey Badass's Attack!,Carey Badass,64,False,True,Vibey Wednesday,15,True,False
+12,Carey Badass vs Vibey Wednesday,100,Vibey Wednesday Attacks Carey Badass!,Carey Badass,22,False,False,Vibey Wednesday,15,False,True
+12,Carey Badass vs Vibey Wednesday,90,Vibey Wednesday dodged Carey Badass's Attack!,Carey Badass,22,False,True,Vibey Wednesday,15,True,False
+12,Carey Badass vs Vibey Wednesday,80,Vibey Wednesday dodged Carey Badass's Attack!,Carey Badass,22,False,True,Vibey Wednesday,15,True,False
+12,Carey Badass vs Vibey Wednesday,80,Vibey Wednesday Attacks Carey Badass!,Carey Badass,0,False,False,Vibey Wednesday,15,False,True
+12,Carey Badass vs Vibey Wednesday,80,Carey Badass has been Defeated!,Carey Badass,0,False,False,Vibey Wednesday,15,False,False
+12,Carey Badass vs Vibey Wednesday,80,Vibey Wednesday wins the fight!,Carey Badass,0,False,False,Vibey Wednesday,15,False,False
+13,The Bobobobo vs Vibey Wednesday,120,Fight starts!,The Bobobobo,84,False,False,Vibey Wednesday,22,False,False
+13,The Bobobobo vs Vibey Wednesday,106,The Bobobobo Attacks Vibey Wednesday!,The Bobobobo,84,False,True,Vibey Wednesday,20,False,False
+13,The Bobobobo vs Vibey Wednesday,100,Vibey Wednesday Attacks The Bobobobo!,The Bobobobo,82,False,False,Vibey Wednesday,20,False,True
+13,The Bobobobo vs Vibey Wednesday,92,Vibey Wednesday dodged The Bobobobo's Attack!,The Bobobobo,82,False,True,Vibey Wednesday,20,True,False
+13,The Bobobobo vs Vibey Wednesday,80,Vibey Wednesday Attacks The Bobobobo!,The Bobobobo,76,False,False,Vibey Wednesday,20,False,True
+13,The Bobobobo vs Vibey Wednesday,78,Vibey Wednesday dodged The Bobobobo's Attack!,The Bobobobo,76,False,True,Vibey Wednesday,20,True,False
+13,The Bobobobo vs Vibey Wednesday,64,Vibey Wednesday dodged The Bobobobo's Attack!,The Bobobobo,76,False,True,Vibey Wednesday,20,True,False
+13,The Bobobobo vs Vibey Wednesday,60,Vibey Wednesday Attacks The Bobobobo!,The Bobobobo,68,False,False,Vibey Wednesday,20,False,True
+13,The Bobobobo vs Vibey Wednesday,50,The Bobobobo Attacks Vibey Wednesday!,The Bobobobo,68,False,True,Vibey Wednesday,18,False,False
+13,The Bobobobo vs Vibey Wednesday,40,The Bobobobo dodged Vibey Wednesday's Attack!,The Bobobobo,68,True,False,Vibey Wednesday,18,False,True
+13,The Bobobobo vs Vibey Wednesday,36,The Bobobobo Attacks Vibey Wednesday!,The Bobobobo,68,False,True,Vibey Wednesday,14,False,False
+13,The Bobobobo vs Vibey Wednesday,22,Vibey Wednesday dodged The Bobobobo's Attack!,The Bobobobo,68,False,True,Vibey Wednesday,14,True,False
+13,The Bobobobo vs Vibey Wednesday,20,The Bobobobo dodged Vibey Wednesday's Attack!,The Bobobobo,68,True,False,Vibey Wednesday,14,False,True
+13,The Bobobobo vs Vibey Wednesday,8,Vibey Wednesday dodged The Bobobobo's Attack!,The Bobobobo,68,False,True,Vibey Wednesday,14,True,False
+13,The Bobobobo vs Vibey Wednesday,0,Vibey Wednesday Attacks The Bobobobo!,The Bobobobo,65,False,False,Vibey Wednesday,14,False,True
+13,The Bobobobo vs Vibey Wednesday,0,The Bobobobo wins the fight!,The Bobobobo,65,False,False,Vibey Wednesday,14,False,False
+14,Davey Moon vs The Bobobobo,120,Fight starts!,Davey Moon,80,False,False,The Bobobobo,84,False,False
+14,Davey Moon vs The Bobobobo,106,The Bobobobo Attacks Davey Moon!,Davey Moon,78,False,False,The Bobobobo,84,False,True
+14,Davey Moon vs The Bobobobo,105,Davey Moon Attacks The Bobobobo!,Davey Moon,78,False,True,The Bobobobo,76,False,False
+14,Davey Moon vs The Bobobobo,92,Davey Moon dodged The Bobobobo's Attack!,Davey Moon,78,True,False,The Bobobobo,76,False,True
+14,Davey Moon vs The Bobobobo,90,Davey Moon Attacks The Bobobobo!,Davey Moon,78,False,True,The Bobobobo,71,False,False
+14,Davey Moon vs The Bobobobo,78,The Bobobobo Attacks Davey Moon!,Davey Moon,75,False,False,The Bobobobo,71,False,True
+14,Davey Moon vs The Bobobobo,75,Davey Moon Attacks The Bobobobo!,Davey Moon,75,False,True,The Bobobobo,68,False,False
+14,Davey Moon vs The Bobobobo,64,The Bobobobo Attacks Davey Moon!,Davey Moon,74,False,False,The Bobobobo,68,False,True
+14,Davey Moon vs The Bobobobo,60,Davey Moon Attacks The Bobobobo!,Davey Moon,74,False,True,The Bobobobo,64,False,False
+14,Davey Moon vs The Bobobobo,50,The Bobobobo Attacks Davey Moon!,Davey Moon,70,False,False,The Bobobobo,64,False,True
+14,Davey Moon vs The Bobobobo,45,Davey Moon Attacks The Bobobobo!,Davey Moon,70,False,True,The Bobobobo,60,False,False
+14,Davey Moon vs The Bobobobo,36,The Bobobobo Attacks Davey Moon!,Davey Moon,66,False,False,The Bobobobo,60,False,True
+14,Davey Moon vs The Bobobobo,30,Davey Moon Attacks The Bobobobo!,Davey Moon,66,False,True,The Bobobobo,58,False,False
+14,Davey Moon vs The Bobobobo,22,The Bobobobo Attacks Davey Moon!,Davey Moon,65,False,False,The Bobobobo,58,False,True
+14,Davey Moon vs The Bobobobo,15,Davey Moon Attacks The Bobobobo!,Davey Moon,65,False,True,The Bobobobo,50,False,False
+14,Davey Moon vs The Bobobobo,8,The Bobobobo Attacks Davey Moon!,Davey Moon,62,False,False,The Bobobobo,50,False,True
+14,Davey Moon vs The Bobobobo,0,The Bobobobo dodged Davey Moon's Attack!,Davey Moon,62,False,True,The Bobobobo,50,True,False
+14,Davey Moon vs The Bobobobo,0,Davey Moon wins the fight!,Davey Moon,62,False,False,The Bobobobo,50,False,False
+15,Bobobo Hall vs Davey Moon,120,Fight starts!,Bobobo Hall,64,False,False,Davey Moon,80,False,False
+15,Bobobo Hall vs Davey Moon,115,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,64,False,True,Davey Moon,72,False,False
+15,Bobobo Hall vs Davey Moon,110,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,64,False,True,Davey Moon,64,False,False
+15,Bobobo Hall vs Davey Moon,105,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,64,False,True,Davey Moon,59,False,False
+15,Bobobo Hall vs Davey Moon,105,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,56,False,False,Davey Moon,59,False,True
+15,Bobobo Hall vs Davey Moon,100,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,56,False,True,Davey Moon,58,False,False
+15,Bobobo Hall vs Davey Moon,95,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,56,False,True,Davey Moon,51,False,False
+15,Bobobo Hall vs Davey Moon,90,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,56,False,True,Davey Moon,51,True,False
+15,Bobobo Hall vs Davey Moon,90,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,50,False,False,Davey Moon,51,False,True
+15,Bobobo Hall vs Davey Moon,85,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,50,False,True,Davey Moon,45,False,False
+15,Bobobo Hall vs Davey Moon,80,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,50,False,True,Davey Moon,41,False,False
+15,Bobobo Hall vs Davey Moon,75,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,50,False,True,Davey Moon,41,True,False
+15,Bobobo Hall vs Davey Moon,75,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,43,False,False,Davey Moon,41,False,True
+15,Bobobo Hall vs Davey Moon,70,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,43,False,True,Davey Moon,40,False,False
+15,Bobobo Hall vs Davey Moon,65,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,43,False,True,Davey Moon,40,True,False
+15,Bobobo Hall vs Davey Moon,60,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,43,False,True,Davey Moon,32,False,False
+15,Bobobo Hall vs Davey Moon,60,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,38,False,False,Davey Moon,32,False,True
+15,Bobobo Hall vs Davey Moon,55,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,38,False,True,Davey Moon,21,False,False
+15,Bobobo Hall vs Davey Moon,50,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,38,False,True,Davey Moon,21,True,False
+15,Bobobo Hall vs Davey Moon,45,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,38,False,True,Davey Moon,21,True,False
+15,Bobobo Hall vs Davey Moon,45,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,31,False,False,Davey Moon,21,False,True
+15,Bobobo Hall vs Davey Moon,40,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,31,False,True,Davey Moon,21,True,False
+15,Bobobo Hall vs Davey Moon,35,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,31,False,True,Davey Moon,21,True,False
+15,Bobobo Hall vs Davey Moon,30,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,31,False,True,Davey Moon,21,True,False
+15,Bobobo Hall vs Davey Moon,30,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,25,False,False,Davey Moon,21,False,True
+15,Bobobo Hall vs Davey Moon,25,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,25,False,True,Davey Moon,18,False,False
+15,Bobobo Hall vs Davey Moon,20,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,25,False,True,Davey Moon,12,False,False
+15,Bobobo Hall vs Davey Moon,15,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,25,False,True,Davey Moon,7,False,False
+15,Bobobo Hall vs Davey Moon,15,Davey Moon Attacks Bobobo Hall!,Bobobo Hall,21,False,False,Davey Moon,7,False,True
+15,Bobobo Hall vs Davey Moon,10,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,21,False,True,Davey Moon,5,False,False
+15,Bobobo Hall vs Davey Moon,5,Davey Moon dodged Bobobo Hall's Attack!,Bobobo Hall,21,False,True,Davey Moon,5,True,False
+15,Bobobo Hall vs Davey Moon,0,Bobobo Hall Attacks Davey Moon!,Bobobo Hall,21,False,True,Davey Moon,0,False,False
+15,Bobobo Hall vs Davey Moon,0,Davey Moon has been Defeated!,Bobobo Hall,21,False,False,Davey Moon,0,False,False
+15,Bobobo Hall vs Davey Moon,0,Bobobo Hall wins the fight!,Bobobo Hall,21,False,False,Davey Moon,0,False,False

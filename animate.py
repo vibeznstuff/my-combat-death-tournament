@@ -3,6 +3,8 @@ import time
 import json
 from random import uniform
 import csv
+import constants
+import pandas as pd
 
 
 def rescale(img, x, y):
@@ -62,7 +64,111 @@ def get_frames(character, action, flip_bool=False, p1_bool=True, slow_factor=0):
 
     return frame_list
 
-def draw():
+def get_players(round_number):
+    global p1_name
+    global p2_name
+    global player_one
+    global player_two
+    global p1_health_max
+    global p2_health_max
+    global p1_health
+    global p2_health
+    global p1_dodge_space
+    global p2_dodge_space
+    global p1_dodge_sf
+    global p2_dodge_sf
+    global p1_defeat_sf
+    global p2_defeat_sf
+    global p1_victory_sf
+    global p2_victory_sf
+    global p1_rest_sf
+    global p2_rest_sf
+    global fighting
+
+    players = tournament_data[tournament_data["round_number"] == round_number]
+    p1_name = players.iloc[0,2]
+    p1_gender = players.iloc[0,3]
+    p1_class = players.iloc[0,4]
+    p1_rank = players.iloc[0,5]
+    p1_health_max = players.iloc[0,6]
+
+    p2_name = players.iloc[1,2]
+    p2_gender = players.iloc[1,3]
+    p2_class = players.iloc[1,4]
+    p2_rank = players.iloc[1,5]
+    p2_health_max = players.iloc[1,6]
+
+    player_one = "{0}_{1}".format(p1_class.lower(), p1_gender)
+    player_two = "{0}_{1}".format(p2_class.lower(), p2_gender)
+
+    # 350 Max
+    p1_health = p1_health_max
+    p2_health = p2_health_max
+
+
+    p1_dodge_space = mappings[player_one]['dodge_space']
+    p2_dodge_space = mappings[player_two]['dodge_space']
+
+    p1_dodge_sf = mappings[player_one]['dodge_slow_factor']
+    p2_dodge_sf = mappings[player_two]['dodge_slow_factor']
+
+    p1_defeat_sf = mappings[player_one]['defeat_slow_factor']
+    p2_defeat_sf = mappings[player_two]['defeat_slow_factor']
+
+    p1_victory_sf = mappings[player_one]['victory_slow_factor']
+    p2_victory_sf = mappings[player_two]['victory_slow_factor']
+
+    p1_rest_sf = mappings[player_one]['rest_slow_factor']
+    p2_rest_sf = mappings[player_two]['rest_slow_factor']
+    print(players)
+
+    fighting = True
+
+def reset_fight():
+    global p1_resting
+    global p2_resting
+    global p1_attacking
+    global p2_attacking
+    global p1_attacked
+    global p2_attacked
+    global p1_recoiling
+    global p2_recoiling
+    global p1_dodging
+    global p2_dodging
+    global p1_dodged
+    global p2_dodged
+    global p1_defeat
+    global p2_defeat
+    global p1_victory
+    global p2_victory
+    global p1_wait_cycles
+    global p2_wait_cycles
+
+    p1_resting = True
+    p2_resting = True
+    p1_attacking = False
+    p1_attacked = False
+    p2_attacking = False
+    p2_attacked = False
+    p1_recoiling = False
+    p2_recoiling = False
+    p1_dodging = False
+    p1_dodged = False
+    p2_dodging = False
+    p2_dodged = False
+    p1_defeat = False
+    p2_defeat = False
+    p1_victory = False
+    p2_victory = False
+    p1_wait_cycles = 0
+    p2_wait_cycles = 0
+
+def update_health(p1_bool, health):
+    global p1_health
+    global p2_health
+    pass
+
+def draw(p1_health_new, p2_health_new):
     global p1_step_count
     global p2_step_count
     global p1_frames
@@ -83,22 +189,36 @@ def draw():
     global p2_defeat
     global p1_victory
     global p2_victory
+    global p1_name
+    global p2_name
+    global fighting
+    global p1_wait_cycles
+    global p2_wait_cycles
 
     if p1_step_count + 1 >= p1_limit and not (p1_defeat or p1_victory):
         p1_step_count = 0
         p1_attacking = False
         if p1_recoiling and p2_resting:
-            p1_health = max(0, p1_health - 50)
+            p1_health = p1_health_new
             p1_recoiling = False
         p2_dodging = False
+        if p1_wait_cycles > 0 and p1_resting:
+            p1_wait_cycles -= 1
 
     if p2_step_count + 1 >= p2_limit and not (p2_defeat or p2_victory):
         p2_step_count = 0
         p2_attacking = False
         if p2_recoiling and p1_resting:
-            p2_health = max(0, p2_health - 50)
+            p2_health = p2_health_new
             p2_recoiling = False
         p1_dodging = False
+        if p2_wait_cycles > 0 and p2_resting:
+            p2_wait_cycles -= 1
+
+    if (p2_defeat and (p1_step_count + 1 >= p1_limit)) or (p1_defeat and (p2_step_count + 1 >= p2_limit)):
+        time.sleep(5)
+        reset_fight()
+        fighting = False
     
     win.fill((0,0,0))
     win.blit(background,(0,0))
@@ -131,13 +251,11 @@ def draw():
 
     # Player One Name & Details
     font = pygame.font.SysFont(None, 24)
-    p1_name = 'Player One Name'
     img = font.render(p1_name, True, (255,255,255))
     win.blit(img, (50, 50))
 
     # Player Two Name & Details
     font = pygame.font.SysFont(None, 24)
-    p2_name = 'Player Two Name'
     p2_width, p2_height = font.size(p2_name)
     img2 = font.render(p2_name, True, (255,255,255))
     win.blit(img2, (1000 - 50 - p2_width, 50))
@@ -154,34 +272,10 @@ mappings = json.load(open("animation_mappings.json"))
 
 print(mappings)
 
-player_one = 'heart_female'
-player_two = 'berserker_male'
-
-# 350 Max
-p1_health_max = 200
-p2_health_max = 200
-p1_health = p1_health_max
-p2_health = p2_health_max
-
-
-p1_dodge_space = mappings[player_one]['dodge_space']
-p2_dodge_space = mappings[player_two]['dodge_space']
-
-p1_dodge_sf = mappings[player_one]['dodge_slow_factor']
-p2_dodge_sf = mappings[player_two]['dodge_slow_factor']
-
-p1_defeat_sf = mappings[player_one]['defeat_slow_factor']
-p2_defeat_sf = mappings[player_two]['defeat_slow_factor']
-
-p1_victory_sf = mappings[player_one]['victory_slow_factor']
-p2_victory_sf = mappings[player_two]['victory_slow_factor']
-
-p1_rest_sf = mappings[player_one]['rest_slow_factor']
-p2_rest_sf = mappings[player_two]['rest_slow_factor']
-
 p1_dodge_rate = 0.25
 p2_dodge_rate = 0.25
 
+reset_fight()
 
 x = -90
 x_default = x
@@ -200,34 +294,62 @@ FRAME_RATE = 35
 background = pygame.image.load(r"C:\\Users\\Richard\\Documents\\sprite_sheets\\dark_forest_br.png")
 background = rescale(background, 1000, 550)
 
-p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
-p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
-p1_step_count = 0
-p2_step_count = 0
-p1_resting = True
-p2_resting = True
-p1_attacking = False
-p1_attacked = False
-p2_attacking = False
-p2_attacked = False
-p1_recoiling = False
-p2_recoiling = False
-p1_dodging = False
-p1_dodged = False
-p2_dodging = False
-p2_dodged = False
-p1_defeat = False
-p2_defeat = False
-p1_victory = False
-p2_victory = False
 acc = 0
 acc_2 = 0
+round_num = 1
+fighting = False
+
+tournament_data = pd.read_csv('tournament_log.csv')
+
+fight_log = open('fight_log.csv', 'r', newline='')
+csv_reader = csv.reader(fight_log)
+#skip header
+next(csv_reader)
+fight_event = next(csv_reader)
+timer = constants.MAX_FIGHT_MOMENTS
+p1_wait_cycles = 0
+p2_wait_cycles = 0
 
 while run:
 
+    if min(p1_wait_cycles, p2_wait_cycles) == 0:
+        print("Time Left:", fight_event[2])
+        if fight_event[6] == 'True':
+            p1_dodged = True
+        else:
+            p1_dodged = False
+
+        if fight_event[7] == 'True':
+            p1_attacked = True
+        else:
+            p1_attacked = False
+
+        if fight_event[10] == 'True':
+            p2_dodged = True
+        else:
+            p2_dodged = False
+
+        if fight_event[11] == 'True':
+            p2_attacked = True
+        else:
+            p2_attacked = False
+
+        fight_event = next(csv_reader)
+        time_elapsed = timer - int(fight_event[2])
+        timer = int(fight_event[2])
+        p1_wait_cycles = round(time_elapsed)
+        p2_wait_cycles = round(time_elapsed)
+
+    if not fighting:
+        get_players(round_num)
+        p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
+        p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
+        p1_step_count = 0
+        p2_step_count = 0
+
     clock.tick(FRAME_RATE)
 
-    if p2_health == 0 and not p2_defeat:
+    if p2_health == 0 and not p2_defeat and not p1_attacking:
         p2_defeat = True
         p2_attacking = False
         p2_dodging = False
@@ -237,8 +359,9 @@ while run:
         p1_frames = get_frames(character=player_one, action='victory', flip_bool=True, p1_bool=True, slow_factor=p1_victory_sf)
         p1_step_count = 0
         p1_victory = True
+        round_num += 1
 
-    if p1_health == 0 and not p1_defeat:
+    if p1_health == 0 and not p1_defeat and not p2_attacking:
         p1_defeat = True
         p1_attacking = False
         p1_dodging = False
@@ -248,6 +371,7 @@ while run:
         p2_frames = get_frames(character=player_two, action='victory', flip_bool=False, p1_bool=False, slow_factor=p2_victory_sf)
         p2_step_count = 0
         p2_victory = True
+        round_num += 1
 
     if not p1_resting and not p1_attacking and not p1_recoiling and not p1_dodging and not p1_defeat and not p1_victory:
         p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
@@ -368,6 +492,11 @@ while run:
     if not ((p2_defeat or p2_victory) and p2_step_count + 1 >= p2_limit):
         p2_step_count += 1
 
-    draw()
+    # Update health bars
+    draw(p1_health_new=int(fight_event[5]), p2_health_new=int(fight_event[9]))
+
+    if round_num > constants.FIGHTER_COUNT:
+        time.sleep(20)
+        run = False
 
 pygame.quit()

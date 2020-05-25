@@ -41,6 +41,7 @@ custom_fighters = []
 # Add manually created fighter
 my_fighter = {
     'name': 'Vibey Wednesday',
+    'gender': 'female',
     'strength': 10,
     'defense': 5,
     'agility': 10,
@@ -56,7 +57,7 @@ combatant_list = generate_combatants(num_ai_fighters) + custom_fighters
 
 # Clear out contents of tournament log
 out_file = open('tournament_log.csv', 'w', newline='')
-field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'max_health', 'health', 'strength', 'defense', 'agility', \
+field_names = ['round_number', 'fight_name', 'combatant', 'gender', 'combat_class', 'rank', 'max_health', 'health', 'strength', 'defense', 'agility', \
     'stamina', 'wisdom', 'fight_result', 'remaining_health']
 writer = csv.DictWriter(out_file, fieldnames=field_names)
 writer.writeheader()

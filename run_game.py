@@ -9,10 +9,6 @@ win = pygame.display.set_mode((500,500))
 
 pygame.display.set_caption("First game")
 
-fight_log = open('fight_log.csv', 'r', newline='')
-fight_data = csv.DictReader(fight_log)
-
-
 
 def run_game():
     

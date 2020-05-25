@@ -8,7 +8,7 @@ CLASS_STATS = {
         'stamina': 5,
         'wisdom': 2
     }, 
-    'MARTIAL ARTIST': {
+    'MARTIAL_ARTIST': {
         'strength': 5,
         'defense': 5,
         'agility': 9,
@@ -52,10 +52,10 @@ CLASS_STATS = {
     }
 }
 
-CLASS_LIST = ['TANK', 'MARTIAL ARTIST', 'TACTICIAN', 'BERSERKER', 'HEART', 'HERO', 'SAMURAI']
+CLASS_LIST = ['TANK', 'MARTIAL_ARTIST', 'TACTICIAN', 'BERSERKER', 'HEART', 'HERO', 'SAMURAI']
 
-FIRST_NAMES = ['Xiao', 'Davey', 'Ken', 'Ryu', 'Bobobo', 'The', 'Henry', 'Xavier', 'Jason', \
-    'Susana', 'Mei', 'Mai', 'Kupo', 'Cloud', 'Happy', 'Shaq', 'Moses', 'Cortana', 'Alexa']
+MALE_FIRST_NAMES = ['Davey','Ken','Bobobo','The','Henry','Xavier','Jason','Moses', 'Jack','Barry','Shinji']
+FEMALE_FIRST_NAMES = ['Xiao','Carey','Sung Mina', 'Jesse', 'Talulah', 'Mindy', 'Jessica', 'Sandra', 'Cortana', 'Alexa']
 LAST_NAMES = ['Jenkins', 'Chen', 'Lee', 'Hisaishi', 'Johnson', 'Bobobobo', 'Chosen One', 'Moon', 'Sun', 'Balrog', \
     'Badass', 'Mysterious', 'Hall', 'Nevers', 'Bitto', 'Keely', 'Yikes', 'X']
 
@@ -73,6 +73,7 @@ class Combatant:
             self.max_health = None
             self.rank = 'WARRIOR'
             self.name = None
+            self.gender = None
 
             self.set_class()
             self.set_name()
@@ -87,13 +88,25 @@ class Combatant:
             self.health = self.max_health
             self.rank = 'MYSTERY'
             self.name = profile['name']
+            self.gender = profile['gender']
 
     def set_name(self):
-        fname_len = len(FIRST_NAMES)
+        male_fname_len = len(MALE_FIRST_NAMES)
+        female_fname_len = len(FEMALE_FIRST_NAMES)
         lname_len = len(LAST_NAMES)
-        fname = FIRST_NAMES[round(uniform(0,fname_len-1))]
-        lname = LAST_NAMES[round(uniform(0,lname_len-1))]
+        gender_selector = uniform(0,1)
+
+        if gender_selector > 0.5:
+            fname = MALE_FIRST_NAMES[round(uniform(0,male_fname_len-1))]
+            lname = LAST_NAMES[round(uniform(0,lname_len-1))]
+            gender = 'male'
+        else:
+            fname = FEMALE_FIRST_NAMES[round(uniform(0,female_fname_len-1))]
+            lname = LAST_NAMES[round(uniform(0,lname_len-1))]
+            gender = 'female'
+        
         self.name = "{0} {1}".format(fname, lname)
+        self.gender = gender
 
     def get_result_data(self, round_number, fight_name, fight_result, remaining_health):
 
@@ -101,6 +114,7 @@ class Combatant:
             'round_number': round_number,
             'fight_name': fight_name,
             'combatant': self.name,
+            'gender': self.gender,
             'combat_class': self.combat_class,
             'rank': self.rank,
             'max_health': self.max_health,
@@ -117,6 +131,7 @@ class Combatant:
         return result
 
     def set_class(self):
+
         selector = round(uniform(0,4))
         self.combat_class = CLASS_LIST[selector]
         stats_dict = CLASS_STATS[self.combat_class]
@@ -126,7 +141,7 @@ class Combatant:
         self.agility = stats_dict['agility']
         self.stamina = stats_dict['stamina']
         self.wisdom = stats_dict['wisdom']
-        self.max_health = stats_dict['stamina'] * 4 + stats_dict['defense'] * 6
+        self.max_health = int(stats_dict['stamina'] * 4 + stats_dict['defense'] * 6)
         self.health = self.max_health
 
         # Assess Rank
@@ -174,6 +189,7 @@ class Combatant:
     
     def print_stats(self):
         print("Combatant Name: {}".format(self.name))
+        print("Combatant Gender: {}".format(self.gender))
         print("Combat Class: {}".format(self.combat_class))
         print("Combat Rank: {}".format(self.rank))
         print("Strength: {}".format(self.strength))

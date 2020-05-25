@@ -5,7 +5,7 @@ from copy import deepcopy
 import csv
 import constants
 
-MAX_FIGHT_MOMENTS = 300
+MAX_FIGHT_MOMENTS = 120
 
 def fight(combatant_one, combatant_two, log_results=True, spectate=False):
 
@@ -221,7 +221,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
     if log_results:
 
         out_file = open('tournament_log.csv', 'a', newline='')
-        field_names = ['round_number', 'fight_name', 'combatant', 'combat_class', 'rank', 'max_health', \
+        field_names = ['round_number', 'fight_name', 'combatant', 'gender', 'combat_class', 'rank', 'max_health', \
             'health', 'strength', 'defense', 'agility', 'stamina', 'wisdom', 'fight_result', 'remaining_health']
 
         writer = csv.DictWriter(out_file, fieldnames=field_names)

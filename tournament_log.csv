@@ -1,31 +1,31 @@
-round_number,fight_name,combatant,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
-1,Cloud Sun vs Kupo Bitto,Cloud Sun,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,31
-1,Cloud Sun vs Kupo Bitto,Kupo Bitto,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
-2,Shaq Hall vs Mai Moon,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,62
-2,Shaq Hall vs Mai Moon,Shaq Hall,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-3,Cloud Sun vs Mai Moon,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,64
-3,Cloud Sun vs Mai Moon,Cloud Sun,BERSERKER,WARRIOR,64,46,10,4,6,10,0,Lost,0
-4,The Bitto vs Bobobo Keely,The Bitto,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,35
-4,The Bitto vs Bobobo Keely,Bobobo Keely,MARTIAL ARTIST,ELITE,58,58,5,5,9,12,4,Lost,0
-5,Mai Yikes vs Mei Chen,Mei Chen,HEART,WARRIOR,84,84,5,10,5,6,4,Won,17
-5,Mai Yikes vs Mei Chen,Mai Yikes,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,4
-6,The Bitto vs Mei Chen,The Bitto,BERSERKER,WARRIOR,64,52,10,4,6,10,0,Won,18
-6,The Bitto vs Mei Chen,Mei Chen,HEART,WARRIOR,84,26,5,10,5,6,4,Lost,0
-7,Mai Moon vs The Bitto,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,64
-7,Mai Moon vs The Bitto,The Bitto,BERSERKER,WARRIOR,64,27,10,4,6,10,0,Lost,0
-8,Shaq Balrog vs The Johnson,The Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Won,60
-8,Shaq Balrog vs The Johnson,Shaq Balrog,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
-9,Mei Badass vs Shaq Mysterious,Mei Badass,MARTIAL ARTIST,ELITE,58,58,5,5,14,7,4,Won,15
-9,Mei Badass vs Shaq Mysterious,Shaq Mysterious,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-10,The Johnson vs Mei Badass,The Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Won,39
-10,The Johnson vs Mei Badass,Mei Badass,MARTIAL ARTIST,ELITE,58,22,5,5,14,7,4,Lost,0
-11,Xavier Chosen One vs Cloud Johnson,Cloud Johnson,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,19
-11,Xavier Chosen One vs Cloud Johnson,Xavier Chosen One,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-12,Shaq Balrog vs Vibey Wednesday,Shaq Balrog,MARTIAL ARTIST,MASTER,58,58,5,10,9,12,4,Won,37
-12,Shaq Balrog vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,30,30,10,5,10,0,5,Lost,0
-13,Cloud Johnson vs Shaq Balrog,Shaq Balrog,MARTIAL ARTIST,MASTER,58,56,5,10,9,12,4,Won,51
-13,Cloud Johnson vs Shaq Balrog,Cloud Johnson,MARTIAL ARTIST,WARRIOR,58,28,5,5,9,7,4,Lost,0
-14,The Johnson vs Shaq Balrog,Shaq Balrog,MARTIAL ARTIST,MASTER,58,58,5,10,9,12,4,Won,50
-14,The Johnson vs Shaq Balrog,The Johnson,TANK,WARRIOR,80,58,10,10,3,5,2,Lost,0
-15,Mai Moon vs Shaq Balrog,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,19
-15,Mai Moon vs Shaq Balrog,Shaq Balrog,MARTIAL ARTIST,MASTER,58,58,5,10,9,12,4,Lost,0
+round_number,fight_name,combatant,gender,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
+1,Cortana Bitto vs Sung Mina Keely,Cortana Bitto,female,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,38
+1,Cortana Bitto vs Sung Mina Keely,Sung Mina Keely,female,MARTIAL_ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+2,Henry Hisaishi vs Bobobo Hall,Bobobo Hall,male,BERSERKER,LEGENDARY,64,96.0,10,9,11,15,0,Won,96.0
+2,Henry Hisaishi vs Bobobo Hall,Henry Hisaishi,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
+3,Cortana Bitto vs Bobobo Hall,Bobobo Hall,male,BERSERKER,LEGENDARY,64,64,10,9,11,15,0,Won,63
+3,Cortana Bitto vs Bobobo Hall,Cortana Bitto,female,BERSERKER,WARRIOR,64,57,10,4,6,10,0,Lost,0
+4,The Balrog vs The Bobobobo,The Bobobobo,male,TANK,WARRIOR,80,80,10,10,3,5,2,Won,21
+4,The Balrog vs The Bobobobo,The Balrog,male,TACTICIAN,ELITE,52,52,2,2,11,10,10,Lost,0
+5,Jack Keely vs Carey Bobobobo,Jack Keely,male,BERSERKER,ELITE,64,64,10,4,11,10,0,Won,64
+5,Jack Keely vs Carey Bobobobo,Carey Bobobobo,female,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
+6,The Bobobobo vs Jack Keely,Jack Keely,male,BERSERKER,ELITE,64,64,10,4,11,10,0,Won,16
+6,The Bobobobo vs Jack Keely,The Bobobobo,male,TANK,WARRIOR,80,32,10,10,3,5,2,Lost,0
+7,Bobobo Hall vs Jack Keely,Bobobo Hall,male,BERSERKER,LEGENDARY,64,64,10,9,11,15,0,Won,64
+7,Bobobo Hall vs Jack Keely,Jack Keely,male,BERSERKER,ELITE,64,24,10,4,11,10,0,Lost,0
+8,The Mysterious vs Davey Lee,The Mysterious,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,56
+8,The Mysterious vs Davey Lee,Davey Lee,male,MARTIAL_ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+9,Davey Moon vs Mindy Balrog,Davey Moon,male,TANK,ELITE,80,80,10,10,8,5,2,Won,59
+9,Davey Moon vs Mindy Balrog,Mindy Balrog,female,MARTIAL_ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+10,The Mysterious vs Davey Moon,Davey Moon,male,TANK,ELITE,80,80,10,10,8,5,2,Won,67
+10,The Mysterious vs Davey Moon,The Mysterious,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
+11,The Bobobobo vs Jessica Mysterious,The Bobobobo,male,HEART,WARRIOR,84,84,5,10,5,6,4,Won,74
+11,The Bobobobo vs Jessica Mysterious,Jessica Mysterious,female,TANK,WARRIOR,80,80,10,10,3,5,2,Lost,50
+12,Carey Badass vs Vibey Wednesday,Vibey Wednesday,female,NEW CHALLENGER,MYSTERY,30,30,10,5,10,0,5,Won,15
+12,Carey Badass vs Vibey Wednesday,Carey Badass,female,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
+13,The Bobobobo vs Vibey Wednesday,The Bobobobo,male,HEART,WARRIOR,84,84,5,10,5,6,4,Won,65
+13,The Bobobobo vs Vibey Wednesday,Vibey Wednesday,female,NEW CHALLENGER,MYSTERY,30,22,10,5,10,0,5,Lost,14
+14,Davey Moon vs The Bobobobo,Davey Moon,male,TANK,ELITE,80,80,10,10,8,5,2,Won,62
+14,Davey Moon vs The Bobobobo,The Bobobobo,male,HEART,WARRIOR,84,84,5,10,5,6,4,Lost,50
+15,Bobobo Hall vs Davey Moon,Bobobo Hall,male,BERSERKER,LEGENDARY,64,64,10,9,11,15,0,Won,21
+15,Bobobo Hall vs Davey Moon,Davey Moon,male,TANK,ELITE,80,80,10,10,8,5,2,Lost,0
