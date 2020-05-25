@@ -2,61 +2,12 @@ import pygame
 import time
 import json
 from random import uniform
+import csv
 
-pygame.init()
-
-win = pygame.display.set_mode((1000,550))
-
-pygame.display.set_caption("First game")
-
-mappings = json.load(open("animation_mappings.json"))
-
-print(mappings)
-
-player_one = 'tank_female'
-player_two = 'heart_male'
-
-# 350 Max
-p1_health_max = 100
-p2_health_max = 100
-p1_health = p1_health_max
-p2_health = p2_health_max
-
-
-p1_dodge_space = mappings[player_one]['dodge_space']
-p2_dodge_space = mappings[player_two]['dodge_space']
-
-p1_dodge_sf = mappings[player_one]['dodge_slow_factor']
-p2_dodge_sf = mappings[player_two]['dodge_slow_factor']
-
-p1_defeat_sf = mappings[player_one]['defeat_slow_factor']
-p2_defeat_sf = mappings[player_two]['defeat_slow_factor']
-
-p1_victory_sf = mappings[player_one]['victory_slow_factor']
-p2_victory_sf = mappings[player_two]['victory_slow_factor']
-
-p1_rest_sf = mappings[player_one]['rest_slow_factor']
-p2_rest_sf = mappings[player_two]['rest_slow_factor']
-
-p1_dodge_rate = 0.25
-p2_dodge_rate = 0.25
-
-
-x = -90
-x_default = x
-y = 135
-x_2 = 445
-x_2_default = x_2
-y_2 = 130
-velocity = 5
-
-FRAME_RATE = 35
-
-p1_step_count = 0
-p2_step_count = 0
 
 def rescale(img, x, y):
     return pygame.transform.scale(img, (x,y))
+
 
 def flip(img):
     return pygame.transform.flip(img, True, False)
@@ -111,12 +62,6 @@ def get_frames(character, action, flip_bool=False, p1_bool=True, slow_factor=0):
 
     return frame_list
 
-swanky_background = pygame.image.load(r"C:\\Users\\Richard\\Documents\\sprite_sheets\\dark_forest_br.png")
-
-swanky_background = rescale(swanky_background, 1000, 550)
-
-clock = pygame.time.Clock()
-
 def draw():
     global p1_step_count
     global p2_step_count
@@ -156,7 +101,7 @@ def draw():
         p1_dodging = False
     
     win.fill((0,0,0))
-    win.blit(swanky_background,(0,0))
+    win.blit(background,(0,0))
 
     if p1_attacking and not p2_attacking:
         win.blit(p2_frames[p2_step_count//3], (x_2, y_2))
@@ -184,12 +129,81 @@ def draw():
     if p2_health > 0:
         pygame.draw.rect(win, (0, 255, 0), (1000 - p2_health - 50, 75, p2_health, 30))
 
+    # Player One Name & Details
+    font = pygame.font.SysFont(None, 24)
+    p1_name = 'Player One Name'
+    img = font.render(p1_name, True, (255,255,255))
+    win.blit(img, (50, 50))
+
+    # Player Two Name & Details
+    font = pygame.font.SysFont(None, 24)
+    p2_name = 'Player Two Name'
+    p2_width, p2_height = font.size(p2_name)
+    img2 = font.render(p2_name, True, (255,255,255))
+    win.blit(img2, (1000 - 50 - p2_width, 50))
+
     pygame.display.update()
+
+pygame.init()
+
+win = pygame.display.set_mode((1000,550))
+
+pygame.display.set_caption("Combat Death Tournament Simulator")
+
+mappings = json.load(open("animation_mappings.json"))
+
+print(mappings)
+
+player_one = 'heart_female'
+player_two = 'berserker_male'
+
+# 350 Max
+p1_health_max = 200
+p2_health_max = 200
+p1_health = p1_health_max
+p2_health = p2_health_max
+
+
+p1_dodge_space = mappings[player_one]['dodge_space']
+p2_dodge_space = mappings[player_two]['dodge_space']
+
+p1_dodge_sf = mappings[player_one]['dodge_slow_factor']
+p2_dodge_sf = mappings[player_two]['dodge_slow_factor']
+
+p1_defeat_sf = mappings[player_one]['defeat_slow_factor']
+p2_defeat_sf = mappings[player_two]['defeat_slow_factor']
+
+p1_victory_sf = mappings[player_one]['victory_slow_factor']
+p2_victory_sf = mappings[player_two]['victory_slow_factor']
+
+p1_rest_sf = mappings[player_one]['rest_slow_factor']
+p2_rest_sf = mappings[player_two]['rest_slow_factor']
+
+p1_dodge_rate = 0.25
+p2_dodge_rate = 0.25
+
+
+x = -90
+x_default = x
+y = 135
+x_2 = 445
+x_2_default = x_2
+y_2 = 130
+velocity = 5
 
 run = True
 
+
+clock = pygame.time.Clock()
+FRAME_RATE = 35
+
+background = pygame.image.load(r"C:\\Users\\Richard\\Documents\\sprite_sheets\\dark_forest_br.png")
+background = rescale(background, 1000, 550)
+
 p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
 p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
+p1_step_count = 0
+p2_step_count = 0
 p1_resting = True
 p2_resting = True
 p1_attacking = False

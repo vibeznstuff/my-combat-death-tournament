@@ -64,7 +64,9 @@ out_file.close()
 
 # Clear out contents of fight log
 out_file2 = open('fight_log.csv', 'w', newline='')
-field_names2 = ['round_number', 'fight_name', 'time_elapsed', 'event', 'combatant_one', 'combatant_one_health', 'combatant_two', 'combatant_two_health']
+field_names2 = ['round_number', 'fight_name', 'time_elapsed', 'event', 'combatant_one', 'combatant_one_health', \
+    'combatant_one_dodged', 'combatant_one_attacked', 'combatant_two', 'combatant_two_health', 'combatant_two_dodged', \
+        'combatant_two_attacked']
 writer2 = csv.writer(out_file2)
 writer2.writerow(field_names2)
 out_file2.close()

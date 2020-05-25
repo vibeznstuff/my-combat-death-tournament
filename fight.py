@@ -28,7 +28,8 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
         # Open fight log to append new records for events
         out_file2 = open('fight_log.csv', 'a', newline='')
         writer2 = csv.writer(out_file2)
-        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, 'Fight starts!', combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, 'Fight starts!', combatant_one.name, combatant_one.health, \
+            False, False, combatant_two.name, combatant_two.health, False, False])
 
     healthy_combat_one = deepcopy(combatant_one)
     healthy_combat_two = deepcopy(combatant_two)
@@ -78,7 +79,8 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
             combat_one_cooldown = 20 - combatant_one.stamina
             if combat_two_dodge:
                 event = "{0} dodged {1}'s Attack!".format(combatant_two.name, combatant_one.name)
-                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, \
+                    combatant_one.health, False, True, combatant_two.name, combatant_two.health, True, False])
                 combat_one_attack = False
 
         if combat_two_cooldown == 0:
@@ -86,7 +88,8 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
             combat_two_cooldown = 20 - combatant_two.stamina
             if combat_one_dodge:
                 event = "{0} dodged {1}'s Attack!".format(combatant_one.name, combatant_two.name)
-                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, \
+                    combatant_one.health, True, False, combatant_two.name, combatant_two.health, False, True])
                 combat_two_attack = False
 
         combat_one_first = combatant_one.agility > combatant_two.agility
@@ -96,46 +99,54 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
             if combat_one_attack:
                 event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
                 combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
-                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                    False, True, combatant_two.name, combatant_two.health, False, False])
                 combatant_two.print_health()
                 combat_one_attack = False
                 if combatant_two.health == 0:
                     event = "{} has been Defeated!".format(combatant_two.name)
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, False, combatant_two.name, combatant_two.health, False, False])
                     winner = final_combat_one
                     break
             if combat_two_attack:
                 event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
                 combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
-                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                    False, False, combatant_two.name, combatant_two.health, False, True])
                 combatant_one.print_health()
                 combat_two_attack = False
                 if combatant_one.health == 0:
                     event = "{} has been Defeated!".format(combatant_one.name)
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, False, combatant_two.name, combatant_two.health, False, False])
                     winner = final_combat_two
                     break
         elif combat_two_first:
             if combat_two_attack:
                 event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
                 combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
-                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                    False, False, combatant_two.name, combatant_two.health, False, True])
                 combatant_one.print_health()
                 combat_two_attack = False
                 if combatant_one.health == 0:
                     event = "{} has been Defeated!".format(combatant_one.name)
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, False, combatant_two.name, combatant_two.health, False, False])
                     winner = final_combat_two
                     break
             if combat_one_attack:
                 event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
                 combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
-                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                    False, True, combatant_two.name, combatant_two.health, False, False])
                 combatant_two.print_health()
                 combat_one_attack = False
                 if combatant_two.health == 0:
                     event = "{} has been Defeated!".format(combatant_two.name)
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, False, combatant_two.name, combatant_two.health, False, False])
                     winner = final_combat_one
                     break  
         elif not combat_one_first and not combat_two_first:
@@ -144,23 +155,27 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                 if combat_one_attack:
                     event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
                     combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, True, combatant_two.name, combatant_two.health, False, False])
                     combatant_two.print_health()
                     combat_one_attack = False
                     if combatant_two.health == 0:
                         event = "{} has been Defeated!".format(combatant_two.name)
-                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                            False, False, combatant_two.name, combatant_two.health, False, False])
                         winner = final_combat_one
                         break
                 if combat_two_attack:
                     event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
                     combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, False, combatant_two.name, combatant_two.health, False, True])
                     combatant_one.print_health()
                     combat_two_attack = False
                     if combatant_one.health == 0:
                         event = "{} has been Defeated!".format(combatant_one.name)
-                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                            False, False, combatant_two.name, combatant_two.health, False, False])
                         winner = final_combat_two
                         break
             else:
@@ -168,23 +183,27 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                 if combat_two_attack:
                     event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
                     combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, False, combatant_two.name, combatant_two.health, False, True])
                     combatant_one.print_health()
                     combat_two_attack = False
                     if combatant_one.health == 0:
                         event = "{} has been Defeated!".format(combatant_one.name)
-                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                            False, False, combatant_two.name, combatant_two.health, False, False])
                         winner = final_combat_two
                         break
                 if combat_one_attack:
                     event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
                     combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
-                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                        False, True, combatant_two.name, combatant_two.health, False, False])
                     combatant_two.print_health()
                     combat_one_attack = False
                     if combatant_two.health == 0:
                         event = "{} has been Defeated!".format(combatant_two.name)
-                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+                        writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+                            False, False, combatant_two.name, combatant_two.health, False, False])
                         winner = final_combat_one
                         break
     
@@ -195,7 +214,8 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
             winner = final_combat_two
         
     event = "{} wins the fight!".format(winner.name)
-    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, combatant_two.name, combatant_two.health])
+    writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
+        False, False, combatant_two.name, combatant_two.health, False, False])
     
 
     if log_results:

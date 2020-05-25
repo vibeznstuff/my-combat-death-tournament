@@ -1,31 +1,31 @@
 round_number,fight_name,combatant,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
-1,Moses Badass vs Mai X,Mai X,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,39
-1,Moses Badass vs Mai X,Moses Badass,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
-2,Davey Hisaishi vs Mai Hisaishi,Davey Hisaishi,TANK,LEGENDARY,80,120.0,15,10,8,10,2,Won,109.0
-2,Davey Hisaishi vs Mai Hisaishi,Mai Hisaishi,HEART,WARRIOR,84,84,5,10,5,6,4,Lost,0
-3,Mai X vs Davey Hisaishi,Davey Hisaishi,TANK,LEGENDARY,80,80,15,10,8,10,2,Won,75
-3,Mai X vs Davey Hisaishi,Mai X,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-4,Ryu Balrog vs Mai Moon,Ryu Balrog,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Won,3
-4,Ryu Balrog vs Mai Moon,Mai Moon,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
-5,Ken Hisaishi vs Davey Nevers,Ken Hisaishi,BERSERKER,MASTER,64,64,10,4,11,15,0,Won,60
-5,Ken Hisaishi vs Davey Nevers,Davey Nevers,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-6,Ryu Balrog vs Ken Hisaishi,Ken Hisaishi,BERSERKER,MASTER,64,64,10,4,11,15,0,Won,64
-6,Ryu Balrog vs Ken Hisaishi,Ryu Balrog,TACTICIAN,WARRIOR,52,4,2,2,6,10,10,Lost,0
-7,Davey Hisaishi vs Ken Hisaishi,Davey Hisaishi,TANK,LEGENDARY,80,80,15,10,8,10,2,Won,70
-7,Davey Hisaishi vs Ken Hisaishi,Ken Hisaishi,BERSERKER,MASTER,64,64,10,4,11,15,0,Lost,0
-8,Henry Johnson vs Xiao Bitto,Henry Johnson,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,37
-8,Henry Johnson vs Xiao Bitto,Xiao Bitto,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
-9,Kupo Bitto vs Shaq Mysterious,Kupo Bitto,TANK,ELITE,80,120.0,10,10,3,5,2,Won,103.0
-9,Kupo Bitto vs Shaq Mysterious,Shaq Mysterious,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
-10,Henry Johnson vs Kupo Bitto,Kupo Bitto,TANK,ELITE,80,80,10,10,3,5,2,Won,38
-10,Henry Johnson vs Kupo Bitto,Henry Johnson,MARTIAL ARTIST,WARRIOR,58,56,5,5,9,7,4,Lost,0
-11,Cortana Keely vs Cortana Moon,Cortana Keely,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,31
-11,Cortana Keely vs Cortana Moon,Cortana Moon,TACTICIAN,ELITE,52,52,2,2,6,15,10,Lost,0
-12,Jason Bitto vs Vibey Wednesday,Jason Bitto,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,34
-12,Jason Bitto vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,30,30,10,5,10,0,5,Lost,0
-13,Cortana Keely vs Jason Bitto,Jason Bitto,BERSERKER,WARRIOR,64,51,10,4,6,10,0,Won,33
-13,Cortana Keely vs Jason Bitto,Cortana Keely,BERSERKER,WARRIOR,64,46,10,4,6,10,0,Lost,0
-14,Kupo Bitto vs Jason Bitto,Kupo Bitto,TANK,ELITE,80,57,10,10,3,5,2,Won,36
-14,Kupo Bitto vs Jason Bitto,Jason Bitto,BERSERKER,WARRIOR,64,50,10,4,6,10,0,Lost,0
-15,Davey Hisaishi vs Kupo Bitto,Davey Hisaishi,TANK,LEGENDARY,80,80,15,10,8,10,2,Won,77
-15,Davey Hisaishi vs Kupo Bitto,Kupo Bitto,TANK,ELITE,80,54,10,10,3,5,2,Lost,0
+1,Cloud Sun vs Kupo Bitto,Cloud Sun,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,31
+1,Cloud Sun vs Kupo Bitto,Kupo Bitto,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
+2,Shaq Hall vs Mai Moon,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,62
+2,Shaq Hall vs Mai Moon,Shaq Hall,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+3,Cloud Sun vs Mai Moon,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,64
+3,Cloud Sun vs Mai Moon,Cloud Sun,BERSERKER,WARRIOR,64,46,10,4,6,10,0,Lost,0
+4,The Bitto vs Bobobo Keely,The Bitto,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,35
+4,The Bitto vs Bobobo Keely,Bobobo Keely,MARTIAL ARTIST,ELITE,58,58,5,5,9,12,4,Lost,0
+5,Mai Yikes vs Mei Chen,Mei Chen,HEART,WARRIOR,84,84,5,10,5,6,4,Won,17
+5,Mai Yikes vs Mei Chen,Mai Yikes,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,4
+6,The Bitto vs Mei Chen,The Bitto,BERSERKER,WARRIOR,64,52,10,4,6,10,0,Won,18
+6,The Bitto vs Mei Chen,Mei Chen,HEART,WARRIOR,84,26,5,10,5,6,4,Lost,0
+7,Mai Moon vs The Bitto,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,64
+7,Mai Moon vs The Bitto,The Bitto,BERSERKER,WARRIOR,64,27,10,4,6,10,0,Lost,0
+8,Shaq Balrog vs The Johnson,The Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Won,60
+8,Shaq Balrog vs The Johnson,Shaq Balrog,TACTICIAN,WARRIOR,52,52,2,2,6,10,10,Lost,0
+9,Mei Badass vs Shaq Mysterious,Mei Badass,MARTIAL ARTIST,ELITE,58,58,5,5,14,7,4,Won,15
+9,Mei Badass vs Shaq Mysterious,Shaq Mysterious,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+10,The Johnson vs Mei Badass,The Johnson,TANK,WARRIOR,80,80,10,10,3,5,2,Won,39
+10,The Johnson vs Mei Badass,Mei Badass,MARTIAL ARTIST,ELITE,58,22,5,5,14,7,4,Lost,0
+11,Xavier Chosen One vs Cloud Johnson,Cloud Johnson,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Won,19
+11,Xavier Chosen One vs Cloud Johnson,Xavier Chosen One,MARTIAL ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
+12,Shaq Balrog vs Vibey Wednesday,Shaq Balrog,MARTIAL ARTIST,MASTER,58,58,5,10,9,12,4,Won,37
+12,Shaq Balrog vs Vibey Wednesday,Vibey Wednesday,NEW CHALLENGER,MYSTERY,30,30,10,5,10,0,5,Lost,0
+13,Cloud Johnson vs Shaq Balrog,Shaq Balrog,MARTIAL ARTIST,MASTER,58,56,5,10,9,12,4,Won,51
+13,Cloud Johnson vs Shaq Balrog,Cloud Johnson,MARTIAL ARTIST,WARRIOR,58,28,5,5,9,7,4,Lost,0
+14,The Johnson vs Shaq Balrog,Shaq Balrog,MARTIAL ARTIST,MASTER,58,58,5,10,9,12,4,Won,50
+14,The Johnson vs Shaq Balrog,The Johnson,TANK,WARRIOR,80,58,10,10,3,5,2,Lost,0
+15,Mai Moon vs Shaq Balrog,Mai Moon,BERSERKER,MASTER,64,64,10,4,6,15,5,Won,19
+15,Mai Moon vs Shaq Balrog,Shaq Balrog,MARTIAL ARTIST,MASTER,58,58,5,10,9,12,4,Lost,0
