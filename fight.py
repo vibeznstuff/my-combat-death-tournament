@@ -5,7 +5,7 @@ from copy import deepcopy
 import csv
 import constants
 
-MAX_FIGHT_MOMENTS = 120
+MAX_FIGHT_MOMENTS = constants.MAX_FIGHT_MOMENTS
 
 def fight(combatant_one, combatant_two, log_results=True, spectate=False):
 
@@ -221,22 +221,22 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
     if log_results:
 
         out_file = open('tournament_log.csv', 'a', newline='')
-        field_names = ['round_number', 'fight_name', 'combatant', 'gender', 'combat_class', 'rank', 'max_health', \
+        field_names = ['round_number', 'combatant_number', 'fight_name', 'combatant', 'gender', 'combat_class', 'rank', 'max_health', \
             'health', 'strength', 'defense', 'agility', 'stamina', 'wisdom', 'fight_result', 'remaining_health']
 
         writer = csv.DictWriter(out_file, fieldnames=field_names)
 
         if winner == final_combat_one:
-            win_result = healthy_combat_one.get_result_data(constants.ROUND_NUMBER, fight_name, 'Won', combatant_one.health)
+            win_result = healthy_combat_one.get_result_data(1, constants.ROUND_NUMBER, fight_name, 'Won', combatant_one.health)
             writer.writerow(win_result)
 
-            loss_result = healthy_combat_two.get_result_data(constants.ROUND_NUMBER, fight_name, 'Lost', combatant_two.health)
+            loss_result = healthy_combat_two.get_result_data(2, constants.ROUND_NUMBER, fight_name, 'Lost', combatant_two.health)
             writer.writerow(loss_result)
         elif winner == final_combat_two:
-            win_result = healthy_combat_two.get_result_data(constants.ROUND_NUMBER, fight_name, 'Won', combatant_two.health)
+            win_result = healthy_combat_two.get_result_data(2, constants.ROUND_NUMBER, fight_name, 'Won', combatant_two.health)
             writer.writerow(win_result)
 
-            loss_result = healthy_combat_one.get_result_data(constants.ROUND_NUMBER, fight_name, 'Lost', combatant_one.health)
+            loss_result = healthy_combat_one.get_result_data(1, constants.ROUND_NUMBER, fight_name, 'Lost', combatant_one.health)
             writer.writerow(loss_result)
 
     winner.recooperate()

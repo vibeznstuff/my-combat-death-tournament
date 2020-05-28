@@ -5,6 +5,7 @@ from random import uniform
 import csv
 import constants
 import pandas as pd
+import tournament
 
 
 def rescale(img, x, y):
@@ -85,18 +86,19 @@ def get_players(round_number):
     global p2_rest_sf
     global fighting
 
-    players = tournament_data[tournament_data["round_number"] == round_number]
-    p1_name = players.iloc[0,2]
-    p1_gender = players.iloc[0,3]
-    p1_class = players.iloc[0,4]
-    p1_rank = players.iloc[0,5]
-    p1_health_max = players.iloc[0,6]
+    p1_info = tournament_data[(tournament_data["round_number"] == round_number) & (tournament_data['combatant_number'] == 1)]
+    p1_name = p1_info.iloc[0,3]
+    p1_gender = p1_info.iloc[0,4]
+    p1_class = p1_info.iloc[0,5]
+    p1_rank = p1_info.iloc[0,6]
+    p1_health_max = p1_info.iloc[0,8]
 
-    p2_name = players.iloc[1,2]
-    p2_gender = players.iloc[1,3]
-    p2_class = players.iloc[1,4]
-    p2_rank = players.iloc[1,5]
-    p2_health_max = players.iloc[1,6]
+    p2_info = tournament_data[(tournament_data["round_number"] == round_number) & (tournament_data['combatant_number'] == 2)]
+    p2_name = p2_info.iloc[0,3]
+    p2_gender = p2_info.iloc[0,4]
+    p2_class = p2_info.iloc[0,5]
+    p2_rank = p2_info.iloc[0,6]
+    p2_health_max = p2_info.iloc[0,8]
 
     player_one = "{0}_{1}".format(p1_class.lower(), p1_gender)
     player_two = "{0}_{1}".format(p2_class.lower(), p2_gender)
@@ -120,7 +122,8 @@ def get_players(round_number):
 
     p1_rest_sf = mappings[player_one]['rest_slow_factor']
     p2_rest_sf = mappings[player_two]['rest_slow_factor']
-    print(players)
+    print(p1_info)
+    print(p2_info)
 
     fighting = True
 
@@ -194,11 +197,12 @@ def draw(p1_health_new, p2_health_new):
     global fighting
     global p1_wait_cycles
     global p2_wait_cycles
+    global timer
 
     if p1_step_count + 1 >= p1_limit and not (p1_defeat or p1_victory):
         p1_step_count = 0
         p1_attacking = False
-        if p1_recoiling and p2_resting:
+        if p1_recoiling and not p2_attacking:
             p1_health = p1_health_new
             p1_recoiling = False
         p2_dodging = False
@@ -208,15 +212,19 @@ def draw(p1_health_new, p2_health_new):
     if p2_step_count + 1 >= p2_limit and not (p2_defeat or p2_victory):
         p2_step_count = 0
         p2_attacking = False
-        if p2_recoiling and p1_resting:
+        if p2_recoiling and not p1_attacking:
             p2_health = p2_health_new
             p2_recoiling = False
         p1_dodging = False
         if p2_wait_cycles > 0 and p2_resting:
             p2_wait_cycles -= 1
 
-    if (p2_defeat and (p1_step_count + 1 >= p1_limit)) or (p1_defeat and (p2_step_count + 1 >= p2_limit)):
+    end_by_defeat = ((p2_defeat and (p1_step_count + 1 >= p1_limit)) or (p1_defeat and (p2_step_count + 1 >= p2_limit)))
+    end_by_timer = ((p2_defeat or p1_defeat) and timer == 0)
+
+    if end_by_defeat or end_by_timer:
         time.sleep(5)
+        print("Resetting fight")
         reset_fight()
         fighting = False
     
@@ -270,7 +278,7 @@ pygame.display.set_caption("Combat Death Tournament Simulator")
 
 mappings = json.load(open("animation_mappings.json"))
 
-print(mappings)
+#print(mappings)
 
 p1_dodge_rate = 0.25
 p2_dodge_rate = 0.25
@@ -312,8 +320,46 @@ p2_wait_cycles = 0
 
 while run:
 
+    if not fighting:
+        get_players(round_num)
+        timer = constants.MAX_FIGHT_MOMENTS
+        p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
+        p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
+
+        round_num_tmp = round_num - 1
+        while round_num_tmp < round_num:
+            fight_event = next(csv_reader)
+            round_num_tmp = int(fight_event[0])
+        
+        p1_step_count = 0
+        p2_step_count = 0
+
+    clock.tick(FRAME_RATE)
+
     if min(p1_wait_cycles, p2_wait_cycles) == 0:
+
+        time_elapsed = timer - int(fight_event[2])
+        p1_wait_cycles = max(1,round(time_elapsed))
+        p2_wait_cycles = max(1,round(time_elapsed))
+        timer = int(fight_event[2])
+
+        if timer == 0 and not (p1_recoiling or p1_attacking or p1_dodging or p2_recoiling or p2_attacking or p2_dodging):
+            if p1_health > p2_health:
+                p2_defeat = True
+                
+            else:
+                p1_defeat = True
+            
+            p1_recoiling = False
+            p1_dodging = False
+            p1_attacking = False
+            p2_recoiling = False
+            p2_dodging = False
+            p2_attacking = False
+        
+        print("\n")
         print("Time Left:", fight_event[2])
+
         if fight_event[6] == 'True':
             p1_dodged = True
         else:
@@ -333,23 +379,21 @@ while run:
             p2_attacked = True
         else:
             p2_attacked = False
+        
+        print(fight_event[3])
+        print("P2 Defeat: ",p2_defeat)
+        print((p1_step_count, p1_limit))
+        #print(fight_event[5], fight_event[9])
+        #print(p1_health, p2_health)
 
-        fight_event = next(csv_reader)
-        time_elapsed = timer - int(fight_event[2])
-        timer = int(fight_event[2])
-        p1_wait_cycles = round(time_elapsed)
-        p2_wait_cycles = round(time_elapsed)
+        if p2_defeat or p1_defeat or int(fight_event[2]) == 0:
+            pass
+        else:
+            fight_event = next(csv_reader)
 
-    if not fighting:
-        get_players(round_num)
-        p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
-        p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
-        p1_step_count = 0
-        p2_step_count = 0
+    #print((timer == 0 and p2_defeat == True))
 
-    clock.tick(FRAME_RATE)
-
-    if p2_health == 0 and not p2_defeat and not p1_attacking:
+    if ((p2_health == 0 and not p2_defeat) or (timer == 0 and p2_defeat == True)) and (not p1_attacking and not p2_recoiling and not p2_dodging):
         p2_defeat = True
         p2_attacking = False
         p2_dodging = False
@@ -360,8 +404,9 @@ while run:
         p1_step_count = 0
         p1_victory = True
         round_num += 1
+        print("P2 was defeated")
 
-    if p1_health == 0 and not p1_defeat and not p2_attacking:
+    if ((p1_health == 0 and not p1_defeat) or (timer == 0 and p1_defeat == True)) and (not p2_attacking and not p1_recoiling and not p1_dodging):
         p1_defeat = True
         p1_attacking = False
         p1_dodging = False
@@ -372,6 +417,7 @@ while run:
         p2_step_count = 0
         p2_victory = True
         round_num += 1
+        print("P1 was defeated")
 
     if not p1_resting and not p1_attacking and not p1_recoiling and not p1_dodging and not p1_defeat and not p1_victory:
         p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
@@ -385,7 +431,7 @@ while run:
         p2_resting = True
         x_2 = 445
 
-    if p1_attacking and not p1_recoiling:
+    if p1_attacking and not p1_recoiling and not p1_dodging:
         x += acc
         x_2_min = min(x_2, x_2_default)
         if x < x_2_min - 90:
@@ -422,11 +468,8 @@ while run:
         p1_resting = False
         p1_attacking = True
         p1_attacked = False
-
-        if uniform(0,1) < p2_dodge_rate:
-            p2_dodged = True
     
-    if p2_attacking and not p2_recoiling:
+    if p2_attacking and not p2_recoiling and not p2_dodging:
         x_2 -= acc_2
         x_max = max(x, x_default)
         if x_2 > x_max + 90:
@@ -463,9 +506,6 @@ while run:
         p2_resting = False
         p2_attacking = True
         p2_attacked = False
-
-        if uniform(0,1) < p1_dodge_rate:
-            p1_dodged = True
 
     for event in pygame.event.get():
             if event.type == pygame.QUIT:
