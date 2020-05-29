@@ -1,31 +1,7 @@
 round_number,combatant_number,fight_name,combatant,gender,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
-1,2,Alexa Hall vs Jessica Sun,Jessica Sun,female,TANK,WARRIOR,80,80,10,10,3,5,2,Won,46
-1,1,Alexa Hall vs Jessica Sun,Alexa Hall,female,TANK,WARRIOR,80,80,10,10,3,5,2,Lost,41
-2,2,Cortana Bitto vs Alexa Yikes,Alexa Yikes,female,BERSERKER,ELITE,64,64,10,9,6,10,0,Won,54
-2,1,Cortana Bitto vs Alexa Yikes,Cortana Bitto,female,MARTIAL_ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-3,2,Jessica Sun vs Alexa Yikes,Alexa Yikes,female,BERSERKER,ELITE,64,64,10,9,6,10,0,Won,24
-3,1,Jessica Sun vs Alexa Yikes,Jessica Sun,female,TANK,WARRIOR,80,69,10,10,3,5,2,Lost,0
-4,2,Bobobo Moon vs Carey Bitto,Carey Bitto,female,MARTIAL_ARTIST,ELITE,58,58,10,5,9,7,4,Won,46
-4,1,Bobobo Moon vs Carey Bitto,Bobobo Moon,male,MARTIAL_ARTIST,ELITE,58,58,5,5,14,7,4,Lost,0
-5,2,Moses Keely vs Talulah Yikes,Talulah Yikes,female,TANK,ELITE,80,80,10,10,3,5,7,Won,42
-5,1,Moses Keely vs Talulah Yikes,Moses Keely,male,MARTIAL_ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-6,2,Carey Bitto vs Talulah Yikes,Talulah Yikes,female,TANK,ELITE,80,63,10,10,3,5,7,Won,35
-6,1,Carey Bitto vs Talulah Yikes,Carey Bitto,female,MARTIAL_ARTIST,ELITE,58,58,10,5,9,7,4,Lost,0
-7,2,Alexa Yikes vs Talulah Yikes,Talulah Yikes,female,TANK,ELITE,80,52,10,10,3,5,7,Won,24
-7,1,Alexa Yikes vs Talulah Yikes,Alexa Yikes,female,BERSERKER,ELITE,64,36,10,9,6,10,0,Lost,0
-8,1,Henry Mysterious vs The Sun,Henry Mysterious,male,HEART,ELITE,84,126.0,5,10,5,6,4,Won,52.0
-8,2,Henry Mysterious vs The Sun,The Sun,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Lost,0
-9,1,Jack Chosen One vs The Mysterious,Jack Chosen One,male,HEART,WARRIOR,84,84,5,10,5,6,4,Won,57
-9,2,Jack Chosen One vs The Mysterious,The Mysterious,male,HERO,WARRIOR,58,58,6,7,3,4,10,Lost,38
-10,2,Henry Mysterious vs Jack Chosen One,Jack Chosen One,male,HEART,WARRIOR,84,84,5,10,5,6,4,Won,41
-10,1,Henry Mysterious vs Jack Chosen One,Henry Mysterious,male,HEART,ELITE,84,78,5,10,5,6,4,Lost,33
-11,1,Bobobo X vs Henry Chen,Bobobo X,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,50
-11,2,Bobobo X vs Henry Chen,Henry Chen,male,MARTIAL_ARTIST,WARRIOR,58,58,5,5,9,7,4,Lost,0
-12,2,Jessica Chen vs The X,The X,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,39
-12,1,Jessica Chen vs The X,Jessica Chen,female,MARTIAL_ARTIST,ELITE,58,58,5,5,14,7,4,Lost,0
-13,1,Bobobo X vs The X,Bobobo X,male,BERSERKER,WARRIOR,64,64,10,4,6,10,0,Won,40
-13,2,Bobobo X vs The X,The X,male,BERSERKER,WARRIOR,64,58,10,4,6,10,0,Lost,0
-14,2,Jack Chosen One vs Bobobo X,Bobobo X,male,BERSERKER,WARRIOR,64,60,10,4,6,10,0,Won,14
-14,1,Jack Chosen One vs Bobobo X,Jack Chosen One,male,HEART,WARRIOR,84,62,5,10,5,6,4,Lost,0
-15,1,Talulah Yikes vs Bobobo X,Talulah Yikes,female,TANK,ELITE,80,36,10,10,3,5,7,Won,30
-15,2,Talulah Yikes vs Bobobo X,Bobobo X,male,BERSERKER,WARRIOR,64,21,10,4,6,10,0,Lost,0
+1,1,Ting Ting Yikes vs The Hikaru,Ting Ting Yikes,female,BERSERKER,WARRIOR,192,192,10,4,6,10,0,Won,7
+1,2,Ting Ting Yikes vs The Hikaru,The Hikaru,male,HEART,WARRIOR,252,252,5,10,5,6,4,Lost,0
+2,1,Jesse Lee vs Kyle Bitto,Jesse Lee,female,BERSERKER,WARRIOR,192,192,10,4,6,10,0,Won,12
+2,2,Jesse Lee vs Kyle Bitto,Kyle Bitto,male,HERO,WARRIOR,174,174,6,7,3,4,10,Lost,0
+3,2,Ting Ting Yikes vs Jesse Lee,Jesse Lee,female,BERSERKER,WARRIOR,192,18,10,4,6,10,0,Won,18
+3,1,Ting Ting Yikes vs Jesse Lee,Ting Ting Yikes,female,BERSERKER,WARRIOR,192,10,10,4,6,10,0,Lost,0

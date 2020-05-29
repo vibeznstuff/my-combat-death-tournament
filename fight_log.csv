@@ -1,447 +1,68 @@
 round_number,fight_name,time_elapsed,event,combatant_one,combatant_one_health,combatant_one_dodged,combatant_one_attacked,combatant_two,combatant_two_health,combatant_two_dodged,combatant_two_attacked
-1,Alexa Hall vs Jessica Sun,300,Fight starts!,Alexa Hall,80,False,False,Jessica Sun,80,False,False
-1,Alexa Hall vs Jessica Sun,285,Alexa Hall Attacks Jessica Sun!,Alexa Hall,80,False,True,Jessica Sun,77,False,False
-1,Alexa Hall vs Jessica Sun,285,Jessica Sun Attacks Alexa Hall!,Alexa Hall,79,False,False,Jessica Sun,77,False,True
-1,Alexa Hall vs Jessica Sun,270,Jessica Sun Attacks Alexa Hall!,Alexa Hall,77,False,False,Jessica Sun,77,False,True
-1,Alexa Hall vs Jessica Sun,270,Alexa Hall Attacks Jessica Sun!,Alexa Hall,77,False,True,Jessica Sun,74,False,False
-1,Alexa Hall vs Jessica Sun,255,Jessica Sun dodged Alexa Hall's Attack!,Alexa Hall,77,False,True,Jessica Sun,74,True,False
-1,Alexa Hall vs Jessica Sun,255,Jessica Sun Attacks Alexa Hall!,Alexa Hall,75,False,False,Jessica Sun,74,False,True
-1,Alexa Hall vs Jessica Sun,240,Alexa Hall Attacks Jessica Sun!,Alexa Hall,75,False,True,Jessica Sun,73,False,False
-1,Alexa Hall vs Jessica Sun,240,Jessica Sun Attacks Alexa Hall!,Alexa Hall,72,False,False,Jessica Sun,73,False,True
-1,Alexa Hall vs Jessica Sun,225,Alexa Hall Attacks Jessica Sun!,Alexa Hall,72,False,True,Jessica Sun,71,False,False
-1,Alexa Hall vs Jessica Sun,225,Jessica Sun Attacks Alexa Hall!,Alexa Hall,70,False,False,Jessica Sun,71,False,True
-1,Alexa Hall vs Jessica Sun,210,Jessica Sun Attacks Alexa Hall!,Alexa Hall,67,False,False,Jessica Sun,71,False,True
-1,Alexa Hall vs Jessica Sun,210,Alexa Hall Attacks Jessica Sun!,Alexa Hall,67,False,True,Jessica Sun,68,False,False
-1,Alexa Hall vs Jessica Sun,195,Jessica Sun Attacks Alexa Hall!,Alexa Hall,65,False,False,Jessica Sun,68,False,True
-1,Alexa Hall vs Jessica Sun,195,Alexa Hall Attacks Jessica Sun!,Alexa Hall,65,False,True,Jessica Sun,67,False,False
-1,Alexa Hall vs Jessica Sun,180,Jessica Sun dodged Alexa Hall's Attack!,Alexa Hall,65,False,True,Jessica Sun,67,True,False
-1,Alexa Hall vs Jessica Sun,180,Jessica Sun Attacks Alexa Hall!,Alexa Hall,64,False,False,Jessica Sun,67,False,True
-1,Alexa Hall vs Jessica Sun,165,Alexa Hall dodged Jessica Sun's Attack!,Alexa Hall,64,True,False,Jessica Sun,67,False,True
-1,Alexa Hall vs Jessica Sun,165,Alexa Hall Attacks Jessica Sun!,Alexa Hall,64,False,True,Jessica Sun,65,False,False
-1,Alexa Hall vs Jessica Sun,150,Jessica Sun Attacks Alexa Hall!,Alexa Hall,62,False,False,Jessica Sun,65,False,True
-1,Alexa Hall vs Jessica Sun,150,Alexa Hall Attacks Jessica Sun!,Alexa Hall,62,False,True,Jessica Sun,64,False,False
-1,Alexa Hall vs Jessica Sun,135,Alexa Hall Attacks Jessica Sun!,Alexa Hall,62,False,True,Jessica Sun,62,False,False
-1,Alexa Hall vs Jessica Sun,135,Jessica Sun Attacks Alexa Hall!,Alexa Hall,60,False,False,Jessica Sun,62,False,True
-1,Alexa Hall vs Jessica Sun,120,Jessica Sun Attacks Alexa Hall!,Alexa Hall,58,False,False,Jessica Sun,62,False,True
-1,Alexa Hall vs Jessica Sun,120,Alexa Hall Attacks Jessica Sun!,Alexa Hall,58,False,True,Jessica Sun,59,False,False
-1,Alexa Hall vs Jessica Sun,105,Alexa Hall Attacks Jessica Sun!,Alexa Hall,58,False,True,Jessica Sun,57,False,False
-1,Alexa Hall vs Jessica Sun,105,Jessica Sun Attacks Alexa Hall!,Alexa Hall,55,False,False,Jessica Sun,57,False,True
-1,Alexa Hall vs Jessica Sun,90,Jessica Sun Attacks Alexa Hall!,Alexa Hall,52,False,False,Jessica Sun,57,False,True
-1,Alexa Hall vs Jessica Sun,90,Alexa Hall Attacks Jessica Sun!,Alexa Hall,52,False,True,Jessica Sun,56,False,False
-1,Alexa Hall vs Jessica Sun,75,Jessica Sun Attacks Alexa Hall!,Alexa Hall,50,False,False,Jessica Sun,56,False,True
-1,Alexa Hall vs Jessica Sun,75,Alexa Hall Attacks Jessica Sun!,Alexa Hall,50,False,True,Jessica Sun,53,False,False
-1,Alexa Hall vs Jessica Sun,60,Jessica Sun dodged Alexa Hall's Attack!,Alexa Hall,50,False,True,Jessica Sun,53,True,False
-1,Alexa Hall vs Jessica Sun,60,Jessica Sun Attacks Alexa Hall!,Alexa Hall,49,False,False,Jessica Sun,53,False,True
-1,Alexa Hall vs Jessica Sun,45,Alexa Hall dodged Jessica Sun's Attack!,Alexa Hall,49,True,False,Jessica Sun,53,False,True
-1,Alexa Hall vs Jessica Sun,45,Alexa Hall Attacks Jessica Sun!,Alexa Hall,49,False,True,Jessica Sun,52,False,False
-1,Alexa Hall vs Jessica Sun,30,Jessica Sun Attacks Alexa Hall!,Alexa Hall,46,False,False,Jessica Sun,52,False,True
-1,Alexa Hall vs Jessica Sun,30,Alexa Hall Attacks Jessica Sun!,Alexa Hall,46,False,True,Jessica Sun,50,False,False
-1,Alexa Hall vs Jessica Sun,15,Jessica Sun Attacks Alexa Hall!,Alexa Hall,44,False,False,Jessica Sun,50,False,True
-1,Alexa Hall vs Jessica Sun,15,Alexa Hall Attacks Jessica Sun!,Alexa Hall,44,False,True,Jessica Sun,48,False,False
-1,Alexa Hall vs Jessica Sun,0,Alexa Hall Attacks Jessica Sun!,Alexa Hall,44,False,True,Jessica Sun,46,False,False
-1,Alexa Hall vs Jessica Sun,0,Jessica Sun Attacks Alexa Hall!,Alexa Hall,41,False,False,Jessica Sun,46,False,True
-1,Alexa Hall vs Jessica Sun,0,Jessica Sun wins the fight!,Alexa Hall,41,False,False,Jessica Sun,46,False,False
-2,Cortana Bitto vs Alexa Yikes,300,Fight starts!,Cortana Bitto,58,False,False,Alexa Yikes,64,False,False
-2,Cortana Bitto vs Alexa Yikes,290,Cortana Bitto dodged Alexa Yikes's Attack!,Cortana Bitto,58,True,False,Alexa Yikes,64,False,True
-2,Cortana Bitto vs Alexa Yikes,287,Cortana Bitto Attacks Alexa Yikes!,Cortana Bitto,58,False,True,Alexa Yikes,59,False,False
-2,Cortana Bitto vs Alexa Yikes,280,Alexa Yikes Attacks Cortana Bitto!,Cortana Bitto,48,False,False,Alexa Yikes,59,False,True
-2,Cortana Bitto vs Alexa Yikes,274,Cortana Bitto Attacks Alexa Yikes!,Cortana Bitto,48,False,True,Alexa Yikes,57,False,False
-2,Cortana Bitto vs Alexa Yikes,270,Cortana Bitto dodged Alexa Yikes's Attack!,Cortana Bitto,48,True,False,Alexa Yikes,57,False,True
-2,Cortana Bitto vs Alexa Yikes,261,Cortana Bitto Attacks Alexa Yikes!,Cortana Bitto,48,False,True,Alexa Yikes,54,False,False
-2,Cortana Bitto vs Alexa Yikes,260,Alexa Yikes Attacks Cortana Bitto!,Cortana Bitto,23,False,False,Alexa Yikes,54,False,True
-2,Cortana Bitto vs Alexa Yikes,250,Alexa Yikes Attacks Cortana Bitto!,Cortana Bitto,0,False,False,Alexa Yikes,54,False,True
-2,Cortana Bitto vs Alexa Yikes,250,Cortana Bitto has been Defeated!,Cortana Bitto,0,False,False,Alexa Yikes,54,False,False
-2,Cortana Bitto vs Alexa Yikes,250,Alexa Yikes wins the fight!,Cortana Bitto,0,False,False,Alexa Yikes,54,False,False
-3,Jessica Sun vs Alexa Yikes,300,Fight starts!,Jessica Sun,69,False,False,Alexa Yikes,64,False,False
-3,Jessica Sun vs Alexa Yikes,290,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,69,True,False,Alexa Yikes,64,False,True
-3,Jessica Sun vs Alexa Yikes,285,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,69,False,True,Alexa Yikes,62,False,False
-3,Jessica Sun vs Alexa Yikes,280,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,64,False,False,Alexa Yikes,62,False,True
-3,Jessica Sun vs Alexa Yikes,270,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,62,False,False,Alexa Yikes,62,False,True
-3,Jessica Sun vs Alexa Yikes,270,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,62,False,True,Alexa Yikes,60,False,False
-3,Jessica Sun vs Alexa Yikes,260,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,61,False,False,Alexa Yikes,60,False,True
-3,Jessica Sun vs Alexa Yikes,255,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,61,False,True,Alexa Yikes,57,False,False
-3,Jessica Sun vs Alexa Yikes,250,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,61,True,False,Alexa Yikes,57,False,True
-3,Jessica Sun vs Alexa Yikes,240,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,58,False,False,Alexa Yikes,57,False,True
-3,Jessica Sun vs Alexa Yikes,240,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,58,False,True,Alexa Yikes,56,False,False
-3,Jessica Sun vs Alexa Yikes,230,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,58,True,False,Alexa Yikes,56,False,True
-3,Jessica Sun vs Alexa Yikes,225,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,58,False,True,Alexa Yikes,54,False,False
-3,Jessica Sun vs Alexa Yikes,220,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,57,False,False,Alexa Yikes,54,False,True
-3,Jessica Sun vs Alexa Yikes,210,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,57,True,False,Alexa Yikes,54,False,True
-3,Jessica Sun vs Alexa Yikes,210,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,57,False,True,Alexa Yikes,53,False,False
-3,Jessica Sun vs Alexa Yikes,200,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,51,False,False,Alexa Yikes,53,False,True
-3,Jessica Sun vs Alexa Yikes,195,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,51,False,True,Alexa Yikes,50,False,False
-3,Jessica Sun vs Alexa Yikes,190,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,46,False,False,Alexa Yikes,50,False,True
-3,Jessica Sun vs Alexa Yikes,180,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,43,False,False,Alexa Yikes,50,False,True
-3,Jessica Sun vs Alexa Yikes,180,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,43,False,True,Alexa Yikes,48,False,False
-3,Jessica Sun vs Alexa Yikes,170,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,43,True,False,Alexa Yikes,48,False,True
-3,Jessica Sun vs Alexa Yikes,165,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,43,False,True,Alexa Yikes,45,False,False
-3,Jessica Sun vs Alexa Yikes,160,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,40,False,False,Alexa Yikes,45,False,True
-3,Jessica Sun vs Alexa Yikes,150,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,36,False,False,Alexa Yikes,45,False,True
-3,Jessica Sun vs Alexa Yikes,150,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,36,False,True,Alexa Yikes,43,False,False
-3,Jessica Sun vs Alexa Yikes,140,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,30,False,False,Alexa Yikes,43,False,True
-3,Jessica Sun vs Alexa Yikes,135,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,30,False,True,Alexa Yikes,40,False,False
-3,Jessica Sun vs Alexa Yikes,130,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,28,False,False,Alexa Yikes,40,False,True
-3,Jessica Sun vs Alexa Yikes,120,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,25,False,False,Alexa Yikes,40,False,True
-3,Jessica Sun vs Alexa Yikes,120,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,25,False,True,Alexa Yikes,38,False,False
-3,Jessica Sun vs Alexa Yikes,110,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,21,False,False,Alexa Yikes,38,False,True
-3,Jessica Sun vs Alexa Yikes,105,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,21,False,True,Alexa Yikes,37,False,False
-3,Jessica Sun vs Alexa Yikes,100,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,21,True,False,Alexa Yikes,37,False,True
-3,Jessica Sun vs Alexa Yikes,90,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,21,True,False,Alexa Yikes,37,False,True
-3,Jessica Sun vs Alexa Yikes,90,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,21,False,True,Alexa Yikes,34,False,False
-3,Jessica Sun vs Alexa Yikes,80,Jessica Sun dodged Alexa Yikes's Attack!,Jessica Sun,21,True,False,Alexa Yikes,34,False,True
-3,Jessica Sun vs Alexa Yikes,75,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,21,False,True,Alexa Yikes,33,False,False
-3,Jessica Sun vs Alexa Yikes,70,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,18,False,False,Alexa Yikes,33,False,True
-3,Jessica Sun vs Alexa Yikes,60,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,16,False,False,Alexa Yikes,33,False,True
-3,Jessica Sun vs Alexa Yikes,60,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,16,False,True,Alexa Yikes,30,False,False
-3,Jessica Sun vs Alexa Yikes,50,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,14,False,False,Alexa Yikes,30,False,True
-3,Jessica Sun vs Alexa Yikes,45,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,14,False,True,Alexa Yikes,28,False,False
-3,Jessica Sun vs Alexa Yikes,40,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,9,False,False,Alexa Yikes,28,False,True
-3,Jessica Sun vs Alexa Yikes,30,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,3,False,False,Alexa Yikes,28,False,True
-3,Jessica Sun vs Alexa Yikes,30,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,3,False,True,Alexa Yikes,26,False,False
-3,Jessica Sun vs Alexa Yikes,20,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,2,False,False,Alexa Yikes,26,False,True
-3,Jessica Sun vs Alexa Yikes,15,Jessica Sun Attacks Alexa Yikes!,Jessica Sun,2,False,True,Alexa Yikes,24,False,False
-3,Jessica Sun vs Alexa Yikes,10,Alexa Yikes Attacks Jessica Sun!,Jessica Sun,0,False,False,Alexa Yikes,24,False,True
-3,Jessica Sun vs Alexa Yikes,10,Jessica Sun has been Defeated!,Jessica Sun,0,False,False,Alexa Yikes,24,False,False
-3,Jessica Sun vs Alexa Yikes,10,Alexa Yikes wins the fight!,Jessica Sun,0,False,False,Alexa Yikes,24,False,False
-4,Bobobo Moon vs Carey Bitto,300,Fight starts!,Bobobo Moon,58,False,False,Carey Bitto,58,False,False
-4,Bobobo Moon vs Carey Bitto,287,Bobobo Moon Attacks Carey Bitto!,Bobobo Moon,58,False,True,Carey Bitto,57,False,False
-4,Bobobo Moon vs Carey Bitto,287,Carey Bitto Attacks Bobobo Moon!,Bobobo Moon,33,False,False,Carey Bitto,57,False,True
-4,Bobobo Moon vs Carey Bitto,274,Bobobo Moon Attacks Carey Bitto!,Bobobo Moon,33,False,True,Carey Bitto,50,False,False
-4,Bobobo Moon vs Carey Bitto,274,Carey Bitto Attacks Bobobo Moon!,Bobobo Moon,8,False,False,Carey Bitto,50,False,True
-4,Bobobo Moon vs Carey Bitto,261,Bobobo Moon Attacks Carey Bitto!,Bobobo Moon,8,False,True,Carey Bitto,46,False,False
-4,Bobobo Moon vs Carey Bitto,261,Carey Bitto Attacks Bobobo Moon!,Bobobo Moon,0,False,False,Carey Bitto,46,False,True
-4,Bobobo Moon vs Carey Bitto,261,Bobobo Moon has been Defeated!,Bobobo Moon,0,False,False,Carey Bitto,46,False,False
-4,Bobobo Moon vs Carey Bitto,261,Carey Bitto wins the fight!,Bobobo Moon,0,False,False,Carey Bitto,46,False,False
-5,Moses Keely vs Talulah Yikes,300,Fight starts!,Moses Keely,58,False,False,Talulah Yikes,80,False,False
-5,Moses Keely vs Talulah Yikes,287,Moses Keely Attacks Talulah Yikes!,Moses Keely,58,False,True,Talulah Yikes,73,False,False
-5,Moses Keely vs Talulah Yikes,285,Talulah Yikes Attacks Moses Keely!,Moses Keely,43,False,False,Talulah Yikes,73,False,True
-5,Moses Keely vs Talulah Yikes,274,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,43,False,True,Talulah Yikes,73,True,False
-5,Moses Keely vs Talulah Yikes,270,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,43,True,False,Talulah Yikes,73,False,True
-5,Moses Keely vs Talulah Yikes,261,Moses Keely Attacks Talulah Yikes!,Moses Keely,43,False,True,Talulah Yikes,71,False,False
-5,Moses Keely vs Talulah Yikes,255,Talulah Yikes Attacks Moses Keely!,Moses Keely,33,False,False,Talulah Yikes,71,False,True
-5,Moses Keely vs Talulah Yikes,248,Moses Keely Attacks Talulah Yikes!,Moses Keely,33,False,True,Talulah Yikes,67,False,False
-5,Moses Keely vs Talulah Yikes,240,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,33,True,False,Talulah Yikes,67,False,True
-5,Moses Keely vs Talulah Yikes,235,Moses Keely Attacks Talulah Yikes!,Moses Keely,33,False,True,Talulah Yikes,59,False,False
-5,Moses Keely vs Talulah Yikes,225,Talulah Yikes Attacks Moses Keely!,Moses Keely,23,False,False,Talulah Yikes,59,False,True
-5,Moses Keely vs Talulah Yikes,222,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,23,False,True,Talulah Yikes,59,True,False
-5,Moses Keely vs Talulah Yikes,210,Talulah Yikes Attacks Moses Keely!,Moses Keely,18,False,False,Talulah Yikes,59,False,True
-5,Moses Keely vs Talulah Yikes,209,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,18,False,True,Talulah Yikes,59,True,False
-5,Moses Keely vs Talulah Yikes,196,Moses Keely Attacks Talulah Yikes!,Moses Keely,18,False,True,Talulah Yikes,53,False,False
-5,Moses Keely vs Talulah Yikes,195,Talulah Yikes Attacks Moses Keely!,Moses Keely,8,False,False,Talulah Yikes,53,False,True
-5,Moses Keely vs Talulah Yikes,183,Moses Keely Attacks Talulah Yikes!,Moses Keely,8,False,True,Talulah Yikes,52,False,False
-5,Moses Keely vs Talulah Yikes,180,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,8,True,False,Talulah Yikes,52,False,True
-5,Moses Keely vs Talulah Yikes,170,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,8,False,True,Talulah Yikes,52,True,False
-5,Moses Keely vs Talulah Yikes,165,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,8,True,False,Talulah Yikes,52,False,True
-5,Moses Keely vs Talulah Yikes,157,Moses Keely Attacks Talulah Yikes!,Moses Keely,8,False,True,Talulah Yikes,49,False,False
-5,Moses Keely vs Talulah Yikes,150,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,8,True,False,Talulah Yikes,49,False,True
-5,Moses Keely vs Talulah Yikes,144,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,8,False,True,Talulah Yikes,49,True,False
-5,Moses Keely vs Talulah Yikes,135,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,8,True,False,Talulah Yikes,49,False,True
-5,Moses Keely vs Talulah Yikes,131,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,8,False,True,Talulah Yikes,49,True,False
-5,Moses Keely vs Talulah Yikes,120,Talulah Yikes Attacks Moses Keely!,Moses Keely,3,False,False,Talulah Yikes,49,False,True
-5,Moses Keely vs Talulah Yikes,118,Moses Keely Attacks Talulah Yikes!,Moses Keely,3,False,True,Talulah Yikes,46,False,False
-5,Moses Keely vs Talulah Yikes,105,Talulah Yikes dodged Moses Keely's Attack!,Moses Keely,3,False,True,Talulah Yikes,46,True,False
-5,Moses Keely vs Talulah Yikes,105,Moses Keely dodged Talulah Yikes's Attack!,Moses Keely,3,True,False,Talulah Yikes,46,False,True
-5,Moses Keely vs Talulah Yikes,92,Moses Keely Attacks Talulah Yikes!,Moses Keely,3,False,True,Talulah Yikes,42,False,False
-5,Moses Keely vs Talulah Yikes,90,Talulah Yikes Attacks Moses Keely!,Moses Keely,0,False,False,Talulah Yikes,42,False,True
-5,Moses Keely vs Talulah Yikes,90,Moses Keely has been Defeated!,Moses Keely,0,False,False,Talulah Yikes,42,False,False
-5,Moses Keely vs Talulah Yikes,90,Talulah Yikes wins the fight!,Moses Keely,0,False,False,Talulah Yikes,42,False,False
-6,Carey Bitto vs Talulah Yikes,300,Fight starts!,Carey Bitto,58,False,False,Talulah Yikes,63,False,False
-6,Carey Bitto vs Talulah Yikes,287,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,58,False,True,Talulah Yikes,63,True,False
-6,Carey Bitto vs Talulah Yikes,285,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,53,False,False,Talulah Yikes,63,False,True
-6,Carey Bitto vs Talulah Yikes,274,Carey Bitto Attacks Talulah Yikes!,Carey Bitto,53,False,True,Talulah Yikes,60,False,False
-6,Carey Bitto vs Talulah Yikes,270,Carey Bitto dodged Talulah Yikes's Attack!,Carey Bitto,53,True,False,Talulah Yikes,60,False,True
-6,Carey Bitto vs Talulah Yikes,261,Carey Bitto Attacks Talulah Yikes!,Carey Bitto,53,False,True,Talulah Yikes,54,False,False
-6,Carey Bitto vs Talulah Yikes,255,Carey Bitto dodged Talulah Yikes's Attack!,Carey Bitto,53,True,False,Talulah Yikes,54,False,True
-6,Carey Bitto vs Talulah Yikes,248,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,53,False,True,Talulah Yikes,54,True,False
-6,Carey Bitto vs Talulah Yikes,240,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,48,False,False,Talulah Yikes,54,False,True
-6,Carey Bitto vs Talulah Yikes,235,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,48,False,True,Talulah Yikes,54,True,False
-6,Carey Bitto vs Talulah Yikes,225,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,38,False,False,Talulah Yikes,54,False,True
-6,Carey Bitto vs Talulah Yikes,222,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,38,False,True,Talulah Yikes,54,True,False
-6,Carey Bitto vs Talulah Yikes,210,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,33,False,False,Talulah Yikes,54,False,True
-6,Carey Bitto vs Talulah Yikes,209,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,33,False,True,Talulah Yikes,54,True,False
-6,Carey Bitto vs Talulah Yikes,196,Carey Bitto Attacks Talulah Yikes!,Carey Bitto,33,False,True,Talulah Yikes,52,False,False
-6,Carey Bitto vs Talulah Yikes,195,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,18,False,False,Talulah Yikes,52,False,True
-6,Carey Bitto vs Talulah Yikes,183,Carey Bitto Attacks Talulah Yikes!,Carey Bitto,18,False,True,Talulah Yikes,45,False,False
-6,Carey Bitto vs Talulah Yikes,180,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,13,False,False,Talulah Yikes,45,False,True
-6,Carey Bitto vs Talulah Yikes,170,Carey Bitto Attacks Talulah Yikes!,Carey Bitto,13,False,True,Talulah Yikes,39,False,False
-6,Carey Bitto vs Talulah Yikes,165,Carey Bitto dodged Talulah Yikes's Attack!,Carey Bitto,13,True,False,Talulah Yikes,39,False,True
-6,Carey Bitto vs Talulah Yikes,157,Carey Bitto Attacks Talulah Yikes!,Carey Bitto,13,False,True,Talulah Yikes,35,False,False
-6,Carey Bitto vs Talulah Yikes,150,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,3,False,False,Talulah Yikes,35,False,True
-6,Carey Bitto vs Talulah Yikes,144,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,3,False,True,Talulah Yikes,35,True,False
-6,Carey Bitto vs Talulah Yikes,135,Carey Bitto dodged Talulah Yikes's Attack!,Carey Bitto,3,True,False,Talulah Yikes,35,False,True
-6,Carey Bitto vs Talulah Yikes,131,Talulah Yikes dodged Carey Bitto's Attack!,Carey Bitto,3,False,True,Talulah Yikes,35,True,False
-6,Carey Bitto vs Talulah Yikes,120,Talulah Yikes Attacks Carey Bitto!,Carey Bitto,0,False,False,Talulah Yikes,35,False,True
-6,Carey Bitto vs Talulah Yikes,120,Carey Bitto has been Defeated!,Carey Bitto,0,False,False,Talulah Yikes,35,False,False
-6,Carey Bitto vs Talulah Yikes,120,Talulah Yikes wins the fight!,Carey Bitto,0,False,False,Talulah Yikes,35,False,False
-7,Alexa Yikes vs Talulah Yikes,300,Fight starts!,Alexa Yikes,36,False,False,Talulah Yikes,52,False,False
-7,Alexa Yikes vs Talulah Yikes,290,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,36,False,True,Talulah Yikes,52,True,False
-7,Alexa Yikes vs Talulah Yikes,285,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,34,False,False,Talulah Yikes,52,False,True
-7,Alexa Yikes vs Talulah Yikes,280,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,34,False,True,Talulah Yikes,52,True,False
-7,Alexa Yikes vs Talulah Yikes,270,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,34,False,True,Talulah Yikes,49,False,False
-7,Alexa Yikes vs Talulah Yikes,270,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,31,False,False,Talulah Yikes,49,False,True
-7,Alexa Yikes vs Talulah Yikes,260,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,31,False,True,Talulah Yikes,46,False,False
-7,Alexa Yikes vs Talulah Yikes,255,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,28,False,False,Talulah Yikes,46,False,True
-7,Alexa Yikes vs Talulah Yikes,250,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,28,False,True,Talulah Yikes,45,False,False
-7,Alexa Yikes vs Talulah Yikes,240,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,28,False,True,Talulah Yikes,45,True,False
-7,Alexa Yikes vs Talulah Yikes,240,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,27,False,False,Talulah Yikes,45,False,True
-7,Alexa Yikes vs Talulah Yikes,230,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,27,False,True,Talulah Yikes,45,True,False
-7,Alexa Yikes vs Talulah Yikes,225,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,26,False,False,Talulah Yikes,45,False,True
-7,Alexa Yikes vs Talulah Yikes,220,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,26,False,True,Talulah Yikes,43,False,False
-7,Alexa Yikes vs Talulah Yikes,210,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,26,False,True,Talulah Yikes,41,False,False
-7,Alexa Yikes vs Talulah Yikes,210,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,24,False,False,Talulah Yikes,41,False,True
-7,Alexa Yikes vs Talulah Yikes,200,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,24,False,True,Talulah Yikes,41,True,False
-7,Alexa Yikes vs Talulah Yikes,195,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,22,False,False,Talulah Yikes,41,False,True
-7,Alexa Yikes vs Talulah Yikes,190,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,22,False,True,Talulah Yikes,41,True,False
-7,Alexa Yikes vs Talulah Yikes,180,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,22,False,True,Talulah Yikes,41,True,False
-7,Alexa Yikes vs Talulah Yikes,180,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,19,False,False,Talulah Yikes,41,False,True
-7,Alexa Yikes vs Talulah Yikes,170,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,19,False,True,Talulah Yikes,41,True,False
-7,Alexa Yikes vs Talulah Yikes,165,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,17,False,False,Talulah Yikes,41,False,True
-7,Alexa Yikes vs Talulah Yikes,160,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,17,False,True,Talulah Yikes,41,True,False
-7,Alexa Yikes vs Talulah Yikes,150,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,17,False,True,Talulah Yikes,39,False,False
-7,Alexa Yikes vs Talulah Yikes,150,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,15,False,False,Talulah Yikes,39,False,True
-7,Alexa Yikes vs Talulah Yikes,140,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,15,False,True,Talulah Yikes,39,True,False
-7,Alexa Yikes vs Talulah Yikes,135,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,13,False,False,Talulah Yikes,39,False,True
-7,Alexa Yikes vs Talulah Yikes,130,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,13,False,True,Talulah Yikes,35,False,False
-7,Alexa Yikes vs Talulah Yikes,120,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,13,False,True,Talulah Yikes,35,True,False
-7,Alexa Yikes vs Talulah Yikes,120,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,11,False,False,Talulah Yikes,35,False,True
-7,Alexa Yikes vs Talulah Yikes,110,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,11,False,True,Talulah Yikes,35,True,False
-7,Alexa Yikes vs Talulah Yikes,105,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,8,False,False,Talulah Yikes,35,False,True
-7,Alexa Yikes vs Talulah Yikes,100,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,8,False,True,Talulah Yikes,31,False,False
-7,Alexa Yikes vs Talulah Yikes,90,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,8,False,True,Talulah Yikes,28,False,False
-7,Alexa Yikes vs Talulah Yikes,90,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,6,False,False,Talulah Yikes,28,False,True
-7,Alexa Yikes vs Talulah Yikes,80,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,6,False,True,Talulah Yikes,26,False,False
-7,Alexa Yikes vs Talulah Yikes,75,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,3,False,False,Talulah Yikes,26,False,True
-7,Alexa Yikes vs Talulah Yikes,70,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,3,False,True,Talulah Yikes,26,True,False
-7,Alexa Yikes vs Talulah Yikes,60,Alexa Yikes Attacks Talulah Yikes!,Alexa Yikes,3,False,True,Talulah Yikes,24,False,False
-7,Alexa Yikes vs Talulah Yikes,60,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,1,False,False,Talulah Yikes,24,False,True
-7,Alexa Yikes vs Talulah Yikes,50,Talulah Yikes dodged Alexa Yikes's Attack!,Alexa Yikes,1,False,True,Talulah Yikes,24,True,False
-7,Alexa Yikes vs Talulah Yikes,45,Talulah Yikes Attacks Alexa Yikes!,Alexa Yikes,0,False,False,Talulah Yikes,24,False,True
-7,Alexa Yikes vs Talulah Yikes,45,Alexa Yikes has been Defeated!,Alexa Yikes,0,False,False,Talulah Yikes,24,False,False
-7,Alexa Yikes vs Talulah Yikes,45,Talulah Yikes wins the fight!,Alexa Yikes,0,False,False,Talulah Yikes,24,False,False
-8,Henry Mysterious vs The Sun,300,Fight starts!,Henry Mysterious,126.0,False,False,The Sun,64,False,False
-8,Henry Mysterious vs The Sun,290,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,126.0,True,False,The Sun,64,False,True
-8,Henry Mysterious vs The Sun,286,Henry Mysterious Attacks The Sun!,Henry Mysterious,126.0,False,True,The Sun,60,False,False
-8,Henry Mysterious vs The Sun,280,The Sun Attacks Henry Mysterious!,Henry Mysterious,121.0,False,False,The Sun,60,False,True
-8,Henry Mysterious vs The Sun,272,Henry Mysterious Attacks The Sun!,Henry Mysterious,121.0,False,True,The Sun,58,False,False
-8,Henry Mysterious vs The Sun,270,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,121.0,True,False,The Sun,58,False,True
-8,Henry Mysterious vs The Sun,260,The Sun Attacks Henry Mysterious!,Henry Mysterious,116.0,False,False,The Sun,58,False,True
-8,Henry Mysterious vs The Sun,258,Henry Mysterious Attacks The Sun!,Henry Mysterious,116.0,False,True,The Sun,53,False,False
-8,Henry Mysterious vs The Sun,250,The Sun Attacks Henry Mysterious!,Henry Mysterious,111.0,False,False,The Sun,53,False,True
-8,Henry Mysterious vs The Sun,244,Henry Mysterious Attacks The Sun!,Henry Mysterious,111.0,False,True,The Sun,50,False,False
-8,Henry Mysterious vs The Sun,240,The Sun Attacks Henry Mysterious!,Henry Mysterious,109.0,False,False,The Sun,50,False,True
-8,Henry Mysterious vs The Sun,230,The Sun Attacks Henry Mysterious!,Henry Mysterious,104.0,False,False,The Sun,50,False,True
-8,Henry Mysterious vs The Sun,230,Henry Mysterious Attacks The Sun!,Henry Mysterious,104.0,False,True,The Sun,47,False,False
-8,Henry Mysterious vs The Sun,220,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,104.0,True,False,The Sun,47,False,True
-8,Henry Mysterious vs The Sun,216,Henry Mysterious Attacks The Sun!,Henry Mysterious,104.0,False,True,The Sun,46,False,False
-8,Henry Mysterious vs The Sun,210,The Sun Attacks Henry Mysterious!,Henry Mysterious,99.0,False,False,The Sun,46,False,True
-8,Henry Mysterious vs The Sun,202,Henry Mysterious Attacks The Sun!,Henry Mysterious,99.0,False,True,The Sun,42,False,False
-8,Henry Mysterious vs The Sun,200,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,99.0,True,False,The Sun,42,False,True
-8,Henry Mysterious vs The Sun,190,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,99.0,True,False,The Sun,42,False,True
-8,Henry Mysterious vs The Sun,188,Henry Mysterious Attacks The Sun!,Henry Mysterious,99.0,False,True,The Sun,41,False,False
-8,Henry Mysterious vs The Sun,180,The Sun Attacks Henry Mysterious!,Henry Mysterious,96.0,False,False,The Sun,41,False,True
-8,Henry Mysterious vs The Sun,174,Henry Mysterious Attacks The Sun!,Henry Mysterious,96.0,False,True,The Sun,38,False,False
-8,Henry Mysterious vs The Sun,170,The Sun Attacks Henry Mysterious!,Henry Mysterious,94.0,False,False,The Sun,38,False,True
-8,Henry Mysterious vs The Sun,160,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,94.0,True,False,The Sun,38,False,True
-8,Henry Mysterious vs The Sun,160,Henry Mysterious Attacks The Sun!,Henry Mysterious,94.0,False,True,The Sun,37,False,False
-8,Henry Mysterious vs The Sun,150,The Sun Attacks Henry Mysterious!,Henry Mysterious,90.0,False,False,The Sun,37,False,True
-8,Henry Mysterious vs The Sun,146,Henry Mysterious Attacks The Sun!,Henry Mysterious,90.0,False,True,The Sun,33,False,False
-8,Henry Mysterious vs The Sun,140,The Sun Attacks Henry Mysterious!,Henry Mysterious,88.0,False,False,The Sun,33,False,True
-8,Henry Mysterious vs The Sun,132,Henry Mysterious Attacks The Sun!,Henry Mysterious,88.0,False,True,The Sun,28,False,False
-8,Henry Mysterious vs The Sun,130,The Sun Attacks Henry Mysterious!,Henry Mysterious,84.0,False,False,The Sun,28,False,True
-8,Henry Mysterious vs The Sun,120,The Sun Attacks Henry Mysterious!,Henry Mysterious,79.0,False,False,The Sun,28,False,True
-8,Henry Mysterious vs The Sun,118,Henry Mysterious Attacks The Sun!,Henry Mysterious,79.0,False,True,The Sun,26,False,False
-8,Henry Mysterious vs The Sun,110,The Sun Attacks Henry Mysterious!,Henry Mysterious,75.0,False,False,The Sun,26,False,True
-8,Henry Mysterious vs The Sun,104,Henry Mysterious Attacks The Sun!,Henry Mysterious,75.0,False,True,The Sun,21,False,False
-8,Henry Mysterious vs The Sun,100,The Sun Attacks Henry Mysterious!,Henry Mysterious,71.0,False,False,The Sun,21,False,True
-8,Henry Mysterious vs The Sun,90,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,71.0,True,False,The Sun,21,False,True
-8,Henry Mysterious vs The Sun,90,Henry Mysterious Attacks The Sun!,Henry Mysterious,71.0,False,True,The Sun,19,False,False
-8,Henry Mysterious vs The Sun,80,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,71.0,True,False,The Sun,19,False,True
-8,Henry Mysterious vs The Sun,76,Henry Mysterious Attacks The Sun!,Henry Mysterious,71.0,False,True,The Sun,18,False,False
-8,Henry Mysterious vs The Sun,70,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,71.0,True,False,The Sun,18,False,True
-8,Henry Mysterious vs The Sun,62,Henry Mysterious Attacks The Sun!,Henry Mysterious,71.0,False,True,The Sun,15,False,False
-8,Henry Mysterious vs The Sun,60,The Sun Attacks Henry Mysterious!,Henry Mysterious,65.0,False,False,The Sun,15,False,True
-8,Henry Mysterious vs The Sun,50,The Sun Attacks Henry Mysterious!,Henry Mysterious,62.0,False,False,The Sun,15,False,True
-8,Henry Mysterious vs The Sun,48,Henry Mysterious Attacks The Sun!,Henry Mysterious,62.0,False,True,The Sun,12,False,False
-8,Henry Mysterious vs The Sun,40,The Sun Attacks Henry Mysterious!,Henry Mysterious,59.0,False,False,The Sun,12,False,True
-8,Henry Mysterious vs The Sun,34,Henry Mysterious Attacks The Sun!,Henry Mysterious,59.0,False,True,The Sun,9,False,False
-8,Henry Mysterious vs The Sun,30,The Sun Attacks Henry Mysterious!,Henry Mysterious,54.0,False,False,The Sun,9,False,True
-8,Henry Mysterious vs The Sun,20,The Sun Attacks Henry Mysterious!,Henry Mysterious,52.0,False,False,The Sun,9,False,True
-8,Henry Mysterious vs The Sun,20,Henry Mysterious Attacks The Sun!,Henry Mysterious,52.0,False,True,The Sun,5,False,False
-8,Henry Mysterious vs The Sun,10,Henry Mysterious dodged The Sun's Attack!,Henry Mysterious,52.0,True,False,The Sun,5,False,True
-8,Henry Mysterious vs The Sun,6,Henry Mysterious Attacks The Sun!,Henry Mysterious,52.0,False,True,The Sun,0,False,False
-8,Henry Mysterious vs The Sun,6,The Sun has been Defeated!,Henry Mysterious,52.0,False,False,The Sun,0,False,False
-8,Henry Mysterious vs The Sun,6,Henry Mysterious wins the fight!,Henry Mysterious,52.0,False,False,The Sun,0,False,False
-9,Jack Chosen One vs The Mysterious,300,Fight starts!,Jack Chosen One,84,False,False,The Mysterious,58,False,False
-9,Jack Chosen One vs The Mysterious,286,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,84,False,True,The Mysterious,58,True,False
-9,Jack Chosen One vs The Mysterious,284,Jack Chosen One dodged The Mysterious's Attack!,Jack Chosen One,84,True,False,The Mysterious,58,False,True
-9,Jack Chosen One vs The Mysterious,272,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,84,False,True,The Mysterious,56,False,False
-9,Jack Chosen One vs The Mysterious,268,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,83,False,False,The Mysterious,56,False,True
-9,Jack Chosen One vs The Mysterious,258,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,83,False,True,The Mysterious,53,False,False
-9,Jack Chosen One vs The Mysterious,252,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,81,False,False,The Mysterious,53,False,True
-9,Jack Chosen One vs The Mysterious,244,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,81,False,True,The Mysterious,53,True,False
-9,Jack Chosen One vs The Mysterious,236,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,78,False,False,The Mysterious,53,False,True
-9,Jack Chosen One vs The Mysterious,230,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,78,False,True,The Mysterious,53,True,False
-9,Jack Chosen One vs The Mysterious,220,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,76,False,False,The Mysterious,53,False,True
-9,Jack Chosen One vs The Mysterious,216,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,76,False,True,The Mysterious,53,True,False
-9,Jack Chosen One vs The Mysterious,204,Jack Chosen One dodged The Mysterious's Attack!,Jack Chosen One,76,True,False,The Mysterious,53,False,True
-9,Jack Chosen One vs The Mysterious,202,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,76,False,True,The Mysterious,52,False,False
-9,Jack Chosen One vs The Mysterious,188,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,76,False,True,The Mysterious,52,True,False
-9,Jack Chosen One vs The Mysterious,188,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,75,False,False,The Mysterious,52,False,True
-9,Jack Chosen One vs The Mysterious,174,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,75,False,True,The Mysterious,48,False,False
-9,Jack Chosen One vs The Mysterious,172,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,72,False,False,The Mysterious,48,False,True
-9,Jack Chosen One vs The Mysterious,160,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,72,False,True,The Mysterious,48,True,False
-9,Jack Chosen One vs The Mysterious,156,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,71,False,False,The Mysterious,48,False,True
-9,Jack Chosen One vs The Mysterious,146,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,71,False,True,The Mysterious,48,True,False
-9,Jack Chosen One vs The Mysterious,140,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,69,False,False,The Mysterious,48,False,True
-9,Jack Chosen One vs The Mysterious,132,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,69,False,True,The Mysterious,44,False,False
-9,Jack Chosen One vs The Mysterious,124,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,66,False,False,The Mysterious,44,False,True
-9,Jack Chosen One vs The Mysterious,118,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,66,False,True,The Mysterious,44,True,False
-9,Jack Chosen One vs The Mysterious,108,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,64,False,False,The Mysterious,44,False,True
-9,Jack Chosen One vs The Mysterious,104,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,64,False,True,The Mysterious,44,True,False
-9,Jack Chosen One vs The Mysterious,92,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,61,False,False,The Mysterious,44,False,True
-9,Jack Chosen One vs The Mysterious,90,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,61,False,True,The Mysterious,44,True,False
-9,Jack Chosen One vs The Mysterious,76,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,61,False,True,The Mysterious,44,True,False
-9,Jack Chosen One vs The Mysterious,76,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,60,False,False,The Mysterious,44,False,True
-9,Jack Chosen One vs The Mysterious,62,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,60,False,True,The Mysterious,43,False,False
-9,Jack Chosen One vs The Mysterious,60,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,58,False,False,The Mysterious,43,False,True
-9,Jack Chosen One vs The Mysterious,48,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,58,False,True,The Mysterious,43,True,False
-9,Jack Chosen One vs The Mysterious,44,Jack Chosen One dodged The Mysterious's Attack!,Jack Chosen One,58,True,False,The Mysterious,43,False,True
-9,Jack Chosen One vs The Mysterious,34,The Mysterious dodged Jack Chosen One's Attack!,Jack Chosen One,58,False,True,The Mysterious,43,True,False
-9,Jack Chosen One vs The Mysterious,28,Jack Chosen One dodged The Mysterious's Attack!,Jack Chosen One,58,True,False,The Mysterious,43,False,True
-9,Jack Chosen One vs The Mysterious,20,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,58,False,True,The Mysterious,40,False,False
-9,Jack Chosen One vs The Mysterious,12,The Mysterious Attacks Jack Chosen One!,Jack Chosen One,57,False,False,The Mysterious,40,False,True
-9,Jack Chosen One vs The Mysterious,6,Jack Chosen One Attacks The Mysterious!,Jack Chosen One,57,False,True,The Mysterious,38,False,False
-9,Jack Chosen One vs The Mysterious,0,Jack Chosen One wins the fight!,Jack Chosen One,57,False,False,The Mysterious,38,False,False
-10,Henry Mysterious vs Jack Chosen One,300,Fight starts!,Henry Mysterious,78,False,False,Jack Chosen One,84,False,False
-10,Henry Mysterious vs Jack Chosen One,286,Henry Mysterious dodged Jack Chosen One's Attack!,Henry Mysterious,78,True,False,Jack Chosen One,84,False,True
-10,Henry Mysterious vs Jack Chosen One,286,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,78,False,True,Jack Chosen One,82,False,False
-10,Henry Mysterious vs Jack Chosen One,272,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,73,False,False,Jack Chosen One,82,False,True
-10,Henry Mysterious vs Jack Chosen One,272,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,73,False,True,Jack Chosen One,81,False,False
-10,Henry Mysterious vs Jack Chosen One,258,Jack Chosen One dodged Henry Mysterious's Attack!,Henry Mysterious,73,False,True,Jack Chosen One,81,True,False
-10,Henry Mysterious vs Jack Chosen One,258,Henry Mysterious dodged Jack Chosen One's Attack!,Henry Mysterious,73,True,False,Jack Chosen One,81,False,True
-10,Henry Mysterious vs Jack Chosen One,244,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,71,False,False,Jack Chosen One,81,False,True
-10,Henry Mysterious vs Jack Chosen One,244,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,71,False,True,Jack Chosen One,76,False,False
-10,Henry Mysterious vs Jack Chosen One,230,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,67,False,False,Jack Chosen One,76,False,True
-10,Henry Mysterious vs Jack Chosen One,230,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,67,False,True,Jack Chosen One,74,False,False
-10,Henry Mysterious vs Jack Chosen One,216,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,64,False,False,Jack Chosen One,74,False,True
-10,Henry Mysterious vs Jack Chosen One,216,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,64,False,True,Jack Chosen One,73,False,False
-10,Henry Mysterious vs Jack Chosen One,202,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,64,False,True,Jack Chosen One,69,False,False
-10,Henry Mysterious vs Jack Chosen One,202,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,62,False,False,Jack Chosen One,69,False,True
-10,Henry Mysterious vs Jack Chosen One,188,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,60,False,False,Jack Chosen One,69,False,True
-10,Henry Mysterious vs Jack Chosen One,188,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,60,False,True,Jack Chosen One,66,False,False
-10,Henry Mysterious vs Jack Chosen One,174,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,60,False,True,Jack Chosen One,65,False,False
-10,Henry Mysterious vs Jack Chosen One,174,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,56,False,False,Jack Chosen One,65,False,True
-10,Henry Mysterious vs Jack Chosen One,160,Jack Chosen One dodged Henry Mysterious's Attack!,Henry Mysterious,56,False,True,Jack Chosen One,65,True,False
-10,Henry Mysterious vs Jack Chosen One,160,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,54,False,False,Jack Chosen One,65,False,True
-10,Henry Mysterious vs Jack Chosen One,146,Jack Chosen One dodged Henry Mysterious's Attack!,Henry Mysterious,54,False,True,Jack Chosen One,65,True,False
-10,Henry Mysterious vs Jack Chosen One,146,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,52,False,False,Jack Chosen One,65,False,True
-10,Henry Mysterious vs Jack Chosen One,132,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,50,False,False,Jack Chosen One,65,False,True
-10,Henry Mysterious vs Jack Chosen One,132,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,50,False,True,Jack Chosen One,62,False,False
-10,Henry Mysterious vs Jack Chosen One,118,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,50,False,True,Jack Chosen One,58,False,False
-10,Henry Mysterious vs Jack Chosen One,118,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,47,False,False,Jack Chosen One,58,False,True
-10,Henry Mysterious vs Jack Chosen One,104,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,45,False,False,Jack Chosen One,58,False,True
-10,Henry Mysterious vs Jack Chosen One,104,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,45,False,True,Jack Chosen One,56,False,False
-10,Henry Mysterious vs Jack Chosen One,90,Jack Chosen One dodged Henry Mysterious's Attack!,Henry Mysterious,45,False,True,Jack Chosen One,56,True,False
-10,Henry Mysterious vs Jack Chosen One,90,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,41,False,False,Jack Chosen One,56,False,True
-10,Henry Mysterious vs Jack Chosen One,76,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,41,False,True,Jack Chosen One,54,False,False
-10,Henry Mysterious vs Jack Chosen One,76,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,38,False,False,Jack Chosen One,54,False,True
-10,Henry Mysterious vs Jack Chosen One,62,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,37,False,False,Jack Chosen One,54,False,True
-10,Henry Mysterious vs Jack Chosen One,62,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,37,False,True,Jack Chosen One,51,False,False
-10,Henry Mysterious vs Jack Chosen One,48,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,37,False,True,Jack Chosen One,47,False,False
-10,Henry Mysterious vs Jack Chosen One,48,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,36,False,False,Jack Chosen One,47,False,True
-10,Henry Mysterious vs Jack Chosen One,34,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,34,False,False,Jack Chosen One,47,False,True
-10,Henry Mysterious vs Jack Chosen One,34,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,34,False,True,Jack Chosen One,42,False,False
-10,Henry Mysterious vs Jack Chosen One,20,Henry Mysterious dodged Jack Chosen One's Attack!,Henry Mysterious,34,True,False,Jack Chosen One,42,False,True
-10,Henry Mysterious vs Jack Chosen One,20,Henry Mysterious Attacks Jack Chosen One!,Henry Mysterious,34,False,True,Jack Chosen One,41,False,False
-10,Henry Mysterious vs Jack Chosen One,6,Jack Chosen One dodged Henry Mysterious's Attack!,Henry Mysterious,34,False,True,Jack Chosen One,41,True,False
-10,Henry Mysterious vs Jack Chosen One,6,Jack Chosen One Attacks Henry Mysterious!,Henry Mysterious,33,False,False,Jack Chosen One,41,False,True
-10,Henry Mysterious vs Jack Chosen One,0,Jack Chosen One wins the fight!,Henry Mysterious,33,False,False,Jack Chosen One,41,False,False
-11,Bobobo X vs Henry Chen,300,Fight starts!,Bobobo X,64,False,False,Henry Chen,58,False,False
-11,Bobobo X vs Henry Chen,290,Henry Chen dodged Bobobo X's Attack!,Bobobo X,64,False,True,Henry Chen,58,True,False
-11,Bobobo X vs Henry Chen,287,Henry Chen Attacks Bobobo X!,Bobobo X,60,False,False,Henry Chen,58,False,True
-11,Bobobo X vs Henry Chen,280,Bobobo X Attacks Henry Chen!,Bobobo X,60,False,True,Henry Chen,38,False,False
-11,Bobobo X vs Henry Chen,274,Henry Chen Attacks Bobobo X!,Bobobo X,51,False,False,Henry Chen,38,False,True
-11,Bobobo X vs Henry Chen,270,Henry Chen dodged Bobobo X's Attack!,Bobobo X,51,False,True,Henry Chen,38,True,False
-11,Bobobo X vs Henry Chen,261,Henry Chen Attacks Bobobo X!,Bobobo X,50,False,False,Henry Chen,38,False,True
-11,Bobobo X vs Henry Chen,260,Bobobo X Attacks Henry Chen!,Bobobo X,50,False,True,Henry Chen,13,False,False
-11,Bobobo X vs Henry Chen,250,Bobobo X Attacks Henry Chen!,Bobobo X,50,False,True,Henry Chen,0,False,False
-11,Bobobo X vs Henry Chen,250,Henry Chen has been Defeated!,Bobobo X,50,False,False,Henry Chen,0,False,False
-11,Bobobo X vs Henry Chen,250,Bobobo X wins the fight!,Bobobo X,50,False,False,Henry Chen,0,False,False
-12,Jessica Chen vs The X,300,Fight starts!,Jessica Chen,58,False,False,The X,64,False,False
-12,Jessica Chen vs The X,290,The X Attacks Jessica Chen!,Jessica Chen,53,False,False,The X,64,False,True
-12,Jessica Chen vs The X,287,Jessica Chen Attacks The X!,Jessica Chen,53,False,True,The X,55,False,False
-12,Jessica Chen vs The X,280,Jessica Chen dodged The X's Attack!,Jessica Chen,53,True,False,The X,55,False,True
-12,Jessica Chen vs The X,274,Jessica Chen Attacks The X!,Jessica Chen,53,False,True,The X,51,False,False
-12,Jessica Chen vs The X,270,Jessica Chen dodged The X's Attack!,Jessica Chen,53,True,False,The X,51,False,True
-12,Jessica Chen vs The X,261,Jessica Chen Attacks The X!,Jessica Chen,53,False,True,The X,48,False,False
-12,Jessica Chen vs The X,260,The X Attacks Jessica Chen!,Jessica Chen,43,False,False,The X,48,False,True
-12,Jessica Chen vs The X,250,The X Attacks Jessica Chen!,Jessica Chen,33,False,False,The X,48,False,True
-12,Jessica Chen vs The X,248,Jessica Chen Attacks The X!,Jessica Chen,33,False,True,The X,47,False,False
-12,Jessica Chen vs The X,240,The X Attacks Jessica Chen!,Jessica Chen,8,False,False,The X,47,False,True
-12,Jessica Chen vs The X,235,Jessica Chen Attacks The X!,Jessica Chen,8,False,True,The X,39,False,False
-12,Jessica Chen vs The X,230,The X Attacks Jessica Chen!,Jessica Chen,0,False,False,The X,39,False,True
-12,Jessica Chen vs The X,230,Jessica Chen has been Defeated!,Jessica Chen,0,False,False,The X,39,False,False
-12,Jessica Chen vs The X,230,The X wins the fight!,Jessica Chen,0,False,False,The X,39,False,False
-13,Bobobo X vs The X,300,Fight starts!,Bobobo X,64,False,False,The X,58,False,False
-13,Bobobo X vs The X,290,The X Attacks Bobobo X!,Bobobo X,52,False,False,The X,58,False,True
-13,Bobobo X vs The X,290,Bobobo X Attacks The X!,Bobobo X,52,False,True,The X,40,False,False
-13,Bobobo X vs The X,280,The X Attacks Bobobo X!,Bobobo X,40,False,False,The X,40,False,True
-13,Bobobo X vs The X,280,Bobobo X Attacks The X!,Bobobo X,40,False,True,The X,28,False,False
-13,Bobobo X vs The X,270,Bobobo X Attacks The X!,Bobobo X,40,False,True,The X,0,False,False
-13,Bobobo X vs The X,270,The X has been Defeated!,Bobobo X,40,False,False,The X,0,False,False
-13,Bobobo X vs The X,270,Bobobo X wins the fight!,Bobobo X,40,False,False,The X,0,False,False
-14,Jack Chosen One vs Bobobo X,300,Fight starts!,Jack Chosen One,62,False,False,Bobobo X,60,False,False
-14,Jack Chosen One vs Bobobo X,290,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,61,False,False,Bobobo X,60,False,True
-14,Jack Chosen One vs Bobobo X,286,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,61,False,True,Bobobo X,58,False,False
-14,Jack Chosen One vs Bobobo X,280,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,61,True,False,Bobobo X,58,False,True
-14,Jack Chosen One vs Bobobo X,272,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,61,False,True,Bobobo X,57,False,False
-14,Jack Chosen One vs Bobobo X,270,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,60,False,False,Bobobo X,57,False,True
-14,Jack Chosen One vs Bobobo X,260,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,60,True,False,Bobobo X,57,False,True
-14,Jack Chosen One vs Bobobo X,258,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,60,False,True,Bobobo X,55,False,False
-14,Jack Chosen One vs Bobobo X,250,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,60,True,False,Bobobo X,55,False,True
-14,Jack Chosen One vs Bobobo X,244,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,60,False,True,Bobobo X,53,False,False
-14,Jack Chosen One vs Bobobo X,240,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,54,False,False,Bobobo X,53,False,True
-14,Jack Chosen One vs Bobobo X,230,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,49,False,False,Bobobo X,53,False,True
-14,Jack Chosen One vs Bobobo X,230,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,49,False,True,Bobobo X,48,False,False
-14,Jack Chosen One vs Bobobo X,220,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,43,False,False,Bobobo X,48,False,True
-14,Jack Chosen One vs Bobobo X,216,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,43,False,True,Bobobo X,46,False,False
-14,Jack Chosen One vs Bobobo X,210,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,37,False,False,Bobobo X,46,False,True
-14,Jack Chosen One vs Bobobo X,202,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,37,False,True,Bobobo X,44,False,False
-14,Jack Chosen One vs Bobobo X,200,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,37,True,False,Bobobo X,44,False,True
-14,Jack Chosen One vs Bobobo X,190,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,35,False,False,Bobobo X,44,False,True
-14,Jack Chosen One vs Bobobo X,188,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,35,False,True,Bobobo X,42,False,False
-14,Jack Chosen One vs Bobobo X,180,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,32,False,False,Bobobo X,42,False,True
-14,Jack Chosen One vs Bobobo X,174,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,32,False,True,Bobobo X,41,False,False
-14,Jack Chosen One vs Bobobo X,170,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,30,False,False,Bobobo X,41,False,True
-14,Jack Chosen One vs Bobobo X,160,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,27,False,False,Bobobo X,41,False,True
-14,Jack Chosen One vs Bobobo X,160,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,27,False,True,Bobobo X,37,False,False
-14,Jack Chosen One vs Bobobo X,150,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,26,False,False,Bobobo X,37,False,True
-14,Jack Chosen One vs Bobobo X,146,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,26,False,True,Bobobo X,34,False,False
-14,Jack Chosen One vs Bobobo X,140,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,24,False,False,Bobobo X,34,False,True
-14,Jack Chosen One vs Bobobo X,132,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,24,False,True,Bobobo X,33,False,False
-14,Jack Chosen One vs Bobobo X,130,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,21,False,False,Bobobo X,33,False,True
-14,Jack Chosen One vs Bobobo X,120,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,21,True,False,Bobobo X,33,False,True
-14,Jack Chosen One vs Bobobo X,118,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,21,False,True,Bobobo X,29,False,False
-14,Jack Chosen One vs Bobobo X,110,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,15,False,False,Bobobo X,29,False,True
-14,Jack Chosen One vs Bobobo X,104,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,15,False,True,Bobobo X,25,False,False
-14,Jack Chosen One vs Bobobo X,100,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,15,True,False,Bobobo X,25,False,True
-14,Jack Chosen One vs Bobobo X,90,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,11,False,False,Bobobo X,25,False,True
-14,Jack Chosen One vs Bobobo X,90,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,11,False,True,Bobobo X,21,False,False
-14,Jack Chosen One vs Bobobo X,80,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,11,True,False,Bobobo X,21,False,True
-14,Jack Chosen One vs Bobobo X,76,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,11,False,True,Bobobo X,19,False,False
-14,Jack Chosen One vs Bobobo X,70,Jack Chosen One dodged Bobobo X's Attack!,Jack Chosen One,11,True,False,Bobobo X,19,False,True
-14,Jack Chosen One vs Bobobo X,62,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,11,False,True,Bobobo X,17,False,False
-14,Jack Chosen One vs Bobobo X,60,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,8,False,False,Bobobo X,17,False,True
-14,Jack Chosen One vs Bobobo X,50,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,3,False,False,Bobobo X,17,False,True
-14,Jack Chosen One vs Bobobo X,48,Jack Chosen One Attacks Bobobo X!,Jack Chosen One,3,False,True,Bobobo X,14,False,False
-14,Jack Chosen One vs Bobobo X,40,Bobobo X Attacks Jack Chosen One!,Jack Chosen One,0,False,False,Bobobo X,14,False,True
-14,Jack Chosen One vs Bobobo X,40,Jack Chosen One has been Defeated!,Jack Chosen One,0,False,False,Bobobo X,14,False,False
-14,Jack Chosen One vs Bobobo X,40,Bobobo X wins the fight!,Jack Chosen One,0,False,False,Bobobo X,14,False,False
-15,Talulah Yikes vs Bobobo X,300,Fight starts!,Talulah Yikes,36,False,False,Bobobo X,21,False,False
-15,Talulah Yikes vs Bobobo X,290,Bobobo X Attacks Talulah Yikes!,Talulah Yikes,35,False,False,Bobobo X,21,False,True
-15,Talulah Yikes vs Bobobo X,285,Talulah Yikes Attacks Bobobo X!,Talulah Yikes,35,False,True,Bobobo X,9,False,False
-15,Talulah Yikes vs Bobobo X,280,Bobobo X Attacks Talulah Yikes!,Talulah Yikes,30,False,False,Bobobo X,9,False,True
-15,Talulah Yikes vs Bobobo X,270,Talulah Yikes dodged Bobobo X's Attack!,Talulah Yikes,30,True,False,Bobobo X,9,False,True
-15,Talulah Yikes vs Bobobo X,270,Talulah Yikes Attacks Bobobo X!,Talulah Yikes,30,False,True,Bobobo X,0,False,False
-15,Talulah Yikes vs Bobobo X,270,Bobobo X has been Defeated!,Talulah Yikes,30,False,False,Bobobo X,0,False,False
-15,Talulah Yikes vs Bobobo X,270,Talulah Yikes wins the fight!,Talulah Yikes,30,False,False,Bobobo X,0,False,False
+1,Ting Ting Yikes vs The Hikaru,300,Fight starts!,Ting Ting Yikes,192,False,False,The Hikaru,252,False,False
+1,Ting Ting Yikes vs The Hikaru,290,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,192,False,True,The Hikaru,227,False,False
+1,Ting Ting Yikes vs The Hikaru,286,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,187,False,False,The Hikaru,227,False,True
+1,Ting Ting Yikes vs The Hikaru,280,The Hikaru dodged Ting Ting Yikes's Attack!,Ting Ting Yikes,187,False,True,The Hikaru,227,True,False
+1,Ting Ting Yikes vs The Hikaru,272,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,177,False,False,The Hikaru,227,False,True
+1,Ting Ting Yikes vs The Hikaru,270,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,177,False,True,The Hikaru,207,False,False
+1,Ting Ting Yikes vs The Hikaru,260,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,177,False,True,The Hikaru,182,False,False
+1,Ting Ting Yikes vs The Hikaru,258,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,167,False,False,The Hikaru,182,False,True
+1,Ting Ting Yikes vs The Hikaru,250,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,167,False,True,The Hikaru,162,False,False
+1,Ting Ting Yikes vs The Hikaru,244,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,157,False,False,The Hikaru,162,False,True
+1,Ting Ting Yikes vs The Hikaru,240,The Hikaru dodged Ting Ting Yikes's Attack!,Ting Ting Yikes,157,False,True,The Hikaru,162,True,False
+1,Ting Ting Yikes vs The Hikaru,230,The Hikaru dodged Ting Ting Yikes's Attack!,Ting Ting Yikes,157,False,True,The Hikaru,162,True,False
+1,Ting Ting Yikes vs The Hikaru,230,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,137,False,False,The Hikaru,162,False,True
+1,Ting Ting Yikes vs The Hikaru,220,The Hikaru dodged Ting Ting Yikes's Attack!,Ting Ting Yikes,137,False,True,The Hikaru,162,True,False
+1,Ting Ting Yikes vs The Hikaru,216,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,122,False,False,The Hikaru,162,False,True
+1,Ting Ting Yikes vs The Hikaru,210,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,122,False,True,The Hikaru,137,False,False
+1,Ting Ting Yikes vs The Hikaru,202,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,97,False,False,The Hikaru,137,False,True
+1,Ting Ting Yikes vs The Hikaru,200,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,97,False,True,The Hikaru,122,False,False
+1,Ting Ting Yikes vs The Hikaru,190,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,97,False,True,The Hikaru,107,False,False
+1,Ting Ting Yikes vs The Hikaru,188,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,77,False,False,The Hikaru,107,False,True
+1,Ting Ting Yikes vs The Hikaru,180,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,77,False,True,The Hikaru,92,False,False
+1,Ting Ting Yikes vs The Hikaru,174,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,57,False,False,The Hikaru,92,False,True
+1,Ting Ting Yikes vs The Hikaru,170,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,57,False,True,The Hikaru,62,False,False
+1,Ting Ting Yikes vs The Hikaru,160,The Hikaru dodged Ting Ting Yikes's Attack!,Ting Ting Yikes,57,False,True,The Hikaru,62,True,False
+1,Ting Ting Yikes vs The Hikaru,160,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,47,False,False,The Hikaru,62,False,True
+1,Ting Ting Yikes vs The Hikaru,150,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,47,False,True,The Hikaru,37,False,False
+1,Ting Ting Yikes vs The Hikaru,146,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,32,False,False,The Hikaru,37,False,True
+1,Ting Ting Yikes vs The Hikaru,140,The Hikaru dodged Ting Ting Yikes's Attack!,Ting Ting Yikes,32,False,True,The Hikaru,37,True,False
+1,Ting Ting Yikes vs The Hikaru,132,The Hikaru Attacks Ting Ting Yikes!,Ting Ting Yikes,7,False,False,The Hikaru,37,False,True
+1,Ting Ting Yikes vs The Hikaru,130,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,7,False,True,The Hikaru,17,False,False
+1,Ting Ting Yikes vs The Hikaru,120,Ting Ting Yikes Attacks The Hikaru!,Ting Ting Yikes,7,False,True,The Hikaru,0,False,False
+1,Ting Ting Yikes vs The Hikaru,120,The Hikaru has been Defeated!,Ting Ting Yikes,7,False,False,The Hikaru,0,False,False
+1,Ting Ting Yikes vs The Hikaru,120,Ting Ting Yikes wins the fight!,Ting Ting Yikes,7,False,False,The Hikaru,0,False,False
+2,Jesse Lee vs Kyle Bitto,300,Fight starts!,Jesse Lee,192,False,False,Kyle Bitto,174,False,False
+2,Jesse Lee vs Kyle Bitto,290,Jesse Lee Attacks Kyle Bitto!,Jesse Lee,192,False,True,Kyle Bitto,129,False,False
+2,Jesse Lee vs Kyle Bitto,284,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,172,False,False,Kyle Bitto,129,False,True
+2,Jesse Lee vs Kyle Bitto,280,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,172,False,True,Kyle Bitto,129,True,False
+2,Jesse Lee vs Kyle Bitto,270,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,172,False,True,Kyle Bitto,129,True,False
+2,Jesse Lee vs Kyle Bitto,268,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,162,False,False,Kyle Bitto,129,False,True
+2,Jesse Lee vs Kyle Bitto,260,Jesse Lee Attacks Kyle Bitto!,Jesse Lee,162,False,True,Kyle Bitto,114,False,False
+2,Jesse Lee vs Kyle Bitto,252,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,142,False,False,Kyle Bitto,114,False,True
+2,Jesse Lee vs Kyle Bitto,250,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,142,False,True,Kyle Bitto,114,True,False
+2,Jesse Lee vs Kyle Bitto,240,Jesse Lee Attacks Kyle Bitto!,Jesse Lee,142,False,True,Kyle Bitto,84,False,False
+2,Jesse Lee vs Kyle Bitto,236,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,122,False,False,Kyle Bitto,84,False,True
+2,Jesse Lee vs Kyle Bitto,230,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,122,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,220,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,122,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,220,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,112,False,False,Kyle Bitto,84,False,True
+2,Jesse Lee vs Kyle Bitto,210,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,112,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,204,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,82,False,False,Kyle Bitto,84,False,True
+2,Jesse Lee vs Kyle Bitto,200,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,82,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,190,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,82,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,188,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,72,False,False,Kyle Bitto,84,False,True
+2,Jesse Lee vs Kyle Bitto,180,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,72,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,172,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,52,False,False,Kyle Bitto,84,False,True
+2,Jesse Lee vs Kyle Bitto,170,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,52,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,160,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,52,False,True,Kyle Bitto,84,True,False
+2,Jesse Lee vs Kyle Bitto,156,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,32,False,False,Kyle Bitto,84,False,True
+2,Jesse Lee vs Kyle Bitto,150,Jesse Lee Attacks Kyle Bitto!,Jesse Lee,32,False,True,Kyle Bitto,39,False,False
+2,Jesse Lee vs Kyle Bitto,140,Kyle Bitto dodged Jesse Lee's Attack!,Jesse Lee,32,False,True,Kyle Bitto,39,True,False
+2,Jesse Lee vs Kyle Bitto,140,Kyle Bitto Attacks Jesse Lee!,Jesse Lee,12,False,False,Kyle Bitto,39,False,True
+2,Jesse Lee vs Kyle Bitto,130,Jesse Lee Attacks Kyle Bitto!,Jesse Lee,12,False,True,Kyle Bitto,0,False,False
+2,Jesse Lee vs Kyle Bitto,130,Kyle Bitto has been Defeated!,Jesse Lee,12,False,False,Kyle Bitto,0,False,False
+2,Jesse Lee vs Kyle Bitto,130,Jesse Lee wins the fight!,Jesse Lee,12,False,False,Kyle Bitto,0,False,False
+3,Ting Ting Yikes vs Jesse Lee,300,Fight starts!,Ting Ting Yikes,10,False,False,Jesse Lee,18,False,False
+3,Ting Ting Yikes vs Jesse Lee,290,Jesse Lee Attacks Ting Ting Yikes!,Ting Ting Yikes,0,False,False,Jesse Lee,18,False,True
+3,Ting Ting Yikes vs Jesse Lee,290,Ting Ting Yikes has been Defeated!,Ting Ting Yikes,0,False,False,Jesse Lee,18,False,False
+3,Ting Ting Yikes vs Jesse Lee,290,Jesse Lee wins the fight!,Ting Ting Yikes,0,False,False,Jesse Lee,18,False,False

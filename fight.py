@@ -98,7 +98,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
         if combat_one_first:
             if combat_one_attack:
                 event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
-                combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
+                combatant_two.health = round(max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)) * constants.DAMAGE_MULTIPLIER))
                 writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                     False, True, combatant_two.name, combatant_two.health, False, False])
                 combatant_two.print_health()
@@ -111,7 +111,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                     break
             if combat_two_attack:
                 event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
-                combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
+                combatant_one.health = round(max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)) * constants.DAMAGE_MULTIPLIER))
                 writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                     False, False, combatant_two.name, combatant_two.health, False, True])
                 combatant_one.print_health()
@@ -125,7 +125,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
         elif combat_two_first:
             if combat_two_attack:
                 event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
-                combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
+                combatant_one.health = round(max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)) * constants.DAMAGE_MULTIPLIER))
                 writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                     False, False, combatant_two.name, combatant_two.health, False, True])
                 combatant_one.print_health()
@@ -138,7 +138,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                     break
             if combat_one_attack:
                 event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
-                combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
+                combatant_two.health = round(max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)) * constants.DAMAGE_MULTIPLIER))
                 writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                     False, True, combatant_two.name, combatant_two.health, False, False])
                 combatant_two.print_health()
@@ -154,7 +154,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                 # Combat one attacks first
                 if combat_one_attack:
                     event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
-                    combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
+                    combatant_two.health = round(max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)) * constants.DAMAGE_MULTIPLIER))
                     writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                         False, True, combatant_two.name, combatant_two.health, False, False])
                     combatant_two.print_health()
@@ -167,7 +167,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                         break
                 if combat_two_attack:
                     event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
-                    combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
+                    combatant_one.health = round(max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)) * constants.DAMAGE_MULTIPLIER))
                     writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                         False, False, combatant_two.name, combatant_two.health, False, True])
                     combatant_one.print_health()
@@ -182,7 +182,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                 # Combat two attacks first
                 if combat_two_attack:
                     event = "{0} Attacks {1}!".format(combatant_two.name, combatant_one.name)
-                    combatant_one.health = max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)))
+                    combatant_one.health = round(max(0, combatant_one.health - combat_two_dmg * round(uniform(1, combatant_two.agility)) * constants.DAMAGE_MULTIPLIER))
                     writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                         False, False, combatant_two.name, combatant_two.health, False, True])
                     combatant_one.print_health()
@@ -195,7 +195,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
                         break
                 if combat_one_attack:
                     event = "{0} Attacks {1}!".format(combatant_one.name, combatant_two.name)
-                    combatant_two.health = max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)))
+                    combatant_two.health = round(max(0, combatant_two.health - combat_one_dmg * round(uniform(1, combatant_one.agility)) * constants.DAMAGE_MULTIPLIER))
                     writer2.writerow([constants.ROUND_NUMBER, fight_name, fight_timer, event, combatant_one.name, combatant_one.health, \
                         False, True, combatant_two.name, combatant_two.health, False, False])
                     combatant_two.print_health()

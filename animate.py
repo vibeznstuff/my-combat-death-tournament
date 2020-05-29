@@ -5,7 +5,7 @@ from random import uniform
 import csv
 import constants
 import pandas as pd
-import tournament
+#import tournament
 
 
 def rescale(img, x, y):
@@ -68,6 +68,10 @@ def get_frames(character, action, flip_bool=False, p1_bool=True, slow_factor=0):
 def get_players(round_number):
     global p1_name
     global p2_name
+    global p1_rank
+    global p2_rank
+    global p1_class
+    global p2_class
     global player_one
     global player_two
     global p1_health_max
@@ -194,10 +198,15 @@ def draw(p1_health_new, p2_health_new):
     global p2_victory
     global p1_name
     global p2_name
+    global p1_rank
+    global p2_rank
+    global p1_class
+    global p2_class
     global fighting
     global p1_wait_cycles
     global p2_wait_cycles
     global timer
+    global round_num
 
     if p1_step_count + 1 >= p1_limit and not (p1_defeat or p1_victory):
         p1_step_count = 0
@@ -223,9 +232,20 @@ def draw(p1_health_new, p2_health_new):
     end_by_timer = ((p2_defeat or p1_defeat) and timer == 0)
 
     if end_by_defeat or end_by_timer:
-        time.sleep(5)
-        print("Resetting fight")
-        reset_fight()
+        
+        if round_num < constants.FIGHTER_COUNT - 1:
+            font = pygame.font.SysFont(None, 50)
+            if p1_victory:
+                win_text = "{} wins the fight!".format(p1_name)
+            elif p2_victory:
+                win_text = "{} wins the fight!".format(p2_name)
+            
+            text_width, text_height = font.size(win_text)
+            img3 = font.render(win_text, True, (255,255,255))
+            win.blit(img3, (500 -  (text_width/2), 250))
+            pygame.display.update()
+            time.sleep(5)
+            print("Resetting fight")
         fighting = False
     
     win.fill((0,0,0))
@@ -259,14 +279,39 @@ def draw(p1_health_new, p2_health_new):
 
     # Player One Name & Details
     font = pygame.font.SysFont(None, 24)
-    img = font.render(p1_name, True, (255,255,255))
-    win.blit(img, (50, 50))
+    if p1_rank in ("ELITE", "MASTER", "LEGENDARY"):
+        p1_name_details = "{0} ({1})".format(p1_name, p1_rank.capitalize())
+    else:
+        p1_name_details = p1_name
+    name_txt = font.render(p1_name_details, True, (255,255,255))
+    win.blit(name_txt, (50, 35))
+
+    font = pygame.font.SysFont(None, 20)
+    class_txt = font.render(p1_class.replace("_"," ").capitalize(), True, (255,255,255))
+    win.blit(class_txt, (50, 55))
 
     # Player Two Name & Details
     font = pygame.font.SysFont(None, 24)
-    p2_width, p2_height = font.size(p2_name)
-    img2 = font.render(p2_name, True, (255,255,255))
-    win.blit(img2, (1000 - 50 - p2_width, 50))
+    if p2_rank in ("ELITE", "MASTER", "LEGENDARY"):
+        p2_name_details = "{0} ({1})".format(p2_name, p2_rank.capitalize())
+    else:
+        p2_name_details = p2_name
+    
+    p2_width, p2_height = font.size(p2_name_details)
+    name_txt2 = font.render(p2_name_details, True, (255,255,255))
+    win.blit(name_txt2, (1000 - 50 - p2_width, 35))
+
+    font = pygame.font.SysFont(None, 20)
+    p2_width, p2_height = font.size(p2_class.replace("_"," ").capitalize())
+    class_txt = font.render(p2_class.replace("_"," ").capitalize(), True, (255,255,255))
+    win.blit(class_txt, (1000 - 50 - p2_width, 55))
+
+    # Round Number
+    if round_num < constants.FIGHTER_COUNT:
+        font = pygame.font.SysFont(None, 30)
+        round_width, round_height = font.size("Round Number {0}".format(round_num))
+        img3 = font.render("Round Number {0}".format(round_num), True, (255,255,255))
+        win.blit(img3, (500 -  (round_width/2), 25))
 
     pygame.display.update()
 
@@ -304,7 +349,7 @@ background = rescale(background, 1000, 550)
 
 acc = 0
 acc_2 = 0
-round_num = 1
+round_num = 0
 fighting = False
 
 tournament_data = pd.read_csv('tournament_log.csv')
@@ -321,18 +366,37 @@ p2_wait_cycles = 0
 while run:
 
     if not fighting:
-        get_players(round_num)
-        timer = constants.MAX_FIGHT_MOMENTS
-        p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
-        p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
+        round_num += 1
+        print(round_num)
+        print(p1_victory, p2_victory)
+        if round_num == constants.FIGHTER_COUNT:
+            run = False
+            if p1_victory:
+                win_text = "{} has won the tournament!".format(p1_name)
+            elif p2_victory:
+                win_text = "{} has won the tournament!".format(p2_name)
+                
+            font = pygame.font.SysFont(None, 50)
+            text_width, text_height = font.size(win_text)
+            img3 = font.render(win_text, True, (255,255,255))
+            win.blit(img3, (500 -  (text_width/2), 250))
+            pygame.display.update()
 
-        round_num_tmp = round_num - 1
-        while round_num_tmp < round_num:
-            fight_event = next(csv_reader)
-            round_num_tmp = int(fight_event[0])
-        
-        p1_step_count = 0
-        p2_step_count = 0
+            time.sleep(10)
+        else:
+            reset_fight()
+            get_players(round_num)
+            timer = constants.MAX_FIGHT_MOMENTS
+            p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
+            p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
+
+            round_num_tmp = round_num - 1
+            while round_num_tmp < round_num:
+                fight_event = next(csv_reader)
+                round_num_tmp = int(fight_event[0])
+            
+            p1_step_count = 0
+            p2_step_count = 0
 
     clock.tick(FRAME_RATE)
 
@@ -381,12 +445,13 @@ while run:
             p2_attacked = False
         
         print(fight_event[3])
+        print("P1 Defeat: ",p1_defeat)
         print("P2 Defeat: ",p2_defeat)
         print((p1_step_count, p1_limit))
         #print(fight_event[5], fight_event[9])
         #print(p1_health, p2_health)
 
-        if p2_defeat or p1_defeat or int(fight_event[2]) == 0:
+        if (int(fight_event[5]) == 0 or int(fight_event[9]) == 0) or int(fight_event[2]) == 0:
             pass
         else:
             fight_event = next(csv_reader)
@@ -403,7 +468,6 @@ while run:
         p1_frames = get_frames(character=player_one, action='victory', flip_bool=True, p1_bool=True, slow_factor=p1_victory_sf)
         p1_step_count = 0
         p1_victory = True
-        round_num += 1
         print("P2 was defeated")
 
     if ((p1_health == 0 and not p1_defeat) or (timer == 0 and p1_defeat == True)) and (not p2_attacking and not p1_recoiling and not p1_dodging):
@@ -416,7 +480,6 @@ while run:
         p2_frames = get_frames(character=player_two, action='victory', flip_bool=False, p1_bool=False, slow_factor=p2_victory_sf)
         p2_step_count = 0
         p2_victory = True
-        round_num += 1
         print("P1 was defeated")
 
     if not p1_resting and not p1_attacking and not p1_recoiling and not p1_dodging and not p1_defeat and not p1_victory:
@@ -534,9 +597,5 @@ while run:
 
     # Update health bars
     draw(p1_health_new=int(fight_event[5]), p2_health_new=int(fight_event[9]))
-
-    if round_num > constants.FIGHTER_COUNT:
-        time.sleep(20)
-        run = False
 
 pygame.quit()
