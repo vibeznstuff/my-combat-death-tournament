@@ -1,7 +1,127 @@
 round_number,combatant_number,fight_name,combatant,gender,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
-1,1,Ting Ting Yikes vs The Hikaru,Ting Ting Yikes,female,BERSERKER,WARRIOR,192,192,10,4,6,10,0,Won,7
-1,2,Ting Ting Yikes vs The Hikaru,The Hikaru,male,HEART,WARRIOR,252,252,5,10,5,6,4,Lost,0
-2,1,Jesse Lee vs Kyle Bitto,Jesse Lee,female,BERSERKER,WARRIOR,192,192,10,4,6,10,0,Won,12
-2,2,Jesse Lee vs Kyle Bitto,Kyle Bitto,male,HERO,WARRIOR,174,174,6,7,3,4,10,Lost,0
-3,2,Ting Ting Yikes vs Jesse Lee,Jesse Lee,female,BERSERKER,WARRIOR,192,18,10,4,6,10,0,Won,18
-3,1,Ting Ting Yikes vs Jesse Lee,Ting Ting Yikes,female,BERSERKER,WARRIOR,192,10,10,4,6,10,0,Lost,0
+1,2,Talulah Hisaishi vs Gregory Nevers,Gregory Nevers,male,TACTICIAN,MASTER,156,156,2,7,11,10,8,Won,56
+1,1,Talulah Hisaishi vs Gregory Nevers,Talulah Hisaishi,female,MARTIAL_ARTIST,ELITE,174,174,5,4,11,12,4,Lost,0
+2,1,Benji X vs Sudharshanaa Green,Benji X,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,174
+2,2,Benji X vs Sudharshanaa Green,Sudharshanaa Green,female,SAMURAI,MASTER,50,50,20,0,18,5,10,Lost,0
+3,1,Gregory Nevers vs Benji X,Gregory Nevers,male,TACTICIAN,MASTER,156,84,2,7,11,10,8,Won,20
+3,2,Gregory Nevers vs Benji X,Benji X,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
+4,2,Carey Badass vs Gregory Chosen One,Gregory Chosen One,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,132
+4,1,Carey Badass vs Gregory Chosen One,Carey Badass,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,98
+5,1,Henry Bitto vs Yolanda Lightning,Henry Bitto,male,HEART,ELITE,252,252,6,10,10,6,3,Won,72
+5,2,Henry Bitto vs Yolanda Lightning,Yolanda Lightning,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
+6,1,Gregory Chosen One vs Henry Bitto,Gregory Chosen One,male,HEART,WARRIOR,252,198,6,10,5,6,3,Won,6
+6,2,Gregory Chosen One vs Henry Bitto,Henry Bitto,male,HEART,ELITE,252,108,6,10,10,6,3,Lost,0
+7,1,Gregory Nevers vs Gregory Chosen One,Gregory Nevers,male,TACTICIAN,MASTER,156,30,2,7,11,10,8,Won,30
+7,2,Gregory Nevers vs Gregory Chosen One,Gregory Chosen One,male,HEART,WARRIOR,252,9,6,10,5,6,3,Lost,0
+8,1,Wednesday Sun vs The Chosen One,Wednesday Sun,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,152
+8,2,Wednesday Sun vs The Chosen One,The Chosen One,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,70
+9,1,Ting Ting Chosen One vs Jennifer Hikaru,Ting Ting Chosen One,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Won,24
+9,2,Ting Ting Chosen One vs Jennifer Hikaru,Jennifer Hikaru,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
+10,1,Wednesday Sun vs Ting Ting Chosen One,Wednesday Sun,male,HEART,WARRIOR,252,228,6,10,5,6,3,Won,204
+10,2,Wednesday Sun vs Ting Ting Chosen One,Ting Ting Chosen One,female,BERSERKER,WARRIOR,192,36,10,3,7,10,0,Lost,0
+11,1,Moses Bitto vs Wednesday Black,Moses Bitto,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,48
+11,2,Moses Bitto vs Wednesday Black,Wednesday Black,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
+12,2,Benji Snow vs Jason Utada,Jason Utada,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,74
+12,1,Benji Snow vs Jason Utada,Benji Snow,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+13,2,Moses Bitto vs Jason Utada,Jason Utada,male,HERO,WARRIOR,174,111,7,7,3,4,8,Won,111
+13,1,Moses Bitto vs Jason Utada,Moses Bitto,male,BERSERKER,WARRIOR,192,72,12,4,6,10,0,Lost,0
+14,1,Wednesday Sun vs Jason Utada,Wednesday Sun,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,148
+14,2,Wednesday Sun vs Jason Utada,Jason Utada,male,HERO,WARRIOR,174,166,7,7,3,4,8,Lost,54
+15,1,Gregory Nevers vs Wednesday Sun,Gregory Nevers,male,TACTICIAN,MASTER,156,45,2,7,11,10,8,Won,9
+15,2,Gregory Nevers vs Wednesday Sun,Wednesday Sun,male,HEART,WARRIOR,252,222,6,10,5,6,3,Lost,0
+16,1,Carey Bobobobo vs Carey Bobobobo,Carey Bobobobo,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,126
+16,2,Carey Bobobobo vs Carey Bobobobo,Carey Bobobobo,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,74
+17,2,Sudharshanaa Hikaru vs Kyle Keely,Kyle Keely,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,22
+17,1,Sudharshanaa Hikaru vs Kyle Keely,Sudharshanaa Hikaru,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
+18,1,Carey Bobobobo vs Kyle Keely,Carey Bobobobo,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,110
+18,2,Carey Bobobobo vs Kyle Keely,Kyle Keely,male,MARTIAL_ARTIST,WARRIOR,174,33,6,5,9,7,3,Lost,0
+19,2,Allesandra Yikes vs Allesandra Mysterious,Allesandra Mysterious,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,84
+19,1,Allesandra Yikes vs Allesandra Mysterious,Allesandra Yikes,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
+20,1,Ken Montgomery vs Carey Hisaishi,Ken Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
+20,2,Ken Montgomery vs Carey Hisaishi,Carey Hisaishi,female,HEART,ELITE,252,252,5,8,6,6,9,Lost,0
+21,2,Allesandra Mysterious vs Ken Montgomery,Ken Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
+21,1,Allesandra Mysterious vs Ken Montgomery,Allesandra Mysterious,female,HEART,WARRIOR,252,126,5,8,6,6,4,Lost,0
+22,2,Carey Bobobobo vs Ken Montgomery,Ken Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
+22,1,Carey Bobobobo vs Ken Montgomery,Carey Bobobobo,female,HERO,WARRIOR,174,165,6,6,4,4,10,Lost,0
+23,2,Carey Hilltops vs Moses Badass,Moses Badass,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,160
+23,1,Carey Hilltops vs Moses Badass,Carey Hilltops,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
+24,2,Barry Green vs The Balrog,The Balrog,male,HERO,MASTER,261,261,7,12,3,4,8,Won,201
+24,1,Barry Green vs The Balrog,Barry Green,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+25,2,Moses Badass vs The Balrog,The Balrog,male,HERO,MASTER,261,261,7,12,3,4,8,Won,181
+25,1,Moses Badass vs The Balrog,Moses Badass,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
+26,1,Jennifer Lee vs Wednesday Nevers,Jennifer Lee,female,HERO,MASTER,174,174,11,10,4,4,10,Won,94
+26,2,Jennifer Lee vs Wednesday Nevers,Wednesday Nevers,male,TANK,ELITE,240,240,12,15,3,5,2,Lost,92
+27,1,Jason Sunset vs Yolanda Hikaru,Jason Sunset,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,22
+27,2,Jason Sunset vs Yolanda Hikaru,Yolanda Hikaru,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
+28,1,Jennifer Lee vs Jason Sunset,Jennifer Lee,female,HERO,MASTER,174,141,11,10,4,4,10,Won,141
+28,2,Jennifer Lee vs Jason Sunset,Jason Sunset,male,HERO,WARRIOR,174,33,7,7,3,4,8,Lost,0
+29,1,The Balrog vs Jennifer Lee,The Balrog,male,HERO,MASTER,261,261,7,12,3,4,8,Won,189
+29,2,The Balrog vs Jennifer Lee,Jennifer Lee,female,HERO,MASTER,174,174,11,10,4,4,10,Lost,82
+30,2,Ken Montgomery vs The Balrog,The Balrog,male,HERO,MASTER,261,261,7,12,3,4,8,Won,261
+30,1,Ken Montgomery vs The Balrog,Ken Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
+31,2,Gregory Nevers vs The Balrog,The Balrog,male,HERO,MASTER,261,261,7,12,3,4,8,Won,221
+31,1,Gregory Nevers vs The Balrog,Gregory Nevers,male,TACTICIAN,MASTER,156,14,2,7,11,10,8,Lost,0
+32,1,Kyle Hisaishi vs Alexa Black,Kyle Hisaishi,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,48
+32,2,Kyle Hisaishi vs Alexa Black,Alexa Black,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
+33,1,Gordon Montgomery vs Benji Hilltops,Gordon Montgomery,male,MARTIAL_ARTIST,ELITE,174,174,6,5,9,7,7,Won,30
+33,2,Gordon Montgomery vs Benji Hilltops,Benji Hilltops,male,MARTIAL_ARTIST,ELITE,174,174,6,5,9,7,7,Lost,0
+34,1,Kyle Hisaishi vs Gordon Montgomery,Kyle Hisaishi,male,BERSERKER,WARRIOR,192,72,12,4,6,10,0,Won,72
+34,2,Kyle Hisaishi vs Gordon Montgomery,Gordon Montgomery,male,MARTIAL_ARTIST,ELITE,174,45,6,5,9,7,7,Lost,0
+35,1,Wednesday Chen vs Monique Ocean,Wednesday Chen,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,78
+35,2,Wednesday Chen vs Monique Ocean,Monique Ocean,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
+36,1,Sudharshanaa Hikaru vs Kyle Sunset,Sudharshanaa Hikaru,female,BERSERKER,ELITE,192,192,10,3,13,10,0,Won,156
+36,2,Sudharshanaa Hikaru vs Kyle Sunset,Kyle Sunset,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
+37,2,Wednesday Chen vs Sudharshanaa Hikaru,Sudharshanaa Hikaru,female,BERSERKER,ELITE,192,192,10,3,13,10,0,Won,144
+37,1,Wednesday Chen vs Sudharshanaa Hikaru,Wednesday Chen,male,HERO,WARRIOR,174,117,7,7,3,4,8,Lost,0
+38,2,Kyle Hisaishi vs Sudharshanaa Hikaru,Sudharshanaa Hikaru,female,BERSERKER,ELITE,192,192,10,3,13,10,0,Won,192
+38,1,Kyle Hisaishi vs Sudharshanaa Hikaru,Kyle Hisaishi,male,BERSERKER,WARRIOR,192,108,12,4,6,10,0,Lost,0
+39,1,Bobobo Mysterious vs Wednesday Hikaru,Bobobo Mysterious,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,150
+39,2,Bobobo Mysterious vs Wednesday Hikaru,Wednesday Hikaru,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+40,1,Monique Sun vs Jessica Hall,Monique Sun,female,TACTICIAN,ELITE,156,156,2,6,7,10,10,Won,148
+40,2,Monique Sun vs Jessica Hall,Jessica Hall,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
+41,2,Bobobo Mysterious vs Monique Sun,Monique Sun,female,TACTICIAN,ELITE,156,156,2,6,7,10,10,Won,96
+41,1,Bobobo Mysterious vs Monique Sun,Bobobo Mysterious,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,46
+42,1,Vibey Bitto vs Monique Balrog,Vibey Bitto,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,56
+42,2,Vibey Bitto vs Monique Balrog,Monique Balrog,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
+43,1,Kyle Lightning vs Barry Montgomery,Kyle Lightning,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,180
+43,2,Kyle Lightning vs Barry Montgomery,Barry Montgomery,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+44,2,Vibey Bitto vs Kyle Lightning,Kyle Lightning,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,188
+44,1,Vibey Bitto vs Kyle Lightning,Vibey Bitto,male,HEART,WARRIOR,252,84,6,10,5,6,3,Lost,0
+45,1,Monique Sun vs Kyle Lightning,Monique Sun,female,TACTICIAN,ELITE,156,144,2,6,7,10,10,Won,64
+45,2,Monique Sun vs Kyle Lightning,Kyle Lightning,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
+46,1,Sudharshanaa Hikaru vs Monique Sun,Sudharshanaa Hikaru,female,BERSERKER,ELITE,192,192,10,3,13,10,0,Won,56
+46,2,Sudharshanaa Hikaru vs Monique Sun,Monique Sun,female,TACTICIAN,ELITE,156,96,2,6,7,10,10,Lost,0
+47,2,Sondra Yikes vs Allesandra Green,Allesandra Green,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,166
+47,1,Sondra Yikes vs Allesandra Green,Sondra Yikes,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
+48,1,Talulah Johnson vs The Lee,Talulah Johnson,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,82
+48,2,Talulah Johnson vs The Lee,The Lee,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+49,1,Allesandra Green vs Talulah Johnson,Allesandra Green,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,94
+49,2,Allesandra Green vs Talulah Johnson,Talulah Johnson,female,HERO,WARRIOR,174,123,6,6,4,4,10,Lost,0
+50,2,Yolanda Grey vs Hikaru Grey,Hikaru Grey,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,2
+50,1,Yolanda Grey vs Hikaru Grey,Yolanda Grey,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
+51,1,Hikaru Bobobobo vs Bibi Bobobobo,Hikaru Bobobobo,female,TANK,ELITE,240,240,15,8,4,5,2,Won,28
+51,2,Hikaru Bobobobo vs Bibi Bobobobo,Bibi Bobobobo,female,TACTICIAN,ELITE,156,156,2,2,7,15,10,Lost,0
+52,2,Hikaru Grey vs Hikaru Bobobobo,Hikaru Bobobobo,female,TANK,ELITE,240,42,15,8,4,5,2,Won,42
+52,1,Hikaru Grey vs Hikaru Bobobobo,Hikaru Grey,female,MARTIAL_ARTIST,WARRIOR,174,3,5,4,11,7,4,Lost,0
+53,2,Allesandra Green vs Hikaru Bobobobo,Hikaru Bobobobo,female,TANK,ELITE,240,63,15,8,4,5,2,Won,15
+53,1,Allesandra Green vs Hikaru Bobobobo,Allesandra Green,female,MARTIAL_ARTIST,WARRIOR,174,141,5,4,11,7,4,Lost,0
+54,1,Yennefer Black vs Ting Ting Badass,Yennefer Black,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,120
+54,2,Yennefer Black vs Ting Ting Badass,Ting Ting Badass,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
+55,2,Jessica Kill vs Sondra Balrog,Sondra Balrog,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,28
+55,1,Jessica Kill vs Sondra Balrog,Jessica Kill,female,TANK,WARRIOR,240,240,10,8,4,5,2,Lost,20
+56,1,Yennefer Black vs Sondra Balrog,Yennefer Black,female,TANK,WARRIOR,240,180,10,8,4,5,2,Won,148
+56,2,Yennefer Black vs Sondra Balrog,Sondra Balrog,female,HEART,WARRIOR,252,42,5,8,6,6,4,Lost,0
+57,2,Gordon Black vs Yennefer Chosen One,Yennefer Chosen One,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,228
+57,1,Gordon Black vs Yennefer Chosen One,Gordon Black,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+58,2,Maximus Badass vs Ken Nevers,Ken Nevers,male,HERO,ELITE,174,174,13,7,3,4,8,Won,106
+58,1,Maximus Badass vs Ken Nevers,Maximus Badass,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+59,2,Yennefer Chosen One vs Ken Nevers,Ken Nevers,male,HERO,ELITE,174,159,13,7,3,4,8,Won,159
+59,1,Yennefer Chosen One vs Ken Nevers,Yennefer Chosen One,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,0
+60,2,Yennefer Black vs Ken Nevers,Ken Nevers,male,HERO,ELITE,174,174,13,7,3,4,8,Won,90
+60,1,Yennefer Black vs Ken Nevers,Yennefer Black,female,TANK,WARRIOR,240,222,10,8,4,5,2,Lost,0
+61,2,Hikaru Bobobobo vs Ken Nevers,Ken Nevers,male,HERO,ELITE,174,135,13,7,3,4,8,Won,39
+61,1,Hikaru Bobobobo vs Ken Nevers,Hikaru Bobobobo,female,TANK,ELITE,240,22,15,8,4,5,2,Lost,0
+62,2,Sudharshanaa Hikaru vs Ken Nevers,Ken Nevers,male,HERO,ELITE,174,58,13,7,3,4,8,Won,34
+62,1,Sudharshanaa Hikaru vs Ken Nevers,Sudharshanaa Hikaru,female,BERSERKER,ELITE,192,84,10,3,13,10,0,Lost,0
+63,1,The Balrog vs Ken Nevers,The Balrog,male,HERO,MASTER,261,261,7,12,3,4,8,Won,193
+63,2,The Balrog vs Ken Nevers,Ken Nevers,male,HERO,ELITE,174,51,13,7,3,4,8,Lost,0

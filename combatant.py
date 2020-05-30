@@ -44,23 +44,29 @@ CLASS_STATS = {
         'wisdom': 10 
     },
     'SAMURAI': {
-       'strength': 10,
-        'defense': 3,
-        'agility': 3,
-        'stamina': 4,
+       'strength': 20,
+        'defense': 0,
+        'agility': 10,
+        'stamina': 0,
         'wisdom': 10 
     }
 }
 
-CLASS_LIST = ['TANK', 'MARTIAL_ARTIST', \
-    #'TACTICIAN', \
-    'BERSERKER', 'HEART', 'HERO', 'SAMURAI']
+CLASS_LIST = [ \
+    'TANK', \
+    'MARTIAL_ARTIST', \
+    'TACTICIAN', \
+    'BERSERKER', \
+    'HEART', \
+    'HERO', \
+    'SAMURAI'\
+        ]
 
 MALE_FIRST_NAMES = ['Davey','Ken','Bobobo','The','Henry','Xavier','Jason','Moses', 'Jack','Barry','Shinji', \
             'Maximus', 'Sparrow', 'Vibey', 'Wednesday', 'Benji', 'King', 'Gregory', 'Kyle', 'Gordon', 'Jim']
 FEMALE_FIRST_NAMES = ['Xiao','Carey','Sung Mina', 'Jesse', 'Talulah', 'Mindy', 'Jessica', 'Sandra', 'Cortana', 'Alexa', \
             'Debra', 'Ting Ting', 'Yolanda', 'Hikaru', 'Katsumi', 'Genevieve', 'Sondra', 'Yennefer', 'Jennifer', 'Allesandra', \
-            'Monique', 'Bibi', 'Arya']
+            'Monique', 'Bibi', 'Arya', 'Sudharshanaa', 'Bon Qui Qui']
 LAST_NAMES = ['Jenkins', 'Chen', 'Lee', 'Hisaishi', 'Johnson', 'Bobobobo', 'Chosen One', 'Moon', 'Sun', 'Balrog', \
     'Badass', 'Mysterious', 'Hall', 'Nevers', 'Bitto', 'Keely', 'Yikes', 'X', 'Utada', 'Hikaru', 'Falcon', 'Sunset', \
     'Montgomery', 'Ocean', 'Hilltops', 'Grey', 'White', 'Black', 'Green', 'Lightning', 'Thunder', 'Snow', 'Kill']
@@ -81,8 +87,9 @@ class Combatant:
             self.name = None
             self.gender = None
 
-            self.set_class()
             self.set_name()
+            self.set_class()
+            
         else:
             self.combat_class = 'NEW CHALLENGER'
             self.strength = profile['strength']
@@ -90,7 +97,7 @@ class Combatant:
             self.agility = profile['agility']
             self.stamina = profile['stamina']
             self.wisdom = profile['wisdom']
-            self.max_health = round(profile['stamina'] * 4 + profile['defense'] * 6) * 3
+            self.max_health = round(profile['stamina'] * 4 + profile['defense'] * 6) * 3 + 50
             self.health = self.max_health
             self.rank = 'MYSTERY'
             self.name = profile['name']
@@ -139,7 +146,8 @@ class Combatant:
 
     def set_class(self):
 
-        selector = round(uniform(0,4))
+        num_classes = len(CLASS_LIST)
+        selector = round(uniform(0,num_classes-1))
         self.combat_class = CLASS_LIST[selector]
         stats_dict = CLASS_STATS[self.combat_class]
 
@@ -147,8 +155,9 @@ class Combatant:
         self.defense = stats_dict['defense']
         self.agility = stats_dict['agility']
         self.stamina = stats_dict['stamina']
+        
         self.wisdom = stats_dict['wisdom']
-        self.max_health = round(stats_dict['stamina'] * 4 + stats_dict['defense'] * 6) * 3
+        self.max_health = max(50, round(stats_dict['stamina'] * 4 + stats_dict['defense'] * 6) * 3)
         self.health = self.max_health
 
         # Assess Rank
@@ -189,7 +198,21 @@ class Combatant:
             elif stat_dice_roll == 5:
                 self.wisdom = self.wisdom + 5
             elif stat_dice_roll == 6:
-                self.health = round(self.health * 1.5)
+                self.max_health = round(self.max_health * 1.5)
+                self.health = self.max_health
+        
+        if self.gender == 'male':
+            self.strength = round(self.strength * 1.2)
+        
+        if self.gender == 'female':
+            self.defense = round(self.defense * 0.8)
+
+        if self.gender == 'female':
+            self.agility = round(self.agility * 1.2)
+        
+        if self.gender == 'male':
+            self.wisdom = round(self.wisdom * 0.8)
+        
 
     def recooperate(self):
         self.health = min(self.max_health, round(self.health * 1.5))

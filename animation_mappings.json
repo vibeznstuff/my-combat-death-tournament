@@ -1,7 +1,7 @@
 {
     "hero_male" : {
         "actions": {
-            "rest": [[350,363], [363,350]],
+            "rest": [[350,363]],
             "dash_attack": [[766, 800]],
             "injured": [[944,947], [947,944]],
             "dodge": [[427,432]],
@@ -100,7 +100,7 @@
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Hibiki\\",
         "img_prefix": "Hibiki",
         "dodge_space": 80,
-        "dodge_slow_factor": 2,
+        "dodge_slow_factor": 0,
         "defeat_slow_factor": 2,
         "victory_slow_factor": 1,
         "rest_slow_factor": 0
@@ -179,12 +179,12 @@
     },
     "tactician_male": {
         "actions": {
-            "rest": [[]],
-            "dash_attack": [[]],
-            "injured": [[]],
-            "dodge": [[]],
-            "defeat": [[]],
-            "victory": [[]]
+            "rest": [[183,197]],
+            "dash_attack": [[247,252],[247,252],[393,402],[487,498]],
+            "injured": [[272,277]],
+            "dodge": [[204,199]],
+            "defeat": [[296,302]],
+            "victory": [[302,316]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Kyosuke\\",
         "img_prefix": "Kyosuke",
@@ -197,18 +197,18 @@
     },
     "tactician_female": {
         "actions": {
-            "rest": [[]],
-            "dash_attack": [[]],
-            "injured": [[]],
-            "dodge": [[]],
-            "defeat": [[]],
-            "victory": [[]]
+            "rest": [[35,40]],
+            "dash_attack": [[105,110],[105,110],[254,279]],
+            "injured": [[137,141]],
+            "dodge": [[396,409]],
+            "defeat": [[150,154],[151,154]],
+            "victory": [[120,124]]
         },
         "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\King\\",
         "img_prefix": "King",
         "starting_pos": [445, 130],
         "dodge_space": 80,
-        "dodge_slow_factor": 2,
+        "dodge_slow_factor": 0,
         "defeat_slow_factor": 2,
         "victory_slow_factor": 0,
         "rest_slow_factor": 0
@@ -248,5 +248,77 @@
         "defeat_slow_factor": 2,
         "victory_slow_factor": 0,
         "rest_slow_factor": 2
+    },
+    "viper_male": {
+        "actions": {
+            "rest": [[]],
+            "dash_attack": [[]],
+            "injured": [[]],
+            "dodge": [[]],
+            "defeat": [[]],
+            "victory": [[]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Akuma\\",
+        "img_prefix": "Akuma",
+        "starting_pos": [445, 130],
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0,
+        "rest_slow_factor": 0
+    },
+    "viper_female": {
+        "actions": {
+            "rest": [[]],
+            "dash_attack": [[]],
+            "injured": [[]],
+            "dodge": [[]],
+            "defeat": [[]],
+            "victory": [[]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Maki\\",
+        "img_prefix": "Maki",
+        "starting_pos": [445, 130],
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0,
+        "rest_slow_factor": 0
+    },
+    "drunk_male": {
+        "actions": {
+            "rest": [[]],
+            "dash_attack": [[]],
+            "injured": [[]],
+            "dodge": [[]],
+            "defeat": [[]],
+            "victory": [[]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Yamazaki\\",
+        "img_prefix": "Yamazaki",
+        "starting_pos": [445, 130],
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0,
+        "rest_slow_factor": 0
+    },
+    "drunk_female": {
+        "actions": {
+            "rest": [[]],
+            "dash_attack": [[]],
+            "injured": [[]],
+            "dodge": [[]],
+            "defeat": [[]],
+            "victory": [[]]
+        },
+        "img_dir": "C:\\Users\\Richard\\Documents\\sprite_sheets\\Maki\\",
+        "img_prefix": "Maki",
+        "starting_pos": [445, 130],
+        "dodge_space": 80,
+        "dodge_slow_factor": 2,
+        "defeat_slow_factor": 2,
+        "victory_slow_factor": 0,
+        "rest_slow_factor": 0
     }
 }

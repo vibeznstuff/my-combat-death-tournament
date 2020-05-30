@@ -5,8 +5,9 @@ from random import uniform
 import csv
 import constants
 import pandas as pd
-#import tournament
+import tournament
 
+round_num = 0
 
 def rescale(img, x, y):
     return pygame.transform.scale(img, (x,y))
@@ -206,6 +207,8 @@ def draw(p1_health_new, p2_health_new):
     global p1_wait_cycles
     global p2_wait_cycles
     global timer
+    global gui_timer1
+    global gui_timer2
     global round_num
 
     if p1_step_count + 1 >= p1_limit and not (p1_defeat or p1_victory):
@@ -217,6 +220,7 @@ def draw(p1_health_new, p2_health_new):
         p2_dodging = False
         if p1_wait_cycles > 0 and p1_resting:
             p1_wait_cycles -= 1
+            gui_timer1 -= 1
 
     if p2_step_count + 1 >= p2_limit and not (p2_defeat or p2_victory):
         p2_step_count = 0
@@ -227,6 +231,7 @@ def draw(p1_health_new, p2_health_new):
         p1_dodging = False
         if p2_wait_cycles > 0 and p2_resting:
             p2_wait_cycles -= 1
+            gui_timer2 -= 1
 
     end_by_defeat = ((p2_defeat and (p1_step_count + 1 >= p1_limit)) or (p1_defeat and (p2_step_count + 1 >= p2_limit)))
     end_by_timer = ((p2_defeat or p1_defeat) and timer == 0)
@@ -313,6 +318,13 @@ def draw(p1_health_new, p2_health_new):
         img3 = font.render("Round Number {0}".format(round_num), True, (255,255,255))
         win.blit(img3, (500 -  (round_width/2), 25))
 
+    # Round Number
+    font = pygame.font.SysFont(None, 30)
+    gui_timer = min(gui_timer1, gui_timer2)
+    round_width, round_height = font.size(str(gui_timer))
+    img3 = font.render(str(gui_timer), True, (255,255,255))
+    win.blit(img3, (500 -  (round_width/2), 80))
+
     pygame.display.update()
 
 pygame.init()
@@ -349,7 +361,6 @@ background = rescale(background, 1000, 550)
 
 acc = 0
 acc_2 = 0
-round_num = 0
 fighting = False
 
 tournament_data = pd.read_csv('tournament_log.csv')
@@ -360,6 +371,8 @@ csv_reader = csv.reader(fight_log)
 next(csv_reader)
 fight_event = next(csv_reader)
 timer = constants.MAX_FIGHT_MOMENTS
+gui_timer1 = timer
+gui_timer2 = timer
 p1_wait_cycles = 0
 p2_wait_cycles = 0
 
@@ -387,6 +400,8 @@ while run:
             reset_fight()
             get_players(round_num)
             timer = constants.MAX_FIGHT_MOMENTS
+            gui_timer1 = timer
+            gui_timer2 = timer
             p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)
             p2_frames = get_frames(character=player_two, action='rest', flip_bool=False, p1_bool=False, slow_factor=p2_rest_sf)
 
