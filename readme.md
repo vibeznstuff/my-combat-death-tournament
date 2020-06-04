@@ -15,8 +15,8 @@ The game currently has 9 character archetypes (with both male and female version
 |---|---|---|
 | Warrior | None | 1 - `ELITE_THRESHOLD` (Default = 75%) |
 | Elite | +5 points to a single stat, picked at random | `ELITE_THRESHOLD` (Default = 25%) |
-| Master | +5 points to 2 stats, both picked at random | `MASTER_THRESHOLD` (Default = 10%) |
-| Legendary | +5 points to 4 stats, all picked at random | `LEGENDARY_THRESHOLD` (Default = 1%) |
+| Master | +5 points to 2 stats, both picked at random without replacement | `MASTER_THRESHOLD` (Default = 10%) |
+| Legendary | +5 points to 4 stats, all picked at random without replacement | `LEGENDARY_THRESHOLD` (Default = 1%) |
 
 > Note: In addition to the +5 stat bonus, one of the bonus options can also be increasing the combatant's health by `HEALTH_INCREASE_BONUS` (modifiable in <a href="https://github.com/vibeznstuff/my-combat-death-tournament/blob/master/constants.py">constants.py</a>
 ). By default, `HEALTH_INCREASE_BONUS` is set to 50%.
