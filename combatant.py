@@ -1,4 +1,5 @@
 from random import uniform
+import constants
 
 CLASS_STATS = {
     'TANK': {
@@ -115,7 +116,7 @@ class Combatant:
             self.agility = profile['agility']
             self.stamina = profile['stamina']
             self.wisdom = profile['wisdom']
-            self.max_health = round(profile['stamina'] * 4 + profile['defense'] * 6) * 3 + 50
+            self.max_health = max(50, round(profile['stamina'] * 4 + profile['defense'] * 6) * constants.HEALTH_MULTIPLIER)
             self.health = self.max_health
             self.rank = 'MYSTERY'
             self.name = profile['name']
@@ -175,22 +176,22 @@ class Combatant:
         self.stamina = stats_dict['stamina']
         
         self.wisdom = stats_dict['wisdom']
-        self.max_health = max(50, round(stats_dict['stamina'] * 4 + stats_dict['defense'] * 6) * 3)
+        self.max_health = max(50, round(stats_dict['stamina'] * 4 + stats_dict['defense'] * 6) * constants.HEALTH_MULTIPLIER)
         self.health = self.max_health
 
         # Assess Rank
         rank_dice_roll = uniform(0,1)
         bonus_count = 0
 
-        if rank_dice_roll > 0.75:
+        if rank_dice_roll < constants.ELITE_THRESHOLD:
             self.rank = 'ELITE'
             bonus_count = 1
 
-        if rank_dice_roll > 0.90:
+        if rank_dice_roll < constants.MASTER_THRESHOLD:
             self.rank = 'MASTER'
             bonus_count = 2
 
-        if rank_dice_roll > 0.99 or self.name.lower() == 'the chosen one':
+        if rank_dice_roll < constants.LEGENDARY_THRESHOLD or self.name.lower() == 'the chosen one':
             self.rank = 'LEGENDARY'
             bonus_count = 4
 
@@ -216,7 +217,7 @@ class Combatant:
             elif stat_dice_roll == 5:
                 self.wisdom = self.wisdom + 5
             elif stat_dice_roll == 6:
-                self.max_health = round(self.max_health * 1.5)
+                self.max_health = round(self.max_health * constants.HEALTH_INCREASE_BONUS)
                 self.health = self.max_health
         
         if self.gender == 'male':

@@ -1,423 +1,538 @@
 round_number,fight_name,time_elapsed,event,combatant_one,combatant_one_health,combatant_one_dodged,combatant_one_attacked,combatant_two,combatant_two_health,combatant_two_dodged,combatant_two_attacked
-1,Arya Black vs Jessica Nevers,300,Fight starts!,Arya Black,50,False,False,Jessica Nevers,144,False,False
-1,Arya Black vs Jessica Nevers,285,Arya Black dodged Jessica Nevers's Attack!,Arya Black,50,True,False,Jessica Nevers,144,False,True
-1,Arya Black vs Jessica Nevers,280,Arya Black Attacks Jessica Nevers!,Arya Black,50,False,True,Jessica Nevers,0,False,False
-1,Arya Black vs Jessica Nevers,280,Jessica Nevers has been Defeated!,Arya Black,50,False,False,Jessica Nevers,0,False,False
-1,Arya Black vs Jessica Nevers,280,Arya Black wins the fight!,Arya Black,50,False,False,Jessica Nevers,0,False,False
-2,Yusuke Chen vs Julia Snow,300,Fight starts!,Yusuke Chen,144,False,False,Julia Snow,261,False,False
-2,Yusuke Chen vs Julia Snow,287,Julia Snow Attacks Yusuke Chen!,Yusuke Chen,126,False,False,Julia Snow,261,False,True
-2,Yusuke Chen vs Julia Snow,285,Julia Snow dodged Yusuke Chen's Attack!,Yusuke Chen,126,False,True,Julia Snow,261,True,False
-2,Yusuke Chen vs Julia Snow,274,Julia Snow Attacks Yusuke Chen!,Yusuke Chen,120,False,False,Julia Snow,261,False,True
-2,Yusuke Chen vs Julia Snow,270,Julia Snow dodged Yusuke Chen's Attack!,Yusuke Chen,120,False,True,Julia Snow,261,True,False
-2,Yusuke Chen vs Julia Snow,261,Julia Snow Attacks Yusuke Chen!,Yusuke Chen,111,False,False,Julia Snow,261,False,True
-2,Yusuke Chen vs Julia Snow,255,Yusuke Chen Attacks Julia Snow!,Yusuke Chen,111,False,True,Julia Snow,117,False,False
-2,Yusuke Chen vs Julia Snow,248,Yusuke Chen dodged Julia Snow's Attack!,Yusuke Chen,111,True,False,Julia Snow,117,False,True
-2,Yusuke Chen vs Julia Snow,240,Yusuke Chen Attacks Julia Snow!,Yusuke Chen,111,False,True,Julia Snow,0,False,False
-2,Yusuke Chen vs Julia Snow,240,Julia Snow has been Defeated!,Yusuke Chen,111,False,False,Julia Snow,0,False,False
-2,Yusuke Chen vs Julia Snow,240,Yusuke Chen wins the fight!,Yusuke Chen,111,False,False,Julia Snow,0,False,False
-3,Arya Black vs Yusuke Chen,300,Fight starts!,Arya Black,50,False,False,Yusuke Chen,144,False,False
-3,Arya Black vs Yusuke Chen,285,Yusuke Chen Attacks Arya Black!,Arya Black,0,False,False,Yusuke Chen,144,False,True
-3,Arya Black vs Yusuke Chen,285,Arya Black has been Defeated!,Arya Black,0,False,False,Yusuke Chen,144,False,False
-3,Arya Black vs Yusuke Chen,285,Yusuke Chen wins the fight!,Arya Black,0,False,False,Yusuke Chen,144,False,False
-4,Sparrow Hikaru vs Moses Hilltops,300,Fight starts!,Sparrow Hikaru,174,False,False,Moses Hilltops,50,False,False
-4,Sparrow Hikaru vs Moses Hilltops,284,Sparrow Hikaru Attacks Moses Hilltops!,Sparrow Hikaru,174,False,True,Moses Hilltops,8,False,False
-4,Sparrow Hikaru vs Moses Hilltops,280,Sparrow Hikaru dodged Moses Hilltops's Attack!,Sparrow Hikaru,174,True,False,Moses Hilltops,8,False,True
-4,Sparrow Hikaru vs Moses Hilltops,268,Sparrow Hikaru Attacks Moses Hilltops!,Sparrow Hikaru,174,False,True,Moses Hilltops,0,False,False
-4,Sparrow Hikaru vs Moses Hilltops,268,Moses Hilltops has been Defeated!,Sparrow Hikaru,174,False,False,Moses Hilltops,0,False,False
-4,Sparrow Hikaru vs Moses Hilltops,268,Sparrow Hikaru wins the fight!,Sparrow Hikaru,174,False,False,Moses Hilltops,0,False,False
-5,Roxanne Johnson vs Helen Keely,300,Fight starts!,Roxanne Johnson,144,False,False,Helen Keely,192,False,False
-5,Roxanne Johnson vs Helen Keely,290,Roxanne Johnson dodged Helen Keely's Attack!,Roxanne Johnson,144,True,False,Helen Keely,192,False,True
-5,Roxanne Johnson vs Helen Keely,280,Roxanne Johnson Attacks Helen Keely!,Roxanne Johnson,144,False,True,Helen Keely,3,False,False
-5,Roxanne Johnson vs Helen Keely,280,Helen Keely Attacks Roxanne Johnson!,Roxanne Johnson,96,False,False,Helen Keely,3,False,True
-5,Roxanne Johnson vs Helen Keely,270,Helen Keely Attacks Roxanne Johnson!,Roxanne Johnson,84,False,False,Helen Keely,3,False,True
-5,Roxanne Johnson vs Helen Keely,260,Roxanne Johnson Attacks Helen Keely!,Roxanne Johnson,84,False,True,Helen Keely,0,False,False
-5,Roxanne Johnson vs Helen Keely,260,Helen Keely has been Defeated!,Roxanne Johnson,84,False,False,Helen Keely,0,False,False
-5,Roxanne Johnson vs Helen Keely,260,Roxanne Johnson wins the fight!,Roxanne Johnson,84,False,False,Helen Keely,0,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,300,Fight starts!,Sparrow Hikaru,174,False,False,Roxanne Johnson,126,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,284,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,174,False,True,Roxanne Johnson,120,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,280,Roxanne Johnson Attacks Sparrow Hikaru!,Sparrow Hikaru,138,False,False,Roxanne Johnson,120,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,268,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,138,False,True,Roxanne Johnson,117,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,260,Roxanne Johnson Attacks Sparrow Hikaru!,Sparrow Hikaru,93,False,False,Roxanne Johnson,117,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,252,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,111,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,240,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,93,True,False,Roxanne Johnson,111,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,236,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,105,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,220,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,93,True,False,Roxanne Johnson,105,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,220,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,99,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,204,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,93,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,200,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,93,True,False,Roxanne Johnson,93,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,188,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,84,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,180,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,93,True,False,Roxanne Johnson,84,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,172,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,78,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,160,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,93,True,False,Roxanne Johnson,78,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,156,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,72,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,140,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,93,True,False,Roxanne Johnson,72,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,140,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,93,False,True,Roxanne Johnson,66,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,124,Roxanne Johnson dodged Sparrow Hikaru's Attack!,Sparrow Hikaru,93,False,True,Roxanne Johnson,66,True,False
-6,Sparrow Hikaru vs Roxanne Johnson,120,Roxanne Johnson Attacks Sparrow Hikaru!,Sparrow Hikaru,21,False,False,Roxanne Johnson,66,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,108,Roxanne Johnson dodged Sparrow Hikaru's Attack!,Sparrow Hikaru,21,False,True,Roxanne Johnson,66,True,False
-6,Sparrow Hikaru vs Roxanne Johnson,100,Roxanne Johnson Attacks Sparrow Hikaru!,Sparrow Hikaru,3,False,False,Roxanne Johnson,66,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,92,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,3,False,True,Roxanne Johnson,57,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,80,Sparrow Hikaru dodged Roxanne Johnson's Attack!,Sparrow Hikaru,3,True,False,Roxanne Johnson,57,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,76,Sparrow Hikaru Attacks Roxanne Johnson!,Sparrow Hikaru,3,False,True,Roxanne Johnson,54,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,60,Roxanne Johnson Attacks Sparrow Hikaru!,Sparrow Hikaru,0,False,False,Roxanne Johnson,54,False,True
-6,Sparrow Hikaru vs Roxanne Johnson,60,Sparrow Hikaru has been Defeated!,Sparrow Hikaru,0,False,False,Roxanne Johnson,54,False,False
-6,Sparrow Hikaru vs Roxanne Johnson,60,Roxanne Johnson wins the fight!,Sparrow Hikaru,0,False,False,Roxanne Johnson,54,False,False
-7,Yusuke Chen vs Roxanne Johnson,300,Fight starts!,Yusuke Chen,144,False,False,Roxanne Johnson,81,False,False
-7,Yusuke Chen vs Roxanne Johnson,285,Yusuke Chen Attacks Roxanne Johnson!,Yusuke Chen,144,False,True,Roxanne Johnson,0,False,False
-7,Yusuke Chen vs Roxanne Johnson,285,Roxanne Johnson has been Defeated!,Yusuke Chen,144,False,False,Roxanne Johnson,0,False,False
-7,Yusuke Chen vs Roxanne Johnson,285,Yusuke Chen wins the fight!,Yusuke Chen,144,False,False,Roxanne Johnson,0,False,False
-8,Shinji Black vs Jason White,300,Fight starts!,Shinji Black,252,False,False,Jason White,174,False,False
-8,Shinji Black vs Jason White,287,Jason White Attacks Shinji Black!,Shinji Black,225,False,False,Jason White,174,False,True
-8,Shinji Black vs Jason White,286,Shinji Black Attacks Jason White!,Shinji Black,225,False,True,Jason White,168,False,False
-8,Shinji Black vs Jason White,274,Jason White Attacks Shinji Black!,Shinji Black,219,False,False,Jason White,168,False,True
-8,Shinji Black vs Jason White,272,Shinji Black Attacks Jason White!,Shinji Black,219,False,True,Jason White,159,False,False
-8,Shinji Black vs Jason White,261,Jason White Attacks Shinji Black!,Shinji Black,204,False,False,Jason White,159,False,True
-8,Shinji Black vs Jason White,258,Jason White dodged Shinji Black's Attack!,Shinji Black,204,False,True,Jason White,159,True,False
-8,Shinji Black vs Jason White,248,Jason White Attacks Shinji Black!,Shinji Black,195,False,False,Jason White,159,False,True
-8,Shinji Black vs Jason White,244,Shinji Black Attacks Jason White!,Shinji Black,195,False,True,Jason White,147,False,False
-8,Shinji Black vs Jason White,235,Jason White Attacks Shinji Black!,Shinji Black,177,False,False,Jason White,147,False,True
-8,Shinji Black vs Jason White,230,Jason White dodged Shinji Black's Attack!,Shinji Black,177,False,True,Jason White,147,True,False
-8,Shinji Black vs Jason White,222,Shinji Black dodged Jason White's Attack!,Shinji Black,177,True,False,Jason White,147,False,True
-8,Shinji Black vs Jason White,216,Shinji Black Attacks Jason White!,Shinji Black,177,False,True,Jason White,135,False,False
-8,Shinji Black vs Jason White,209,Jason White Attacks Shinji Black!,Shinji Black,168,False,False,Jason White,135,False,True
-8,Shinji Black vs Jason White,202,Shinji Black Attacks Jason White!,Shinji Black,168,False,True,Jason White,120,False,False
-8,Shinji Black vs Jason White,196,Shinji Black dodged Jason White's Attack!,Shinji Black,168,True,False,Jason White,120,False,True
-8,Shinji Black vs Jason White,188,Shinji Black Attacks Jason White!,Shinji Black,168,False,True,Jason White,114,False,False
-8,Shinji Black vs Jason White,183,Shinji Black dodged Jason White's Attack!,Shinji Black,168,True,False,Jason White,114,False,True
-8,Shinji Black vs Jason White,174,Shinji Black Attacks Jason White!,Shinji Black,168,False,True,Jason White,102,False,False
-8,Shinji Black vs Jason White,170,Jason White Attacks Shinji Black!,Shinji Black,153,False,False,Jason White,102,False,True
-8,Shinji Black vs Jason White,160,Jason White dodged Shinji Black's Attack!,Shinji Black,153,False,True,Jason White,102,True,False
-8,Shinji Black vs Jason White,157,Jason White Attacks Shinji Black!,Shinji Black,126,False,False,Jason White,102,False,True
-8,Shinji Black vs Jason White,146,Shinji Black Attacks Jason White!,Shinji Black,126,False,True,Jason White,96,False,False
-8,Shinji Black vs Jason White,144,Jason White Attacks Shinji Black!,Shinji Black,105,False,False,Jason White,96,False,True
-8,Shinji Black vs Jason White,132,Shinji Black Attacks Jason White!,Shinji Black,105,False,True,Jason White,87,False,False
-8,Shinji Black vs Jason White,131,Jason White Attacks Shinji Black!,Shinji Black,84,False,False,Jason White,87,False,True
-8,Shinji Black vs Jason White,118,Jason White Attacks Shinji Black!,Shinji Black,63,False,False,Jason White,87,False,True
-8,Shinji Black vs Jason White,118,Shinji Black Attacks Jason White!,Shinji Black,63,False,True,Jason White,81,False,False
-8,Shinji Black vs Jason White,105,Jason White Attacks Shinji Black!,Shinji Black,39,False,False,Jason White,81,False,True
-8,Shinji Black vs Jason White,104,Shinji Black Attacks Jason White!,Shinji Black,39,False,True,Jason White,78,False,False
-8,Shinji Black vs Jason White,92,Jason White Attacks Shinji Black!,Shinji Black,27,False,False,Jason White,78,False,True
-8,Shinji Black vs Jason White,90,Jason White dodged Shinji Black's Attack!,Shinji Black,27,False,True,Jason White,78,True,False
-8,Shinji Black vs Jason White,79,Shinji Black dodged Jason White's Attack!,Shinji Black,27,True,False,Jason White,78,False,True
-8,Shinji Black vs Jason White,76,Jason White dodged Shinji Black's Attack!,Shinji Black,27,False,True,Jason White,78,True,False
-8,Shinji Black vs Jason White,66,Jason White Attacks Shinji Black!,Shinji Black,15,False,False,Jason White,78,False,True
-8,Shinji Black vs Jason White,62,Shinji Black Attacks Jason White!,Shinji Black,15,False,True,Jason White,72,False,False
-8,Shinji Black vs Jason White,53,Jason White Attacks Shinji Black!,Shinji Black,6,False,False,Jason White,72,False,True
-8,Shinji Black vs Jason White,48,Shinji Black Attacks Jason White!,Shinji Black,6,False,True,Jason White,57,False,False
-8,Shinji Black vs Jason White,40,Jason White Attacks Shinji Black!,Shinji Black,3,False,False,Jason White,57,False,True
-8,Shinji Black vs Jason White,34,Shinji Black Attacks Jason White!,Shinji Black,3,False,True,Jason White,54,False,False
-8,Shinji Black vs Jason White,27,Shinji Black dodged Jason White's Attack!,Shinji Black,3,True,False,Jason White,54,False,True
-8,Shinji Black vs Jason White,20,Shinji Black Attacks Jason White!,Shinji Black,3,False,True,Jason White,51,False,False
-8,Shinji Black vs Jason White,14,Jason White Attacks Shinji Black!,Shinji Black,0,False,False,Jason White,51,False,True
-8,Shinji Black vs Jason White,14,Shinji Black has been Defeated!,Shinji Black,0,False,False,Jason White,51,False,False
-8,Shinji Black vs Jason White,14,Jason White wins the fight!,Shinji Black,0,False,False,Jason White,51,False,False
-9,Shinji Hikaru vs Maximus Snow,300,Fight starts!,Shinji Hikaru,174,False,False,Maximus Snow,144,False,False
-9,Shinji Hikaru vs Maximus Snow,284,Shinji Hikaru Attacks Maximus Snow!,Shinji Hikaru,174,False,True,Maximus Snow,138,False,False
-9,Shinji Hikaru vs Maximus Snow,280,Shinji Hikaru dodged Maximus Snow's Attack!,Shinji Hikaru,174,True,False,Maximus Snow,138,False,True
-9,Shinji Hikaru vs Maximus Snow,268,Maximus Snow dodged Shinji Hikaru's Attack!,Shinji Hikaru,174,False,True,Maximus Snow,138,True,False
-9,Shinji Hikaru vs Maximus Snow,260,Maximus Snow Attacks Shinji Hikaru!,Shinji Hikaru,39,False,False,Maximus Snow,138,False,True
-9,Shinji Hikaru vs Maximus Snow,252,Maximus Snow dodged Shinji Hikaru's Attack!,Shinji Hikaru,39,False,True,Maximus Snow,138,True,False
-9,Shinji Hikaru vs Maximus Snow,240,Shinji Hikaru dodged Maximus Snow's Attack!,Shinji Hikaru,39,True,False,Maximus Snow,138,False,True
-9,Shinji Hikaru vs Maximus Snow,236,Shinji Hikaru Attacks Maximus Snow!,Shinji Hikaru,39,False,True,Maximus Snow,132,False,False
-9,Shinji Hikaru vs Maximus Snow,220,Shinji Hikaru dodged Maximus Snow's Attack!,Shinji Hikaru,39,True,False,Maximus Snow,132,False,True
-9,Shinji Hikaru vs Maximus Snow,220,Shinji Hikaru Attacks Maximus Snow!,Shinji Hikaru,39,False,True,Maximus Snow,126,False,False
-9,Shinji Hikaru vs Maximus Snow,204,Shinji Hikaru Attacks Maximus Snow!,Shinji Hikaru,39,False,True,Maximus Snow,120,False,False
-9,Shinji Hikaru vs Maximus Snow,200,Shinji Hikaru dodged Maximus Snow's Attack!,Shinji Hikaru,39,True,False,Maximus Snow,120,False,True
-9,Shinji Hikaru vs Maximus Snow,188,Maximus Snow dodged Shinji Hikaru's Attack!,Shinji Hikaru,39,False,True,Maximus Snow,120,True,False
-9,Shinji Hikaru vs Maximus Snow,180,Shinji Hikaru dodged Maximus Snow's Attack!,Shinji Hikaru,39,True,False,Maximus Snow,120,False,True
-9,Shinji Hikaru vs Maximus Snow,172,Shinji Hikaru Attacks Maximus Snow!,Shinji Hikaru,39,False,True,Maximus Snow,114,False,False
-9,Shinji Hikaru vs Maximus Snow,160,Maximus Snow Attacks Shinji Hikaru!,Shinji Hikaru,0,False,False,Maximus Snow,114,False,True
-9,Shinji Hikaru vs Maximus Snow,160,Shinji Hikaru has been Defeated!,Shinji Hikaru,0,False,False,Maximus Snow,114,False,False
-9,Shinji Hikaru vs Maximus Snow,160,Maximus Snow wins the fight!,Shinji Hikaru,0,False,False,Maximus Snow,114,False,False
-10,Jason White vs Maximus Snow,300,Fight starts!,Jason White,76,False,False,Maximus Snow,144,False,False
-10,Jason White vs Maximus Snow,287,Jason White Attacks Maximus Snow!,Jason White,76,False,True,Maximus Snow,129,False,False
-10,Jason White vs Maximus Snow,280,Maximus Snow Attacks Jason White!,Jason White,0,False,False,Maximus Snow,129,False,True
-10,Jason White vs Maximus Snow,280,Jason White has been Defeated!,Jason White,0,False,False,Maximus Snow,129,False,False
-10,Jason White vs Maximus Snow,280,Maximus Snow wins the fight!,Jason White,0,False,False,Maximus Snow,129,False,False
-11,Alexa Green vs Vibey Sun,300,Fight starts!,Alexa Green,144,False,False,Vibey Sun,156,False,False
-11,Alexa Green vs Vibey Sun,290,Vibey Sun Attacks Alexa Green!,Alexa Green,135,False,False,Vibey Sun,156,False,True
-11,Alexa Green vs Vibey Sun,280,Alexa Green dodged Vibey Sun's Attack!,Alexa Green,135,True,False,Vibey Sun,156,False,True
-11,Alexa Green vs Vibey Sun,280,Alexa Green Attacks Vibey Sun!,Alexa Green,135,False,True,Vibey Sun,60,False,False
-11,Alexa Green vs Vibey Sun,270,Vibey Sun Attacks Alexa Green!,Alexa Green,126,False,False,Vibey Sun,60,False,True
-11,Alexa Green vs Vibey Sun,260,Alexa Green dodged Vibey Sun's Attack!,Alexa Green,126,True,False,Vibey Sun,60,False,True
-11,Alexa Green vs Vibey Sun,260,Alexa Green Attacks Vibey Sun!,Alexa Green,126,False,True,Vibey Sun,36,False,False
-11,Alexa Green vs Vibey Sun,250,Vibey Sun Attacks Alexa Green!,Alexa Green,111,False,False,Vibey Sun,36,False,True
-11,Alexa Green vs Vibey Sun,240,Alexa Green Attacks Vibey Sun!,Alexa Green,111,False,True,Vibey Sun,0,False,False
-11,Alexa Green vs Vibey Sun,240,Vibey Sun has been Defeated!,Alexa Green,111,False,False,Vibey Sun,0,False,False
-11,Alexa Green vs Vibey Sun,240,Alexa Green wins the fight!,Alexa Green,111,False,False,Vibey Sun,0,False,False
-12,Jason X vs Jack Chen,300,Fight starts!,Jason X,156,False,False,Jack Chen,240,False,False
-12,Jason X vs Jack Chen,290,Jason X Attacks Jack Chen!,Jason X,156,False,True,Jack Chen,231,False,False
-12,Jason X vs Jack Chen,285,Jack Chen Attacks Jason X!,Jason X,126,False,False,Jack Chen,231,False,True
-12,Jason X vs Jack Chen,280,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,216,False,False
-12,Jason X vs Jack Chen,270,Jack Chen dodged Jason X's Attack!,Jason X,126,False,True,Jack Chen,216,True,False
-12,Jason X vs Jack Chen,270,Jason X dodged Jack Chen's Attack!,Jason X,126,True,False,Jack Chen,216,False,True
-12,Jason X vs Jack Chen,260,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,210,False,False
-12,Jason X vs Jack Chen,255,Jason X dodged Jack Chen's Attack!,Jason X,126,True,False,Jack Chen,210,False,True
-12,Jason X vs Jack Chen,250,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,207,False,False
-12,Jason X vs Jack Chen,240,Jason X dodged Jack Chen's Attack!,Jason X,126,True,False,Jack Chen,207,False,True
-12,Jason X vs Jack Chen,240,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,201,False,False
-12,Jason X vs Jack Chen,230,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,189,False,False
-12,Jason X vs Jack Chen,225,Jason X dodged Jack Chen's Attack!,Jason X,126,True,False,Jack Chen,189,False,True
-12,Jason X vs Jack Chen,220,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,183,False,False
-12,Jason X vs Jack Chen,210,Jason X Attacks Jack Chen!,Jason X,126,False,True,Jack Chen,177,False,False
-12,Jason X vs Jack Chen,210,Jack Chen Attacks Jason X!,Jason X,66,False,False,Jack Chen,177,False,True
-12,Jason X vs Jack Chen,200,Jack Chen dodged Jason X's Attack!,Jason X,66,False,True,Jack Chen,177,True,False
-12,Jason X vs Jack Chen,195,Jack Chen Attacks Jason X!,Jason X,6,False,False,Jack Chen,177,False,True
-12,Jason X vs Jack Chen,190,Jason X Attacks Jack Chen!,Jason X,6,False,True,Jack Chen,162,False,False
-12,Jason X vs Jack Chen,180,Jason X Attacks Jack Chen!,Jason X,6,False,True,Jack Chen,150,False,False
-12,Jason X vs Jack Chen,180,Jack Chen Attacks Jason X!,Jason X,0,False,False,Jack Chen,150,False,True
-12,Jason X vs Jack Chen,180,Jason X has been Defeated!,Jason X,0,False,False,Jack Chen,150,False,False
-12,Jason X vs Jack Chen,180,Jack Chen wins the fight!,Jason X,0,False,False,Jack Chen,150,False,False
-13,Alexa Green vs Jack Chen,300,Fight starts!,Alexa Green,144,False,False,Jack Chen,225,False,False
-13,Alexa Green vs Jack Chen,285,Jack Chen Attacks Alexa Green!,Alexa Green,90,False,False,Jack Chen,225,False,True
-13,Alexa Green vs Jack Chen,280,Alexa Green Attacks Jack Chen!,Alexa Green,90,False,True,Jack Chen,189,False,False
-13,Alexa Green vs Jack Chen,270,Jack Chen Attacks Alexa Green!,Alexa Green,54,False,False,Jack Chen,189,False,True
-13,Alexa Green vs Jack Chen,260,Alexa Green Attacks Jack Chen!,Alexa Green,54,False,True,Jack Chen,180,False,False
-13,Alexa Green vs Jack Chen,255,Alexa Green dodged Jack Chen's Attack!,Alexa Green,54,True,False,Jack Chen,180,False,True
-13,Alexa Green vs Jack Chen,240,Alexa Green dodged Jack Chen's Attack!,Alexa Green,54,True,False,Jack Chen,180,False,True
-13,Alexa Green vs Jack Chen,240,Alexa Green Attacks Jack Chen!,Alexa Green,54,False,True,Jack Chen,168,False,False
-13,Alexa Green vs Jack Chen,225,Jack Chen Attacks Alexa Green!,Alexa Green,18,False,False,Jack Chen,168,False,True
-13,Alexa Green vs Jack Chen,220,Alexa Green Attacks Jack Chen!,Alexa Green,18,False,True,Jack Chen,162,False,False
-13,Alexa Green vs Jack Chen,210,Jack Chen Attacks Alexa Green!,Alexa Green,0,False,False,Jack Chen,162,False,True
-13,Alexa Green vs Jack Chen,210,Alexa Green has been Defeated!,Alexa Green,0,False,False,Jack Chen,162,False,False
-13,Alexa Green vs Jack Chen,210,Jack Chen wins the fight!,Alexa Green,0,False,False,Jack Chen,162,False,False
-14,Maximus Snow vs Jack Chen,300,Fight starts!,Maximus Snow,144,False,False,Jack Chen,240,False,False
-14,Maximus Snow vs Jack Chen,285,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,144,True,False,Jack Chen,240,False,True
-14,Maximus Snow vs Jack Chen,280,Maximus Snow Attacks Jack Chen!,Maximus Snow,144,False,True,Jack Chen,222,False,False
-14,Maximus Snow vs Jack Chen,270,Jack Chen Attacks Maximus Snow!,Maximus Snow,132,False,False,Jack Chen,222,False,True
-14,Maximus Snow vs Jack Chen,260,Maximus Snow Attacks Jack Chen!,Maximus Snow,132,False,True,Jack Chen,162,False,False
-14,Maximus Snow vs Jack Chen,255,Jack Chen Attacks Maximus Snow!,Maximus Snow,96,False,False,Jack Chen,162,False,True
-14,Maximus Snow vs Jack Chen,240,Maximus Snow Attacks Jack Chen!,Maximus Snow,96,False,True,Jack Chen,132,False,False
-14,Maximus Snow vs Jack Chen,240,Jack Chen Attacks Maximus Snow!,Maximus Snow,84,False,False,Jack Chen,132,False,True
-14,Maximus Snow vs Jack Chen,225,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,84,True,False,Jack Chen,132,False,True
-14,Maximus Snow vs Jack Chen,220,Maximus Snow Attacks Jack Chen!,Maximus Snow,84,False,True,Jack Chen,126,False,False
-14,Maximus Snow vs Jack Chen,210,Jack Chen Attacks Maximus Snow!,Maximus Snow,48,False,False,Jack Chen,126,False,True
-14,Maximus Snow vs Jack Chen,200,Maximus Snow Attacks Jack Chen!,Maximus Snow,48,False,True,Jack Chen,108,False,False
-14,Maximus Snow vs Jack Chen,195,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,48,True,False,Jack Chen,108,False,True
-14,Maximus Snow vs Jack Chen,180,Maximus Snow Attacks Jack Chen!,Maximus Snow,48,False,True,Jack Chen,60,False,False
-14,Maximus Snow vs Jack Chen,180,Jack Chen Attacks Maximus Snow!,Maximus Snow,36,False,False,Jack Chen,60,False,True
-14,Maximus Snow vs Jack Chen,165,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,36,True,False,Jack Chen,60,False,True
-14,Maximus Snow vs Jack Chen,160,Maximus Snow Attacks Jack Chen!,Maximus Snow,36,False,True,Jack Chen,54,False,False
-14,Maximus Snow vs Jack Chen,150,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,36,True,False,Jack Chen,54,False,True
-14,Maximus Snow vs Jack Chen,140,Maximus Snow Attacks Jack Chen!,Maximus Snow,36,False,True,Jack Chen,48,False,False
-14,Maximus Snow vs Jack Chen,135,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,36,True,False,Jack Chen,48,False,True
-14,Maximus Snow vs Jack Chen,120,Maximus Snow dodged Jack Chen's Attack!,Maximus Snow,36,True,False,Jack Chen,48,False,True
-14,Maximus Snow vs Jack Chen,120,Maximus Snow Attacks Jack Chen!,Maximus Snow,36,False,True,Jack Chen,18,False,False
-14,Maximus Snow vs Jack Chen,105,Jack Chen Attacks Maximus Snow!,Maximus Snow,24,False,False,Jack Chen,18,False,True
-14,Maximus Snow vs Jack Chen,100,Maximus Snow Attacks Jack Chen!,Maximus Snow,24,False,True,Jack Chen,0,False,False
-14,Maximus Snow vs Jack Chen,100,Jack Chen has been Defeated!,Maximus Snow,24,False,False,Jack Chen,0,False,False
-14,Maximus Snow vs Jack Chen,100,Maximus Snow wins the fight!,Maximus Snow,24,False,False,Jack Chen,0,False,False
-15,Yusuke Chen vs Maximus Snow,300,Fight starts!,Yusuke Chen,144,False,False,Maximus Snow,36,False,False
-15,Yusuke Chen vs Maximus Snow,285,Maximus Snow dodged Yusuke Chen's Attack!,Yusuke Chen,144,False,True,Maximus Snow,36,True,False
-15,Yusuke Chen vs Maximus Snow,280,Maximus Snow Attacks Yusuke Chen!,Yusuke Chen,60,False,False,Maximus Snow,36,False,True
-15,Yusuke Chen vs Maximus Snow,270,Yusuke Chen Attacks Maximus Snow!,Yusuke Chen,60,False,True,Maximus Snow,0,False,False
-15,Yusuke Chen vs Maximus Snow,270,Maximus Snow has been Defeated!,Yusuke Chen,60,False,False,Maximus Snow,0,False,False
-15,Yusuke Chen vs Maximus Snow,270,Yusuke Chen wins the fight!,Yusuke Chen,60,False,False,Maximus Snow,0,False,False
-16,Reginald Hikaru vs Yolanda Badass,300,Fight starts!,Reginald Hikaru,174,False,False,Yolanda Badass,174,False,False
-16,Reginald Hikaru vs Yolanda Badass,287,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,168,False,False,Yolanda Badass,174,False,True
-16,Reginald Hikaru vs Yolanda Badass,284,Yolanda Badass dodged Reginald Hikaru's Attack!,Reginald Hikaru,168,False,True,Yolanda Badass,174,True,False
-16,Reginald Hikaru vs Yolanda Badass,274,Reginald Hikaru dodged Yolanda Badass's Attack!,Reginald Hikaru,168,True,False,Yolanda Badass,174,False,True
-16,Reginald Hikaru vs Yolanda Badass,268,Yolanda Badass dodged Reginald Hikaru's Attack!,Reginald Hikaru,168,False,True,Yolanda Badass,174,True,False
-16,Reginald Hikaru vs Yolanda Badass,261,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,141,False,False,Yolanda Badass,174,False,True
-16,Reginald Hikaru vs Yolanda Badass,252,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,141,False,True,Yolanda Badass,165,False,False
-16,Reginald Hikaru vs Yolanda Badass,248,Reginald Hikaru dodged Yolanda Badass's Attack!,Reginald Hikaru,141,True,False,Yolanda Badass,165,False,True
-16,Reginald Hikaru vs Yolanda Badass,236,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,141,False,True,Yolanda Badass,162,False,False
-16,Reginald Hikaru vs Yolanda Badass,235,Reginald Hikaru dodged Yolanda Badass's Attack!,Reginald Hikaru,141,True,False,Yolanda Badass,162,False,True
-16,Reginald Hikaru vs Yolanda Badass,222,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,117,False,False,Yolanda Badass,162,False,True
-16,Reginald Hikaru vs Yolanda Badass,220,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,117,False,True,Yolanda Badass,153,False,False
-16,Reginald Hikaru vs Yolanda Badass,209,Reginald Hikaru dodged Yolanda Badass's Attack!,Reginald Hikaru,117,True,False,Yolanda Badass,153,False,True
-16,Reginald Hikaru vs Yolanda Badass,204,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,117,False,True,Yolanda Badass,150,False,False
-16,Reginald Hikaru vs Yolanda Badass,196,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,84,False,False,Yolanda Badass,150,False,True
-16,Reginald Hikaru vs Yolanda Badass,188,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,84,False,True,Yolanda Badass,147,False,False
-16,Reginald Hikaru vs Yolanda Badass,183,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,54,False,False,Yolanda Badass,147,False,True
-16,Reginald Hikaru vs Yolanda Badass,172,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,54,False,True,Yolanda Badass,144,False,False
-16,Reginald Hikaru vs Yolanda Badass,170,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,33,False,False,Yolanda Badass,144,False,True
-16,Reginald Hikaru vs Yolanda Badass,157,Reginald Hikaru dodged Yolanda Badass's Attack!,Reginald Hikaru,33,True,False,Yolanda Badass,144,False,True
-16,Reginald Hikaru vs Yolanda Badass,156,Reginald Hikaru Attacks Yolanda Badass!,Reginald Hikaru,33,False,True,Yolanda Badass,138,False,False
-16,Reginald Hikaru vs Yolanda Badass,144,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,12,False,False,Yolanda Badass,138,False,True
-16,Reginald Hikaru vs Yolanda Badass,140,Yolanda Badass dodged Reginald Hikaru's Attack!,Reginald Hikaru,12,False,True,Yolanda Badass,138,True,False
-16,Reginald Hikaru vs Yolanda Badass,131,Yolanda Badass Attacks Reginald Hikaru!,Reginald Hikaru,0,False,False,Yolanda Badass,138,False,True
-16,Reginald Hikaru vs Yolanda Badass,131,Reginald Hikaru has been Defeated!,Reginald Hikaru,0,False,False,Yolanda Badass,138,False,False
-16,Reginald Hikaru vs Yolanda Badass,131,Yolanda Badass wins the fight!,Reginald Hikaru,0,False,False,Yolanda Badass,138,False,False
-17,Reina Hikaru vs Katsumi Jenkins,300,Fight starts!,Reina Hikaru,192,False,False,Katsumi Jenkins,144,False,False
-17,Reina Hikaru vs Katsumi Jenkins,290,Reina Hikaru Attacks Katsumi Jenkins!,Reina Hikaru,192,False,True,Katsumi Jenkins,60,False,False
-17,Reina Hikaru vs Katsumi Jenkins,280,Katsumi Jenkins Attacks Reina Hikaru!,Reina Hikaru,0,False,False,Katsumi Jenkins,60,False,True
-17,Reina Hikaru vs Katsumi Jenkins,280,Reina Hikaru has been Defeated!,Reina Hikaru,0,False,False,Katsumi Jenkins,60,False,False
-17,Reina Hikaru vs Katsumi Jenkins,280,Katsumi Jenkins wins the fight!,Reina Hikaru,0,False,False,Katsumi Jenkins,60,False,False
-18,Yolanda Badass vs Katsumi Jenkins,300,Fight starts!,Yolanda Badass,174,False,False,Katsumi Jenkins,90,False,False
-18,Yolanda Badass vs Katsumi Jenkins,287,Yolanda Badass Attacks Katsumi Jenkins!,Yolanda Badass,174,False,True,Katsumi Jenkins,84,False,False
-18,Yolanda Badass vs Katsumi Jenkins,280,Katsumi Jenkins Attacks Yolanda Badass!,Yolanda Badass,138,False,False,Katsumi Jenkins,84,False,True
-18,Yolanda Badass vs Katsumi Jenkins,274,Katsumi Jenkins dodged Yolanda Badass's Attack!,Yolanda Badass,138,False,True,Katsumi Jenkins,84,True,False
-18,Yolanda Badass vs Katsumi Jenkins,261,Yolanda Badass Attacks Katsumi Jenkins!,Yolanda Badass,138,False,True,Katsumi Jenkins,60,False,False
-18,Yolanda Badass vs Katsumi Jenkins,260,Katsumi Jenkins Attacks Yolanda Badass!,Yolanda Badass,72,False,False,Katsumi Jenkins,60,False,True
-18,Yolanda Badass vs Katsumi Jenkins,248,Yolanda Badass Attacks Katsumi Jenkins!,Yolanda Badass,72,False,True,Katsumi Jenkins,54,False,False
-18,Yolanda Badass vs Katsumi Jenkins,240,Katsumi Jenkins Attacks Yolanda Badass!,Yolanda Badass,42,False,False,Katsumi Jenkins,54,False,True
-18,Yolanda Badass vs Katsumi Jenkins,235,Katsumi Jenkins dodged Yolanda Badass's Attack!,Yolanda Badass,42,False,True,Katsumi Jenkins,54,True,False
-18,Yolanda Badass vs Katsumi Jenkins,222,Yolanda Badass Attacks Katsumi Jenkins!,Yolanda Badass,42,False,True,Katsumi Jenkins,33,False,False
-18,Yolanda Badass vs Katsumi Jenkins,220,Katsumi Jenkins Attacks Yolanda Badass!,Yolanda Badass,0,False,False,Katsumi Jenkins,33,False,True
-18,Yolanda Badass vs Katsumi Jenkins,220,Yolanda Badass has been Defeated!,Yolanda Badass,0,False,False,Katsumi Jenkins,33,False,False
-18,Yolanda Badass vs Katsumi Jenkins,220,Katsumi Jenkins wins the fight!,Yolanda Badass,0,False,False,Katsumi Jenkins,33,False,False
-19,Nicole Yikes vs Jennifer Utada,300,Fight starts!,Nicole Yikes,240,False,False,Jennifer Utada,252,False,False
-19,Nicole Yikes vs Jennifer Utada,286,Nicole Yikes dodged Jennifer Utada's Attack!,Nicole Yikes,240,True,False,Jennifer Utada,252,False,True
-19,Nicole Yikes vs Jennifer Utada,285,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,240,False,True,Jennifer Utada,252,True,False
-19,Nicole Yikes vs Jennifer Utada,272,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,207,False,False,Jennifer Utada,252,False,True
-19,Nicole Yikes vs Jennifer Utada,270,Nicole Yikes Attacks Jennifer Utada!,Nicole Yikes,207,False,True,Jennifer Utada,240,False,False
-19,Nicole Yikes vs Jennifer Utada,258,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,201,False,False,Jennifer Utada,240,False,True
-19,Nicole Yikes vs Jennifer Utada,255,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,201,False,True,Jennifer Utada,240,True,False
-19,Nicole Yikes vs Jennifer Utada,244,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,171,False,False,Jennifer Utada,240,False,True
-19,Nicole Yikes vs Jennifer Utada,240,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,171,False,True,Jennifer Utada,240,True,False
-19,Nicole Yikes vs Jennifer Utada,230,Nicole Yikes dodged Jennifer Utada's Attack!,Nicole Yikes,171,True,False,Jennifer Utada,240,False,True
-19,Nicole Yikes vs Jennifer Utada,225,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,171,False,True,Jennifer Utada,240,True,False
-19,Nicole Yikes vs Jennifer Utada,216,Nicole Yikes dodged Jennifer Utada's Attack!,Nicole Yikes,171,True,False,Jennifer Utada,240,False,True
-19,Nicole Yikes vs Jennifer Utada,210,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,171,False,True,Jennifer Utada,240,True,False
-19,Nicole Yikes vs Jennifer Utada,202,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,144,False,False,Jennifer Utada,240,False,True
-19,Nicole Yikes vs Jennifer Utada,195,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,144,False,True,Jennifer Utada,240,True,False
-19,Nicole Yikes vs Jennifer Utada,188,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,123,False,False,Jennifer Utada,240,False,True
-19,Nicole Yikes vs Jennifer Utada,180,Nicole Yikes Attacks Jennifer Utada!,Nicole Yikes,123,False,True,Jennifer Utada,234,False,False
-19,Nicole Yikes vs Jennifer Utada,174,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,117,False,False,Jennifer Utada,234,False,True
-19,Nicole Yikes vs Jennifer Utada,165,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,117,False,True,Jennifer Utada,234,True,False
-19,Nicole Yikes vs Jennifer Utada,160,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,105,False,False,Jennifer Utada,234,False,True
-19,Nicole Yikes vs Jennifer Utada,150,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,105,False,True,Jennifer Utada,234,True,False
-19,Nicole Yikes vs Jennifer Utada,146,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,69,False,False,Jennifer Utada,234,False,True
-19,Nicole Yikes vs Jennifer Utada,135,Nicole Yikes Attacks Jennifer Utada!,Nicole Yikes,69,False,True,Jennifer Utada,222,False,False
-19,Nicole Yikes vs Jennifer Utada,132,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,51,False,False,Jennifer Utada,222,False,True
-19,Nicole Yikes vs Jennifer Utada,120,Nicole Yikes Attacks Jennifer Utada!,Nicole Yikes,51,False,True,Jennifer Utada,198,False,False
-19,Nicole Yikes vs Jennifer Utada,118,Nicole Yikes dodged Jennifer Utada's Attack!,Nicole Yikes,51,True,False,Jennifer Utada,198,False,True
-19,Nicole Yikes vs Jennifer Utada,105,Jennifer Utada dodged Nicole Yikes's Attack!,Nicole Yikes,51,False,True,Jennifer Utada,198,True,False
-19,Nicole Yikes vs Jennifer Utada,104,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,36,False,False,Jennifer Utada,198,False,True
-19,Nicole Yikes vs Jennifer Utada,90,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,3,False,False,Jennifer Utada,198,False,True
-19,Nicole Yikes vs Jennifer Utada,90,Nicole Yikes Attacks Jennifer Utada!,Nicole Yikes,3,False,True,Jennifer Utada,180,False,False
-19,Nicole Yikes vs Jennifer Utada,76,Jennifer Utada Attacks Nicole Yikes!,Nicole Yikes,0,False,False,Jennifer Utada,180,False,True
-19,Nicole Yikes vs Jennifer Utada,76,Nicole Yikes has been Defeated!,Nicole Yikes,0,False,False,Jennifer Utada,180,False,False
-19,Nicole Yikes vs Jennifer Utada,76,Jennifer Utada wins the fight!,Nicole Yikes,0,False,False,Jennifer Utada,180,False,False
-20,Barry Chosen One vs Liam Bobobobo,300,Fight starts!,Barry Chosen One,144,False,False,Liam Bobobobo,144,False,False
-20,Barry Chosen One vs Liam Bobobobo,280,Liam Bobobobo Attacks Barry Chosen One!,Barry Chosen One,0,False,False,Liam Bobobobo,144,False,True
-20,Barry Chosen One vs Liam Bobobobo,280,Barry Chosen One has been Defeated!,Barry Chosen One,0,False,False,Liam Bobobobo,144,False,False
-20,Barry Chosen One vs Liam Bobobobo,280,Liam Bobobobo wins the fight!,Barry Chosen One,0,False,False,Liam Bobobobo,144,False,False
-21,Jennifer Utada vs Liam Bobobobo,300,Fight starts!,Jennifer Utada,252,False,False,Liam Bobobobo,144,False,False
-21,Jennifer Utada vs Liam Bobobobo,286,Jennifer Utada Attacks Liam Bobobobo!,Jennifer Utada,252,False,True,Liam Bobobobo,129,False,False
-21,Jennifer Utada vs Liam Bobobobo,280,Jennifer Utada dodged Liam Bobobobo's Attack!,Jennifer Utada,252,True,False,Liam Bobobobo,129,False,True
-21,Jennifer Utada vs Liam Bobobobo,272,Jennifer Utada Attacks Liam Bobobobo!,Jennifer Utada,252,False,True,Liam Bobobobo,117,False,False
-21,Jennifer Utada vs Liam Bobobobo,260,Jennifer Utada dodged Liam Bobobobo's Attack!,Jennifer Utada,252,True,False,Liam Bobobobo,117,False,True
-21,Jennifer Utada vs Liam Bobobobo,258,Jennifer Utada Attacks Liam Bobobobo!,Jennifer Utada,252,False,True,Liam Bobobobo,93,False,False
-21,Jennifer Utada vs Liam Bobobobo,244,Liam Bobobobo dodged Jennifer Utada's Attack!,Jennifer Utada,252,False,True,Liam Bobobobo,93,True,False
-21,Jennifer Utada vs Liam Bobobobo,240,Jennifer Utada dodged Liam Bobobobo's Attack!,Jennifer Utada,252,True,False,Liam Bobobobo,93,False,True
-21,Jennifer Utada vs Liam Bobobobo,230,Jennifer Utada Attacks Liam Bobobobo!,Jennifer Utada,252,False,True,Liam Bobobobo,75,False,False
-21,Jennifer Utada vs Liam Bobobobo,220,Liam Bobobobo Attacks Jennifer Utada!,Jennifer Utada,192,False,False,Liam Bobobobo,75,False,True
-21,Jennifer Utada vs Liam Bobobobo,216,Liam Bobobobo dodged Jennifer Utada's Attack!,Jennifer Utada,192,False,True,Liam Bobobobo,75,True,False
-21,Jennifer Utada vs Liam Bobobobo,202,Jennifer Utada Attacks Liam Bobobobo!,Jennifer Utada,192,False,True,Liam Bobobobo,48,False,False
-21,Jennifer Utada vs Liam Bobobobo,200,Liam Bobobobo Attacks Jennifer Utada!,Jennifer Utada,0,False,False,Liam Bobobobo,48,False,True
-21,Jennifer Utada vs Liam Bobobobo,200,Jennifer Utada has been Defeated!,Jennifer Utada,0,False,False,Liam Bobobobo,48,False,False
-21,Jennifer Utada vs Liam Bobobobo,200,Liam Bobobobo wins the fight!,Jennifer Utada,0,False,False,Liam Bobobobo,48,False,False
-22,Katsumi Jenkins vs Liam Bobobobo,300,Fight starts!,Katsumi Jenkins,50,False,False,Liam Bobobobo,72,False,False
-22,Katsumi Jenkins vs Liam Bobobobo,280,Katsumi Jenkins Attacks Liam Bobobobo!,Katsumi Jenkins,50,False,True,Liam Bobobobo,36,False,False
-22,Katsumi Jenkins vs Liam Bobobobo,280,Liam Bobobobo Attacks Katsumi Jenkins!,Katsumi Jenkins,14,False,False,Liam Bobobobo,36,False,True
-22,Katsumi Jenkins vs Liam Bobobobo,260,Katsumi Jenkins dodged Liam Bobobobo's Attack!,Katsumi Jenkins,14,True,False,Liam Bobobobo,36,False,True
-22,Katsumi Jenkins vs Liam Bobobobo,260,Katsumi Jenkins Attacks Liam Bobobobo!,Katsumi Jenkins,14,False,True,Liam Bobobobo,6,False,False
-22,Katsumi Jenkins vs Liam Bobobobo,240,Katsumi Jenkins Attacks Liam Bobobobo!,Katsumi Jenkins,14,False,True,Liam Bobobobo,0,False,False
-22,Katsumi Jenkins vs Liam Bobobobo,240,Liam Bobobobo has been Defeated!,Katsumi Jenkins,14,False,False,Liam Bobobobo,0,False,False
-22,Katsumi Jenkins vs Liam Bobobobo,240,Katsumi Jenkins wins the fight!,Katsumi Jenkins,14,False,False,Liam Bobobobo,0,False,False
-23,Liam Hall vs Allesandra Hilltops,300,Fight starts!,Liam Hall,192,False,False,Allesandra Hilltops,174,False,False
-23,Liam Hall vs Allesandra Hilltops,290,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,192,False,True,Allesandra Hilltops,174,True,False
-23,Liam Hall vs Allesandra Hilltops,287,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,186,False,False,Allesandra Hilltops,174,False,True
-23,Liam Hall vs Allesandra Hilltops,280,Liam Hall Attacks Allesandra Hilltops!,Liam Hall,186,False,True,Allesandra Hilltops,78,False,False
-23,Liam Hall vs Allesandra Hilltops,274,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,156,False,False,Allesandra Hilltops,78,False,True
-23,Liam Hall vs Allesandra Hilltops,270,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,156,False,True,Allesandra Hilltops,78,True,False
-23,Liam Hall vs Allesandra Hilltops,261,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,123,False,False,Allesandra Hilltops,78,False,True
-23,Liam Hall vs Allesandra Hilltops,260,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,123,False,True,Allesandra Hilltops,78,True,False
-23,Liam Hall vs Allesandra Hilltops,250,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,123,False,True,Allesandra Hilltops,78,True,False
-23,Liam Hall vs Allesandra Hilltops,248,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,96,False,False,Allesandra Hilltops,78,False,True
-23,Liam Hall vs Allesandra Hilltops,240,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,96,False,True,Allesandra Hilltops,78,True,False
-23,Liam Hall vs Allesandra Hilltops,235,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,72,False,False,Allesandra Hilltops,78,False,True
-23,Liam Hall vs Allesandra Hilltops,230,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,72,False,True,Allesandra Hilltops,78,True,False
-23,Liam Hall vs Allesandra Hilltops,222,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,42,False,False,Allesandra Hilltops,78,False,True
-23,Liam Hall vs Allesandra Hilltops,220,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,42,False,True,Allesandra Hilltops,78,True,False
-23,Liam Hall vs Allesandra Hilltops,210,Liam Hall Attacks Allesandra Hilltops!,Liam Hall,42,False,True,Allesandra Hilltops,6,False,False
-23,Liam Hall vs Allesandra Hilltops,209,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,18,False,False,Allesandra Hilltops,6,False,True
-23,Liam Hall vs Allesandra Hilltops,200,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,18,False,True,Allesandra Hilltops,6,True,False
-23,Liam Hall vs Allesandra Hilltops,196,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,3,False,False,Allesandra Hilltops,6,False,True
-23,Liam Hall vs Allesandra Hilltops,190,Allesandra Hilltops dodged Liam Hall's Attack!,Liam Hall,3,False,True,Allesandra Hilltops,6,True,False
-23,Liam Hall vs Allesandra Hilltops,183,Allesandra Hilltops Attacks Liam Hall!,Liam Hall,0,False,False,Allesandra Hilltops,6,False,True
-23,Liam Hall vs Allesandra Hilltops,183,Liam Hall has been Defeated!,Liam Hall,0,False,False,Allesandra Hilltops,6,False,False
-23,Liam Hall vs Allesandra Hilltops,183,Allesandra Hilltops wins the fight!,Liam Hall,0,False,False,Allesandra Hilltops,6,False,False
-24,Nicole Keely vs Helen Moon,300,Fight starts!,Nicole Keely,50,False,False,Helen Moon,192,False,False
-24,Nicole Keely vs Helen Moon,290,Nicole Keely dodged Helen Moon's Attack!,Nicole Keely,50,True,False,Helen Moon,192,False,True
-24,Nicole Keely vs Helen Moon,280,Helen Moon Attacks Nicole Keely!,Nicole Keely,0,False,False,Helen Moon,192,False,True
-24,Nicole Keely vs Helen Moon,280,Nicole Keely has been Defeated!,Nicole Keely,0,False,False,Helen Moon,192,False,False
-24,Nicole Keely vs Helen Moon,280,Helen Moon wins the fight!,Nicole Keely,0,False,False,Helen Moon,192,False,False
-25,Allesandra Hilltops vs Helen Moon,300,Fight starts!,Allesandra Hilltops,9,False,False,Helen Moon,192,False,False
-25,Allesandra Hilltops vs Helen Moon,290,Allesandra Hilltops dodged Helen Moon's Attack!,Allesandra Hilltops,9,True,False,Helen Moon,192,False,True
-25,Allesandra Hilltops vs Helen Moon,287,Allesandra Hilltops Attacks Helen Moon!,Allesandra Hilltops,9,False,True,Helen Moon,168,False,False
-25,Allesandra Hilltops vs Helen Moon,280,Helen Moon Attacks Allesandra Hilltops!,Allesandra Hilltops,0,False,False,Helen Moon,168,False,True
-25,Allesandra Hilltops vs Helen Moon,280,Allesandra Hilltops has been Defeated!,Allesandra Hilltops,0,False,False,Helen Moon,168,False,False
-25,Allesandra Hilltops vs Helen Moon,280,Helen Moon wins the fight!,Allesandra Hilltops,0,False,False,Helen Moon,168,False,False
-26,Genevieve Falcon vs Jason Hilltops,300,Fight starts!,Genevieve Falcon,144,False,False,Jason Hilltops,156,False,False
-26,Genevieve Falcon vs Jason Hilltops,290,Jason Hilltops Attacks Genevieve Falcon!,Genevieve Falcon,135,False,False,Jason Hilltops,156,False,True
-26,Genevieve Falcon vs Jason Hilltops,280,Jason Hilltops dodged Genevieve Falcon's Attack!,Genevieve Falcon,135,False,True,Jason Hilltops,156,True,False
-26,Genevieve Falcon vs Jason Hilltops,280,Jason Hilltops Attacks Genevieve Falcon!,Genevieve Falcon,120,False,False,Jason Hilltops,156,False,True
-26,Genevieve Falcon vs Jason Hilltops,270,Genevieve Falcon dodged Jason Hilltops's Attack!,Genevieve Falcon,120,True,False,Jason Hilltops,156,False,True
-26,Genevieve Falcon vs Jason Hilltops,260,Jason Hilltops dodged Genevieve Falcon's Attack!,Genevieve Falcon,120,False,True,Jason Hilltops,156,True,False
-26,Genevieve Falcon vs Jason Hilltops,260,Genevieve Falcon dodged Jason Hilltops's Attack!,Genevieve Falcon,120,True,False,Jason Hilltops,156,False,True
-26,Genevieve Falcon vs Jason Hilltops,250,Jason Hilltops Attacks Genevieve Falcon!,Genevieve Falcon,111,False,False,Jason Hilltops,156,False,True
-26,Genevieve Falcon vs Jason Hilltops,240,Genevieve Falcon Attacks Jason Hilltops!,Genevieve Falcon,111,False,True,Jason Hilltops,36,False,False
-26,Genevieve Falcon vs Jason Hilltops,240,Jason Hilltops Attacks Genevieve Falcon!,Genevieve Falcon,102,False,False,Jason Hilltops,36,False,True
-26,Genevieve Falcon vs Jason Hilltops,230,Jason Hilltops Attacks Genevieve Falcon!,Genevieve Falcon,96,False,False,Jason Hilltops,36,False,True
-26,Genevieve Falcon vs Jason Hilltops,220,Genevieve Falcon Attacks Jason Hilltops!,Genevieve Falcon,96,False,True,Jason Hilltops,0,False,False
-26,Genevieve Falcon vs Jason Hilltops,220,Jason Hilltops has been Defeated!,Genevieve Falcon,96,False,False,Jason Hilltops,0,False,False
-26,Genevieve Falcon vs Jason Hilltops,220,Genevieve Falcon wins the fight!,Genevieve Falcon,96,False,False,Jason Hilltops,0,False,False
-27,Moses Balrog vs Yennefer Johnson,300,Fight starts!,Moses Balrog,156,False,False,Yennefer Johnson,174,False,False
-27,Moses Balrog vs Yennefer Johnson,290,Moses Balrog Attacks Yennefer Johnson!,Moses Balrog,156,False,True,Yennefer Johnson,171,False,False
-27,Moses Balrog vs Yennefer Johnson,287,Moses Balrog dodged Yennefer Johnson's Attack!,Moses Balrog,156,True,False,Yennefer Johnson,171,False,True
-27,Moses Balrog vs Yennefer Johnson,280,Yennefer Johnson dodged Moses Balrog's Attack!,Moses Balrog,156,False,True,Yennefer Johnson,171,True,False
-27,Moses Balrog vs Yennefer Johnson,274,Yennefer Johnson Attacks Moses Balrog!,Moses Balrog,84,False,False,Yennefer Johnson,171,False,True
-27,Moses Balrog vs Yennefer Johnson,270,Moses Balrog Attacks Yennefer Johnson!,Moses Balrog,84,False,True,Yennefer Johnson,159,False,False
-27,Moses Balrog vs Yennefer Johnson,261,Yennefer Johnson Attacks Moses Balrog!,Moses Balrog,66,False,False,Yennefer Johnson,159,False,True
-27,Moses Balrog vs Yennefer Johnson,260,Yennefer Johnson dodged Moses Balrog's Attack!,Moses Balrog,66,False,True,Yennefer Johnson,159,True,False
-27,Moses Balrog vs Yennefer Johnson,250,Moses Balrog Attacks Yennefer Johnson!,Moses Balrog,66,False,True,Yennefer Johnson,150,False,False
-27,Moses Balrog vs Yennefer Johnson,248,Moses Balrog dodged Yennefer Johnson's Attack!,Moses Balrog,66,True,False,Yennefer Johnson,150,False,True
-27,Moses Balrog vs Yennefer Johnson,240,Moses Balrog Attacks Yennefer Johnson!,Moses Balrog,66,False,True,Yennefer Johnson,135,False,False
-27,Moses Balrog vs Yennefer Johnson,235,Yennefer Johnson Attacks Moses Balrog!,Moses Balrog,0,False,False,Yennefer Johnson,135,False,True
-27,Moses Balrog vs Yennefer Johnson,235,Moses Balrog has been Defeated!,Moses Balrog,0,False,False,Yennefer Johnson,135,False,False
-27,Moses Balrog vs Yennefer Johnson,235,Yennefer Johnson wins the fight!,Moses Balrog,0,False,False,Yennefer Johnson,135,False,False
-28,Genevieve Falcon vs Yennefer Johnson,300,Fight starts!,Genevieve Falcon,144,False,False,Yennefer Johnson,174,False,False
-28,Genevieve Falcon vs Yennefer Johnson,287,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,117,False,False,Yennefer Johnson,174,False,True
-28,Genevieve Falcon vs Yennefer Johnson,280,Genevieve Falcon Attacks Yennefer Johnson!,Genevieve Falcon,117,False,True,Yennefer Johnson,84,False,False
-28,Genevieve Falcon vs Yennefer Johnson,274,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,108,False,False,Yennefer Johnson,84,False,True
-28,Genevieve Falcon vs Yennefer Johnson,261,Genevieve Falcon dodged Yennefer Johnson's Attack!,Genevieve Falcon,108,True,False,Yennefer Johnson,84,False,True
-28,Genevieve Falcon vs Yennefer Johnson,260,Yennefer Johnson dodged Genevieve Falcon's Attack!,Genevieve Falcon,108,False,True,Yennefer Johnson,84,True,False
-28,Genevieve Falcon vs Yennefer Johnson,248,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,84,False,False,Yennefer Johnson,84,False,True
-28,Genevieve Falcon vs Yennefer Johnson,240,Yennefer Johnson dodged Genevieve Falcon's Attack!,Genevieve Falcon,84,False,True,Yennefer Johnson,84,True,False
-28,Genevieve Falcon vs Yennefer Johnson,235,Genevieve Falcon dodged Yennefer Johnson's Attack!,Genevieve Falcon,84,True,False,Yennefer Johnson,84,False,True
-28,Genevieve Falcon vs Yennefer Johnson,222,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,75,False,False,Yennefer Johnson,84,False,True
-28,Genevieve Falcon vs Yennefer Johnson,220,Genevieve Falcon Attacks Yennefer Johnson!,Genevieve Falcon,75,False,True,Yennefer Johnson,12,False,False
-28,Genevieve Falcon vs Yennefer Johnson,209,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,63,False,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,200,Yennefer Johnson dodged Genevieve Falcon's Attack!,Genevieve Falcon,63,False,True,Yennefer Johnson,12,True,False
-28,Genevieve Falcon vs Yennefer Johnson,196,Genevieve Falcon dodged Yennefer Johnson's Attack!,Genevieve Falcon,63,True,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,183,Genevieve Falcon dodged Yennefer Johnson's Attack!,Genevieve Falcon,63,True,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,180,Yennefer Johnson dodged Genevieve Falcon's Attack!,Genevieve Falcon,63,False,True,Yennefer Johnson,12,True,False
-28,Genevieve Falcon vs Yennefer Johnson,170,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,42,False,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,160,Yennefer Johnson dodged Genevieve Falcon's Attack!,Genevieve Falcon,42,False,True,Yennefer Johnson,12,True,False
-28,Genevieve Falcon vs Yennefer Johnson,157,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,33,False,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,144,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,3,False,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,140,Yennefer Johnson dodged Genevieve Falcon's Attack!,Genevieve Falcon,3,False,True,Yennefer Johnson,12,True,False
-28,Genevieve Falcon vs Yennefer Johnson,131,Yennefer Johnson Attacks Genevieve Falcon!,Genevieve Falcon,0,False,False,Yennefer Johnson,12,False,True
-28,Genevieve Falcon vs Yennefer Johnson,131,Genevieve Falcon has been Defeated!,Genevieve Falcon,0,False,False,Yennefer Johnson,12,False,False
-28,Genevieve Falcon vs Yennefer Johnson,131,Yennefer Johnson wins the fight!,Genevieve Falcon,0,False,False,Yennefer Johnson,12,False,False
-29,Helen Moon vs Yennefer Johnson,300,Fight starts!,Helen Moon,192,False,False,Yennefer Johnson,18,False,False
-29,Helen Moon vs Yennefer Johnson,290,Helen Moon Attacks Yennefer Johnson!,Helen Moon,192,False,True,Yennefer Johnson,0,False,False
-29,Helen Moon vs Yennefer Johnson,290,Yennefer Johnson has been Defeated!,Helen Moon,192,False,False,Yennefer Johnson,0,False,False
-29,Helen Moon vs Yennefer Johnson,290,Helen Moon wins the fight!,Helen Moon,192,False,False,Yennefer Johnson,0,False,False
-30,Katsumi Jenkins vs Helen Moon,300,Fight starts!,Katsumi Jenkins,21,False,False,Helen Moon,192,False,False
-30,Katsumi Jenkins vs Helen Moon,290,Helen Moon Attacks Katsumi Jenkins!,Katsumi Jenkins,0,False,False,Helen Moon,192,False,True
-30,Katsumi Jenkins vs Helen Moon,290,Katsumi Jenkins has been Defeated!,Katsumi Jenkins,0,False,False,Helen Moon,192,False,False
-30,Katsumi Jenkins vs Helen Moon,290,Helen Moon wins the fight!,Katsumi Jenkins,0,False,False,Helen Moon,192,False,False
-31,Yusuke Chen vs Helen Moon,300,Fight starts!,Yusuke Chen,90,False,False,Helen Moon,192,False,False
-31,Yusuke Chen vs Helen Moon,290,Helen Moon Attacks Yusuke Chen!,Yusuke Chen,60,False,False,Helen Moon,192,False,True
-31,Yusuke Chen vs Helen Moon,285,Yusuke Chen Attacks Helen Moon!,Yusuke Chen,60,False,True,Helen Moon,177,False,False
-31,Yusuke Chen vs Helen Moon,280,Helen Moon Attacks Yusuke Chen!,Yusuke Chen,36,False,False,Helen Moon,177,False,True
-31,Yusuke Chen vs Helen Moon,270,Yusuke Chen dodged Helen Moon's Attack!,Yusuke Chen,36,True,False,Helen Moon,177,False,True
-31,Yusuke Chen vs Helen Moon,270,Yusuke Chen Attacks Helen Moon!,Yusuke Chen,36,False,True,Helen Moon,57,False,False
-31,Yusuke Chen vs Helen Moon,260,Yusuke Chen dodged Helen Moon's Attack!,Yusuke Chen,36,True,False,Helen Moon,57,False,True
-31,Yusuke Chen vs Helen Moon,255,Yusuke Chen Attacks Helen Moon!,Yusuke Chen,36,False,True,Helen Moon,0,False,False
-31,Yusuke Chen vs Helen Moon,255,Helen Moon has been Defeated!,Yusuke Chen,36,False,False,Helen Moon,0,False,False
-31,Yusuke Chen vs Helen Moon,255,Yusuke Chen wins the fight!,Yusuke Chen,36,False,False,Helen Moon,0,False,False
+1,Sparrow Sun vs Jack Sunset,300,Fight starts!,Sparrow Sun,252,False,False,Jack Sunset,252,False,False
+1,Sparrow Sun vs Jack Sunset,286,Jack Sunset dodged Sparrow Sun's Attack!,Sparrow Sun,252,False,True,Jack Sunset,252,True,False
+1,Sparrow Sun vs Jack Sunset,286,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,243,False,False,Jack Sunset,252,False,True
+1,Sparrow Sun vs Jack Sunset,272,Jack Sunset dodged Sparrow Sun's Attack!,Sparrow Sun,243,False,True,Jack Sunset,252,True,False
+1,Sparrow Sun vs Jack Sunset,272,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,237,False,False,Jack Sunset,252,False,True
+1,Sparrow Sun vs Jack Sunset,258,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,237,False,True,Jack Sunset,243,False,False
+1,Sparrow Sun vs Jack Sunset,258,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,225,False,False,Jack Sunset,243,False,True
+1,Sparrow Sun vs Jack Sunset,244,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,219,False,False,Jack Sunset,243,False,True
+1,Sparrow Sun vs Jack Sunset,244,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,219,False,True,Jack Sunset,237,False,False
+1,Sparrow Sun vs Jack Sunset,230,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,207,False,False,Jack Sunset,237,False,True
+1,Sparrow Sun vs Jack Sunset,230,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,207,False,True,Jack Sunset,228,False,False
+1,Sparrow Sun vs Jack Sunset,216,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,207,False,True,Jack Sunset,225,False,False
+1,Sparrow Sun vs Jack Sunset,216,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,198,False,False,Jack Sunset,225,False,True
+1,Sparrow Sun vs Jack Sunset,202,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,189,False,False,Jack Sunset,225,False,True
+1,Sparrow Sun vs Jack Sunset,202,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,189,False,True,Jack Sunset,219,False,False
+1,Sparrow Sun vs Jack Sunset,188,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,177,False,False,Jack Sunset,219,False,True
+1,Sparrow Sun vs Jack Sunset,188,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,177,False,True,Jack Sunset,207,False,False
+1,Sparrow Sun vs Jack Sunset,174,Sparrow Sun dodged Jack Sunset's Attack!,Sparrow Sun,177,True,False,Jack Sunset,207,False,True
+1,Sparrow Sun vs Jack Sunset,174,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,177,False,True,Jack Sunset,204,False,False
+1,Sparrow Sun vs Jack Sunset,160,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,177,False,True,Jack Sunset,198,False,False
+1,Sparrow Sun vs Jack Sunset,160,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,168,False,False,Jack Sunset,198,False,True
+1,Sparrow Sun vs Jack Sunset,146,Sparrow Sun dodged Jack Sunset's Attack!,Sparrow Sun,168,True,False,Jack Sunset,198,False,True
+1,Sparrow Sun vs Jack Sunset,146,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,168,False,True,Jack Sunset,195,False,False
+1,Sparrow Sun vs Jack Sunset,132,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,168,False,True,Jack Sunset,189,False,False
+1,Sparrow Sun vs Jack Sunset,132,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,162,False,False,Jack Sunset,189,False,True
+1,Sparrow Sun vs Jack Sunset,118,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,147,False,False,Jack Sunset,189,False,True
+1,Sparrow Sun vs Jack Sunset,118,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,147,False,True,Jack Sunset,180,False,False
+1,Sparrow Sun vs Jack Sunset,104,Jack Sunset dodged Sparrow Sun's Attack!,Sparrow Sun,147,False,True,Jack Sunset,180,True,False
+1,Sparrow Sun vs Jack Sunset,104,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,138,False,False,Jack Sunset,180,False,True
+1,Sparrow Sun vs Jack Sunset,90,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,138,False,True,Jack Sunset,168,False,False
+1,Sparrow Sun vs Jack Sunset,90,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,126,False,False,Jack Sunset,168,False,True
+1,Sparrow Sun vs Jack Sunset,76,Sparrow Sun dodged Jack Sunset's Attack!,Sparrow Sun,126,True,False,Jack Sunset,168,False,True
+1,Sparrow Sun vs Jack Sunset,76,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,126,False,True,Jack Sunset,156,False,False
+1,Sparrow Sun vs Jack Sunset,62,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,114,False,False,Jack Sunset,156,False,True
+1,Sparrow Sun vs Jack Sunset,62,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,114,False,True,Jack Sunset,150,False,False
+1,Sparrow Sun vs Jack Sunset,48,Jack Sunset dodged Sparrow Sun's Attack!,Sparrow Sun,114,False,True,Jack Sunset,150,True,False
+1,Sparrow Sun vs Jack Sunset,48,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,102,False,False,Jack Sunset,150,False,True
+1,Sparrow Sun vs Jack Sunset,34,Sparrow Sun Attacks Jack Sunset!,Sparrow Sun,102,False,True,Jack Sunset,147,False,False
+1,Sparrow Sun vs Jack Sunset,34,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,99,False,False,Jack Sunset,147,False,True
+1,Sparrow Sun vs Jack Sunset,20,Jack Sunset dodged Sparrow Sun's Attack!,Sparrow Sun,99,False,True,Jack Sunset,147,True,False
+1,Sparrow Sun vs Jack Sunset,20,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,93,False,False,Jack Sunset,147,False,True
+1,Sparrow Sun vs Jack Sunset,6,Jack Sunset dodged Sparrow Sun's Attack!,Sparrow Sun,93,False,True,Jack Sunset,147,True,False
+1,Sparrow Sun vs Jack Sunset,6,Jack Sunset Attacks Sparrow Sun!,Sparrow Sun,87,False,False,Jack Sunset,147,False,True
+1,Sparrow Sun vs Jack Sunset,0,Jack Sunset wins the fight!,Sparrow Sun,87,False,False,Jack Sunset,147,False,False
+2,Vibey Hilltops vs Allesandra Montgomery,300,Fight starts!,Vibey Hilltops,50,False,False,Allesandra Montgomery,240,False,False
+2,Vibey Hilltops vs Allesandra Montgomery,285,Allesandra Montgomery Attacks Vibey Hilltops!,Vibey Hilltops,5,False,False,Allesandra Montgomery,240,False,True
+2,Vibey Hilltops vs Allesandra Montgomery,280,Vibey Hilltops Attacks Allesandra Montgomery!,Vibey Hilltops,5,False,True,Allesandra Montgomery,192,False,False
+2,Vibey Hilltops vs Allesandra Montgomery,270,Allesandra Montgomery Attacks Vibey Hilltops!,Vibey Hilltops,0,False,False,Allesandra Montgomery,192,False,True
+2,Vibey Hilltops vs Allesandra Montgomery,270,Vibey Hilltops has been Defeated!,Vibey Hilltops,0,False,False,Allesandra Montgomery,192,False,False
+2,Vibey Hilltops vs Allesandra Montgomery,270,Allesandra Montgomery wins the fight!,Vibey Hilltops,0,False,False,Allesandra Montgomery,192,False,False
+3,Jack Sunset vs Allesandra Montgomery,300,Fight starts!,Jack Sunset,220,False,False,Allesandra Montgomery,240,False,False
+3,Jack Sunset vs Allesandra Montgomery,286,Allesandra Montgomery dodged Jack Sunset's Attack!,Jack Sunset,220,False,True,Allesandra Montgomery,240,True,False
+3,Jack Sunset vs Allesandra Montgomery,285,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,214,False,False,Allesandra Montgomery,240,False,True
+3,Jack Sunset vs Allesandra Montgomery,272,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,214,False,True,Allesandra Montgomery,237,False,False
+3,Jack Sunset vs Allesandra Montgomery,270,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,205,False,False,Allesandra Montgomery,237,False,True
+3,Jack Sunset vs Allesandra Montgomery,258,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,205,False,True,Allesandra Montgomery,225,False,False
+3,Jack Sunset vs Allesandra Montgomery,255,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,193,False,False,Allesandra Montgomery,225,False,True
+3,Jack Sunset vs Allesandra Montgomery,244,Allesandra Montgomery dodged Jack Sunset's Attack!,Jack Sunset,193,False,True,Allesandra Montgomery,225,True,False
+3,Jack Sunset vs Allesandra Montgomery,240,Jack Sunset dodged Allesandra Montgomery's Attack!,Jack Sunset,193,True,False,Allesandra Montgomery,225,False,True
+3,Jack Sunset vs Allesandra Montgomery,230,Allesandra Montgomery dodged Jack Sunset's Attack!,Jack Sunset,193,False,True,Allesandra Montgomery,225,True,False
+3,Jack Sunset vs Allesandra Montgomery,225,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,181,False,False,Allesandra Montgomery,225,False,True
+3,Jack Sunset vs Allesandra Montgomery,216,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,181,False,True,Allesandra Montgomery,216,False,False
+3,Jack Sunset vs Allesandra Montgomery,210,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,175,False,False,Allesandra Montgomery,216,False,True
+3,Jack Sunset vs Allesandra Montgomery,202,Allesandra Montgomery dodged Jack Sunset's Attack!,Jack Sunset,175,False,True,Allesandra Montgomery,216,True,False
+3,Jack Sunset vs Allesandra Montgomery,195,Jack Sunset dodged Allesandra Montgomery's Attack!,Jack Sunset,175,True,False,Allesandra Montgomery,216,False,True
+3,Jack Sunset vs Allesandra Montgomery,188,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,175,False,True,Allesandra Montgomery,213,False,False
+3,Jack Sunset vs Allesandra Montgomery,180,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,163,False,False,Allesandra Montgomery,213,False,True
+3,Jack Sunset vs Allesandra Montgomery,174,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,163,False,True,Allesandra Montgomery,204,False,False
+3,Jack Sunset vs Allesandra Montgomery,165,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,154,False,False,Allesandra Montgomery,204,False,True
+3,Jack Sunset vs Allesandra Montgomery,160,Allesandra Montgomery dodged Jack Sunset's Attack!,Jack Sunset,154,False,True,Allesandra Montgomery,204,True,False
+3,Jack Sunset vs Allesandra Montgomery,150,Jack Sunset dodged Allesandra Montgomery's Attack!,Jack Sunset,154,True,False,Allesandra Montgomery,204,False,True
+3,Jack Sunset vs Allesandra Montgomery,146,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,154,False,True,Allesandra Montgomery,195,False,False
+3,Jack Sunset vs Allesandra Montgomery,135,Jack Sunset dodged Allesandra Montgomery's Attack!,Jack Sunset,154,True,False,Allesandra Montgomery,195,False,True
+3,Jack Sunset vs Allesandra Montgomery,132,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,154,False,True,Allesandra Montgomery,180,False,False
+3,Jack Sunset vs Allesandra Montgomery,120,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,148,False,False,Allesandra Montgomery,180,False,True
+3,Jack Sunset vs Allesandra Montgomery,118,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,148,False,True,Allesandra Montgomery,165,False,False
+3,Jack Sunset vs Allesandra Montgomery,105,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,142,False,False,Allesandra Montgomery,165,False,True
+3,Jack Sunset vs Allesandra Montgomery,104,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,142,False,True,Allesandra Montgomery,153,False,False
+3,Jack Sunset vs Allesandra Montgomery,90,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,142,False,True,Allesandra Montgomery,150,False,False
+3,Jack Sunset vs Allesandra Montgomery,90,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,133,False,False,Allesandra Montgomery,150,False,True
+3,Jack Sunset vs Allesandra Montgomery,76,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,133,False,True,Allesandra Montgomery,141,False,False
+3,Jack Sunset vs Allesandra Montgomery,75,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,121,False,False,Allesandra Montgomery,141,False,True
+3,Jack Sunset vs Allesandra Montgomery,62,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,121,False,True,Allesandra Montgomery,135,False,False
+3,Jack Sunset vs Allesandra Montgomery,60,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,118,False,False,Allesandra Montgomery,135,False,True
+3,Jack Sunset vs Allesandra Montgomery,48,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,118,False,True,Allesandra Montgomery,132,False,False
+3,Jack Sunset vs Allesandra Montgomery,45,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,109,False,False,Allesandra Montgomery,132,False,True
+3,Jack Sunset vs Allesandra Montgomery,34,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,109,False,True,Allesandra Montgomery,126,False,False
+3,Jack Sunset vs Allesandra Montgomery,30,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,100,False,False,Allesandra Montgomery,126,False,True
+3,Jack Sunset vs Allesandra Montgomery,20,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,100,False,True,Allesandra Montgomery,111,False,False
+3,Jack Sunset vs Allesandra Montgomery,15,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,91,False,False,Allesandra Montgomery,111,False,True
+3,Jack Sunset vs Allesandra Montgomery,6,Jack Sunset Attacks Allesandra Montgomery!,Jack Sunset,91,False,True,Allesandra Montgomery,102,False,False
+3,Jack Sunset vs Allesandra Montgomery,0,Allesandra Montgomery Attacks Jack Sunset!,Jack Sunset,82,False,False,Allesandra Montgomery,102,False,True
+3,Jack Sunset vs Allesandra Montgomery,0,Allesandra Montgomery wins the fight!,Jack Sunset,82,False,False,Allesandra Montgomery,102,False,False
+4,Xavier Thunder vs King Grey,300,Fight starts!,Xavier Thunder,192,False,False,King Grey,174,False,False
+4,Xavier Thunder vs King Grey,290,Xavier Thunder Attacks King Grey!,Xavier Thunder,192,False,True,King Grey,48,False,False
+4,Xavier Thunder vs King Grey,287,King Grey Attacks Xavier Thunder!,Xavier Thunder,150,False,False,King Grey,48,False,True
+4,Xavier Thunder vs King Grey,280,King Grey dodged Xavier Thunder's Attack!,Xavier Thunder,150,False,True,King Grey,48,True,False
+4,Xavier Thunder vs King Grey,274,King Grey Attacks Xavier Thunder!,Xavier Thunder,108,False,False,King Grey,48,False,True
+4,Xavier Thunder vs King Grey,270,Xavier Thunder Attacks King Grey!,Xavier Thunder,108,False,True,King Grey,6,False,False
+4,Xavier Thunder vs King Grey,261,King Grey Attacks Xavier Thunder!,Xavier Thunder,78,False,False,King Grey,6,False,True
+4,Xavier Thunder vs King Grey,260,Xavier Thunder Attacks King Grey!,Xavier Thunder,78,False,True,King Grey,0,False,False
+4,Xavier Thunder vs King Grey,260,King Grey has been Defeated!,Xavier Thunder,78,False,False,King Grey,0,False,False
+4,Xavier Thunder vs King Grey,260,Xavier Thunder wins the fight!,Xavier Thunder,78,False,False,King Grey,0,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,300,Fight starts!,Alexa Bobobobo,174,False,False,Jennifer Falcon,192,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,290,Jennifer Falcon Attacks Alexa Bobobobo!,Alexa Bobobobo,90,False,False,Jennifer Falcon,192,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,284,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,183,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,280,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,183,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,270,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,183,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,268,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,180,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,260,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,180,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,252,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,174,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,250,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,174,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,240,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,174,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,236,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,168,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,230,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,168,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,220,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,168,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,220,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,162,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,210,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,162,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,204,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,156,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,200,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,156,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,190,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,156,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,188,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,150,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,180,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,150,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,172,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,138,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,170,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,138,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,160,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,138,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,156,Jennifer Falcon dodged Alexa Bobobobo's Attack!,Alexa Bobobobo,90,False,True,Jennifer Falcon,138,True,False
+5,Alexa Bobobobo vs Jennifer Falcon,150,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,138,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,140,Jennifer Falcon dodged Alexa Bobobobo's Attack!,Alexa Bobobobo,90,False,True,Jennifer Falcon,138,True,False
+5,Alexa Bobobobo vs Jennifer Falcon,140,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,138,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,130,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,138,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,124,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,129,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,120,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,129,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,110,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,129,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,108,Jennifer Falcon dodged Alexa Bobobobo's Attack!,Alexa Bobobobo,90,False,True,Jennifer Falcon,129,True,False
+5,Alexa Bobobobo vs Jennifer Falcon,100,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,129,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,92,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,120,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,90,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,120,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,80,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,120,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,76,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,90,False,True,Jennifer Falcon,111,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,70,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,90,True,False,Jennifer Falcon,111,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,60,Jennifer Falcon Attacks Alexa Bobobobo!,Alexa Bobobobo,30,False,False,Jennifer Falcon,111,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,60,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,30,False,True,Jennifer Falcon,108,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,50,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,30,True,False,Jennifer Falcon,108,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,44,Jennifer Falcon dodged Alexa Bobobobo's Attack!,Alexa Bobobobo,30,False,True,Jennifer Falcon,108,True,False
+5,Alexa Bobobobo vs Jennifer Falcon,40,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,30,True,False,Jennifer Falcon,108,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,30,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,30,True,False,Jennifer Falcon,108,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,28,Jennifer Falcon dodged Alexa Bobobobo's Attack!,Alexa Bobobobo,30,False,True,Jennifer Falcon,108,True,False
+5,Alexa Bobobobo vs Jennifer Falcon,20,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,30,True,False,Jennifer Falcon,108,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,12,Alexa Bobobobo Attacks Jennifer Falcon!,Alexa Bobobobo,30,False,True,Jennifer Falcon,99,False,False
+5,Alexa Bobobobo vs Jennifer Falcon,10,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,30,True,False,Jennifer Falcon,99,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,0,Alexa Bobobobo dodged Jennifer Falcon's Attack!,Alexa Bobobobo,30,True,False,Jennifer Falcon,99,False,True
+5,Alexa Bobobobo vs Jennifer Falcon,0,Jennifer Falcon wins the fight!,Alexa Bobobobo,30,False,False,Jennifer Falcon,99,False,False
+6,Xavier Thunder vs Jennifer Falcon,300,Fight starts!,Xavier Thunder,117,False,False,Jennifer Falcon,148,False,False
+6,Xavier Thunder vs Jennifer Falcon,290,Jennifer Falcon Attacks Xavier Thunder!,Xavier Thunder,63,False,False,Jennifer Falcon,148,False,True
+6,Xavier Thunder vs Jennifer Falcon,290,Xavier Thunder Attacks Jennifer Falcon!,Xavier Thunder,63,False,True,Jennifer Falcon,88,False,False
+6,Xavier Thunder vs Jennifer Falcon,280,Jennifer Falcon dodged Xavier Thunder's Attack!,Xavier Thunder,63,False,True,Jennifer Falcon,88,True,False
+6,Xavier Thunder vs Jennifer Falcon,280,Jennifer Falcon Attacks Xavier Thunder!,Xavier Thunder,0,False,False,Jennifer Falcon,88,False,True
+6,Xavier Thunder vs Jennifer Falcon,280,Xavier Thunder has been Defeated!,Xavier Thunder,0,False,False,Jennifer Falcon,88,False,False
+6,Xavier Thunder vs Jennifer Falcon,280,Jennifer Falcon wins the fight!,Xavier Thunder,0,False,False,Jennifer Falcon,88,False,False
+7,Allesandra Montgomery vs Jennifer Falcon,300,Fight starts!,Allesandra Montgomery,153,False,False,Jennifer Falcon,132,False,False
+7,Allesandra Montgomery vs Jennifer Falcon,290,Jennifer Falcon Attacks Allesandra Montgomery!,Allesandra Montgomery,117,False,False,Jennifer Falcon,132,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,285,Jennifer Falcon dodged Allesandra Montgomery's Attack!,Allesandra Montgomery,117,False,True,Jennifer Falcon,132,True,False
+7,Allesandra Montgomery vs Jennifer Falcon,280,Jennifer Falcon Attacks Allesandra Montgomery!,Allesandra Montgomery,87,False,False,Jennifer Falcon,132,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,270,Jennifer Falcon dodged Allesandra Montgomery's Attack!,Allesandra Montgomery,87,False,True,Jennifer Falcon,132,True,False
+7,Allesandra Montgomery vs Jennifer Falcon,270,Jennifer Falcon Attacks Allesandra Montgomery!,Allesandra Montgomery,57,False,False,Jennifer Falcon,132,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,260,Allesandra Montgomery dodged Jennifer Falcon's Attack!,Allesandra Montgomery,57,True,False,Jennifer Falcon,132,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,255,Jennifer Falcon dodged Allesandra Montgomery's Attack!,Allesandra Montgomery,57,False,True,Jennifer Falcon,132,True,False
+7,Allesandra Montgomery vs Jennifer Falcon,250,Jennifer Falcon Attacks Allesandra Montgomery!,Allesandra Montgomery,45,False,False,Jennifer Falcon,132,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,240,Jennifer Falcon Attacks Allesandra Montgomery!,Allesandra Montgomery,9,False,False,Jennifer Falcon,132,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,240,Allesandra Montgomery Attacks Jennifer Falcon!,Allesandra Montgomery,9,False,True,Jennifer Falcon,96,False,False
+7,Allesandra Montgomery vs Jennifer Falcon,230,Allesandra Montgomery dodged Jennifer Falcon's Attack!,Allesandra Montgomery,9,True,False,Jennifer Falcon,96,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,225,Allesandra Montgomery Attacks Jennifer Falcon!,Allesandra Montgomery,9,False,True,Jennifer Falcon,60,False,False
+7,Allesandra Montgomery vs Jennifer Falcon,220,Allesandra Montgomery dodged Jennifer Falcon's Attack!,Allesandra Montgomery,9,True,False,Jennifer Falcon,60,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,210,Jennifer Falcon Attacks Allesandra Montgomery!,Allesandra Montgomery,0,False,False,Jennifer Falcon,60,False,True
+7,Allesandra Montgomery vs Jennifer Falcon,210,Allesandra Montgomery has been Defeated!,Allesandra Montgomery,0,False,False,Jennifer Falcon,60,False,False
+7,Allesandra Montgomery vs Jennifer Falcon,210,Jennifer Falcon wins the fight!,Allesandra Montgomery,0,False,False,Jennifer Falcon,60,False,False
+8,Allesandra Bobobobo vs Jim Johnson,300,Fight starts!,Allesandra Bobobobo,252,False,False,Jim Johnson,156,False,False
+8,Allesandra Bobobobo vs Jim Johnson,290,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,252,True,False,Jim Johnson,156,False,True
+8,Allesandra Bobobobo vs Jim Johnson,286,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,252,False,True,Jim Johnson,156,True,False
+8,Allesandra Bobobobo vs Jim Johnson,280,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,252,True,False,Jim Johnson,156,False,True
+8,Allesandra Bobobobo vs Jim Johnson,272,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,252,False,True,Jim Johnson,156,True,False
+8,Allesandra Bobobobo vs Jim Johnson,270,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,252,True,False,Jim Johnson,156,False,True
+8,Allesandra Bobobobo vs Jim Johnson,260,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,252,True,False,Jim Johnson,156,False,True
+8,Allesandra Bobobobo vs Jim Johnson,258,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,252,False,True,Jim Johnson,120,False,False
+8,Allesandra Bobobobo vs Jim Johnson,250,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,246,False,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,244,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,246,False,True,Jim Johnson,120,True,False
+8,Allesandra Bobobobo vs Jim Johnson,240,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,240,False,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,230,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,240,False,True,Jim Johnson,120,True,False
+8,Allesandra Bobobobo vs Jim Johnson,230,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,240,True,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,220,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,228,False,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,216,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,228,False,True,Jim Johnson,120,True,False
+8,Allesandra Bobobobo vs Jim Johnson,210,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,222,False,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,202,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,222,False,True,Jim Johnson,120,True,False
+8,Allesandra Bobobobo vs Jim Johnson,200,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,222,True,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,190,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,222,True,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,188,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,222,False,True,Jim Johnson,120,True,False
+8,Allesandra Bobobobo vs Jim Johnson,180,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,216,False,False,Jim Johnson,120,False,True
+8,Allesandra Bobobobo vs Jim Johnson,174,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,216,False,True,Jim Johnson,84,False,False
+8,Allesandra Bobobobo vs Jim Johnson,170,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,216,True,False,Jim Johnson,84,False,True
+8,Allesandra Bobobobo vs Jim Johnson,160,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,216,False,True,Jim Johnson,84,True,False
+8,Allesandra Bobobobo vs Jim Johnson,160,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,198,False,False,Jim Johnson,84,False,True
+8,Allesandra Bobobobo vs Jim Johnson,150,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,198,True,False,Jim Johnson,84,False,True
+8,Allesandra Bobobobo vs Jim Johnson,146,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,198,False,True,Jim Johnson,84,True,False
+8,Allesandra Bobobobo vs Jim Johnson,140,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,198,True,False,Jim Johnson,84,False,True
+8,Allesandra Bobobobo vs Jim Johnson,132,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,198,False,True,Jim Johnson,57,False,False
+8,Allesandra Bobobobo vs Jim Johnson,130,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,198,True,False,Jim Johnson,57,False,True
+8,Allesandra Bobobobo vs Jim Johnson,120,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,198,True,False,Jim Johnson,57,False,True
+8,Allesandra Bobobobo vs Jim Johnson,118,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,198,False,True,Jim Johnson,57,True,False
+8,Allesandra Bobobobo vs Jim Johnson,110,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,198,True,False,Jim Johnson,57,False,True
+8,Allesandra Bobobobo vs Jim Johnson,104,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,198,False,True,Jim Johnson,48,False,False
+8,Allesandra Bobobobo vs Jim Johnson,100,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,198,True,False,Jim Johnson,48,False,True
+8,Allesandra Bobobobo vs Jim Johnson,90,Jim Johnson dodged Allesandra Bobobobo's Attack!,Allesandra Bobobobo,198,False,True,Jim Johnson,48,True,False
+8,Allesandra Bobobobo vs Jim Johnson,90,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,183,False,False,Jim Johnson,48,False,True
+8,Allesandra Bobobobo vs Jim Johnson,80,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,183,True,False,Jim Johnson,48,False,True
+8,Allesandra Bobobobo vs Jim Johnson,76,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,183,False,True,Jim Johnson,30,False,False
+8,Allesandra Bobobobo vs Jim Johnson,70,Jim Johnson Attacks Allesandra Bobobobo!,Allesandra Bobobobo,168,False,False,Jim Johnson,30,False,True
+8,Allesandra Bobobobo vs Jim Johnson,62,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,168,False,True,Jim Johnson,3,False,False
+8,Allesandra Bobobobo vs Jim Johnson,60,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,168,True,False,Jim Johnson,3,False,True
+8,Allesandra Bobobobo vs Jim Johnson,50,Allesandra Bobobobo dodged Jim Johnson's Attack!,Allesandra Bobobobo,168,True,False,Jim Johnson,3,False,True
+8,Allesandra Bobobobo vs Jim Johnson,48,Allesandra Bobobobo Attacks Jim Johnson!,Allesandra Bobobobo,168,False,True,Jim Johnson,0,False,False
+8,Allesandra Bobobobo vs Jim Johnson,48,Jim Johnson has been Defeated!,Allesandra Bobobobo,168,False,False,Jim Johnson,0,False,False
+8,Allesandra Bobobobo vs Jim Johnson,48,Allesandra Bobobobo wins the fight!,Allesandra Bobobobo,168,False,False,Jim Johnson,0,False,False
+9,Bobobo Sun vs Bobobo Snow,300,Fight starts!,Bobobo Sun,192,False,False,Bobobo Snow,156,False,False
+9,Bobobo Sun vs Bobobo Snow,290,Bobobo Snow dodged Bobobo Sun's Attack!,Bobobo Sun,192,False,True,Bobobo Snow,156,True,False
+9,Bobobo Sun vs Bobobo Snow,281,Bobobo Snow Attacks Bobobo Sun!,Bobobo Sun,168,False,False,Bobobo Snow,156,False,True
+9,Bobobo Sun vs Bobobo Snow,280,Bobobo Sun Attacks Bobobo Snow!,Bobobo Sun,168,False,True,Bobobo Snow,84,False,False
+9,Bobobo Sun vs Bobobo Snow,270,Bobobo Snow dodged Bobobo Sun's Attack!,Bobobo Sun,168,False,True,Bobobo Snow,84,True,False
+9,Bobobo Sun vs Bobobo Snow,262,Bobobo Snow Attacks Bobobo Sun!,Bobobo Sun,144,False,False,Bobobo Snow,84,False,True
+9,Bobobo Sun vs Bobobo Snow,260,Bobobo Sun Attacks Bobobo Snow!,Bobobo Sun,144,False,True,Bobobo Snow,72,False,False
+9,Bobobo Sun vs Bobobo Snow,250,Bobobo Sun Attacks Bobobo Snow!,Bobobo Sun,144,False,True,Bobobo Snow,0,False,False
+9,Bobobo Sun vs Bobobo Snow,250,Bobobo Snow has been Defeated!,Bobobo Sun,144,False,False,Bobobo Snow,0,False,False
+9,Bobobo Sun vs Bobobo Snow,250,Bobobo Sun wins the fight!,Bobobo Sun,144,False,False,Bobobo Snow,0,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,300,Fight starts!,Allesandra Bobobobo,252,False,False,Bobobo Sun,192,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,290,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,252,True,False,Bobobo Sun,192,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,286,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,252,False,True,Bobobo Sun,180,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,280,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,252,True,False,Bobobo Sun,180,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,272,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,252,False,True,Bobobo Sun,162,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,270,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,252,True,False,Bobobo Sun,162,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,260,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,252,True,False,Bobobo Sun,162,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,258,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,252,False,True,Bobobo Sun,156,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,250,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,252,True,False,Bobobo Sun,156,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,244,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,252,False,True,Bobobo Sun,150,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,240,Bobobo Sun Attacks Allesandra Bobobobo!,Allesandra Bobobobo,192,False,False,Bobobo Sun,150,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,230,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,192,True,False,Bobobo Sun,150,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,230,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,192,False,True,Bobobo Sun,144,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,220,Bobobo Sun Attacks Allesandra Bobobobo!,Allesandra Bobobobo,132,False,False,Bobobo Sun,144,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,216,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,132,False,True,Bobobo Sun,138,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,210,Bobobo Sun Attacks Allesandra Bobobobo!,Allesandra Bobobobo,60,False,False,Bobobo Sun,138,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,202,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,60,False,True,Bobobo Sun,126,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,200,Bobobo Sun Attacks Allesandra Bobobobo!,Allesandra Bobobobo,12,False,False,Bobobo Sun,126,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,190,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,12,True,False,Bobobo Sun,126,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,188,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,12,False,True,Bobobo Sun,114,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,180,Allesandra Bobobobo dodged Bobobo Sun's Attack!,Allesandra Bobobobo,12,True,False,Bobobo Sun,114,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,174,Allesandra Bobobobo Attacks Bobobo Sun!,Allesandra Bobobobo,12,False,True,Bobobo Sun,99,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,170,Bobobo Sun Attacks Allesandra Bobobobo!,Allesandra Bobobobo,0,False,False,Bobobo Sun,99,False,True
+10,Allesandra Bobobobo vs Bobobo Sun,170,Allesandra Bobobobo has been Defeated!,Allesandra Bobobobo,0,False,False,Bobobo Sun,99,False,False
+10,Allesandra Bobobobo vs Bobobo Sun,170,Bobobo Sun wins the fight!,Allesandra Bobobobo,0,False,False,Bobobo Sun,99,False,False
+11,Yennefer Hisaishi vs Simone Utada,300,Fight starts!,Yennefer Hisaishi,174,False,False,Simone Utada,144,False,False
+11,Yennefer Hisaishi vs Simone Utada,284,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,174,False,True,Simone Utada,135,False,False
+11,Yennefer Hisaishi vs Simone Utada,280,Simone Utada Attacks Yennefer Hisaishi!,Yennefer Hisaishi,90,False,False,Simone Utada,135,False,True
+11,Yennefer Hisaishi vs Simone Utada,268,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,90,False,True,Simone Utada,123,False,False
+11,Yennefer Hisaishi vs Simone Utada,260,Yennefer Hisaishi dodged Simone Utada's Attack!,Yennefer Hisaishi,90,True,False,Simone Utada,123,False,True
+11,Yennefer Hisaishi vs Simone Utada,252,Simone Utada dodged Yennefer Hisaishi's Attack!,Yennefer Hisaishi,90,False,True,Simone Utada,123,True,False
+11,Yennefer Hisaishi vs Simone Utada,240,Yennefer Hisaishi dodged Simone Utada's Attack!,Yennefer Hisaishi,90,True,False,Simone Utada,123,False,True
+11,Yennefer Hisaishi vs Simone Utada,236,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,90,False,True,Simone Utada,96,False,False
+11,Yennefer Hisaishi vs Simone Utada,220,Yennefer Hisaishi dodged Simone Utada's Attack!,Yennefer Hisaishi,90,True,False,Simone Utada,96,False,True
+11,Yennefer Hisaishi vs Simone Utada,220,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,90,False,True,Simone Utada,75,False,False
+11,Yennefer Hisaishi vs Simone Utada,204,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,90,False,True,Simone Utada,48,False,False
+11,Yennefer Hisaishi vs Simone Utada,200,Simone Utada Attacks Yennefer Hisaishi!,Yennefer Hisaishi,66,False,False,Simone Utada,48,False,True
+11,Yennefer Hisaishi vs Simone Utada,188,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,66,False,True,Simone Utada,21,False,False
+11,Yennefer Hisaishi vs Simone Utada,180,Yennefer Hisaishi dodged Simone Utada's Attack!,Yennefer Hisaishi,66,True,False,Simone Utada,21,False,True
+11,Yennefer Hisaishi vs Simone Utada,172,Yennefer Hisaishi Attacks Simone Utada!,Yennefer Hisaishi,66,False,True,Simone Utada,15,False,False
+11,Yennefer Hisaishi vs Simone Utada,160,Simone Utada Attacks Yennefer Hisaishi!,Yennefer Hisaishi,6,False,False,Simone Utada,15,False,True
+11,Yennefer Hisaishi vs Simone Utada,156,Simone Utada dodged Yennefer Hisaishi's Attack!,Yennefer Hisaishi,6,False,True,Simone Utada,15,True,False
+11,Yennefer Hisaishi vs Simone Utada,140,Simone Utada Attacks Yennefer Hisaishi!,Yennefer Hisaishi,0,False,False,Simone Utada,15,False,True
+11,Yennefer Hisaishi vs Simone Utada,140,Yennefer Hisaishi has been Defeated!,Yennefer Hisaishi,0,False,False,Simone Utada,15,False,False
+11,Yennefer Hisaishi vs Simone Utada,140,Simone Utada wins the fight!,Yennefer Hisaishi,0,False,False,Simone Utada,15,False,False
+12,Yennefer Ocean vs Ichi Utada,300,Fight starts!,Yennefer Ocean,174,False,False,Ichi Utada,144,False,False
+12,Yennefer Ocean vs Ichi Utada,284,Yennefer Ocean Attacks Ichi Utada!,Yennefer Ocean,174,False,True,Ichi Utada,135,False,False
+12,Yennefer Ocean vs Ichi Utada,280,Ichi Utada Attacks Yennefer Ocean!,Yennefer Ocean,138,False,False,Ichi Utada,135,False,True
+12,Yennefer Ocean vs Ichi Utada,268,Yennefer Ocean Attacks Ichi Utada!,Yennefer Ocean,138,False,True,Ichi Utada,132,False,False
+12,Yennefer Ocean vs Ichi Utada,260,Yennefer Ocean dodged Ichi Utada's Attack!,Yennefer Ocean,138,True,False,Ichi Utada,132,False,True
+12,Yennefer Ocean vs Ichi Utada,252,Yennefer Ocean Attacks Ichi Utada!,Yennefer Ocean,138,False,True,Ichi Utada,123,False,False
+12,Yennefer Ocean vs Ichi Utada,240,Ichi Utada Attacks Yennefer Ocean!,Yennefer Ocean,0,False,False,Ichi Utada,123,False,True
+12,Yennefer Ocean vs Ichi Utada,240,Yennefer Ocean has been Defeated!,Yennefer Ocean,0,False,False,Ichi Utada,123,False,False
+12,Yennefer Ocean vs Ichi Utada,240,Ichi Utada wins the fight!,Yennefer Ocean,0,False,False,Ichi Utada,123,False,False
+13,Simone Utada vs Ichi Utada,300,Fight starts!,Simone Utada,22,False,False,Ichi Utada,144,False,False
+13,Simone Utada vs Ichi Utada,280,Simone Utada dodged Ichi Utada's Attack!,Simone Utada,22,True,False,Ichi Utada,144,False,True
+13,Simone Utada vs Ichi Utada,280,Simone Utada Attacks Ichi Utada!,Simone Utada,22,False,True,Ichi Utada,78,False,False
+13,Simone Utada vs Ichi Utada,260,Simone Utada Attacks Ichi Utada!,Simone Utada,22,False,True,Ichi Utada,72,False,False
+13,Simone Utada vs Ichi Utada,260,Ichi Utada Attacks Simone Utada!,Simone Utada,0,False,False,Ichi Utada,72,False,True
+13,Simone Utada vs Ichi Utada,260,Simone Utada has been Defeated!,Simone Utada,0,False,False,Ichi Utada,72,False,False
+13,Simone Utada vs Ichi Utada,260,Ichi Utada wins the fight!,Simone Utada,0,False,False,Ichi Utada,72,False,False
+14,Bobobo Sun vs Ichi Utada,300,Fight starts!,Bobobo Sun,148,False,False,Ichi Utada,108,False,False
+14,Bobobo Sun vs Ichi Utada,290,Bobobo Sun Attacks Ichi Utada!,Bobobo Sun,148,False,True,Ichi Utada,84,False,False
+14,Bobobo Sun vs Ichi Utada,280,Ichi Utada Attacks Bobobo Sun!,Bobobo Sun,124,False,False,Ichi Utada,84,False,True
+14,Bobobo Sun vs Ichi Utada,280,Bobobo Sun Attacks Ichi Utada!,Bobobo Sun,124,False,True,Ichi Utada,24,False,False
+14,Bobobo Sun vs Ichi Utada,270,Bobobo Sun Attacks Ichi Utada!,Bobobo Sun,124,False,True,Ichi Utada,0,False,False
+14,Bobobo Sun vs Ichi Utada,270,Ichi Utada has been Defeated!,Bobobo Sun,124,False,False,Ichi Utada,0,False,False
+14,Bobobo Sun vs Ichi Utada,270,Bobobo Sun wins the fight!,Bobobo Sun,124,False,False,Ichi Utada,0,False,False
+15,Jennifer Falcon vs Bobobo Sun,300,Fight starts!,Jennifer Falcon,90,False,False,Bobobo Sun,186,False,False
+15,Jennifer Falcon vs Bobobo Sun,290,Jennifer Falcon dodged Bobobo Sun's Attack!,Jennifer Falcon,90,True,False,Bobobo Sun,186,False,True
+15,Jennifer Falcon vs Bobobo Sun,290,Jennifer Falcon Attacks Bobobo Sun!,Jennifer Falcon,90,False,True,Bobobo Sun,78,False,False
+15,Jennifer Falcon vs Bobobo Sun,280,Jennifer Falcon dodged Bobobo Sun's Attack!,Jennifer Falcon,90,True,False,Bobobo Sun,78,False,True
+15,Jennifer Falcon vs Bobobo Sun,280,Jennifer Falcon Attacks Bobobo Sun!,Jennifer Falcon,90,False,True,Bobobo Sun,60,False,False
+15,Jennifer Falcon vs Bobobo Sun,270,Jennifer Falcon Attacks Bobobo Sun!,Jennifer Falcon,90,False,True,Bobobo Sun,0,False,False
+15,Jennifer Falcon vs Bobobo Sun,270,Bobobo Sun has been Defeated!,Jennifer Falcon,90,False,False,Bobobo Sun,0,False,False
+15,Jennifer Falcon vs Bobobo Sun,270,Jennifer Falcon wins the fight!,Jennifer Falcon,90,False,False,Bobobo Sun,0,False,False
+16,Roxanne Hisaishi vs Hikaru Bobobobo,300,Fight starts!,Roxanne Hisaishi,240,False,False,Hikaru Bobobobo,50,False,False
+16,Roxanne Hisaishi vs Hikaru Bobobobo,285,Hikaru Bobobobo dodged Roxanne Hisaishi's Attack!,Roxanne Hisaishi,240,False,True,Hikaru Bobobobo,50,True,False
+16,Roxanne Hisaishi vs Hikaru Bobobobo,280,Hikaru Bobobobo Attacks Roxanne Hisaishi!,Roxanne Hisaishi,0,False,False,Hikaru Bobobobo,50,False,True
+16,Roxanne Hisaishi vs Hikaru Bobobobo,280,Roxanne Hisaishi has been Defeated!,Roxanne Hisaishi,0,False,False,Hikaru Bobobobo,50,False,False
+16,Roxanne Hisaishi vs Hikaru Bobobobo,280,Hikaru Bobobobo wins the fight!,Roxanne Hisaishi,0,False,False,Hikaru Bobobobo,50,False,False
+17,Alexa Chosen One vs Jesse Sunset,300,Fight starts!,Alexa Chosen One,240,False,False,Jesse Sunset,192,False,False
+17,Alexa Chosen One vs Jesse Sunset,290,Jesse Sunset Attacks Alexa Chosen One!,Alexa Chosen One,204,False,False,Jesse Sunset,192,False,True
+17,Alexa Chosen One vs Jesse Sunset,285,Alexa Chosen One Attacks Jesse Sunset!,Alexa Chosen One,204,False,True,Jesse Sunset,150,False,False
+17,Alexa Chosen One vs Jesse Sunset,280,Jesse Sunset Attacks Alexa Chosen One!,Alexa Chosen One,168,False,False,Jesse Sunset,150,False,True
+17,Alexa Chosen One vs Jesse Sunset,270,Alexa Chosen One dodged Jesse Sunset's Attack!,Alexa Chosen One,168,True,False,Jesse Sunset,150,False,True
+17,Alexa Chosen One vs Jesse Sunset,270,Alexa Chosen One Attacks Jesse Sunset!,Alexa Chosen One,168,False,True,Jesse Sunset,66,False,False
+17,Alexa Chosen One vs Jesse Sunset,260,Jesse Sunset Attacks Alexa Chosen One!,Alexa Chosen One,150,False,False,Jesse Sunset,66,False,True
+17,Alexa Chosen One vs Jesse Sunset,255,Alexa Chosen One Attacks Jesse Sunset!,Alexa Chosen One,150,False,True,Jesse Sunset,0,False,False
+17,Alexa Chosen One vs Jesse Sunset,255,Jesse Sunset has been Defeated!,Alexa Chosen One,150,False,False,Jesse Sunset,0,False,False
+17,Alexa Chosen One vs Jesse Sunset,255,Alexa Chosen One wins the fight!,Alexa Chosen One,150,False,False,Jesse Sunset,0,False,False
+18,Hikaru Bobobobo vs Alexa Chosen One,300,Fight starts!,Hikaru Bobobobo,50,False,False,Alexa Chosen One,225,False,False
+18,Hikaru Bobobobo vs Alexa Chosen One,285,Hikaru Bobobobo dodged Alexa Chosen One's Attack!,Hikaru Bobobobo,50,True,False,Alexa Chosen One,225,False,True
+18,Hikaru Bobobobo vs Alexa Chosen One,280,Hikaru Bobobobo Attacks Alexa Chosen One!,Hikaru Bobobobo,50,False,True,Alexa Chosen One,0,False,False
+18,Hikaru Bobobobo vs Alexa Chosen One,280,Alexa Chosen One has been Defeated!,Hikaru Bobobobo,50,False,False,Alexa Chosen One,0,False,False
+18,Hikaru Bobobobo vs Alexa Chosen One,280,Hikaru Bobobobo wins the fight!,Hikaru Bobobobo,50,False,False,Alexa Chosen One,0,False,False
+19,Reginald Falcon vs Yusuke Lee,300,Fight starts!,Reginald Falcon,174,False,False,Yusuke Lee,192,False,False
+19,Reginald Falcon vs Yusuke Lee,290,Yusuke Lee Attacks Reginald Falcon!,Reginald Falcon,144,False,False,Yusuke Lee,192,False,True
+19,Reginald Falcon vs Yusuke Lee,284,Reginald Falcon Attacks Yusuke Lee!,Reginald Falcon,144,False,True,Yusuke Lee,165,False,False
+19,Reginald Falcon vs Yusuke Lee,280,Reginald Falcon dodged Yusuke Lee's Attack!,Reginald Falcon,144,True,False,Yusuke Lee,165,False,True
+19,Reginald Falcon vs Yusuke Lee,270,Yusuke Lee Attacks Reginald Falcon!,Reginald Falcon,84,False,False,Yusuke Lee,165,False,True
+19,Reginald Falcon vs Yusuke Lee,268,Reginald Falcon Attacks Yusuke Lee!,Reginald Falcon,84,False,True,Yusuke Lee,147,False,False
+19,Reginald Falcon vs Yusuke Lee,260,Reginald Falcon dodged Yusuke Lee's Attack!,Reginald Falcon,84,True,False,Yusuke Lee,147,False,True
+19,Reginald Falcon vs Yusuke Lee,252,Reginald Falcon Attacks Yusuke Lee!,Reginald Falcon,84,False,True,Yusuke Lee,129,False,False
+19,Reginald Falcon vs Yusuke Lee,250,Reginald Falcon dodged Yusuke Lee's Attack!,Reginald Falcon,84,True,False,Yusuke Lee,129,False,True
+19,Reginald Falcon vs Yusuke Lee,240,Reginald Falcon dodged Yusuke Lee's Attack!,Reginald Falcon,84,True,False,Yusuke Lee,129,False,True
+19,Reginald Falcon vs Yusuke Lee,236,Reginald Falcon Attacks Yusuke Lee!,Reginald Falcon,84,False,True,Yusuke Lee,120,False,False
+19,Reginald Falcon vs Yusuke Lee,230,Yusuke Lee Attacks Reginald Falcon!,Reginald Falcon,54,False,False,Yusuke Lee,120,False,True
+19,Reginald Falcon vs Yusuke Lee,220,Yusuke Lee Attacks Reginald Falcon!,Reginald Falcon,0,False,False,Yusuke Lee,120,False,True
+19,Reginald Falcon vs Yusuke Lee,220,Reginald Falcon has been Defeated!,Reginald Falcon,0,False,False,Yusuke Lee,120,False,False
+19,Reginald Falcon vs Yusuke Lee,220,Yusuke Lee wins the fight!,Reginald Falcon,0,False,False,Yusuke Lee,120,False,False
+20,Iggy Hikaru vs Ken Bitto,300,Fight starts!,Iggy Hikaru,156,False,False,Ken Bitto,156,False,False
+20,Iggy Hikaru vs Ken Bitto,290,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,156,True,False,Ken Bitto,156,False,True
+20,Iggy Hikaru vs Ken Bitto,281,Ken Bitto dodged Iggy Hikaru's Attack!,Iggy Hikaru,156,False,True,Ken Bitto,156,True,False
+20,Iggy Hikaru vs Ken Bitto,280,Ken Bitto Attacks Iggy Hikaru!,Iggy Hikaru,147,False,False,Ken Bitto,156,False,True
+20,Iggy Hikaru vs Ken Bitto,270,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,147,True,False,Ken Bitto,156,False,True
+20,Iggy Hikaru vs Ken Bitto,262,Iggy Hikaru Attacks Ken Bitto!,Iggy Hikaru,147,False,True,Ken Bitto,66,False,False
+20,Iggy Hikaru vs Ken Bitto,260,Ken Bitto Attacks Iggy Hikaru!,Iggy Hikaru,135,False,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,250,Ken Bitto Attacks Iggy Hikaru!,Iggy Hikaru,120,False,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,243,Ken Bitto dodged Iggy Hikaru's Attack!,Iggy Hikaru,120,False,True,Ken Bitto,66,True,False
+20,Iggy Hikaru vs Ken Bitto,240,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,120,True,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,230,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,120,True,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,224,Ken Bitto dodged Iggy Hikaru's Attack!,Iggy Hikaru,120,False,True,Ken Bitto,66,True,False
+20,Iggy Hikaru vs Ken Bitto,220,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,120,True,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,210,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,120,True,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,205,Ken Bitto dodged Iggy Hikaru's Attack!,Iggy Hikaru,120,False,True,Ken Bitto,66,True,False
+20,Iggy Hikaru vs Ken Bitto,200,Ken Bitto Attacks Iggy Hikaru!,Iggy Hikaru,111,False,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,190,Iggy Hikaru dodged Ken Bitto's Attack!,Iggy Hikaru,111,True,False,Ken Bitto,66,False,True
+20,Iggy Hikaru vs Ken Bitto,186,Iggy Hikaru Attacks Ken Bitto!,Iggy Hikaru,111,False,True,Ken Bitto,0,False,False
+20,Iggy Hikaru vs Ken Bitto,186,Ken Bitto has been Defeated!,Iggy Hikaru,111,False,False,Ken Bitto,0,False,False
+20,Iggy Hikaru vs Ken Bitto,186,Iggy Hikaru wins the fight!,Iggy Hikaru,111,False,False,Ken Bitto,0,False,False
+21,Yusuke Lee vs Iggy Hikaru,300,Fight starts!,Yusuke Lee,180,False,False,Iggy Hikaru,156,False,False
+21,Yusuke Lee vs Iggy Hikaru,290,Iggy Hikaru dodged Yusuke Lee's Attack!,Yusuke Lee,180,False,True,Iggy Hikaru,156,True,False
+21,Yusuke Lee vs Iggy Hikaru,281,Iggy Hikaru Attacks Yusuke Lee!,Yusuke Lee,84,False,False,Iggy Hikaru,156,False,True
+21,Yusuke Lee vs Iggy Hikaru,280,Iggy Hikaru dodged Yusuke Lee's Attack!,Yusuke Lee,84,False,True,Iggy Hikaru,156,True,False
+21,Yusuke Lee vs Iggy Hikaru,270,Iggy Hikaru dodged Yusuke Lee's Attack!,Yusuke Lee,84,False,True,Iggy Hikaru,156,True,False
+21,Yusuke Lee vs Iggy Hikaru,262,Iggy Hikaru Attacks Yusuke Lee!,Yusuke Lee,12,False,False,Iggy Hikaru,156,False,True
+21,Yusuke Lee vs Iggy Hikaru,260,Yusuke Lee Attacks Iggy Hikaru!,Yusuke Lee,12,False,True,Iggy Hikaru,132,False,False
+21,Yusuke Lee vs Iggy Hikaru,250,Iggy Hikaru dodged Yusuke Lee's Attack!,Yusuke Lee,12,False,True,Iggy Hikaru,132,True,False
+21,Yusuke Lee vs Iggy Hikaru,243,Iggy Hikaru Attacks Yusuke Lee!,Yusuke Lee,0,False,False,Iggy Hikaru,132,False,True
+21,Yusuke Lee vs Iggy Hikaru,243,Yusuke Lee has been Defeated!,Yusuke Lee,0,False,False,Iggy Hikaru,132,False,False
+21,Yusuke Lee vs Iggy Hikaru,243,Iggy Hikaru wins the fight!,Yusuke Lee,0,False,False,Iggy Hikaru,132,False,False
+22,Hikaru Bobobobo vs Iggy Hikaru,300,Fight starts!,Hikaru Bobobobo,50,False,False,Iggy Hikaru,156,False,False
+22,Hikaru Bobobobo vs Iggy Hikaru,281,Hikaru Bobobobo dodged Iggy Hikaru's Attack!,Hikaru Bobobobo,50,True,False,Iggy Hikaru,156,False,True
+22,Hikaru Bobobobo vs Iggy Hikaru,280,Iggy Hikaru dodged Hikaru Bobobobo's Attack!,Hikaru Bobobobo,50,False,True,Iggy Hikaru,156,True,False
+22,Hikaru Bobobobo vs Iggy Hikaru,262,Hikaru Bobobobo dodged Iggy Hikaru's Attack!,Hikaru Bobobobo,50,True,False,Iggy Hikaru,156,False,True
+22,Hikaru Bobobobo vs Iggy Hikaru,260,Hikaru Bobobobo Attacks Iggy Hikaru!,Hikaru Bobobobo,50,False,True,Iggy Hikaru,48,False,False
+22,Hikaru Bobobobo vs Iggy Hikaru,243,Hikaru Bobobobo dodged Iggy Hikaru's Attack!,Hikaru Bobobobo,50,True,False,Iggy Hikaru,48,False,True
+22,Hikaru Bobobobo vs Iggy Hikaru,240,Iggy Hikaru dodged Hikaru Bobobobo's Attack!,Hikaru Bobobobo,50,False,True,Iggy Hikaru,48,True,False
+22,Hikaru Bobobobo vs Iggy Hikaru,224,Iggy Hikaru Attacks Hikaru Bobobobo!,Hikaru Bobobobo,0,False,False,Iggy Hikaru,48,False,True
+22,Hikaru Bobobobo vs Iggy Hikaru,224,Hikaru Bobobobo has been Defeated!,Hikaru Bobobobo,0,False,False,Iggy Hikaru,48,False,False
+22,Hikaru Bobobobo vs Iggy Hikaru,224,Iggy Hikaru wins the fight!,Hikaru Bobobobo,0,False,False,Iggy Hikaru,48,False,False
+23,Ken Nevers vs Nicole White,300,Fight starts!,Ken Nevers,50,False,False,Nicole White,174,False,False
+23,Ken Nevers vs Nicole White,284,Nicole White Attacks Ken Nevers!,Ken Nevers,14,False,False,Nicole White,174,False,True
+23,Ken Nevers vs Nicole White,280,Nicole White dodged Ken Nevers's Attack!,Ken Nevers,14,False,True,Nicole White,174,True,False
+23,Ken Nevers vs Nicole White,268,Nicole White Attacks Ken Nevers!,Ken Nevers,0,False,False,Nicole White,174,False,True
+23,Ken Nevers vs Nicole White,268,Ken Nevers has been Defeated!,Ken Nevers,0,False,False,Nicole White,174,False,False
+23,Ken Nevers vs Nicole White,268,Nicole White wins the fight!,Ken Nevers,0,False,False,Nicole White,174,False,False
+24,Yennefer Mysterious vs Talulah Ocean,300,Fight starts!,Yennefer Mysterious,50,False,False,Talulah Ocean,156,False,False
+24,Yennefer Mysterious vs Talulah Ocean,290,Yennefer Mysterious dodged Talulah Ocean's Attack!,Yennefer Mysterious,50,True,False,Talulah Ocean,156,False,True
+24,Yennefer Mysterious vs Talulah Ocean,280,Yennefer Mysterious Attacks Talulah Ocean!,Yennefer Mysterious,50,False,True,Talulah Ocean,0,False,False
+24,Yennefer Mysterious vs Talulah Ocean,280,Talulah Ocean has been Defeated!,Yennefer Mysterious,50,False,False,Talulah Ocean,0,False,False
+24,Yennefer Mysterious vs Talulah Ocean,280,Yennefer Mysterious wins the fight!,Yennefer Mysterious,50,False,False,Talulah Ocean,0,False,False
+25,Nicole White vs Yennefer Mysterious,300,Fight starts!,Nicole White,174,False,False,Yennefer Mysterious,50,False,False
+25,Nicole White vs Yennefer Mysterious,284,Yennefer Mysterious dodged Nicole White's Attack!,Nicole White,174,False,True,Yennefer Mysterious,50,True,False
+25,Nicole White vs Yennefer Mysterious,280,Nicole White dodged Yennefer Mysterious's Attack!,Nicole White,174,True,False,Yennefer Mysterious,50,False,True
+25,Nicole White vs Yennefer Mysterious,268,Yennefer Mysterious dodged Nicole White's Attack!,Nicole White,174,False,True,Yennefer Mysterious,50,True,False
+25,Nicole White vs Yennefer Mysterious,260,Nicole White dodged Yennefer Mysterious's Attack!,Nicole White,174,True,False,Yennefer Mysterious,50,False,True
+25,Nicole White vs Yennefer Mysterious,252,Nicole White Attacks Yennefer Mysterious!,Nicole White,174,False,True,Yennefer Mysterious,0,False,False
+25,Nicole White vs Yennefer Mysterious,252,Yennefer Mysterious has been Defeated!,Nicole White,174,False,False,Yennefer Mysterious,0,False,False
+25,Nicole White vs Yennefer Mysterious,252,Nicole White wins the fight!,Nicole White,174,False,False,Yennefer Mysterious,0,False,False
+26,Sondra Moon vs Cortana White,300,Fight starts!,Sondra Moon,240,False,False,Cortana White,192,False,False
+26,Sondra Moon vs Cortana White,290,Cortana White Attacks Sondra Moon!,Sondra Moon,228,False,False,Cortana White,192,False,True
+26,Sondra Moon vs Cortana White,285,Sondra Moon Attacks Cortana White!,Sondra Moon,228,False,True,Cortana White,129,False,False
+26,Sondra Moon vs Cortana White,280,Cortana White Attacks Sondra Moon!,Sondra Moon,204,False,False,Cortana White,129,False,True
+26,Sondra Moon vs Cortana White,270,Sondra Moon dodged Cortana White's Attack!,Sondra Moon,204,True,False,Cortana White,129,False,True
+26,Sondra Moon vs Cortana White,270,Sondra Moon Attacks Cortana White!,Sondra Moon,204,False,True,Cortana White,66,False,False
+26,Sondra Moon vs Cortana White,260,Cortana White Attacks Sondra Moon!,Sondra Moon,168,False,False,Cortana White,66,False,True
+26,Sondra Moon vs Cortana White,255,Sondra Moon Attacks Cortana White!,Sondra Moon,168,False,True,Cortana White,45,False,False
+26,Sondra Moon vs Cortana White,250,Cortana White Attacks Sondra Moon!,Sondra Moon,156,False,False,Cortana White,45,False,True
+26,Sondra Moon vs Cortana White,240,Cortana White Attacks Sondra Moon!,Sondra Moon,144,False,False,Cortana White,45,False,True
+26,Sondra Moon vs Cortana White,240,Sondra Moon Attacks Cortana White!,Sondra Moon,144,False,True,Cortana White,0,False,False
+26,Sondra Moon vs Cortana White,240,Cortana White has been Defeated!,Sondra Moon,144,False,False,Cortana White,0,False,False
+26,Sondra Moon vs Cortana White,240,Sondra Moon wins the fight!,Sondra Moon,144,False,False,Cortana White,0,False,False
+27,Kyle Yikes vs Genevieve Green,300,Fight starts!,Kyle Yikes,50,False,False,Genevieve Green,252,False,False
+27,Kyle Yikes vs Genevieve Green,291,Genevieve Green Attacks Kyle Yikes!,Kyle Yikes,0,False,False,Genevieve Green,252,False,True
+27,Kyle Yikes vs Genevieve Green,291,Kyle Yikes has been Defeated!,Kyle Yikes,0,False,False,Genevieve Green,252,False,False
+27,Kyle Yikes vs Genevieve Green,291,Genevieve Green wins the fight!,Kyle Yikes,0,False,False,Genevieve Green,252,False,False
+28,Sondra Moon vs Genevieve Green,300,Fight starts!,Sondra Moon,216,False,False,Genevieve Green,252,False,False
+28,Sondra Moon vs Genevieve Green,291,Genevieve Green Attacks Sondra Moon!,Sondra Moon,210,False,False,Genevieve Green,252,False,True
+28,Sondra Moon vs Genevieve Green,285,Sondra Moon Attacks Genevieve Green!,Sondra Moon,210,False,True,Genevieve Green,234,False,False
+28,Sondra Moon vs Genevieve Green,282,Genevieve Green Attacks Sondra Moon!,Sondra Moon,201,False,False,Genevieve Green,234,False,True
+28,Sondra Moon vs Genevieve Green,273,Genevieve Green Attacks Sondra Moon!,Sondra Moon,186,False,False,Genevieve Green,234,False,True
+28,Sondra Moon vs Genevieve Green,270,Sondra Moon Attacks Genevieve Green!,Sondra Moon,186,False,True,Genevieve Green,228,False,False
+28,Sondra Moon vs Genevieve Green,264,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,186,True,False,Genevieve Green,228,False,True
+28,Sondra Moon vs Genevieve Green,255,Genevieve Green Attacks Sondra Moon!,Sondra Moon,177,False,False,Genevieve Green,228,False,True
+28,Sondra Moon vs Genevieve Green,255,Sondra Moon Attacks Genevieve Green!,Sondra Moon,177,False,True,Genevieve Green,216,False,False
+28,Sondra Moon vs Genevieve Green,246,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,177,True,False,Genevieve Green,216,False,True
+28,Sondra Moon vs Genevieve Green,240,Sondra Moon Attacks Genevieve Green!,Sondra Moon,177,False,True,Genevieve Green,198,False,False
+28,Sondra Moon vs Genevieve Green,237,Genevieve Green Attacks Sondra Moon!,Sondra Moon,174,False,False,Genevieve Green,198,False,True
+28,Sondra Moon vs Genevieve Green,228,Genevieve Green Attacks Sondra Moon!,Sondra Moon,156,False,False,Genevieve Green,198,False,True
+28,Sondra Moon vs Genevieve Green,225,Sondra Moon Attacks Genevieve Green!,Sondra Moon,156,False,True,Genevieve Green,192,False,False
+28,Sondra Moon vs Genevieve Green,219,Genevieve Green Attacks Sondra Moon!,Sondra Moon,150,False,False,Genevieve Green,192,False,True
+28,Sondra Moon vs Genevieve Green,210,Genevieve Green Attacks Sondra Moon!,Sondra Moon,135,False,False,Genevieve Green,192,False,True
+28,Sondra Moon vs Genevieve Green,210,Sondra Moon Attacks Genevieve Green!,Sondra Moon,135,False,True,Genevieve Green,180,False,False
+28,Sondra Moon vs Genevieve Green,201,Genevieve Green Attacks Sondra Moon!,Sondra Moon,129,False,False,Genevieve Green,180,False,True
+28,Sondra Moon vs Genevieve Green,195,Sondra Moon Attacks Genevieve Green!,Sondra Moon,129,False,True,Genevieve Green,162,False,False
+28,Sondra Moon vs Genevieve Green,192,Genevieve Green Attacks Sondra Moon!,Sondra Moon,120,False,False,Genevieve Green,162,False,True
+28,Sondra Moon vs Genevieve Green,183,Genevieve Green Attacks Sondra Moon!,Sondra Moon,111,False,False,Genevieve Green,162,False,True
+28,Sondra Moon vs Genevieve Green,180,Sondra Moon Attacks Genevieve Green!,Sondra Moon,111,False,True,Genevieve Green,150,False,False
+28,Sondra Moon vs Genevieve Green,174,Genevieve Green Attacks Sondra Moon!,Sondra Moon,108,False,False,Genevieve Green,150,False,True
+28,Sondra Moon vs Genevieve Green,165,Genevieve Green Attacks Sondra Moon!,Sondra Moon,96,False,False,Genevieve Green,150,False,True
+28,Sondra Moon vs Genevieve Green,165,Sondra Moon Attacks Genevieve Green!,Sondra Moon,96,False,True,Genevieve Green,132,False,False
+28,Sondra Moon vs Genevieve Green,156,Genevieve Green Attacks Sondra Moon!,Sondra Moon,84,False,False,Genevieve Green,132,False,True
+28,Sondra Moon vs Genevieve Green,150,Sondra Moon Attacks Genevieve Green!,Sondra Moon,84,False,True,Genevieve Green,120,False,False
+28,Sondra Moon vs Genevieve Green,147,Genevieve Green Attacks Sondra Moon!,Sondra Moon,69,False,False,Genevieve Green,120,False,True
+28,Sondra Moon vs Genevieve Green,138,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,69,True,False,Genevieve Green,120,False,True
+28,Sondra Moon vs Genevieve Green,135,Sondra Moon Attacks Genevieve Green!,Sondra Moon,69,False,True,Genevieve Green,102,False,False
+28,Sondra Moon vs Genevieve Green,129,Genevieve Green Attacks Sondra Moon!,Sondra Moon,66,False,False,Genevieve Green,102,False,True
+28,Sondra Moon vs Genevieve Green,120,Genevieve Green dodged Sondra Moon's Attack!,Sondra Moon,66,False,True,Genevieve Green,102,True,False
+28,Sondra Moon vs Genevieve Green,120,Genevieve Green Attacks Sondra Moon!,Sondra Moon,63,False,False,Genevieve Green,102,False,True
+28,Sondra Moon vs Genevieve Green,111,Genevieve Green Attacks Sondra Moon!,Sondra Moon,45,False,False,Genevieve Green,102,False,True
+28,Sondra Moon vs Genevieve Green,105,Genevieve Green dodged Sondra Moon's Attack!,Sondra Moon,45,False,True,Genevieve Green,102,True,False
+28,Sondra Moon vs Genevieve Green,102,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,45,True,False,Genevieve Green,102,False,True
+28,Sondra Moon vs Genevieve Green,93,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,45,True,False,Genevieve Green,102,False,True
+28,Sondra Moon vs Genevieve Green,90,Sondra Moon Attacks Genevieve Green!,Sondra Moon,45,False,True,Genevieve Green,90,False,False
+28,Sondra Moon vs Genevieve Green,84,Genevieve Green Attacks Sondra Moon!,Sondra Moon,39,False,False,Genevieve Green,90,False,True
+28,Sondra Moon vs Genevieve Green,75,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,39,True,False,Genevieve Green,90,False,True
+28,Sondra Moon vs Genevieve Green,75,Sondra Moon Attacks Genevieve Green!,Sondra Moon,39,False,True,Genevieve Green,72,False,False
+28,Sondra Moon vs Genevieve Green,66,Sondra Moon dodged Genevieve Green's Attack!,Sondra Moon,39,True,False,Genevieve Green,72,False,True
+28,Sondra Moon vs Genevieve Green,60,Sondra Moon Attacks Genevieve Green!,Sondra Moon,39,False,True,Genevieve Green,66,False,False
+28,Sondra Moon vs Genevieve Green,57,Genevieve Green Attacks Sondra Moon!,Sondra Moon,33,False,False,Genevieve Green,66,False,True
+28,Sondra Moon vs Genevieve Green,48,Genevieve Green Attacks Sondra Moon!,Sondra Moon,24,False,False,Genevieve Green,66,False,True
+28,Sondra Moon vs Genevieve Green,45,Genevieve Green dodged Sondra Moon's Attack!,Sondra Moon,24,False,True,Genevieve Green,66,True,False
+28,Sondra Moon vs Genevieve Green,39,Genevieve Green Attacks Sondra Moon!,Sondra Moon,9,False,False,Genevieve Green,66,False,True
+28,Sondra Moon vs Genevieve Green,30,Genevieve Green Attacks Sondra Moon!,Sondra Moon,0,False,False,Genevieve Green,66,False,True
+28,Sondra Moon vs Genevieve Green,30,Sondra Moon has been Defeated!,Sondra Moon,0,False,False,Genevieve Green,66,False,False
+28,Sondra Moon vs Genevieve Green,30,Genevieve Green wins the fight!,Sondra Moon,0,False,False,Genevieve Green,66,False,False
+29,Nicole White vs Genevieve Green,300,Fight starts!,Nicole White,174,False,False,Genevieve Green,99,False,False
+29,Nicole White vs Genevieve Green,291,Genevieve Green Attacks Nicole White!,Nicole White,159,False,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,284,Genevieve Green dodged Nicole White's Attack!,Nicole White,159,False,True,Genevieve Green,99,True,False
+29,Nicole White vs Genevieve Green,282,Nicole White dodged Genevieve Green's Attack!,Nicole White,159,True,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,273,Genevieve Green Attacks Nicole White!,Nicole White,144,False,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,268,Genevieve Green dodged Nicole White's Attack!,Nicole White,144,False,True,Genevieve Green,99,True,False
+29,Nicole White vs Genevieve Green,264,Nicole White dodged Genevieve Green's Attack!,Nicole White,144,True,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,255,Genevieve Green Attacks Nicole White!,Nicole White,135,False,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,252,Genevieve Green dodged Nicole White's Attack!,Nicole White,135,False,True,Genevieve Green,99,True,False
+29,Nicole White vs Genevieve Green,246,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,237,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,99,False,True
+29,Nicole White vs Genevieve Green,236,Nicole White Attacks Genevieve Green!,Nicole White,135,False,True,Genevieve Green,90,False,False
+29,Nicole White vs Genevieve Green,228,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,90,False,True
+29,Nicole White vs Genevieve Green,220,Genevieve Green dodged Nicole White's Attack!,Nicole White,135,False,True,Genevieve Green,90,True,False
+29,Nicole White vs Genevieve Green,219,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,90,False,True
+29,Nicole White vs Genevieve Green,210,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,90,False,True
+29,Nicole White vs Genevieve Green,204,Genevieve Green dodged Nicole White's Attack!,Nicole White,135,False,True,Genevieve Green,90,True,False
+29,Nicole White vs Genevieve Green,201,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,90,False,True
+29,Nicole White vs Genevieve Green,192,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,90,False,True
+29,Nicole White vs Genevieve Green,188,Nicole White Attacks Genevieve Green!,Nicole White,135,False,True,Genevieve Green,84,False,False
+29,Nicole White vs Genevieve Green,183,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,84,False,True
+29,Nicole White vs Genevieve Green,174,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,84,False,True
+29,Nicole White vs Genevieve Green,172,Genevieve Green dodged Nicole White's Attack!,Nicole White,135,False,True,Genevieve Green,84,True,False
+29,Nicole White vs Genevieve Green,165,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,84,False,True
+29,Nicole White vs Genevieve Green,156,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,84,False,True
+29,Nicole White vs Genevieve Green,156,Nicole White Attacks Genevieve Green!,Nicole White,135,False,True,Genevieve Green,72,False,False
+29,Nicole White vs Genevieve Green,147,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,72,False,True
+29,Nicole White vs Genevieve Green,140,Nicole White Attacks Genevieve Green!,Nicole White,135,False,True,Genevieve Green,60,False,False
+29,Nicole White vs Genevieve Green,138,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,60,False,True
+29,Nicole White vs Genevieve Green,129,Nicole White dodged Genevieve Green's Attack!,Nicole White,135,True,False,Genevieve Green,60,False,True
+29,Nicole White vs Genevieve Green,124,Nicole White Attacks Genevieve Green!,Nicole White,135,False,True,Genevieve Green,57,False,False
+29,Nicole White vs Genevieve Green,120,Genevieve Green Attacks Nicole White!,Nicole White,120,False,False,Genevieve Green,57,False,True
+29,Nicole White vs Genevieve Green,111,Nicole White dodged Genevieve Green's Attack!,Nicole White,120,True,False,Genevieve Green,57,False,True
+29,Nicole White vs Genevieve Green,108,Genevieve Green dodged Nicole White's Attack!,Nicole White,120,False,True,Genevieve Green,57,True,False
+29,Nicole White vs Genevieve Green,102,Nicole White dodged Genevieve Green's Attack!,Nicole White,120,True,False,Genevieve Green,57,False,True
+29,Nicole White vs Genevieve Green,93,Genevieve Green Attacks Nicole White!,Nicole White,114,False,False,Genevieve Green,57,False,True
+29,Nicole White vs Genevieve Green,92,Nicole White Attacks Genevieve Green!,Nicole White,114,False,True,Genevieve Green,54,False,False
+29,Nicole White vs Genevieve Green,84,Nicole White dodged Genevieve Green's Attack!,Nicole White,114,True,False,Genevieve Green,54,False,True
+29,Nicole White vs Genevieve Green,76,Genevieve Green dodged Nicole White's Attack!,Nicole White,114,False,True,Genevieve Green,54,True,False
+29,Nicole White vs Genevieve Green,75,Nicole White dodged Genevieve Green's Attack!,Nicole White,114,True,False,Genevieve Green,54,False,True
+29,Nicole White vs Genevieve Green,66,Nicole White dodged Genevieve Green's Attack!,Nicole White,114,True,False,Genevieve Green,54,False,True
+29,Nicole White vs Genevieve Green,60,Genevieve Green dodged Nicole White's Attack!,Nicole White,114,False,True,Genevieve Green,54,True,False
+29,Nicole White vs Genevieve Green,57,Genevieve Green Attacks Nicole White!,Nicole White,102,False,False,Genevieve Green,54,False,True
+29,Nicole White vs Genevieve Green,48,Genevieve Green Attacks Nicole White!,Nicole White,93,False,False,Genevieve Green,54,False,True
+29,Nicole White vs Genevieve Green,44,Nicole White Attacks Genevieve Green!,Nicole White,93,False,True,Genevieve Green,51,False,False
+29,Nicole White vs Genevieve Green,39,Genevieve Green Attacks Nicole White!,Nicole White,84,False,False,Genevieve Green,51,False,True
+29,Nicole White vs Genevieve Green,30,Nicole White dodged Genevieve Green's Attack!,Nicole White,84,True,False,Genevieve Green,51,False,True
+29,Nicole White vs Genevieve Green,28,Genevieve Green dodged Nicole White's Attack!,Nicole White,84,False,True,Genevieve Green,51,True,False
+29,Nicole White vs Genevieve Green,21,Genevieve Green Attacks Nicole White!,Nicole White,72,False,False,Genevieve Green,51,False,True
+29,Nicole White vs Genevieve Green,12,Genevieve Green dodged Nicole White's Attack!,Nicole White,72,False,True,Genevieve Green,51,True,False
+29,Nicole White vs Genevieve Green,12,Genevieve Green Attacks Nicole White!,Nicole White,54,False,False,Genevieve Green,51,False,True
+29,Nicole White vs Genevieve Green,3,Nicole White dodged Genevieve Green's Attack!,Nicole White,54,True,False,Genevieve Green,51,False,True
+29,Nicole White vs Genevieve Green,0,Nicole White wins the fight!,Nicole White,54,False,False,Genevieve Green,51,False,False
+30,Iggy Hikaru vs Nicole White,300,Fight starts!,Iggy Hikaru,72,False,False,Nicole White,81,False,False
+30,Iggy Hikaru vs Nicole White,284,Iggy Hikaru dodged Nicole White's Attack!,Iggy Hikaru,72,True,False,Nicole White,81,False,True
+30,Iggy Hikaru vs Nicole White,281,Iggy Hikaru Attacks Nicole White!,Iggy Hikaru,72,False,True,Nicole White,0,False,False
+30,Iggy Hikaru vs Nicole White,281,Nicole White has been Defeated!,Iggy Hikaru,72,False,False,Nicole White,0,False,False
+30,Iggy Hikaru vs Nicole White,281,Iggy Hikaru wins the fight!,Iggy Hikaru,72,False,False,Nicole White,0,False,False
+31,Jennifer Falcon vs Iggy Hikaru,300,Fight starts!,Jennifer Falcon,135,False,False,Iggy Hikaru,108,False,False
+31,Jennifer Falcon vs Iggy Hikaru,290,Iggy Hikaru dodged Jennifer Falcon's Attack!,Jennifer Falcon,135,False,True,Iggy Hikaru,108,True,False
+31,Jennifer Falcon vs Iggy Hikaru,281,Iggy Hikaru Attacks Jennifer Falcon!,Jennifer Falcon,75,False,False,Iggy Hikaru,108,False,True
+31,Jennifer Falcon vs Iggy Hikaru,280,Jennifer Falcon Attacks Iggy Hikaru!,Jennifer Falcon,75,False,True,Iggy Hikaru,102,False,False
+31,Jennifer Falcon vs Iggy Hikaru,270,Iggy Hikaru dodged Jennifer Falcon's Attack!,Jennifer Falcon,75,False,True,Iggy Hikaru,102,True,False
+31,Jennifer Falcon vs Iggy Hikaru,262,Iggy Hikaru Attacks Jennifer Falcon!,Jennifer Falcon,0,False,False,Iggy Hikaru,102,False,True
+31,Jennifer Falcon vs Iggy Hikaru,262,Jennifer Falcon has been Defeated!,Jennifer Falcon,0,False,False,Iggy Hikaru,102,False,False
+31,Jennifer Falcon vs Iggy Hikaru,262,Iggy Hikaru wins the fight!,Jennifer Falcon,0,False,False,Iggy Hikaru,102,False,False
