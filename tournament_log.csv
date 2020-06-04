@@ -1,511 +1,63 @@
 round_number,combatant_number,fight_name,combatant,gender,combat_class,rank,max_health,health,strength,defense,agility,stamina,wisdom,fight_result,remaining_health
-1,1,Jack Keely vs Moses Bobobobo,Jack Keely,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,60
-1,2,Jack Keely vs Moses Bobobobo,Moses Bobobobo,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-2,2,Moses Bitto vs Ken Nevers,Ken Nevers,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,14
-2,1,Moses Bitto vs Ken Nevers,Moses Bitto,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-3,2,Jack Keely vs Ken Nevers,Ken Nevers,male,SAMURAI,WARRIOR,50,21,24,0,10,0,8,Won,21
-3,1,Jack Keely vs Ken Nevers,Jack Keely,male,VIPER,WARRIOR,144,90,12,8,10,0,2,Lost,0
-4,2,Jason Black vs Gregory Chen,Gregory Chen,male,SAMURAI,MASTER,50,50,24,5,15,0,8,Won,50
-4,1,Jason Black vs Gregory Chen,Jason Black,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
-5,1,Benji Montgomery vs Kyle Hikaru,Benji Montgomery,male,MARTIAL_ARTIST,ELITE,174,174,6,5,14,7,3,Won,42
-5,2,Benji Montgomery vs Kyle Hikaru,Kyle Hikaru,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-6,1,Gregory Chen vs Benji Montgomery,Gregory Chen,male,SAMURAI,MASTER,50,50,24,5,15,0,8,Won,50
-6,2,Gregory Chen vs Benji Montgomery,Benji Montgomery,male,MARTIAL_ARTIST,ELITE,174,63,6,5,14,7,3,Lost,0
-7,1,Ken Nevers vs Gregory Chen,Ken Nevers,male,SAMURAI,WARRIOR,50,32,24,0,10,0,8,Won,32
-7,2,Ken Nevers vs Gregory Chen,Gregory Chen,male,SAMURAI,MASTER,50,50,24,5,15,0,8,Lost,0
-8,1,Benji Chen vs Yusuke Mysterious,Benji Chen,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-8,2,Benji Chen vs Yusuke Mysterious,Yusuke Mysterious,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-9,1,Monique Lee vs Roxanne Black,Monique Lee,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,135
-9,2,Monique Lee vs Roxanne Black,Roxanne Black,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,123
-10,1,Benji Chen vs Monique Lee,Benji Chen,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-10,2,Benji Chen vs Monique Lee,Monique Lee,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-11,1,Shinji Bitto vs Yusuke Utada,Shinji Bitto,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,165
-11,2,Shinji Bitto vs Yusuke Utada,Yusuke Utada,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,126
-12,1,The Utada vs Talulah Chosen One,The Utada,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,144
-12,2,The Utada vs Talulah Chosen One,Talulah Chosen One,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-13,2,Shinji Bitto vs The Utada,The Utada,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,60
-13,1,Shinji Bitto vs The Utada,Shinji Bitto,male,HEART,WARRIOR,252,248,6,10,5,6,3,Lost,0
-14,1,Benji Chen vs The Utada,Benji Chen,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-14,2,Benji Chen vs The Utada,The Utada,male,BERSERKER,WARRIOR,192,90,12,4,6,10,0,Lost,0
-15,2,Ken Nevers vs Benji Chen,Benji Chen,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-15,1,Ken Nevers vs Benji Chen,Ken Nevers,male,SAMURAI,WARRIOR,50,48,24,0,10,0,8,Lost,0
-16,2,Jessica Johnson vs Gregory Kill,Gregory Kill,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,102
-16,1,Jessica Johnson vs Gregory Kill,Jessica Johnson,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-17,2,Ken Yikes vs Ken Badass,Ken Badass,male,VIPER,MASTER,144,144,18,8,10,0,6,Won,60
-17,1,Ken Yikes vs Ken Badass,Ken Yikes,male,TANK,WARRIOR,240,240,12,10,3,5,2,Lost,0
-18,2,Gregory Kill vs Ken Badass,Ken Badass,male,VIPER,MASTER,144,90,18,8,10,0,6,Won,90
-18,1,Gregory Kill vs Ken Badass,Gregory Kill,male,MARTIAL_ARTIST,WARRIOR,174,153,6,5,9,7,3,Lost,0
-19,1,Talulah Balrog vs Jennifer Green,Talulah Balrog,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,174
-19,2,Talulah Balrog vs Jennifer Green,Jennifer Green,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Lost,0
-20,1,Yennefer Jenkins vs Kaoru Bobobobo,Yennefer Jenkins,female,MARTIAL_ARTIST,MASTER,261,261,5,8,11,7,4,Won,201
-20,2,Yennefer Jenkins vs Kaoru Bobobobo,Kaoru Bobobobo,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Lost,78
-21,2,Talulah Balrog vs Yennefer Jenkins,Yennefer Jenkins,female,MARTIAL_ARTIST,MASTER,261,261,5,8,11,7,4,Won,66
-21,1,Talulah Balrog vs Yennefer Jenkins,Talulah Balrog,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-22,1,Ken Badass vs Yennefer Jenkins,Ken Badass,male,VIPER,MASTER,144,135,18,8,10,0,6,Won,102
-22,2,Ken Badass vs Yennefer Jenkins,Yennefer Jenkins,female,MARTIAL_ARTIST,MASTER,261,99,5,8,11,7,4,Lost,0
-23,1,Kim Balrog vs Talulah Johnson,Kim Balrog,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Won,66
-23,2,Kim Balrog vs Talulah Johnson,Talulah Johnson,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-24,2,Iggy Utada vs James Grey,James Grey,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Won,51
-24,1,Iggy Utada vs James Grey,Iggy Utada,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,18
-25,1,Kim Balrog vs James Grey,Kim Balrog,female,TACTICIAN,WARRIOR,156,99,2,2,7,10,10,Won,27
-25,2,Kim Balrog vs James Grey,James Grey,male,TACTICIAN,WARRIOR,156,76,2,2,6,10,8,Lost,0
-26,2,Julia Hall vs Sung Mina Grey,Sung Mina Grey,female,MARTIAL_ARTIST,MASTER,261,261,5,8,11,7,4,Won,33
-26,1,Julia Hall vs Sung Mina Grey,Julia Hall,female,TACTICIAN,ELITE,156,156,2,2,13,10,10,Lost,0
-27,1,Bobobo Montgomery vs Donovan Keely,Bobobo Montgomery,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,42
-27,2,Bobobo Montgomery vs Donovan Keely,Donovan Keely,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-28,2,Sung Mina Grey vs Bobobo Montgomery,Bobobo Montgomery,male,BERSERKER,WARRIOR,192,63,12,4,6,10,0,Won,33
-28,1,Sung Mina Grey vs Bobobo Montgomery,Sung Mina Grey,female,MARTIAL_ARTIST,MASTER,261,50,5,8,11,7,4,Lost,0
-29,2,Kim Balrog vs Bobobo Montgomery,Bobobo Montgomery,male,BERSERKER,WARRIOR,192,50,12,4,6,10,0,Won,2
-29,1,Kim Balrog vs Bobobo Montgomery,Kim Balrog,female,TACTICIAN,WARRIOR,156,40,2,2,7,10,10,Lost,0
-30,1,Ken Badass vs Bobobo Montgomery,Ken Badass,male,VIPER,MASTER,144,144,18,8,10,0,6,Won,144
-30,2,Ken Badass vs Bobobo Montgomery,Bobobo Montgomery,male,BERSERKER,WARRIOR,192,3,12,4,6,10,0,Lost,0
-31,2,Benji Chen vs Ken Badass,Ken Badass,male,VIPER,MASTER,144,144,18,8,10,0,6,Won,144
-31,1,Benji Chen vs Ken Badass,Benji Chen,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-32,1,Reginald Falcon vs Kendra Chosen One,Reginald Falcon,male,TANK,ELITE,240,240,18,10,3,5,2,Won,240
-32,2,Reginald Falcon vs Kendra Chosen One,Kendra Chosen One,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-33,1,The Badass vs Ting Ting Yikes,The Badass,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,60
-33,2,The Badass vs Ting Ting Yikes,Ting Ting Yikes,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-34,1,Reginald Falcon vs The Badass,Reginald Falcon,male,TANK,ELITE,240,240,18,10,3,5,2,Won,210
-34,2,Reginald Falcon vs The Badass,The Badass,male,VIPER,WARRIOR,144,90,12,8,10,0,2,Lost,0
-35,1,Julia Yikes vs Donovan Hilltops,Julia Yikes,female,SAMURAI,MASTER,50,50,20,0,18,5,10,Won,50
-35,2,Julia Yikes vs Donovan Hilltops,Donovan Hilltops,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
-36,1,Arya Chosen One vs Reginald Ocean,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-36,2,Arya Chosen One vs Reginald Ocean,Reginald Ocean,male,TACTICIAN,ELITE,156,156,2,7,6,10,8,Lost,0
-37,2,Julia Yikes vs Arya Chosen One,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-37,1,Julia Yikes vs Arya Chosen One,Julia Yikes,female,SAMURAI,MASTER,50,50,20,0,18,5,10,Lost,0
-38,2,Reginald Falcon vs Arya Chosen One,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-38,1,Reginald Falcon vs Arya Chosen One,Reginald Falcon,male,TANK,ELITE,240,240,18,10,3,5,2,Lost,0
-39,2,Simone Johnson vs Cortana Hall,Cortana Hall,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,48
-39,1,Simone Johnson vs Cortana Hall,Simone Johnson,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,0
-40,1,Kaoru Nevers vs The Chen,Kaoru Nevers,female,HEART,MASTER,252,252,10,8,6,6,9,Won,213
-40,2,Kaoru Nevers vs The Chen,The Chen,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-41,2,Cortana Hall vs Kaoru Nevers,Kaoru Nevers,female,HEART,MASTER,252,252,10,8,6,6,9,Won,228
-41,1,Cortana Hall vs Kaoru Nevers,Cortana Hall,female,TANK,WARRIOR,240,72,10,8,4,5,2,Lost,0
-42,2,Uriel Johnson vs Genevieve White,Genevieve White,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Won,12
-42,1,Uriel Johnson vs Genevieve White,Uriel Johnson,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
-43,2,Liam Hall vs Talulah Mysterious,Talulah Mysterious,female,MARTIAL_ARTIST,MASTER,174,174,10,4,11,7,9,Won,84
-43,1,Liam Hall vs Talulah Mysterious,Liam Hall,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
-44,2,Genevieve White vs Talulah Mysterious,Talulah Mysterious,female,MARTIAL_ARTIST,MASTER,174,126,10,4,11,7,9,Won,126
-44,1,Genevieve White vs Talulah Mysterious,Genevieve White,female,BERSERKER,WARRIOR,192,18,10,3,7,10,0,Lost,0
-45,1,Kaoru Nevers vs Talulah Mysterious,Kaoru Nevers,female,HEART,MASTER,252,252,10,8,6,6,9,Won,42
-45,2,Kaoru Nevers vs Talulah Mysterious,Talulah Mysterious,female,MARTIAL_ARTIST,MASTER,174,174,10,4,11,7,9,Lost,0
-46,1,Arya Chosen One vs Kaoru Nevers,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-46,2,Arya Chosen One vs Kaoru Nevers,Kaoru Nevers,female,HEART,MASTER,252,63,10,8,6,6,9,Lost,0
-47,1,Gregory Hisaishi vs The Chen,Gregory Hisaishi,male,HERO,ELITE,174,174,7,7,3,4,12,Won,90
-47,2,Gregory Hisaishi vs The Chen,The Chen,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,54
-48,2,Juanita Montgomery vs Ting Ting Ocean,Ting Ting Ocean,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,144
-48,1,Juanita Montgomery vs Ting Ting Ocean,Juanita Montgomery,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
-49,1,Gregory Hisaishi vs Ting Ting Ocean,Gregory Hisaishi,male,HERO,ELITE,174,135,7,7,3,4,12,Won,117
-49,2,Gregory Hisaishi vs Ting Ting Ocean,Ting Ting Ocean,female,TANK,WARRIOR,240,216,10,8,4,5,2,Lost,111
-50,2,Reginald Thunder vs Sparrow Hilltops,Sparrow Hilltops,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,24
-50,1,Reginald Thunder vs Sparrow Hilltops,Reginald Thunder,male,TANK,WARRIOR,240,240,12,10,3,5,2,Lost,0
-51,2,Sparrow Bobobobo vs Ichi Sunset,Ichi Sunset,male,MARTIAL_ARTIST,MASTER,174,174,6,5,14,12,3,Won,108
-51,1,Sparrow Bobobobo vs Ichi Sunset,Sparrow Bobobobo,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-52,2,Sparrow Hilltops vs Ichi Sunset,Ichi Sunset,male,MARTIAL_ARTIST,MASTER,174,162,6,5,14,12,3,Won,162
-52,1,Sparrow Hilltops vs Ichi Sunset,Sparrow Hilltops,male,VIPER,WARRIOR,144,36,12,8,10,0,2,Lost,0
-53,2,Gregory Hisaishi vs Ichi Sunset,Ichi Sunset,male,MARTIAL_ARTIST,MASTER,174,174,6,5,14,12,3,Won,60
-53,1,Gregory Hisaishi vs Ichi Sunset,Gregory Hisaishi,male,HERO,ELITE,174,174,7,7,3,4,12,Lost,39
-54,2,Donovan Snow vs Talulah Montgomery,Talulah Montgomery,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,174
-54,1,Donovan Snow vs Talulah Montgomery,Donovan Snow,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-55,1,Shinji Badass vs Iggy White,Shinji Badass,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,120
-55,2,Shinji Badass vs Iggy White,Iggy White,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,102
-56,1,Talulah Montgomery vs Shinji Badass,Talulah Montgomery,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,96
-56,2,Talulah Montgomery vs Shinji Badass,Shinji Badass,male,HEART,WARRIOR,252,180,6,10,5,6,3,Lost,66
-57,2,Hikaru Bobobobo vs Bibi Thunder,Bibi Thunder,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-57,1,Hikaru Bobobobo vs Bibi Thunder,Hikaru Bobobobo,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
-58,2,Moses Montgomery vs Henry Hikaru,Henry Hikaru,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,201
-58,1,Moses Montgomery vs Henry Hikaru,Moses Montgomery,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-59,1,Bibi Thunder vs Henry Hikaru,Bibi Thunder,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-59,2,Bibi Thunder vs Henry Hikaru,Henry Hikaru,male,TANK,WARRIOR,240,240,12,10,3,5,2,Lost,0
-60,2,Talulah Montgomery vs Bibi Thunder,Bibi Thunder,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,14
-60,1,Talulah Montgomery vs Bibi Thunder,Talulah Montgomery,female,HERO,WARRIOR,174,144,6,6,4,4,10,Lost,0
-61,2,Ichi Sunset vs Bibi Thunder,Bibi Thunder,female,SAMURAI,WARRIOR,50,21,20,0,12,0,10,Won,21
-61,1,Ichi Sunset vs Bibi Thunder,Ichi Sunset,male,MARTIAL_ARTIST,MASTER,174,90,6,5,14,12,3,Lost,0
-62,1,Arya Chosen One vs Bibi Thunder,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-62,2,Arya Chosen One vs Bibi Thunder,Bibi Thunder,female,SAMURAI,WARRIOR,50,32,20,0,12,0,10,Lost,0
-63,2,Ken Badass vs Arya Chosen One,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-63,1,Ken Badass vs Arya Chosen One,Ken Badass,male,VIPER,MASTER,144,144,18,8,10,0,6,Lost,0
-64,2,Sung Mina Johnson vs Jessica Hilltops,Jessica Hilltops,female,HERO,MASTER,174,174,11,10,4,4,10,Won,123
-64,1,Sung Mina Johnson vs Jessica Hilltops,Sung Mina Johnson,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,45
-65,1,Jennifer Lightning vs Bibi Ocean,Jennifer Lightning,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Won,39
-65,2,Jennifer Lightning vs Bibi Ocean,Bibi Ocean,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-66,1,Jessica Hilltops vs Jennifer Lightning,Jessica Hilltops,female,HERO,MASTER,174,174,11,10,4,4,10,Won,156
-66,2,Jessica Hilltops vs Jennifer Lightning,Jennifer Lightning,female,BERSERKER,WARRIOR,192,58,10,3,7,10,0,Lost,0
-67,2,Vibey Moon vs Sandra Johnson,Sandra Johnson,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-67,1,Vibey Moon vs Sandra Johnson,Vibey Moon,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-68,2,Uriel Montgomery vs Donovan Lee,Donovan Lee,male,SAMURAI,ELITE,50,50,24,0,10,5,8,Won,50
-68,1,Uriel Montgomery vs Donovan Lee,Uriel Montgomery,male,VIPER,ELITE,144,144,12,8,15,0,2,Lost,0
-69,2,Sandra Johnson vs Donovan Lee,Donovan Lee,male,SAMURAI,ELITE,50,50,24,0,10,5,8,Won,50
-69,1,Sandra Johnson vs Donovan Lee,Sandra Johnson,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-70,2,Jessica Hilltops vs Donovan Lee,Donovan Lee,male,SAMURAI,ELITE,50,50,24,0,10,5,8,Won,50
-70,1,Jessica Hilltops vs Donovan Lee,Jessica Hilltops,female,HERO,MASTER,174,174,11,10,4,4,10,Lost,0
-71,1,Gregory Hikaru vs Ting Ting Sunset,Gregory Hikaru,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,42
-71,2,Gregory Hikaru vs Ting Ting Sunset,Ting Ting Sunset,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-72,2,Carey Grey vs Sung Mina Hilltops,Sung Mina Hilltops,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,102
-72,1,Carey Grey vs Sung Mina Hilltops,Carey Grey,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-73,2,Gregory Hikaru vs Sung Mina Hilltops,Sung Mina Hilltops,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,108
-73,1,Gregory Hikaru vs Sung Mina Hilltops,Gregory Hikaru,male,HEART,WARRIOR,252,63,6,10,5,6,3,Lost,0
-74,1,Debra Jenkins vs Bobobo Lightning,Debra Jenkins,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,141
-74,2,Debra Jenkins vs Bobobo Lightning,Bobobo Lightning,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-75,2,Moses Chen vs Jessica Nevers,Jessica Nevers,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-75,1,Moses Chen vs Jessica Nevers,Moses Chen,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-76,2,Debra Jenkins vs Jessica Nevers,Jessica Nevers,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-76,1,Debra Jenkins vs Jessica Nevers,Debra Jenkins,female,HEART,WARRIOR,252,212,5,8,6,6,4,Lost,0
-77,1,Sung Mina Hilltops vs Jessica Nevers,Sung Mina Hilltops,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,144
-77,2,Sung Mina Hilltops vs Jessica Nevers,Jessica Nevers,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-78,1,Donovan Lee vs Sung Mina Hilltops,Donovan Lee,male,SAMURAI,ELITE,50,50,24,0,10,5,8,Won,50
-78,2,Donovan Lee vs Sung Mina Hilltops,Sung Mina Hilltops,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,0
-79,2,Juanita Chen vs The White,The White,female,TANK,MASTER,360,360,10,12,4,5,2,Won,279
-79,1,Juanita Chen vs The White,Juanita Chen,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-80,2,Sudharshanaa Hikaru vs Jason Green,Jason Green,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,135
-80,1,Sudharshanaa Hikaru vs Jason Green,Sudharshanaa Hikaru,female,MARTIAL_ARTIST,ELITE,174,174,5,4,17,7,4,Lost,0
-81,1,The White vs Jason Green,The White,female,TANK,MASTER,360,360,10,12,4,5,2,Won,276
-81,2,The White vs Jason Green,Jason Green,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
-82,2,Liam Hisaishi vs Yusuke Black,Yusuke Black,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Won,156
-82,1,Liam Hisaishi vs Yusuke Black,Liam Hisaishi,male,SAMURAI,MASTER,50,50,24,0,10,5,12,Lost,0
-83,2,Bobobo Chosen One vs Jennifer White,Jennifer White,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,180
-83,1,Bobobo Chosen One vs Jennifer White,Bobobo Chosen One,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,66
-84,2,Yusuke Black vs Jennifer White,Jennifer White,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,144
-84,1,Yusuke Black vs Jennifer White,Yusuke Black,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-85,1,The White vs Jennifer White,The White,female,TANK,MASTER,360,360,10,12,4,5,2,Won,156
-85,2,The White vs Jennifer White,Jennifer White,female,HEART,WARRIOR,252,216,5,8,6,6,4,Lost,12
-86,2,Nicole Grey vs Shinji Falcon,Shinji Falcon,male,DRUNK,WARRIOR,156,156,12,8,1,1,8,Won,108
-86,1,Nicole Grey vs Shinji Falcon,Nicole Grey,female,DRUNK,ELITE,156,156,10,6,1,1,15,Lost,84
-87,2,Xavier Grey vs Bobobo Yikes,Bobobo Yikes,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-87,1,Xavier Grey vs Bobobo Yikes,Xavier Grey,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-88,2,Shinji Falcon vs Bobobo Yikes,Bobobo Yikes,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,14
-88,1,Shinji Falcon vs Bobobo Yikes,Shinji Falcon,male,DRUNK,WARRIOR,156,156,12,8,1,1,8,Lost,0
-89,2,Yolanda Hilltops vs Kendra Lightning,Kendra Lightning,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,32
-89,1,Yolanda Hilltops vs Kendra Lightning,Yolanda Hilltops,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-90,1,The Hall vs Julia Chosen One,The Hall,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,174
-90,2,The Hall vs Julia Chosen One,Julia Chosen One,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
-91,1,Kendra Lightning vs The Hall,Kendra Lightning,female,SAMURAI,WARRIOR,50,48,20,0,12,0,10,Won,48
-91,2,Kendra Lightning vs The Hall,The Hall,male,TANK,WARRIOR,240,240,12,10,3,5,2,Lost,0
-92,2,Bobobo Yikes vs Kendra Lightning,Kendra Lightning,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-92,1,Bobobo Yikes vs Kendra Lightning,Bobobo Yikes,male,SAMURAI,WARRIOR,50,21,24,0,10,0,8,Lost,0
-93,1,The White vs Kendra Lightning,The White,female,TANK,MASTER,360,234,10,12,4,5,2,Won,42
-93,2,The White vs Kendra Lightning,Kendra Lightning,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-94,2,Donovan Lee vs The White,The White,female,TANK,MASTER,360,63,10,12,4,5,2,Won,63
-94,1,Donovan Lee vs The White,Donovan Lee,male,SAMURAI,ELITE,50,50,24,0,10,5,8,Lost,0
-95,2,Jesse Utada vs Yusuke Keely,Yusuke Keely,male,SAMURAI,MASTER,50,50,24,5,10,5,8,Won,11
-95,1,Jesse Utada vs Yusuke Keely,Jesse Utada,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-96,2,Monique Bobobobo vs Kim White,Kim White,female,TANK,ELITE,240,240,10,12,4,5,2,Won,129
-96,1,Monique Bobobobo vs Kim White,Monique Bobobobo,female,BERSERKER,ELITE,192,192,10,3,7,10,5,Lost,0
-97,1,Yusuke Keely vs Kim White,Yusuke Keely,male,SAMURAI,MASTER,50,16,24,5,10,5,8,Won,16
-97,2,Yusuke Keely vs Kim White,Kim White,female,TANK,ELITE,240,194,10,12,4,5,2,Lost,0
-98,2,Jason Chen vs Carey Montgomery,Carey Montgomery,female,VIPER,MASTER,216,216,10,10,12,0,2,Won,147
-98,1,Jason Chen vs Carey Montgomery,Jason Chen,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-99,2,Jesse Chen vs Shinji Montgomery,Shinji Montgomery,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,96
-99,1,Jesse Chen vs Shinji Montgomery,Jesse Chen,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-100,1,Carey Montgomery vs Shinji Montgomery,Carey Montgomery,female,VIPER,MASTER,216,216,10,10,12,0,2,Won,114
-100,2,Carey Montgomery vs Shinji Montgomery,Shinji Montgomery,male,MARTIAL_ARTIST,WARRIOR,174,144,6,5,9,7,3,Lost,0
-101,2,Yusuke Keely vs Carey Montgomery,Carey Montgomery,female,VIPER,MASTER,216,171,10,10,12,0,2,Won,171
-101,1,Yusuke Keely vs Carey Montgomery,Yusuke Keely,male,SAMURAI,MASTER,50,24,24,5,10,5,8,Lost,0
-102,1,Bobobo Ocean vs Alexa Keely,Bobobo Ocean,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-102,2,Bobobo Ocean vs Alexa Keely,Alexa Keely,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-103,2,Julia Balrog vs Bobobo Sunset,Bobobo Sunset,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,174
-103,1,Julia Balrog vs Bobobo Sunset,Julia Balrog,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-104,2,Bobobo Ocean vs Bobobo Sunset,Bobobo Sunset,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,174
-104,1,Bobobo Ocean vs Bobobo Sunset,Bobobo Ocean,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-105,2,Jack Moon vs Uriel Grey,Uriel Grey,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,141
-105,1,Jack Moon vs Uriel Grey,Jack Moon,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-106,2,Katsumi Sun vs Yusuke Mysterious,Yusuke Mysterious,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,123
-106,1,Katsumi Sun vs Yusuke Mysterious,Katsumi Sun,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-107,1,Uriel Grey vs Yusuke Mysterious,Uriel Grey,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,24
-107,2,Uriel Grey vs Yusuke Mysterious,Yusuke Mysterious,male,BERSERKER,WARRIOR,192,184,12,4,6,10,0,Lost,0
-108,2,Bobobo Sunset vs Uriel Grey,Uriel Grey,male,VIPER,WARRIOR,144,36,12,8,10,0,2,Won,33
-108,1,Bobobo Sunset vs Uriel Grey,Bobobo Sunset,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
-109,1,Carey Montgomery vs Uriel Grey,Carey Montgomery,female,VIPER,MASTER,216,216,10,10,12,0,2,Won,138
-109,2,Carey Montgomery vs Uriel Grey,Uriel Grey,male,VIPER,WARRIOR,144,50,12,8,10,0,2,Lost,0
-110,1,Jennifer Black vs Barry Snow,Jennifer Black,female,HEART,MASTER,252,252,10,8,12,6,4,Won,204
-110,2,Jennifer Black vs Barry Snow,Barry Snow,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
-111,1,Yolanda Snow vs Arya X,Yolanda Snow,female,BERSERKER,ELITE,288,288,10,3,7,10,0,Won,243
-111,2,Yolanda Snow vs Arya X,Arya X,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-112,1,Jennifer Black vs Yolanda Snow,Jennifer Black,female,HEART,MASTER,252,252,10,8,12,6,4,Won,204
-112,2,Jennifer Black vs Yolanda Snow,Yolanda Snow,female,BERSERKER,ELITE,288,288,10,3,7,10,0,Lost,0
-113,1,Sparrow Badass vs Allesandra Sunset,Sparrow Badass,male,TANK,ELITE,240,240,12,10,3,5,6,Won,75
-113,2,Sparrow Badass vs Allesandra Sunset,Allesandra Sunset,female,BERSERKER,MASTER,192,192,15,7,7,10,0,Lost,0
-114,2,Cortana Moon vs The Balrog,The Balrog,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,138
-114,1,Cortana Moon vs The Balrog,Cortana Moon,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,111
-115,2,Sparrow Badass vs The Balrog,The Balrog,male,HEART,WARRIOR,252,207,6,10,5,6,3,Won,69
-115,1,Sparrow Badass vs The Balrog,Sparrow Badass,male,TANK,ELITE,240,112,12,10,3,5,6,Lost,28
-116,1,Jennifer Black vs The Balrog,Jennifer Black,female,HEART,MASTER,252,252,10,8,12,6,4,Won,201
-116,2,Jennifer Black vs The Balrog,The Balrog,male,HEART,WARRIOR,252,104,6,10,5,6,3,Lost,0
-117,2,Moses Balrog vs Roxanne X,Roxanne X,female,HEART,ELITE,252,252,5,8,6,11,4,Won,156
-117,1,Moses Balrog vs Roxanne X,Moses Balrog,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
-118,2,Henry Thunder vs Yusuke Lee,Yusuke Lee,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,198
-118,1,Henry Thunder vs Yusuke Lee,Henry Thunder,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-119,1,Roxanne X vs Yusuke Lee,Roxanne X,female,HEART,ELITE,252,234,5,8,6,11,4,Won,132
-119,2,Roxanne X vs Yusuke Lee,Yusuke Lee,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
-120,2,Moses Snow vs Henry Falcon,Henry Falcon,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-120,1,Moses Snow vs Henry Falcon,Moses Snow,male,HEART,ELITE,252,252,6,10,5,6,7,Lost,0
-121,1,Shinji Nevers vs Shinji Hikaru,Shinji Nevers,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,108
-121,2,Shinji Nevers vs Shinji Hikaru,Shinji Hikaru,male,TACTICIAN,ELITE,156,156,8,2,6,10,8,Lost,0
-122,2,Henry Falcon vs Shinji Nevers,Shinji Nevers,male,HEART,WARRIOR,252,162,6,10,5,6,3,Won,162
-122,1,Henry Falcon vs Shinji Nevers,Henry Falcon,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-123,1,Roxanne X vs Shinji Nevers,Roxanne X,female,HEART,ELITE,252,198,5,8,6,11,4,Won,120
-123,2,Roxanne X vs Shinji Nevers,Shinji Nevers,male,HEART,WARRIOR,252,243,6,10,5,6,3,Lost,63
-124,1,Jennifer Black vs Roxanne X,Jennifer Black,female,HEART,MASTER,252,252,10,8,12,6,4,Won,177
-124,2,Jennifer Black vs Roxanne X,Roxanne X,female,HEART,ELITE,252,180,5,8,6,11,4,Lost,0
-125,2,Carey Montgomery vs Jennifer Black,Jennifer Black,female,HEART,MASTER,252,252,10,8,12,6,4,Won,84
-125,1,Carey Montgomery vs Jennifer Black,Carey Montgomery,female,VIPER,MASTER,216,207,10,10,12,0,2,Lost,0
-126,2,The White vs Jennifer Black,Jennifer Black,female,HEART,MASTER,252,126,10,8,12,6,4,Won,108
-126,1,The White vs Jennifer Black,The White,female,TANK,MASTER,360,94,10,12,4,5,2,Lost,0
-127,2,Arya Chosen One vs Jennifer Black,Jennifer Black,female,HEART,MASTER,252,162,10,8,12,6,4,Won,162
-127,1,Arya Chosen One vs Jennifer Black,Arya Chosen One,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Lost,0
-128,1,Kim Badass vs Kyle Grey,Kim Badass,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,93
-128,2,Kim Badass vs Kyle Grey,Kyle Grey,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,75
-129,1,Vibey Bobobobo vs Xavier White,Vibey Bobobobo,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,78
-129,2,Vibey Bobobobo vs Xavier White,Xavier White,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-130,2,Kim Badass vs Vibey Bobobobo,Vibey Bobobobo,male,MARTIAL_ARTIST,WARRIOR,174,117,6,5,9,7,3,Won,24
-130,1,Kim Badass vs Vibey Bobobobo,Kim Badass,female,HEART,WARRIOR,252,140,5,8,6,6,4,Lost,0
-131,2,The Nevers vs Katsumi Green,Katsumi Green,female,VIPER,LEGENDARY,144,144,10,10,18,5,7,Won,144
-131,1,The Nevers vs Katsumi Green,The Nevers,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-132,1,Arya Utada vs Helen Kill,Arya Utada,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-132,2,Arya Utada vs Helen Kill,Helen Kill,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,0
-133,1,Katsumi Green vs Arya Utada,Katsumi Green,female,VIPER,LEGENDARY,144,144,10,10,18,5,7,Won,144
-133,2,Katsumi Green vs Arya Utada,Arya Utada,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-134,2,Vibey Bobobobo vs Katsumi Green,Katsumi Green,female,VIPER,LEGENDARY,144,144,10,10,18,5,7,Won,144
-134,1,Vibey Bobobobo vs Katsumi Green,Vibey Bobobobo,male,MARTIAL_ARTIST,WARRIOR,174,36,6,5,9,7,3,Lost,0
-135,2,Ichi Chen vs Katsumi Hisaishi,Katsumi Hisaishi,female,TACTICIAN,ELITE,156,156,2,2,7,15,10,Won,156
-135,1,Ichi Chen vs Katsumi Hisaishi,Ichi Chen,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-136,1,Genevieve Lee vs Mindy Badass,Genevieve Lee,female,MARTIAL_ARTIST,ELITE,174,174,5,4,11,7,9,Won,153
-136,2,Genevieve Lee vs Mindy Badass,Mindy Badass,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-137,2,Katsumi Hisaishi vs Genevieve Lee,Genevieve Lee,female,MARTIAL_ARTIST,ELITE,174,174,5,4,11,7,9,Won,30
-137,1,Katsumi Hisaishi vs Genevieve Lee,Katsumi Hisaishi,female,TACTICIAN,ELITE,156,156,2,2,7,15,10,Lost,0
-138,2,Sondra Thunder vs Gordon Chosen One,Gordon Chosen One,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,129
-138,1,Sondra Thunder vs Gordon Chosen One,Sondra Thunder,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-139,1,Yolanda Lightning vs Hikaru Utada,Yolanda Lightning,female,VIPER,ELITE,144,144,10,10,12,0,2,Won,132
-139,2,Yolanda Lightning vs Hikaru Utada,Hikaru Utada,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Lost,0
-140,2,Gordon Chosen One vs Yolanda Lightning,Yolanda Lightning,female,VIPER,ELITE,144,144,10,10,12,0,2,Won,108
-140,1,Gordon Chosen One vs Yolanda Lightning,Gordon Chosen One,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
-141,2,Genevieve Lee vs Yolanda Lightning,Yolanda Lightning,female,VIPER,ELITE,144,144,10,10,12,0,2,Won,66
-141,1,Genevieve Lee vs Yolanda Lightning,Genevieve Lee,female,MARTIAL_ARTIST,ELITE,174,45,5,4,11,7,9,Lost,0
-142,1,Katsumi Green vs Yolanda Lightning,Katsumi Green,female,VIPER,LEGENDARY,144,144,10,10,18,5,7,Won,126
-142,2,Katsumi Green vs Yolanda Lightning,Yolanda Lightning,female,VIPER,ELITE,144,99,10,10,12,0,2,Lost,0
-143,2,The Lightning vs Arya Yikes,Arya Yikes,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,240
-143,1,The Lightning vs Arya Yikes,The Lightning,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-144,1,Maximus Johnson vs Liam Moon,Maximus Johnson,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Won,51
-144,2,Maximus Johnson vs Liam Moon,Liam Moon,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-145,1,Arya Yikes vs Maximus Johnson,Arya Yikes,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,192
-145,2,Arya Yikes vs Maximus Johnson,Maximus Johnson,male,TACTICIAN,WARRIOR,156,76,2,2,6,10,8,Lost,0
-146,1,Gregory Black vs Benji Ocean,Gregory Black,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,99
-146,2,Gregory Black vs Benji Ocean,Benji Ocean,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-147,2,Barry Keely vs Sung Mina Lightning,Sung Mina Lightning,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Won,50
-147,1,Barry Keely vs Sung Mina Lightning,Barry Keely,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-148,1,Gregory Black vs Sung Mina Lightning,Gregory Black,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,144
-148,2,Gregory Black vs Sung Mina Lightning,Sung Mina Lightning,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Lost,0
-149,1,Arya Yikes vs Gregory Black,Arya Yikes,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,48
-149,2,Arya Yikes vs Gregory Black,Gregory Black,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-150,2,Reina Hisaishi vs Reginald Mysterious,Reginald Mysterious,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Won,48
-150,1,Reina Hisaishi vs Reginald Mysterious,Reina Hisaishi,female,SAMURAI,ELITE,50,50,20,0,12,0,15,Lost,0
-151,1,Henry Bobobobo vs Davey White,Henry Bobobobo,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,102
-151,2,Henry Bobobobo vs Davey White,Davey White,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
-152,2,Reginald Mysterious vs Henry Bobobobo,Henry Bobobobo,male,TANK,WARRIOR,240,153,12,10,3,5,2,Won,111
-152,1,Reginald Mysterious vs Henry Bobobobo,Reginald Mysterious,male,TACTICIAN,WARRIOR,156,72,2,2,6,10,8,Lost,0
-153,2,Reginald Hikaru vs Sudharshanaa Hall,Sudharshanaa Hall,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,108
-153,1,Reginald Hikaru vs Sudharshanaa Hall,Reginald Hikaru,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
-154,1,Bon Qui Qui Green vs Cortana Lee,Bon Qui Qui Green,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,87
-154,2,Bon Qui Qui Green vs Cortana Lee,Cortana Lee,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,30
-155,1,Sudharshanaa Hall vs Bon Qui Qui Green,Sudharshanaa Hall,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,123
-155,2,Sudharshanaa Hall vs Bon Qui Qui Green,Bon Qui Qui Green,female,HERO,WARRIOR,174,130,6,6,4,4,10,Lost,0
-156,1,Henry Bobobobo vs Sudharshanaa Hall,Henry Bobobobo,male,TANK,WARRIOR,240,166,12,10,3,5,2,Won,115
-156,2,Henry Bobobobo vs Sudharshanaa Hall,Sudharshanaa Hall,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,0
-157,2,Arya Yikes vs Henry Bobobobo,Henry Bobobobo,male,TANK,WARRIOR,240,172,12,10,3,5,2,Won,151
-157,1,Arya Yikes vs Henry Bobobobo,Arya Yikes,female,TANK,WARRIOR,240,72,10,8,4,5,2,Lost,0
-158,1,Katsumi Green vs Henry Bobobobo,Katsumi Green,female,VIPER,LEGENDARY,144,144,10,10,18,5,7,Won,114
-158,2,Katsumi Green vs Henry Bobobobo,Henry Bobobobo,male,TANK,WARRIOR,240,226,12,10,3,5,2,Lost,0
-159,1,Gordon White vs Liam Montgomery,Gordon White,male,DRUNK,ELITE,156,156,18,8,1,1,8,Won,78
-159,2,Gordon White vs Liam Montgomery,Liam Montgomery,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-160,1,Ting Ting White vs Juanita Thunder,Ting Ting White,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,216
-160,2,Ting Ting White vs Juanita Thunder,Juanita Thunder,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Lost,0
-161,1,Gordon White vs Ting Ting White,Gordon White,male,DRUNK,ELITE,156,117,18,8,1,1,8,Won,9
-161,2,Gordon White vs Ting Ting White,Ting Ting White,female,TANK,WARRIOR,240,240,10,8,4,5,2,Lost,0
-162,2,Ting Ting Falcon vs Donovan Mysterious,Donovan Mysterious,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,72
-162,1,Ting Ting Falcon vs Donovan Mysterious,Ting Ting Falcon,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-163,1,Liam X vs Talulah Chosen One,Liam X,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,96
-163,2,Liam X vs Talulah Chosen One,Talulah Chosen One,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Lost,0
-164,1,Donovan Mysterious vs Liam X,Donovan Mysterious,male,VIPER,WARRIOR,144,108,12,8,10,0,2,Won,108
-164,2,Donovan Mysterious vs Liam X,Liam X,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-165,2,Gordon White vs Donovan Mysterious,Donovan Mysterious,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,114
-165,1,Gordon White vs Donovan Mysterious,Gordon White,male,DRUNK,ELITE,156,14,18,8,1,1,8,Lost,0
-166,2,James Yikes vs Xavier Badass,Xavier Badass,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,138
-166,1,James Yikes vs Xavier Badass,James Yikes,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-167,1,Jesse Sun vs King Snow,Jesse Sun,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,174
-167,2,Jesse Sun vs King Snow,King Snow,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-168,1,Xavier Badass vs Jesse Sun,Xavier Badass,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,144
-168,2,Xavier Badass vs Jesse Sun,Jesse Sun,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-169,2,Vibey Utada vs Wednesday Yikes,Wednesday Yikes,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,174
-169,1,Vibey Utada vs Wednesday Yikes,Vibey Utada,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-170,1,Bibi Black vs Katsumi Bitto,Bibi Black,female,HEART,ELITE,252,252,5,8,6,11,4,Won,168
-170,2,Bibi Black vs Katsumi Bitto,Katsumi Bitto,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,18
-171,2,Wednesday Yikes vs Bibi Black,Bibi Black,female,HEART,ELITE,252,252,5,8,6,11,4,Won,156
-171,1,Wednesday Yikes vs Bibi Black,Wednesday Yikes,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,60
-172,1,Xavier Badass vs Bibi Black,Xavier Badass,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,93
-172,2,Xavier Badass vs Bibi Black,Bibi Black,female,HEART,ELITE,252,234,5,8,6,11,4,Lost,0
-173,1,Donovan Mysterious vs Xavier Badass,Donovan Mysterious,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,108
-173,2,Donovan Mysterious vs Xavier Badass,Xavier Badass,male,BERSERKER,WARRIOR,192,140,12,4,6,10,0,Lost,0
-174,2,Jason Lightning vs Kaoru Moon,Kaoru Moon,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Won,105
-174,1,Jason Lightning vs Kaoru Moon,Jason Lightning,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-175,1,Henry Hisaishi vs Yusuke Badass,Henry Hisaishi,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,174
-175,2,Henry Hisaishi vs Yusuke Badass,Yusuke Badass,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-176,1,Kaoru Moon vs Henry Hisaishi,Kaoru Moon,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Won,51
-176,2,Kaoru Moon vs Henry Hisaishi,Henry Hisaishi,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-177,1,Kyle Falcon vs Gordon Thunder,Kyle Falcon,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,6
-177,2,Kyle Falcon vs Gordon Thunder,Gordon Thunder,male,MARTIAL_ARTIST,MASTER,174,174,6,10,9,7,7,Lost,0
-178,1,Julia Montgomery vs Xavier Johnson,Julia Montgomery,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Won,102
-178,2,Julia Montgomery vs Xavier Johnson,Xavier Johnson,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-179,2,Kyle Falcon vs Julia Montgomery,Julia Montgomery,female,BERSERKER,WARRIOR,192,153,10,3,7,10,0,Won,153
-179,1,Kyle Falcon vs Julia Montgomery,Kyle Falcon,male,MARTIAL_ARTIST,WARRIOR,174,9,6,5,9,7,3,Lost,0
-180,2,Kaoru Moon vs Julia Montgomery,Julia Montgomery,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Won,150
-180,1,Kaoru Moon vs Julia Montgomery,Kaoru Moon,female,DRUNK,WARRIOR,156,76,10,6,1,1,10,Lost,0
-181,2,Ting Ting Montgomery vs Donovan Thunder,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,261,12,10,14,7,3,Won,261
-181,1,Ting Ting Montgomery vs Donovan Thunder,Ting Ting Montgomery,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-182,1,Nicole Sun vs King Moon,Nicole Sun,female,BERSERKER,MASTER,192,192,10,3,13,10,5,Won,21
-182,2,Nicole Sun vs King Moon,King Moon,male,MARTIAL_ARTIST,ELITE,174,174,6,5,9,12,3,Lost,0
-183,1,Donovan Thunder vs Nicole Sun,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,261,12,10,14,7,3,Won,252
-183,2,Donovan Thunder vs Nicole Sun,Nicole Sun,female,BERSERKER,MASTER,192,32,10,3,13,10,5,Lost,0
-184,1,Roxanne Bobobobo vs Reginald Lee,Roxanne Bobobobo,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-184,2,Roxanne Bobobobo vs Reginald Lee,Reginald Lee,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
-185,1,Roxanne Chosen One vs Sandra Bitto,Roxanne Chosen One,female,VIPER,LEGENDARY,144,144,15,6,18,5,7,Won,144
-185,2,Roxanne Chosen One vs Sandra Bitto,Sandra Bitto,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,0
-186,1,Roxanne Bobobobo vs Roxanne Chosen One,Roxanne Bobobobo,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-186,2,Roxanne Bobobobo vs Roxanne Chosen One,Roxanne Chosen One,female,VIPER,LEGENDARY,144,144,15,6,18,5,7,Lost,0
-187,1,Donovan Thunder vs Roxanne Bobobobo,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,261,12,10,14,7,3,Won,261
-187,2,Donovan Thunder vs Roxanne Bobobobo,Roxanne Bobobobo,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-188,2,Julia Montgomery vs Donovan Thunder,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,261,12,10,14,7,3,Won,249
-188,1,Julia Montgomery vs Donovan Thunder,Julia Montgomery,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
-189,2,Donovan Mysterious vs Donovan Thunder,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,261,12,10,14,7,3,Won,237
-189,1,Donovan Mysterious vs Donovan Thunder,Donovan Mysterious,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-190,2,Katsumi Green vs Donovan Thunder,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,261,12,10,14,7,3,Won,96
-190,1,Katsumi Green vs Donovan Thunder,Katsumi Green,female,VIPER,LEGENDARY,144,144,10,10,18,5,7,Lost,0
-191,2,Alexa Lightning vs Ichi Green,Ichi Green,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,111
-191,1,Alexa Lightning vs Ichi Green,Alexa Lightning,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-192,2,Yennefer Nevers vs Debra Bobobobo,Debra Bobobobo,female,HERO,MASTER,174,174,11,6,10,4,10,Won,174
-192,1,Yennefer Nevers vs Debra Bobobobo,Yennefer Nevers,female,TANK,WARRIOR,240,240,10,8,4,5,2,Lost,0
-193,2,Ichi Green vs Debra Bobobobo,Debra Bobobobo,female,HERO,MASTER,174,174,11,6,10,4,10,Won,174
-193,1,Ichi Green vs Debra Bobobobo,Ichi Green,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-194,2,Jesse Johnson vs Ken Bobobobo,Ken Bobobobo,male,TACTICIAN,MASTER,156,156,2,7,6,10,12,Won,69
-194,1,Jesse Johnson vs Ken Bobobobo,Jesse Johnson,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,48
-195,2,Simone Chosen One vs Barry Lee,Barry Lee,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,135
-195,1,Simone Chosen One vs Barry Lee,Simone Chosen One,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-196,1,Ken Bobobobo vs Barry Lee,Ken Bobobobo,male,TACTICIAN,MASTER,156,104,2,7,6,10,12,Won,104
-196,2,Ken Bobobobo vs Barry Lee,Barry Lee,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
-197,1,Debra Bobobobo vs Ken Bobobobo,Debra Bobobobo,female,HERO,MASTER,174,174,11,6,10,4,10,Won,144
-197,2,Debra Bobobobo vs Ken Bobobobo,Ken Bobobobo,male,TACTICIAN,MASTER,156,156,2,7,6,10,12,Lost,0
-198,2,Bibi Bitto vs Arya Ocean,Arya Ocean,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-198,1,Bibi Bitto vs Arya Ocean,Bibi Bitto,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,0
-199,1,Maximus Ocean vs Juanita Snow,Maximus Ocean,male,HEART,MASTER,378,378,6,10,5,6,7,Won,156
-199,2,Maximus Ocean vs Juanita Snow,Juanita Snow,female,MARTIAL_ARTIST,ELITE,174,174,5,4,11,7,9,Lost,66
-200,1,Arya Ocean vs Maximus Ocean,Arya Ocean,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
-200,2,Arya Ocean vs Maximus Ocean,Maximus Ocean,male,HEART,MASTER,378,234,6,10,5,6,7,Lost,0
-201,1,Hikaru Kill vs Jesse Lightning,Hikaru Kill,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,33
-201,2,Hikaru Kill vs Jesse Lightning,Jesse Lightning,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,0
-202,1,Reina Moon vs King Jenkins,Reina Moon,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Won,81
-202,2,Reina Moon vs King Jenkins,King Jenkins,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
-203,2,Hikaru Kill vs Reina Moon,Reina Moon,female,TACTICIAN,WARRIOR,156,122,2,2,7,10,10,Won,122
-203,1,Hikaru Kill vs Reina Moon,Hikaru Kill,female,VIPER,WARRIOR,144,50,10,6,12,0,2,Lost,0
-204,1,Arya Ocean vs Reina Moon,Arya Ocean,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,20
-204,2,Arya Ocean vs Reina Moon,Reina Moon,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-205,1,Debra Bobobobo vs Arya Ocean,Debra Bobobobo,female,HERO,MASTER,174,174,11,6,10,4,10,Won,174
-205,2,Debra Bobobobo vs Arya Ocean,Arya Ocean,female,SAMURAI,WARRIOR,50,30,20,0,12,0,10,Lost,0
-206,1,Allesandra Sun vs Genevieve Lightning,Allesandra Sun,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Won,102
-206,2,Allesandra Sun vs Genevieve Lightning,Genevieve Lightning,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-207,2,Mimi Chosen One vs Xavier Chosen One,Xavier Chosen One,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,72
-207,1,Mimi Chosen One vs Xavier Chosen One,Mimi Chosen One,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-208,2,Allesandra Sun vs Xavier Chosen One,Xavier Chosen One,male,VIPER,WARRIOR,144,108,12,8,10,0,2,Won,60
-208,1,Allesandra Sun vs Xavier Chosen One,Allesandra Sun,female,BERSERKER,WARRIOR,192,153,10,3,7,10,0,Lost,0
-209,2,Shinji Black vs Bobobo Jenkins,Bobobo Jenkins,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,174
-209,1,Shinji Black vs Bobobo Jenkins,Shinji Black,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-210,2,Nicole Snow vs Henry Sunset,Henry Sunset,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,192
-210,1,Nicole Snow vs Henry Sunset,Nicole Snow,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
-211,2,Bobobo Jenkins vs Henry Sunset,Henry Sunset,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,165
-211,1,Bobobo Jenkins vs Henry Sunset,Bobobo Jenkins,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-212,2,Xavier Chosen One vs Henry Sunset,Henry Sunset,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,186
-212,1,Xavier Chosen One vs Henry Sunset,Xavier Chosen One,male,VIPER,WARRIOR,144,90,12,8,10,0,2,Lost,0
-213,1,Jim Moon vs Sung Mina Ocean,Jim Moon,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Won,105
-213,2,Jim Moon vs Sung Mina Ocean,Sung Mina Ocean,female,HEART,WARRIOR,252,252,5,8,6,6,4,Lost,0
-214,1,Ichi Snow vs Ichi Grey,Ichi Snow,male,DRUNK,WARRIOR,156,156,12,8,1,1,8,Won,21
-214,2,Ichi Snow vs Ichi Grey,Ichi Grey,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-215,1,Jim Moon vs Ichi Snow,Jim Moon,male,BERSERKER,WARRIOR,192,158,12,4,6,10,0,Won,86
-215,2,Jim Moon vs Ichi Snow,Ichi Snow,male,DRUNK,WARRIOR,156,32,12,8,1,1,8,Lost,0
-216,1,Simone Montgomery vs Ting Ting Green,Simone Montgomery,female,HEART,MASTER,252,252,5,12,6,11,4,Won,183
-216,2,Simone Montgomery vs Ting Ting Green,Ting Ting Green,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-217,2,Simone Grey vs Roxanne Black,Roxanne Black,female,VIPER,MASTER,144,144,10,10,12,5,2,Won,105
-217,1,Simone Grey vs Roxanne Black,Simone Grey,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
-218,1,Simone Montgomery vs Roxanne Black,Simone Montgomery,female,HEART,MASTER,252,252,5,12,6,11,4,Won,102
-218,2,Simone Montgomery vs Roxanne Black,Roxanne Black,female,VIPER,MASTER,144,144,10,10,12,5,2,Lost,0
-219,2,Jim Moon vs Simone Montgomery,Simone Montgomery,female,HEART,MASTER,252,153,5,12,6,11,4,Won,54
-219,1,Jim Moon vs Simone Montgomery,Jim Moon,male,BERSERKER,WARRIOR,192,129,12,4,6,10,0,Lost,0
-220,2,Henry Sunset vs Simone Montgomery,Simone Montgomery,female,HEART,MASTER,252,81,5,12,6,11,4,Won,30
-220,1,Henry Sunset vs Simone Montgomery,Henry Sunset,male,TANK,WARRIOR,240,240,12,10,3,5,2,Lost,0
-221,1,Debra Bobobobo vs Simone Montgomery,Debra Bobobobo,female,HERO,MASTER,174,174,11,6,10,4,10,Won,114
-221,2,Debra Bobobobo vs Simone Montgomery,Simone Montgomery,female,HEART,MASTER,252,45,5,12,6,11,4,Lost,0
-222,1,Sondra Chen vs Talulah Moon,Sondra Chen,female,HERO,WARRIOR,174,174,6,6,4,4,10,Won,102
-222,2,Sondra Chen vs Talulah Moon,Talulah Moon,female,DRUNK,WARRIOR,156,156,10,6,1,1,10,Lost,96
-223,2,Hikaru Hikaru vs Henry Ocean,Henry Ocean,male,HEART,WARRIOR,252,252,6,10,5,6,3,Won,39
-223,1,Hikaru Hikaru vs Henry Ocean,Hikaru Hikaru,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,33
-224,1,Sondra Chen vs Henry Ocean,Sondra Chen,female,HERO,WARRIOR,174,153,6,6,4,4,10,Won,87
-224,2,Sondra Chen vs Henry Ocean,Henry Ocean,male,HEART,WARRIOR,252,58,6,10,5,6,3,Lost,0
-225,1,Simone Snow vs Xavier Yikes,Simone Snow,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,132
-225,2,Simone Snow vs Xavier Yikes,Xavier Yikes,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-226,1,Sung Mina Black vs Kaoru Hikaru,Sung Mina Black,female,HEART,MASTER,378,378,10,8,6,6,4,Won,279
-226,2,Sung Mina Black vs Kaoru Hikaru,Kaoru Hikaru,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,0
-227,2,Simone Snow vs Sung Mina Black,Sung Mina Black,female,HEART,MASTER,378,378,10,8,6,6,4,Won,336
-227,1,Simone Snow vs Sung Mina Black,Simone Snow,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,0
-228,2,Sondra Chen vs Sung Mina Black,Sung Mina Black,female,HEART,MASTER,378,378,10,8,6,6,4,Won,306
-228,1,Sondra Chen vs Sung Mina Black,Sondra Chen,female,HERO,WARRIOR,174,130,6,6,4,4,10,Lost,0
-229,1,Henry Snow vs Nikki Thunder,Henry Snow,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,129
-229,2,Henry Snow vs Nikki Thunder,Nikki Thunder,female,TANK,WARRIOR,240,240,10,8,4,5,2,Lost,0
-230,2,Katsumi Sunset vs Kim Hilltops,Kim Hilltops,female,HEART,WARRIOR,252,252,5,8,6,6,4,Won,72
-230,1,Katsumi Sunset vs Kim Hilltops,Katsumi Sunset,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
-231,1,Henry Snow vs Kim Hilltops,Henry Snow,male,TANK,WARRIOR,240,194,12,10,3,5,2,Won,128
-231,2,Henry Snow vs Kim Hilltops,Kim Hilltops,female,HEART,WARRIOR,252,108,5,8,6,6,4,Lost,0
-232,1,Henry Lightning vs Gregory Chosen One,Henry Lightning,male,HEART,ELITE,252,252,6,15,5,6,3,Won,33
-232,2,Henry Lightning vs Gregory Chosen One,Gregory Chosen One,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-233,2,Iggy Black vs Elena Moon,Elena Moon,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,174
-233,1,Iggy Black vs Elena Moon,Iggy Black,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-234,2,Henry Lightning vs Elena Moon,Elena Moon,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,168
-234,1,Henry Lightning vs Elena Moon,Henry Lightning,male,HEART,ELITE,252,50,6,15,5,6,3,Lost,0
-235,1,Henry Snow vs Elena Moon,Henry Snow,male,TANK,WARRIOR,240,192,12,10,3,5,2,Won,12
-235,2,Henry Snow vs Elena Moon,Elena Moon,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Lost,0
-236,1,Sung Mina Black vs Henry Snow,Sung Mina Black,female,HEART,MASTER,378,378,10,8,6,6,4,Won,378
-236,2,Sung Mina Black vs Henry Snow,Henry Snow,male,TANK,WARRIOR,240,18,12,10,3,5,2,Lost,0
-237,1,Nicole Snow vs Roxanne Snow,Nicole Snow,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,57
-237,2,Nicole Snow vs Roxanne Snow,Roxanne Snow,female,TACTICIAN,WARRIOR,156,156,2,2,7,10,10,Lost,0
-238,1,Jesse Black vs Uriel Black,Jesse Black,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,12
-238,2,Jesse Black vs Uriel Black,Uriel Black,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-239,1,Nicole Snow vs Jesse Black,Nicole Snow,female,MARTIAL_ARTIST,WARRIOR,174,86,5,4,11,7,4,Won,86
-239,2,Nicole Snow vs Jesse Black,Jesse Black,female,TANK,WARRIOR,240,18,10,8,4,5,2,Lost,0
-240,1,Uriel Chen vs Genevieve Utada,Uriel Chen,male,SAMURAI,ELITE,50,50,24,0,10,0,12,Won,50
-240,2,Uriel Chen vs Genevieve Utada,Genevieve Utada,female,VIPER,ELITE,144,144,10,6,12,0,7,Lost,0
-241,2,Sandra Green vs Jason Hilltops,Jason Hilltops,male,MARTIAL_ARTIST,ELITE,174,174,6,10,9,7,3,Won,87
-241,1,Sandra Green vs Jason Hilltops,Sandra Green,female,HERO,WARRIOR,174,174,6,6,4,4,10,Lost,57
-242,1,Uriel Chen vs Jason Hilltops,Uriel Chen,male,SAMURAI,ELITE,50,50,24,0,10,0,12,Won,50
-242,2,Uriel Chen vs Jason Hilltops,Jason Hilltops,male,MARTIAL_ARTIST,ELITE,174,130,6,10,9,7,3,Lost,0
-243,2,Nicole Snow vs Uriel Chen,Uriel Chen,male,SAMURAI,ELITE,50,50,24,0,10,0,12,Won,50
-243,1,Nicole Snow vs Uriel Chen,Nicole Snow,female,MARTIAL_ARTIST,WARRIOR,174,129,5,4,11,7,4,Lost,0
-244,2,Uriel Lee vs James Montgomery,James Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-244,1,Uriel Lee vs James Montgomery,Uriel Lee,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
-245,2,Gordon Lightning vs Helen Sunset,Helen Sunset,female,TANK,WARRIOR,240,240,10,8,4,5,2,Won,168
-245,1,Gordon Lightning vs Helen Sunset,Gordon Lightning,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Lost,0
-246,1,James Montgomery vs Helen Sunset,James Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Won,50
-246,2,James Montgomery vs Helen Sunset,Helen Sunset,female,TANK,WARRIOR,240,240,10,8,4,5,2,Lost,0
-247,1,Yennefer Lightning vs James Utada,Yennefer Lightning,female,HERO,MASTER,261,261,6,10,4,4,10,Won,198
-247,2,Yennefer Lightning vs James Utada,James Utada,male,HERO,MASTER,174,174,7,12,3,9,8,Lost,108
-248,2,Gordon Moon vs Vibey Bobobobo,Vibey Bobobobo,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,138
-248,1,Gordon Moon vs Vibey Bobobobo,Gordon Moon,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
-249,2,Yennefer Lightning vs Vibey Bobobobo,Vibey Bobobobo,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Won,57
-249,1,Yennefer Lightning vs Vibey Bobobobo,Yennefer Lightning,female,HERO,MASTER,261,261,6,10,4,4,10,Lost,33
-250,2,James Montgomery vs Vibey Bobobobo,Vibey Bobobobo,male,VIPER,WARRIOR,144,86,12,8,10,0,2,Won,86
-250,1,James Montgomery vs Vibey Bobobobo,James Montgomery,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
-251,1,Uriel Chen vs Vibey Bobobobo,Uriel Chen,male,SAMURAI,ELITE,50,50,24,0,10,0,12,Won,50
-251,2,Uriel Chen vs Vibey Bobobobo,Vibey Bobobobo,male,VIPER,WARRIOR,144,129,12,8,10,0,2,Lost,0
-252,2,Sung Mina Black vs Uriel Chen,Uriel Chen,male,SAMURAI,ELITE,50,50,24,0,10,0,12,Won,50
-252,1,Sung Mina Black vs Uriel Chen,Sung Mina Black,female,HEART,MASTER,378,378,10,8,6,6,4,Lost,0
-253,1,Debra Bobobobo vs Uriel Chen,Debra Bobobobo,female,HERO,MASTER,174,171,11,6,10,4,10,Won,171
-253,2,Debra Bobobobo vs Uriel Chen,Uriel Chen,male,SAMURAI,ELITE,50,50,24,0,10,0,12,Lost,0
-254,1,Donovan Thunder vs Debra Bobobobo,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,144,12,10,14,7,3,Won,63
-254,2,Donovan Thunder vs Debra Bobobobo,Debra Bobobobo,female,HERO,MASTER,174,174,11,6,10,4,10,Lost,0
-255,2,Jennifer Black vs Donovan Thunder,Donovan Thunder,male,MARTIAL_ARTIST,LEGENDARY,261,94,12,10,14,7,3,Won,16
-255,1,Jennifer Black vs Donovan Thunder,Jennifer Black,female,HEART,MASTER,252,243,10,8,12,6,4,Lost,0
+1,1,Arya Black vs Jessica Nevers,Arya Black,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Won,50
+1,2,Arya Black vs Jessica Nevers,Jessica Nevers,female,VIPER,ELITE,144,144,10,6,12,5,2,Lost,0
+2,1,Yusuke Chen vs Julia Snow,Yusuke Chen,male,VIPER,MASTER,144,144,12,8,10,5,6,Won,111
+2,2,Yusuke Chen vs Julia Snow,Julia Snow,female,MARTIAL_ARTIST,ELITE,261,261,5,4,11,7,4,Lost,0
+3,2,Arya Black vs Yusuke Chen,Yusuke Chen,male,VIPER,MASTER,144,144,12,8,10,5,6,Won,144
+3,1,Arya Black vs Yusuke Chen,Arya Black,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
+4,1,Sparrow Hikaru vs Moses Hilltops,Sparrow Hikaru,male,HERO,WARRIOR,174,174,7,7,3,4,8,Won,174
+4,2,Sparrow Hikaru vs Moses Hilltops,Moses Hilltops,male,SAMURAI,WARRIOR,50,50,24,0,10,0,8,Lost,0
+5,1,Roxanne Johnson vs Helen Keely,Roxanne Johnson,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,84
+5,2,Roxanne Johnson vs Helen Keely,Helen Keely,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
+6,2,Sparrow Hikaru vs Roxanne Johnson,Roxanne Johnson,female,VIPER,WARRIOR,144,126,10,6,12,0,2,Won,54
+6,1,Sparrow Hikaru vs Roxanne Johnson,Sparrow Hikaru,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
+7,1,Yusuke Chen vs Roxanne Johnson,Yusuke Chen,male,VIPER,MASTER,144,144,12,8,10,5,6,Won,144
+7,2,Yusuke Chen vs Roxanne Johnson,Roxanne Johnson,female,VIPER,WARRIOR,144,81,10,6,12,0,2,Lost,0
+8,2,Shinji Black vs Jason White,Jason White,male,MARTIAL_ARTIST,WARRIOR,174,174,6,5,9,7,3,Won,51
+8,1,Shinji Black vs Jason White,Shinji Black,male,HEART,WARRIOR,252,252,6,10,5,6,3,Lost,0
+9,2,Shinji Hikaru vs Maximus Snow,Maximus Snow,male,VIPER,ELITE,144,144,12,8,10,0,6,Won,114
+9,1,Shinji Hikaru vs Maximus Snow,Shinji Hikaru,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
+10,2,Jason White vs Maximus Snow,Maximus Snow,male,VIPER,ELITE,144,144,12,8,10,0,6,Won,129
+10,1,Jason White vs Maximus Snow,Jason White,male,MARTIAL_ARTIST,WARRIOR,174,76,6,5,9,7,3,Lost,0
+11,1,Alexa Green vs Vibey Sun,Alexa Green,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,111
+11,2,Alexa Green vs Vibey Sun,Vibey Sun,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+12,2,Jason X vs Jack Chen,Jack Chen,male,TANK,WARRIOR,240,240,12,10,3,5,2,Won,150
+12,1,Jason X vs Jack Chen,Jason X,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+13,2,Alexa Green vs Jack Chen,Jack Chen,male,TANK,WARRIOR,240,225,12,10,3,5,2,Won,162
+13,1,Alexa Green vs Jack Chen,Alexa Green,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,0
+14,1,Maximus Snow vs Jack Chen,Maximus Snow,male,VIPER,ELITE,144,144,12,8,10,0,6,Won,24
+14,2,Maximus Snow vs Jack Chen,Jack Chen,male,TANK,WARRIOR,240,240,12,10,3,5,2,Lost,0
+15,1,Yusuke Chen vs Maximus Snow,Yusuke Chen,male,VIPER,MASTER,144,144,12,8,10,5,6,Won,60
+15,2,Yusuke Chen vs Maximus Snow,Maximus Snow,male,VIPER,ELITE,144,36,12,8,10,0,6,Lost,0
+16,2,Reginald Hikaru vs Yolanda Badass,Yolanda Badass,female,MARTIAL_ARTIST,MASTER,174,174,5,8,17,7,4,Won,138
+16,1,Reginald Hikaru vs Yolanda Badass,Reginald Hikaru,male,HERO,WARRIOR,174,174,7,7,3,4,8,Lost,0
+17,2,Reina Hikaru vs Katsumi Jenkins,Katsumi Jenkins,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,60
+17,1,Reina Hikaru vs Katsumi Jenkins,Reina Hikaru,female,BERSERKER,WARRIOR,192,192,10,3,7,10,0,Lost,0
+18,2,Yolanda Badass vs Katsumi Jenkins,Katsumi Jenkins,female,VIPER,WARRIOR,144,90,10,6,12,0,2,Won,33
+18,1,Yolanda Badass vs Katsumi Jenkins,Yolanda Badass,female,MARTIAL_ARTIST,MASTER,174,174,5,8,17,7,4,Lost,0
+19,2,Nicole Yikes vs Jennifer Utada,Jennifer Utada,female,HEART,MASTER,252,252,5,8,12,6,9,Won,180
+19,1,Nicole Yikes vs Jennifer Utada,Nicole Yikes,female,TANK,WARRIOR,240,240,10,8,4,5,2,Lost,0
+20,2,Barry Chosen One vs Liam Bobobobo,Liam Bobobobo,male,VIPER,ELITE,144,144,18,8,10,0,2,Won,144
+20,1,Barry Chosen One vs Liam Bobobobo,Barry Chosen One,male,VIPER,WARRIOR,144,144,12,8,10,0,2,Lost,0
+21,2,Jennifer Utada vs Liam Bobobobo,Liam Bobobobo,male,VIPER,ELITE,144,144,18,8,10,0,2,Won,48
+21,1,Jennifer Utada vs Liam Bobobobo,Jennifer Utada,female,HEART,MASTER,252,252,5,8,12,6,9,Lost,0
+22,1,Katsumi Jenkins vs Liam Bobobobo,Katsumi Jenkins,female,VIPER,WARRIOR,144,50,10,6,12,0,2,Won,14
+22,2,Katsumi Jenkins vs Liam Bobobobo,Liam Bobobobo,male,VIPER,ELITE,144,72,18,8,10,0,2,Lost,0
+23,2,Liam Hall vs Allesandra Hilltops,Allesandra Hilltops,female,MARTIAL_ARTIST,ELITE,174,174,5,4,11,7,9,Won,6
+23,1,Liam Hall vs Allesandra Hilltops,Liam Hall,male,BERSERKER,WARRIOR,192,192,12,4,6,10,0,Lost,0
+24,2,Nicole Keely vs Helen Moon,Helen Moon,female,BERSERKER,MASTER,192,192,10,7,13,10,0,Won,192
+24,1,Nicole Keely vs Helen Moon,Nicole Keely,female,SAMURAI,WARRIOR,50,50,20,0,12,0,10,Lost,0
+25,2,Allesandra Hilltops vs Helen Moon,Helen Moon,female,BERSERKER,MASTER,192,192,10,7,13,10,0,Won,168
+25,1,Allesandra Hilltops vs Helen Moon,Allesandra Hilltops,female,MARTIAL_ARTIST,ELITE,174,9,5,4,11,7,9,Lost,0
+26,1,Genevieve Falcon vs Jason Hilltops,Genevieve Falcon,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Won,96
+26,2,Genevieve Falcon vs Jason Hilltops,Jason Hilltops,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+27,2,Moses Balrog vs Yennefer Johnson,Yennefer Johnson,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,135
+27,1,Moses Balrog vs Yennefer Johnson,Moses Balrog,male,TACTICIAN,WARRIOR,156,156,2,2,6,10,8,Lost,0
+28,2,Genevieve Falcon vs Yennefer Johnson,Yennefer Johnson,female,MARTIAL_ARTIST,WARRIOR,174,174,5,4,11,7,4,Won,12
+28,1,Genevieve Falcon vs Yennefer Johnson,Genevieve Falcon,female,VIPER,WARRIOR,144,144,10,6,12,0,2,Lost,0
+29,1,Helen Moon vs Yennefer Johnson,Helen Moon,female,BERSERKER,MASTER,192,192,10,7,13,10,0,Won,192
+29,2,Helen Moon vs Yennefer Johnson,Yennefer Johnson,female,MARTIAL_ARTIST,WARRIOR,174,18,5,4,11,7,4,Lost,0
+30,2,Katsumi Jenkins vs Helen Moon,Helen Moon,female,BERSERKER,MASTER,192,192,10,7,13,10,0,Won,192
+30,1,Katsumi Jenkins vs Helen Moon,Katsumi Jenkins,female,VIPER,WARRIOR,144,21,10,6,12,0,2,Lost,0
+31,1,Yusuke Chen vs Helen Moon,Yusuke Chen,male,VIPER,MASTER,144,90,12,8,10,5,6,Won,36
+31,2,Yusuke Chen vs Helen Moon,Helen Moon,female,BERSERKER,MASTER,192,192,10,7,13,10,0,Lost,0

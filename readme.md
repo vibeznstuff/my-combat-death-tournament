@@ -4,6 +4,11 @@ A fighting game simulator built with pygame that blends RPG character build elem
 
 The game currently has 9 character archetypes with varying stat builds for different strengths and weaknesses. Upon launching the game, the simulation randomly generates `FIGHTER_COUNT` "AI" fighters to fight in a simulated tournament (where `FIGHTER_COUNT` is specified in constants.py).
 
+<p align="center">
+<img src="readme_gif1.gif" width=700 height=350>
+<img src="readme_gif2.gif" width=700 height=350>
+</p>
+
 ## How to Run the Combat Simulator
 
 ```python
