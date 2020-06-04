@@ -210,6 +210,7 @@ def draw(p1_health_new, p2_health_new):
     global gui_timer1
     global gui_timer2
     global round_num
+    global leaderboard
 
     if p1_step_count + 1 >= p1_limit and not (p1_defeat or p1_victory):
         p1_step_count = 0
@@ -325,6 +326,22 @@ def draw(p1_health_new, p2_health_new):
     img3 = font.render(str(gui_timer), True, (255,255,255))
     win.blit(img3, (500 -  (round_width/2), 80))
 
+    # Leaderboard
+
+    leaderboard = {k: v for k, v in sorted(leaderboard.items(), key=lambda item: item[1], reverse=True)}
+    i = 0
+
+    for player in leaderboard:
+        i += 1
+        font = pygame.font.SysFont(None, 16)
+        player_win_text = "{0} [{1} Wins]".format(player, leaderboard[player])
+        round_width, round_height = font.size(player_win_text)
+        img3 = font.render(player_win_text, True, (255,255,255))
+        win.blit(img3, (500 -  (round_width/2), 120 + i * 12))
+
+        if i == 8:
+            break
+
     pygame.display.update()
 
 pygame.init()
@@ -375,6 +392,7 @@ gui_timer1 = timer
 gui_timer2 = timer
 p1_wait_cycles = 0
 p2_wait_cycles = 0
+leaderboard = {}
 
 while run:
 
@@ -485,6 +503,23 @@ while run:
         p1_victory = True
         print("P2 was defeated")
 
+        if p1_rank in ('ELITE', 'MASTER', 'LEGENDARY'):
+            p1_key = "{} ({}) - {}".format(p1_name, p1_rank, p1_class.replace("_", " "))
+        else:
+            p1_key = "{} - {}".format(p1_name, p1_class) 
+        
+        if p2_rank in ('ELITE', 'MASTER', 'LEGENDARY'):
+            p2_key = "{} ({}) - {}".format(p2_name, p2_rank, p2_class.replace("_"," "))
+        else:
+            p2_key = "{} - {}".format(p2_name, p2_class) 
+
+        leaderboard.pop(p2_key, None)
+
+        if p1_key in leaderboard:
+            leaderboard[p1_key] = leaderboard[p1_key] + 1
+        else:
+            leaderboard[p1_key] = 1
+
     if ((p1_health == 0 and not p1_defeat) or (timer == 0 and p1_defeat == True)) and (not p2_attacking and not p1_recoiling and not p1_dodging):
         p1_defeat = True
         p1_attacking = False
@@ -496,6 +531,23 @@ while run:
         p2_step_count = 0
         p2_victory = True
         print("P1 was defeated")
+        
+        if p1_rank in ('ELITE', 'MASTER', 'LEGENDARY'):
+            p1_key = "{} ({}) - {}".format(p1_name, p1_rank, p1_class.replace("_"," "))
+        else:
+            p1_key = "{} - {}".format(p1_name, p1_class) 
+        
+        if p2_rank in ('ELITE', 'MASTER', 'LEGENDARY'):
+            p2_key = "{} ({}) - {}".format(p2_name, p2_rank, p2_class.replace("_"," "))
+        else:
+            p2_key = "{} - {}".format(p2_name, p2_class) 
+
+        leaderboard.pop(p1_key, None)
+
+        if p2_key in leaderboard:
+            leaderboard[p2_key] = leaderboard[p2_key] + 1
+        else:
+            leaderboard[p2_key] = 1
 
     if not p1_resting and not p1_attacking and not p1_recoiling and not p1_dodging and not p1_defeat and not p1_victory:
         p1_frames = get_frames(character=player_one, action='rest', flip_bool=True, p1_bool=True, slow_factor=p1_rest_sf)

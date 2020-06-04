@@ -37,8 +37,8 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
     final_combat_one = combatant_one
     final_combat_two = combatant_two
 
-    combat_one_cooldown = 20 - combatant_one.stamina
-    combat_two_cooldown = 20 - combatant_two.stamina
+    combat_one_cooldown = constants.DEFAULT_COOLDOWN - combatant_one.stamina
+    combat_two_cooldown = constants.DEFAULT_COOLDOWN - combatant_two.stamina
 
     combat_one_attack = False
     combat_two_attack = False
@@ -63,7 +63,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
 
         while dodge_chances_1 > 0 and not combat_one_dodge:
             dodge_chances_1 = dodge_chances_1 - 1
-            if uniform(0,1) > 0.9:
+            if uniform(0,1) > constants.DODGE_THRESHOLD:
                 combat_one_dodge = True
 
         dodge_chances_2 = combatant_two.wisdom
@@ -71,7 +71,7 @@ def fight(combatant_one, combatant_two, log_results=True, spectate=False):
 
         while dodge_chances_2 > 0 and not combat_two_dodge:
             dodge_chances_2 = dodge_chances_2 - 1
-            if uniform(0,1) > 0.9:
+            if uniform(0,1) > constants.DODGE_THRESHOLD:
                 combat_two_dodge = True
     
         if combat_one_cooldown == 0:
