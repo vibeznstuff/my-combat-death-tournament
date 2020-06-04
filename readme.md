@@ -52,6 +52,7 @@ python animate.py
 
 ## Combatant Classes & Stats (*Default)
 
+
 | Combatant Class | Strength | Defense | Agility | Stamina | Wisdom |
 |---|---|---|---|---|---|
 | Tank | 10 | 10 | 3 | 5 | 2 |
@@ -64,8 +65,14 @@ python animate.py
 | Drunk | 10 | 8 | 1 | 1 | 10 |
 | Viper | 10 | 8 | 10 | 0 | 2 |
 
-*The above stat builds can be modified in <a href="https://github.com/vibeznstuff/my-combat-death-tournament/blob/master/combatant.py">combatant.py</a>
-.
+<br>
+
+<img src="stat_plot_1.png" width=450 height=400>
+<img src="stat_plot_2.png" width=450 height=400>
+
+*The above stat builds can be modified in <a href="https://github.com/vibeznstuff/my-combat-death-tournament/blob/master/combatant.py">combatant.py</a>.
+
+
 
 ### Default Combatant Class Summaries
 
