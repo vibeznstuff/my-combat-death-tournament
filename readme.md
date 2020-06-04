@@ -67,8 +67,8 @@ python animate.py
 
 <br>
 
-<img src="stat_plot_1.png" width=450 height=400>
-<img src="stat_plot_2.png" width=450 height=400>
+<img src="stat_plot_1.PNG" width=450 height=400>
+<img src="stat_plot_2.PNG" width=450 height=400>
 
 *The above stat builds can be modified in <a href="https://github.com/vibeznstuff/my-combat-death-tournament/blob/master/combatant.py">combatant.py</a>.
 
