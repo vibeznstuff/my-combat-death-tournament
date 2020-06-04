@@ -29,6 +29,8 @@ python animate.py
   - `DEFAULT_COOLDOWN` can be modified in constants.py
 - **Wisdom**: Determines the frequency at which the combatant can dodge enemy attacks. Similar to the **Agility** stat, the **Wisdom** stat involves a dice roll action to determine if the combatant dodges. The dice roll involves another random variable U(0,1) and if the random variable returns a value higher than `DODGE_THRESHOLD` then the combatant dodges the opponent's attack. The value of the **Wisdom** stat determines how many rolls the combatant has to be afforded a dodge action.
   - `DODGE_THRESHOLD` can be modified in constants.py and must be between (0,1)
+- **Health**: The total hit points the combatant can take before being defeated. The health is currently calculated as follows: MAX(50, ( **Defense** x 6 + **Stamina** x 4 ) * `HEALTH_MULTIPLIER` )
+  - `HEALTH_MULTIPLIER` is defined in constants.py and can be updated. This scales up the total health the combatants can have and effects how easily they can be defeated.
 
 ## Combatant Classes & Stats (*Default)
 
