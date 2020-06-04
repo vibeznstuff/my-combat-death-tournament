@@ -62,7 +62,7 @@ python animate.py
   - Strengths: Moderately high in all stats except agility
   - Weaknesses: Not particularly strong offensively
 - **Samurai**
-  - Strengths: Almost always lethal with attacks (usually kills on hit)
+  - Strengths: Almost always lethal with attacks (usually kills on hit), high chance of dodging attacks
   - Weaknesses: Very low health and defense (usually dies when hit)
 - **Drunk**
   - Strengths: High attack, high defense, and high chance of dodge
