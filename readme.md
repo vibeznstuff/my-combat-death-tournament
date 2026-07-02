@@ -5,6 +5,8 @@
 <img src="readme_gif2.gif" width=700 height=350>
 </p>
 
+**▶ Play it live: <https://vibeznstuff.github.io/my-combat-death-tournament/>**
+
 This is a fighting game simulator that runs entirely in your browser. It blends RPG character build elements with the 1 v 1 fighting seen in games like Mortal Kombat and Street Fighter.
 
 The game currently has 9 character archetypes (with both male and female versions) with varying stat builds for different strengths and weaknesses. When you start a tournament, the simulation randomly generates the chosen number of "AI" fighters to fight in a simulated single-elimination bracket, then replays every fight on an HTML5 canvas with sprite animations, health bars, a fight timer and a running leaderboard. When a combatant is generated, there's a random chance that the combatant can be awarded three tiers of stat bonuses, denoted as a 'Rank'. Based on a uniform random variable U(0,1) dice roll, the combatant's rank is selected.
