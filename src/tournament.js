@@ -6,33 +6,43 @@ export function generateCombatants(count) {
 }
 
 /**
- * Simulate a full single-elimination bracket.
+ * Lazily simulate a single-elimination bracket, one fight per step.
  *
- * `combatants` must have a power-of-two length. Returns
- * { fights, champion } where fights are the per-fight records from
- * simulateFight, numbered in the order the fights happen.
+ * `combatants` must have a power-of-two length. Yields
+ * { record, fighters: [Combatant, Combatant], winner: Combatant } per fight,
+ * in the order the fights happen. Each fight is only simulated when its step
+ * is pulled, so callers may mutate combatants (e.g. award stat boosts)
+ * between steps and have the changes apply to later fights.
  */
-export function runTournament(combatants) {
-  const fights = [];
+export function* tournamentSteps(combatants) {
   let roundNumber = 1;
 
-  const runBracket = (bracket) => {
-    if (bracket.length === 2) {
-      const record = simulateFight(bracket[0], bracket[1], roundNumber);
-      fights.push(record);
-      roundNumber += 1;
-      return bracket[record.winnerIndex];
+  function* bracket(list) {
+    let finalists;
+    if (list.length === 2) {
+      finalists = list;
+    } else {
+      const split = Math.floor(list.length / 2);
+      finalists = [yield* bracket(list.slice(0, split)), yield* bracket(list.slice(split))];
     }
-    const split = Math.floor(bracket.length / 2);
-    const winnerOne = runBracket(bracket.slice(0, split));
-    const winnerTwo = runBracket(bracket.slice(split));
-    const record = simulateFight(winnerOne, winnerTwo, roundNumber);
-    fights.push(record);
+    const record = simulateFight(finalists[0], finalists[1], roundNumber);
     roundNumber += 1;
-    return [winnerOne, winnerTwo][record.winnerIndex];
-  };
+    const winner = finalists[record.winnerIndex];
+    yield { record, fighters: finalists, winner };
+    return winner;
+  }
 
-  const champion = runBracket(combatants);
+  yield* bracket(combatants);
+}
+
+// Simulate a full bracket in one go; returns { fights, champion }.
+export function runTournament(combatants) {
+  const fights = [];
+  let champion = null;
+  for (const step of tournamentSteps(combatants)) {
+    fights.push(step.record);
+    champion = step.winner;
+  }
   return { fights, champion };
 }
 
