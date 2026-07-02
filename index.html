@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combat Death Tournament Simulator</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22>⚔️</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Combat Death Tournament Simulator</h1>
+
+    <div class="controls">
+      <label>
+        Fighters
+        <select id="fighter-count">
+          <option value="4">4</option>
+          <option value="8">8</option>
+          <option value="16">16</option>
+          <option value="32">32</option>
+          <option value="64">64</option>
+        </select>
+      </label>
+      <label>
+        Speed
+        <select id="speed">
+          <option value="1">1x</option>
+          <option value="2" selected>2x</option>
+          <option value="4">4x</option>
+          <option value="8">8x</option>
+        </select>
+      </label>
+      <button id="start">Start Tournament</button>
+      <span id="downloads" hidden>
+        <button id="download-tournament" class="secondary">Download tournament log</button>
+        <button id="download-fights" class="secondary">Download fight log</button>
+      </span>
+    </div>
+
+    <canvas id="arena" width="1000" height="550"></canvas>
+
+    <p id="status">Pick a bracket size and press Start.</p>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

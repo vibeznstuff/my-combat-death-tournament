@@ -1,324 +1,1144 @@
 {
-    "hero_male" : {
-        "actions": {
-            "rest": [[350,363]],
-            "dash_attack": [[766, 800]],
-            "injured": [[944,947], [947,944]],
-            "dodge": [[427,432]],
-            "defeat": [[983,987]],
-            "victory": [[494,516]]
-        },
-        "img_dir": ".\\sprite_sheets\\Rock Howard\\",
-        "img_prefix": "Rock Howard",
-        "starting_pos": [-90, 135],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 1,
-        "rest_slow_factor": 0
+  "hero_male": {
+    "actions": {
+      "rest": [
+        [
+          350,
+          363
+        ]
+      ],
+      "dash_attack": [
+        [
+          766,
+          800
+        ]
+      ],
+      "injured": [
+        [
+          944,
+          947
+        ],
+        [
+          947,
+          944
+        ]
+      ],
+      "dodge": [
+        [
+          427,
+          432
+        ]
+      ],
+      "defeat": [
+        [
+          983,
+          987
+        ]
+      ],
+      "victory": [
+        [
+          494,
+          516
+        ]
+      ]
     },
-    "hero_female": {
-        "actions": {
-            "rest": [[92,98]],
-            "dash_attack": [[155,158],[155,158],[283,313]],
-            "injured": [[626,629],[629,626]],
-            "dodge": [[175,168],[176,181]],
-            "defeat": [[185,191]],
-            "victory": [[206,220]]
-        },
-        "img_dir": ".\\sprite_sheets\\Nakoruru\\",
-        "img_prefix": "Nakoruru",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 2,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Rock Howard/",
+    "img_prefix": "Rock Howard",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 1,
+    "rest_slow_factor": 0
+  },
+  "hero_female": {
+    "actions": {
+      "rest": [
+        [
+          92,
+          98
+        ]
+      ],
+      "dash_attack": [
+        [
+          155,
+          158
+        ],
+        [
+          155,
+          158
+        ],
+        [
+          283,
+          313
+        ]
+      ],
+      "injured": [
+        [
+          626,
+          629
+        ],
+        [
+          629,
+          626
+        ]
+      ],
+      "dodge": [
+        [
+          175,
+          168
+        ],
+        [
+          176,
+          181
+        ]
+      ],
+      "defeat": [
+        [
+          185,
+          191
+        ]
+      ],
+      "victory": [
+        [
+          206,
+          220
+        ]
+      ]
     },
-    "heart_female" : {
-        "actions": {
-            "rest": [[249,256]],
-            "dash_attack": [[329,334],[329,334],[511,530]],
-            "injured": [[364,368]],
-            "dodge": [[335,338]],
-            "defeat": [[796,801]],
-            "victory": [[408,430]]
-        },
-        "img_dir": ".\\sprite_sheets\\Athena Asamiya\\",
-        "img_prefix": "Athena Asamiya",
-        "starting_pos": [-90, 135],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 1,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Nakoruru/",
+    "img_prefix": "Nakoruru",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 2,
+    "rest_slow_factor": 0
+  },
+  "heart_female": {
+    "actions": {
+      "rest": [
+        [
+          249,
+          256
+        ]
+      ],
+      "dash_attack": [
+        [
+          329,
+          334
+        ],
+        [
+          329,
+          334
+        ],
+        [
+          511,
+          530
+        ]
+      ],
+      "injured": [
+        [
+          364,
+          368
+        ]
+      ],
+      "dodge": [
+        [
+          335,
+          338
+        ]
+      ],
+      "defeat": [
+        [
+          796,
+          801
+        ]
+      ],
+      "victory": [
+        [
+          408,
+          430
+        ]
+      ]
     },
-    "heart_male": {
-        "actions": {
-            "rest": [[371,378]],
-            "dash_attack": [[435,440],[435,440],[812,831],[863,879]],
-            "injured": [[958,961],[961,958]],
-            "dodge": [[409,403],[399,399],[396,396]],
-            "defeat": [[995,1002],[985,986]],
-            "victory": [[472,476],[476,472],[472,476],[476,472],[472,476]]
-        },
-        "img_dir": ".\\sprite_sheets\\Kyo Kusanagi\\",
-        "img_prefix": "Kyo Kusanagi",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Athena Asamiya/",
+    "img_prefix": "Athena Asamiya",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 1,
+    "rest_slow_factor": 0
+  },
+  "heart_male": {
+    "actions": {
+      "rest": [
+        [
+          371,
+          378
+        ]
+      ],
+      "dash_attack": [
+        [
+          435,
+          440
+        ],
+        [
+          435,
+          440
+        ],
+        [
+          812,
+          831
+        ],
+        [
+          863,
+          879
+        ]
+      ],
+      "injured": [
+        [
+          958,
+          961
+        ],
+        [
+          961,
+          958
+        ]
+      ],
+      "dodge": [
+        [
+          409,
+          403
+        ],
+        [
+          399,
+          399
+        ],
+        [
+          396,
+          396
+        ]
+      ],
+      "defeat": [
+        [
+          995,
+          1002
+        ],
+        [
+          985,
+          986
+        ]
+      ],
+      "victory": [
+        [
+          472,
+          476
+        ],
+        [
+          476,
+          472
+        ],
+        [
+          472,
+          476
+        ],
+        [
+          476,
+          472
+        ],
+        [
+          472,
+          476
+        ]
+      ]
     },
-    "samurai_male": {
-        "actions": {
-            "rest": [[141,165]],
-            "dash_attack": [[227,233], [228,233], [427,437]],
-            "injured": [[650,654], [654,650]],
-            "dodge": [[234, 238]],
-            "defeat": [[282,288]], 
-            "victory": [[314,333]]
-        },
-        "img_dir": ".\\sprite_sheets\\Haohmaru\\",
-        "img_prefix": "Haohmaru",
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 2
+    "img_dir": "sprite_sheets/Kyo Kusanagi/",
+    "img_prefix": "Kyo Kusanagi",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "samurai_male": {
+    "actions": {
+      "rest": [
+        [
+          141,
+          165
+        ]
+      ],
+      "dash_attack": [
+        [
+          227,
+          233
+        ],
+        [
+          228,
+          233
+        ],
+        [
+          427,
+          437
+        ]
+      ],
+      "injured": [
+        [
+          650,
+          654
+        ],
+        [
+          654,
+          650
+        ]
+      ],
+      "dodge": [
+        [
+          234,
+          238
+        ]
+      ],
+      "defeat": [
+        [
+          282,
+          288
+        ]
+      ],
+      "victory": [
+        [
+          314,
+          333
+        ]
+      ]
     },
-    "samurai_female": {
-        "actions": {
-            "rest": [[122,135]],
-            "dash_attack": [[191,199], [451,461]],
-            "injured": [[226,230]],
-            "dodge": [[225,219]],
-            "defeat": [[241,246]], 
-            "victory": [[256,266]]
-        },
-        "img_dir": ".\\sprite_sheets\\Hibiki\\",
-        "img_prefix": "Hibiki",
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 1,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Haohmaru/",
+    "img_prefix": "Haohmaru",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 2
+  },
+  "samurai_female": {
+    "actions": {
+      "rest": [
+        [
+          122,
+          135
+        ]
+      ],
+      "dash_attack": [
+        [
+          191,
+          199
+        ],
+        [
+          451,
+          461
+        ]
+      ],
+      "injured": [
+        [
+          226,
+          230
+        ]
+      ],
+      "dodge": [
+        [
+          225,
+          219
+        ]
+      ],
+      "defeat": [
+        [
+          241,
+          246
+        ]
+      ],
+      "victory": [
+        [
+          256,
+          266
+        ]
+      ]
     },
-    "martial_artist_female": {
-        "actions": {
-            "rest": [[97,103]],
-            "dash_attack": [[171,176], [171,176], [327,342]],
-            "injured": [[206,209], [209,206]],
-            "dodge": [[199, 206]],
-            "defeat": [[575,581]],
-            "victory": [[238,251]]
-        },
-        "img_dir": ".\\sprite_sheets\\Yuri Sakazaki\\",
-        "img_prefix": "Yuri Sakazaki",
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Hibiki/",
+    "img_prefix": "Hibiki",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 1,
+    "rest_slow_factor": 0
+  },
+  "martial_artist_female": {
+    "actions": {
+      "rest": [
+        [
+          97,
+          103
+        ]
+      ],
+      "dash_attack": [
+        [
+          171,
+          176
+        ],
+        [
+          171,
+          176
+        ],
+        [
+          327,
+          342
+        ]
+      ],
+      "injured": [
+        [
+          206,
+          209
+        ],
+        [
+          209,
+          206
+        ]
+      ],
+      "dodge": [
+        [
+          199,
+          206
+        ]
+      ],
+      "defeat": [
+        [
+          575,
+          581
+        ]
+      ],
+      "victory": [
+        [
+          238,
+          251
+        ]
+      ]
     },
-    
-    "martial_artist_male": {
-        "actions": {
-            "rest": [[184,194]],
-            "dash_attack": [[255,260], [255,260], [469,490]],
-            "injured": [[810,813], [813,810]],
-            "dodge": [[682, 672]],
-            "defeat": [[330,338]], 
-            "victory": [[412,421]]
-        },
-        "img_dir": ".\\sprite_sheets\\Yun\\",
-        "img_prefix": "Yun",
-        "starting_pos": [445, 130],
-        "dodge_space": 130,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Yuri Sakazaki/",
+    "img_prefix": "Yuri Sakazaki",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "martial_artist_male": {
+    "actions": {
+      "rest": [
+        [
+          184,
+          194
+        ]
+      ],
+      "dash_attack": [
+        [
+          255,
+          260
+        ],
+        [
+          255,
+          260
+        ],
+        [
+          469,
+          490
+        ]
+      ],
+      "injured": [
+        [
+          810,
+          813
+        ],
+        [
+          813,
+          810
+        ]
+      ],
+      "dodge": [
+        [
+          682,
+          672
+        ]
+      ],
+      "defeat": [
+        [
+          330,
+          338
+        ]
+      ],
+      "victory": [
+        [
+          412,
+          421
+        ]
+      ]
     },
-    "berserker_male": {
-        "actions": {
-            "rest": [[219,225]],
-            "dash_attack": [[288,293], [288,293], [416,430]],
-            "injured": [[328,331], [333,337]],
-            "dodge": [[295, 301]],
-            "defeat": [[347, 359]],
-            "victory": [[339, 346]]
-        },
-        "img_dir": ".\\sprite_sheets\\Orochi Iori\\",
-        "img_prefix": "Orochi Iori",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Yun/",
+    "img_prefix": "Yun",
+    "dodge_space": 130,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "berserker_male": {
+    "actions": {
+      "rest": [
+        [
+          219,
+          225
+        ]
+      ],
+      "dash_attack": [
+        [
+          288,
+          293
+        ],
+        [
+          288,
+          293
+        ],
+        [
+          416,
+          430
+        ]
+      ],
+      "injured": [
+        [
+          328,
+          331
+        ],
+        [
+          333,
+          337
+        ]
+      ],
+      "dodge": [
+        [
+          295,
+          301
+        ]
+      ],
+      "defeat": [
+        [
+          347,
+          359
+        ]
+      ],
+      "victory": [
+        [
+          339,
+          346
+        ]
+      ]
     },
-    "berserker_female": {
-        "actions": {
-            "rest": [[106,114]],
-            "dash_attack": [[190,195],[190,195],[498,510],[637,651]],
-            "injured": [[725,728],[728,725]],
-            "dodge": [[221,229]],
-            "defeat": [[558,575]],
-            "victory": [[238,257]]
-        },
-        "img_dir": ".\\sprite_sheets\\Vice\\",
-        "img_prefix": "Vice",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 2,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Orochi Iori/",
+    "img_prefix": "Orochi Iori",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "berserker_female": {
+    "actions": {
+      "rest": [
+        [
+          106,
+          114
+        ]
+      ],
+      "dash_attack": [
+        [
+          190,
+          195
+        ],
+        [
+          190,
+          195
+        ],
+        [
+          498,
+          510
+        ],
+        [
+          637,
+          651
+        ]
+      ],
+      "injured": [
+        [
+          725,
+          728
+        ],
+        [
+          728,
+          725
+        ]
+      ],
+      "dodge": [
+        [
+          221,
+          229
+        ]
+      ],
+      "defeat": [
+        [
+          558,
+          575
+        ]
+      ],
+      "victory": [
+        [
+          238,
+          257
+        ]
+      ]
     },
-    "tactician_male": {
-        "actions": {
-            "rest": [[183,197]],
-            "dash_attack": [[247,252],[247,252],[393,402],[487,498]],
-            "injured": [[272,277]],
-            "dodge": [[204,199]],
-            "defeat": [[296,302]],
-            "victory": [[302,316]]
-        },
-        "img_dir": ".\\sprite_sheets\\Kyosuke\\",
-        "img_prefix": "Kyosuke",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Vice/",
+    "img_prefix": "Vice",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 2,
+    "rest_slow_factor": 0
+  },
+  "tactician_male": {
+    "actions": {
+      "rest": [
+        [
+          183,
+          197
+        ]
+      ],
+      "dash_attack": [
+        [
+          247,
+          252
+        ],
+        [
+          247,
+          252
+        ],
+        [
+          393,
+          402
+        ],
+        [
+          487,
+          498
+        ]
+      ],
+      "injured": [
+        [
+          272,
+          277
+        ]
+      ],
+      "dodge": [
+        [
+          204,
+          199
+        ]
+      ],
+      "defeat": [
+        [
+          296,
+          302
+        ]
+      ],
+      "victory": [
+        [
+          302,
+          316
+        ]
+      ]
     },
-    "tactician_female": {
-        "actions": {
-            "rest": [[35,40]],
-            "dash_attack": [[105,110],[105,110],[254,279]],
-            "injured": [[137,141]],
-            "dodge": [[396,409]],
-            "defeat": [[150,154],[151,154]],
-            "victory": [[120,124]]
-        },
-        "img_dir": ".\\sprite_sheets\\King\\",
-        "img_prefix": "King",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Kyosuke/",
+    "img_prefix": "Kyosuke",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "tactician_female": {
+    "actions": {
+      "rest": [
+        [
+          35,
+          40
+        ]
+      ],
+      "dash_attack": [
+        [
+          105,
+          110
+        ],
+        [
+          105,
+          110
+        ],
+        [
+          254,
+          279
+        ]
+      ],
+      "injured": [
+        [
+          137,
+          141
+        ]
+      ],
+      "dodge": [
+        [
+          396,
+          409
+        ]
+      ],
+      "defeat": [
+        [
+          150,
+          154
+        ],
+        [
+          151,
+          154
+        ]
+      ],
+      "victory": [
+        [
+          120,
+          124
+        ]
+      ]
     },
-    "tank_female": {
-        "actions": {
-            "rest": [[74,83]],
-            "dash_attack": [[196,201],[196,201],[485,491],[504,536]],
-            "injured": [[259,262],[262,259]],
-            "dodge": [[155,173]],
-            "defeat": [[275,284]],
-            "victory": [[315,324],[324,324],[324,324],[324,324],[324,324],[324,324],[324,324],[324,324],[324,324],[324,344]]
-        },
-        "img_dir": ".\\sprite_sheets\\Chun-Li\\",
-        "img_prefix": "Chun-Li",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/King/",
+    "img_prefix": "King",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "tank_female": {
+    "actions": {
+      "rest": [
+        [
+          74,
+          83
+        ]
+      ],
+      "dash_attack": [
+        [
+          196,
+          201
+        ],
+        [
+          196,
+          201
+        ],
+        [
+          485,
+          491
+        ],
+        [
+          504,
+          536
+        ]
+      ],
+      "injured": [
+        [
+          259,
+          262
+        ],
+        [
+          262,
+          259
+        ]
+      ],
+      "dodge": [
+        [
+          155,
+          173
+        ]
+      ],
+      "defeat": [
+        [
+          275,
+          284
+        ]
+      ],
+      "victory": [
+        [
+          315,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          324,
+          344
+        ]
+      ]
     },
-    "tank_male": {
-        "actions": {
-            "rest": [[90,93],[93,90]],
-            "dash_attack": [[145,150],[145,150],[268,282], [287,291], [291,287]],
-            "injured": [[471,474],[474,471]],
-            "dodge": [[171,165]],
-            "defeat": [[509,518]],
-            "victory": [[199,207]]
-        },
-        "img_dir": ".\\sprite_sheets\\Raiden\\",
-        "img_prefix": "Raiden",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 2
+    "img_dir": "sprite_sheets/Chun-Li/",
+    "img_prefix": "Chun-Li",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "tank_male": {
+    "actions": {
+      "rest": [
+        [
+          90,
+          93
+        ],
+        [
+          93,
+          90
+        ]
+      ],
+      "dash_attack": [
+        [
+          145,
+          150
+        ],
+        [
+          145,
+          150
+        ],
+        [
+          268,
+          282
+        ],
+        [
+          287,
+          291
+        ],
+        [
+          291,
+          287
+        ]
+      ],
+      "injured": [
+        [
+          471,
+          474
+        ],
+        [
+          474,
+          471
+        ]
+      ],
+      "dodge": [
+        [
+          171,
+          165
+        ]
+      ],
+      "defeat": [
+        [
+          509,
+          518
+        ]
+      ],
+      "victory": [
+        [
+          199,
+          207
+        ]
+      ]
     },
-    "viper_female": {
-        "actions": {
-            "rest": [[71,90]],
-            "dash_attack": [[162,167],[162,167],[274,303]],
-            "injured": [[185,189]],
-            "dodge": [[133,142]],
-            "defeat": [[620,625],[620,625]],
-            "victory": [[227,236]]
-        },
-        "img_dir": ".\\sprite_sheets\\Maki\\",
-        "img_prefix": "Maki",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Raiden/",
+    "img_prefix": "Raiden",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 2
+  },
+  "viper_female": {
+    "actions": {
+      "rest": [
+        [
+          71,
+          90
+        ]
+      ],
+      "dash_attack": [
+        [
+          162,
+          167
+        ],
+        [
+          162,
+          167
+        ],
+        [
+          274,
+          303
+        ]
+      ],
+      "injured": [
+        [
+          185,
+          189
+        ]
+      ],
+      "dodge": [
+        [
+          133,
+          142
+        ]
+      ],
+      "defeat": [
+        [
+          620,
+          625
+        ],
+        [
+          620,
+          625
+        ]
+      ],
+      "victory": [
+        [
+          227,
+          236
+        ]
+      ]
     },
-    "viper_male": {
-        "actions": {
-            "rest": [[137,143]],
-            "dash_attack": [[204,209],[204,209],[584,627]],
-            "injured": [[227,230],[230,227]],
-            "dodge": [[227,219],[227,227]],
-            "defeat": [[246,254]],
-            "victory": [[238,244]]
-        },
-        "img_dir": ".\\sprite_sheets\\Akuma\\",
-        "img_prefix": "Akuma",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
+    "img_dir": "sprite_sheets/Maki/",
+    "img_prefix": "Maki",
+    "dodge_space": 80,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "viper_male": {
+    "actions": {
+      "rest": [
+        [
+          137,
+          143
+        ]
+      ],
+      "dash_attack": [
+        [
+          204,
+          209
+        ],
+        [
+          204,
+          209
+        ],
+        [
+          584,
+          627
+        ]
+      ],
+      "injured": [
+        [
+          227,
+          230
+        ],
+        [
+          230,
+          227
+        ]
+      ],
+      "dodge": [
+        [
+          227,
+          219
+        ],
+        [
+          227,
+          227
+        ]
+      ],
+      "defeat": [
+        [
+          246,
+          254
+        ]
+      ],
+      "victory": [
+        [
+          238,
+          244
+        ]
+      ]
     },
-    "drunk_male": {
-        "actions": {
-            "rest": [[258,273]],
-            "dash_attack": [[360,366],[360,366],[797,809],[550,558]],
-            "injured": [[404,408]],
-            "dodge": [[395,403]],
-            "defeat": [[672,681]],
-            "victory": [[736,745]]
-        },
-        "img_dir": ".\\sprite_sheets\\Yamazaki\\",
-        "img_prefix": "Yamazaki",
-        "starting_pos": [445, 130],
-        "dodge_space": 80,
-        "dodge_slow_factor": 0,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 2
+    "img_dir": "sprite_sheets/Akuma/",
+    "img_prefix": "Akuma",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  },
+  "drunk_male": {
+    "actions": {
+      "rest": [
+        [
+          258,
+          273
+        ]
+      ],
+      "dash_attack": [
+        [
+          360,
+          366
+        ],
+        [
+          360,
+          366
+        ],
+        [
+          797,
+          809
+        ],
+        [
+          550,
+          558
+        ]
+      ],
+      "injured": [
+        [
+          404,
+          408
+        ]
+      ],
+      "dodge": [
+        [
+          395,
+          403
+        ]
+      ],
+      "defeat": [
+        [
+          672,
+          681
+        ]
+      ],
+      "victory": [
+        [
+          736,
+          745
+        ]
+      ]
     },
-    "drunk_female": {
-        "actions": {
-            "rest": [[200,215]],
-            "dash_attack": [[275,280],[275,283],[485,500],[512,521]],
-            "injured": [[309,315]],
-            "dodge": [[298,298],[303,298]],
-            "defeat": [[321,329]],
-            "victory": [[336,353]]
-        },
-        "img_dir": ".\\sprite_sheets\\Mai Shiranui\\",
-        "img_prefix": "Mai Shiranui",
-        "starting_pos": [445, 130],
-        "dodge_space": 60,
-        "dodge_slow_factor": 2,
-        "defeat_slow_factor": 2,
-        "victory_slow_factor": 0,
-        "rest_slow_factor": 0
-    }
+    "img_dir": "sprite_sheets/Yamazaki/",
+    "img_prefix": "Yamazaki",
+    "dodge_space": 80,
+    "dodge_slow_factor": 0,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 2
+  },
+  "drunk_female": {
+    "actions": {
+      "rest": [
+        [
+          200,
+          215
+        ]
+      ],
+      "dash_attack": [
+        [
+          275,
+          280
+        ],
+        [
+          275,
+          283
+        ],
+        [
+          485,
+          500
+        ],
+        [
+          512,
+          521
+        ]
+      ],
+      "injured": [
+        [
+          309,
+          315
+        ]
+      ],
+      "dodge": [
+        [
+          298,
+          298
+        ],
+        [
+          303,
+          298
+        ]
+      ],
+      "defeat": [
+        [
+          321,
+          329
+        ]
+      ],
+      "victory": [
+        [
+          336,
+          353
+        ]
+      ]
+    },
+    "img_dir": "sprite_sheets/Mai Shiranui/",
+    "img_prefix": "Mai Shiranui",
+    "dodge_space": 60,
+    "dodge_slow_factor": 2,
+    "defeat_slow_factor": 2,
+    "victory_slow_factor": 0,
+    "rest_slow_factor": 0
+  }
 }
