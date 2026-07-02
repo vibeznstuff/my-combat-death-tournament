@@ -35,10 +35,14 @@ function baseHealth(stats) {
 
 export class Combatant {
   constructor(profile = null) {
+    this.spriteKey = null;
+    this.isPlayer = false;
     if (profile === null) {
       this.setName();
       this.setClass();
     } else {
+      // Player-created fighters keep exactly the stats they were given: no
+      // rank bonuses and no gender stat modifiers.
       this.combatClass = 'NEW CHALLENGER';
       this.strength = profile.strength;
       this.defense = profile.defense;
@@ -50,6 +54,8 @@ export class Combatant {
       this.rank = 'MYSTERY';
       this.name = profile.name;
       this.gender = profile.gender;
+      this.spriteKey = profile.spriteKey ?? null;
+      this.isPlayer = Boolean(profile.isPlayer);
     }
   }
 
@@ -119,9 +125,22 @@ export class Combatant {
     this.health = Math.min(this.maxHealth, Math.round(this.health * 1.5));
   }
 
+  // Post-victory reward in game mode: +1 to a chosen stat. Defense and
+  // stamina raises also grow max health, since it derives from them.
+  increaseStat(stat) {
+    this[stat] += 1;
+    const newMax = baseHealth(this);
+    if (newMax > this.maxHealth) {
+      this.health += newMax - this.maxHealth;
+      this.maxHealth = newMax;
+    }
+  }
+
   // Pre-fight snapshot used by the playback UI and log exports.
   snapshot() {
     return {
+      spriteKey: this.spriteKey,
+      isPlayer: this.isPlayer,
       name: this.name,
       gender: this.gender,
       combatClass: this.combatClass,

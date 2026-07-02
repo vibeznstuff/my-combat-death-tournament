@@ -13,6 +13,13 @@
 
     <div class="controls">
       <label>
+        Mode
+        <select id="mode">
+          <option value="sim">Simulation</option>
+          <option value="game">Game Mode</option>
+        </select>
+      </label>
+      <label>
         Fighters
         <select id="fighter-count">
           <option value="4">4</option>
@@ -31,6 +38,13 @@
           <option value="8">8x</option>
         </select>
       </label>
+      <label id="watch-label" hidden>
+        Watch
+        <select id="watch-mode">
+          <option value="all">All fights</option>
+          <option value="mine">Only my fights</option>
+        </select>
+      </label>
       <button id="start">Start Tournament</button>
       <span id="downloads" hidden>
         <button id="download-tournament" class="secondary">Download tournament log</button>
@@ -38,9 +52,24 @@
       </span>
     </div>
 
-    <canvas id="arena" width="1000" height="550"></canvas>
+    <section id="creator" hidden>
+      <h2>Create Your Fighter</h2>
+      <label class="name-field">
+        Name
+        <input id="fighter-name" maxlength="24" placeholder="The Chosen One">
+      </label>
+      <p class="creator-heading">Avatar</p>
+      <div id="avatar-grid" class="avatar-grid"></div>
+      <p class="creator-heading">Stats — <span id="points-remaining"></span></p>
+      <div id="stat-rows" class="stat-rows"></div>
+    </section>
 
-    <p id="status">Pick a bracket size and press Start.</p>
+    <div class="canvas-wrap">
+      <canvas id="arena" width="1000" height="550"></canvas>
+      <div id="overlay" class="overlay" hidden></div>
+    </div>
+
+    <p id="status">Pick a mode and press Start.</p>
   </main>
   <script type="module" src="src/main.js"></script>
 </body>

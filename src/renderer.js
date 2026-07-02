@@ -1,5 +1,7 @@
-// Canvas playback of a simulated tournament: replays each fight's event log
-// with the character sprite animations, health bars, timer and leaderboard.
+// Canvas playback of simulated fights: replays a fight's event log with the
+// character sprite animations, health bars, timer and leaderboard. Fight
+// sequencing is driven externally via playFight()/applyResult(), so callers
+// decide which fights to watch, skip, or interleave with UI prompts.
 
 import { MAX_FIGHT_MOMENTS } from './constants.js';
 import { getFrames, preloadCharacter, loadImage } from './sprites.js';
@@ -25,8 +27,16 @@ function classLabel(combatClass) {
     .replace(/\b\w/g, (ch) => ch.toUpperCase());
 }
 
+function displayName(info) {
+  return info.isPlayer ? `${info.name} (You)` : info.name;
+}
+
+function characterKey(info) {
+  return info.spriteKey ?? `${info.combatClass.toLowerCase()}_${info.gender}`;
+}
+
 function leaderboardKey(info) {
-  const name = RANKED.has(info.rank) ? `${info.name} (${info.rank})` : info.name;
+  const name = RANKED.has(info.rank) ? `${info.name} (${info.rank})` : displayName(info);
   return `${name} - ${classLabel(info.combatClass)}`;
 }
 
@@ -35,7 +45,7 @@ class Player {
     this.index = index;
     this.info = info;
     this.mappings = mappings;
-    this.character = `${info.combatClass.toLowerCase()}_${info.gender}`;
+    this.character = characterKey(info);
     this.config = mappings[this.character];
     this.flip = index === 0; // player one sprites face left; mirror them
     this.home = HOME[index];
@@ -105,28 +115,27 @@ export class TournamentRenderer {
   /**
    * @param canvas target canvas (1000x550)
    * @param mappings parsed animation_mappings.json
-   * @param fights fight records from runTournament()
-   * @param options { speed, onFinish } — speed is a multiplier ref read live
+   * @param options { speed, totalFights } — speed is a multiplier ref read live
    */
-  constructor(canvas, mappings, fights, { speed = () => 1, onFinish = () => {} } = {}) {
+  constructor(canvas, mappings, { speed = () => 1, totalFights = 0 } = {}) {
     this.ctx = canvas.getContext('2d');
     this.mappings = mappings;
-    this.fights = fights;
     this.speed = speed;
-    this.onFinish = onFinish;
+    this.totalFights = totalFights;
     this.leaderboard = new Map();
-    this.fightIndex = 0;
-    this.state = 'loading';
+    this.state = 'idle';
     this.stateTimer = 0;
     this.background = null;
     this.players = [];
+    this.fight = null;
     this.banner = null;
+    this.bannerColor = '#fff';
     this.stopped = false;
+    this.resolvePlayback = null;
   }
 
   async start() {
     this.background = await loadImage(BACKGROUND_URL);
-    await this.loadFight(0);
     let last = performance.now();
     const tickMs = 1000 / FRAME_RATE;
     const step = (now) => {
@@ -148,20 +157,35 @@ export class TournamentRenderer {
     this.stopped = true;
   }
 
-  get fight() {
-    return this.fights[this.fightIndex];
+  // Play one fight record; resolves once the win banner has been shown.
+  playFight(record) {
+    return new Promise((resolve) => {
+      this.resolvePlayback = resolve;
+      this.loadFight(record);
+    });
   }
 
-  async loadFight(index) {
-    this.fightIndex = index;
-    const fight = this.fight;
-    this.players = fight.combatants.map((info, i) => new Player(i, info, this.mappings));
+  // Record a fight on the leaderboard without playing it back.
+  applyResult(record) {
+    this.updateLeaderboard(record);
+  }
+
+  // Show a persistent center-screen banner (used between fights).
+  showBanner(text, color = '#fff') {
+    this.banner = text;
+    this.bannerColor = color;
+  }
+
+  async loadFight(record) {
+    this.fight = record;
+    this.players = record.combatants.map((info, i) => new Player(i, info, this.mappings));
     this.state = 'loading';
+    this.banner = null;
+    this.bannerColor = '#fff';
     await Promise.all(this.players.map((p) => p.preload()));
     await Promise.all(this.players.map((p) => p.rest()));
     this.eventIndex = 0;
     this.guiTimer = MAX_FIGHT_MOMENTS;
-    this.banner = null;
     this.setState('intro', 1.5);
   }
 
@@ -182,6 +206,7 @@ export class TournamentRenderer {
     }
 
     switch (this.state) {
+      case 'idle':
       case 'loading':
         break;
       case 'intro':
@@ -201,8 +226,6 @@ export class TournamentRenderer {
         break;
       case 'fightEnd':
         this.finishFight();
-        break;
-      case 'tournamentEnd':
         break;
     }
   }
@@ -235,12 +258,10 @@ export class TournamentRenderer {
       case 'defeat':
         this.beginKo(1 - event.attacker);
         break;
-      case 'win': {
+      case 'win':
         // Reached without a preceding KO only when time ran out.
-        const fight = this.fight;
-        this.beginKo(1 - fight.winnerIndex);
+        this.beginKo(1 - this.fight.winnerIndex);
         break;
-      }
     }
   }
 
@@ -305,28 +326,27 @@ export class TournamentRenderer {
 
   runKo() {
     if (this.players.every((p) => p.animationDone)) {
-      const fight = this.fight;
-      const winner = this.players[fight.winnerIndex];
-      const loser = this.players[1 - fight.winnerIndex];
-
-      const winnerKey = leaderboardKey(winner.info);
-      this.leaderboard.delete(leaderboardKey(loser.info));
-      this.leaderboard.set(winnerKey, (this.leaderboard.get(winnerKey) ?? 0) + 1);
-
-      const isFinal = this.fightIndex === this.fights.length - 1;
-      this.banner = isFinal
-        ? `${winner.info.name} has won the tournament!`
-        : `${winner.info.name} wins the fight!`;
-      this.setState('fightEnd', isFinal ? 0 : 3);
-      if (isFinal) {
-        this.state = 'tournamentEnd';
-        this.onFinish(winner.info);
-      }
+      this.updateLeaderboard(this.fight);
+      const winner = this.fight.combatants[this.fight.winnerIndex];
+      this.banner = `${displayName(winner)} wins the fight!`;
+      this.setState('fightEnd', 3);
     }
   }
 
+  updateLeaderboard(record) {
+    const winner = record.combatants[record.winnerIndex];
+    const loser = record.combatants[1 - record.winnerIndex];
+    const winnerKey = leaderboardKey(winner);
+    this.leaderboard.delete(leaderboardKey(loser));
+    this.leaderboard.set(winnerKey, (this.leaderboard.get(winnerKey) ?? 0) + 1);
+  }
+
   finishFight() {
-    this.loadFight(this.fightIndex + 1);
+    this.state = 'idle';
+    this.banner = null; // persistent end-of-tournament banners are set by the caller
+    const resolve = this.resolvePlayback;
+    this.resolvePlayback = null;
+    resolve?.();
   }
 
   draw() {
@@ -340,14 +360,18 @@ export class TournamentRenderer {
       return;
     }
 
-    // Draw the acting player last so they render on top.
-    const order = [...this.players].sort(
-      (a, b) => (a.action === 'dash_attack' ? 1 : 0) - (b.action === 'dash_attack' ? 1 : 0),
-    );
-    for (const player of order) player.draw(ctx);
+    if (this.players.length > 0) {
+      // Draw the acting player last so they render on top.
+      const order = [...this.players].sort(
+        (a, b) => (a.action === 'dash_attack' ? 1 : 0) - (b.action === 'dash_attack' ? 1 : 0),
+      );
+      for (const player of order) player.draw(ctx);
+      this.drawHud();
+    } else {
+      this.drawLeaderboard();
+    }
 
-    this.drawHud();
-    if (this.banner) this.drawCenteredText(this.banner, 36, 250);
+    if (this.banner) this.drawCenteredText(this.banner, 36, 250, this.bannerColor);
   }
 
   drawHud() {
@@ -371,18 +395,25 @@ export class TournamentRenderer {
       ctx.textAlign = player.index === 0 ? 'left' : 'right';
       const edgeX = player.index === 0 ? 50 : WIDTH - 50;
       ctx.font = '17px sans-serif';
-      ctx.fillText(`${info.name}${rank}`, edgeX, 50);
+      ctx.fillText(`${displayName(info)}${rank}`, edgeX, 50);
       ctx.font = '14px sans-serif';
       ctx.fillText(classLabel(info.combatClass), edgeX, 66);
     }
 
     ctx.textAlign = 'center';
     ctx.font = '21px sans-serif';
-    ctx.fillText(`Round ${this.fight.roundNumber} of ${this.fights.length}`, WIDTH / 2, 40);
+    ctx.fillStyle = '#fff';
+    ctx.fillText(`Round ${this.fight.roundNumber} of ${this.totalFights}`, WIDTH / 2, 40);
     ctx.fillText(String(Math.ceil(this.guiTimer)), WIDTH / 2, 98);
+    this.drawLeaderboard();
+  }
 
-    // Leaderboard: top eight by wins.
+  drawLeaderboard() {
+    const ctx = this.ctx;
+    // Top eight by wins.
     const standings = [...this.leaderboard.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#fff';
     ctx.font = '12px sans-serif';
     standings.forEach(([player, wins], i) => {
       ctx.fillText(`${player} [${wins} Win${wins === 1 ? '' : 's'}]`, WIDTH / 2, 130 + (i + 1) * 14);
@@ -390,13 +421,13 @@ export class TournamentRenderer {
     ctx.textAlign = 'left';
   }
 
-  drawCenteredText(text, size, y) {
+  drawCenteredText(text, size, y, color = '#fff') {
     const ctx = this.ctx;
-    ctx.font = `${size}px sans-serif`;
+    ctx.font = `bold ${size}px sans-serif`;
     ctx.textAlign = 'center';
     ctx.fillStyle = '#000';
     ctx.fillText(text, WIDTH / 2 + 2, y + 2);
-    ctx.fillStyle = '#fff';
+    ctx.fillStyle = color;
     ctx.fillText(text, WIDTH / 2, y);
     ctx.textAlign = 'left';
   }
