@@ -14,9 +14,12 @@ import { TournamentRenderer } from './renderer.js';
 // classes allocate 30 points, but they also enjoy gender stat multipliers
 // and a shot at Elite/Master/Legendary bonuses that the player never gets
 // (Samurai even starts from 40 points) — the larger budget offsets that.
+// The cap of 15 forces real specialization trade-offs (maxing three stats
+// zeroes the other two) while staying below the degenerate Stamina builds
+// that DEFAULT_COOLDOWN (20) allows at higher values.
 const STATS = ['strength', 'defense', 'agility', 'stamina', 'wisdom'];
 const STAT_BUDGET = 45;
-const STAT_MAX = 10;
+const STAT_MAX = 15;
 
 // Plain-language guide shown in the creator, derived from the live game
 // constants so it stays accurate if they're tuned.
