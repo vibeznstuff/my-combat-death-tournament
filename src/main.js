@@ -11,10 +11,11 @@ import { loadMappings, loadImage } from './sprites.js';
 import { TournamentRenderer } from './renderer.js';
 
 // Character creation: total ability points and per-stat ceiling. Randomized
-// classes allocate 30 points (Samurai excepted), so this keeps custom
-// fighters on an even footing.
+// classes allocate 30 points, but they also enjoy gender stat multipliers
+// and a shot at Elite/Master/Legendary bonuses that the player never gets
+// (Samurai even starts from 40 points) — the larger budget offsets that.
 const STATS = ['strength', 'defense', 'agility', 'stamina', 'wisdom'];
-const STAT_BUDGET = 30;
+const STAT_BUDGET = 45;
 const STAT_MAX = 10;
 
 // Plain-language guide shown in the creator, derived from the live game
@@ -54,7 +55,7 @@ let mappingsPromise = null;
 let renderer = null;
 let creatorBuilt = false;
 let selectedAvatar = null;
-const statValues = { strength: 6, defense: 6, agility: 6, stamina: 6, wisdom: 6 };
+const statValues = { strength: 9, defense: 9, agility: 9, stamina: 9, wisdom: 9 };
 
 const getMappings = () => (mappingsPromise ??= loadMappings());
 
@@ -307,9 +308,6 @@ async function startTournament() {
 
       if (mine && customAlive) {
         if (step.winner === custom) {
-          // The player's fighter fully recovers between fights (randomized
-          // fighters only recuperate to 1.5x their remaining health, capped).
-          custom.health = custom.maxHealth;
           if (step.record.roundNumber < totalFights) {
             await promptStatBoost(custom);
           }

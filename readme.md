@@ -43,8 +43,8 @@ The classic experience: every fighter is randomly generated and the whole bracke
 
 Create your own fighter and enter the tournament:
 
-- **Custom fighter creation** — pick a name, choose any of the 18 sprite avatars, and allocate ability points across Strength, Defense, Agility, Stamina and Wisdom. You get a budget of 30 points total (max 10 per stat), in line with the randomized classes. Each stat card explains exactly what the stat does in combat, and a live Max Health readout shows how Defense/Stamina choices pay off.
-- **Full recovery** — your fighter starts every fight at full health. Randomized fighters carry tournament attrition instead: winners only recuperate to 1.5x the health they had left, capped at their max.
+- **Custom fighter creation** — pick a name, choose any of the 18 sprite avatars, and allocate ability points across Strength, Defense, Agility, Stamina and Wisdom. You get a budget of 45 points total (max 10 per stat) — deliberately above the randomized classes' 30, to offset the gender stat multipliers and rank bonus rolls that only randomized fighters receive. Each stat card explains exactly what the stat does in combat, and a live Max Health readout shows how Defense/Stamina choices pay off.
+- **Tournament attrition** — like every other fighter, your fighter carries damage between fights: winners recuperate to 1.5x the health they had left (capped at their max), so winning cleanly matters.
 - **Fair play** — your fighter is never awarded the Elite, Master or Legendary rank bonuses. Instead, after every fight you win you choose one stat to train by +1 before your next bout (raising Defense or Stamina also grows your max health, since health derives from them).
 - **Watch options** — choose whether to watch **all fights** in the bracket or **only your own fights** (the rest resolve instantly in the background and still update the leaderboard).
 - **Game over** — if your fighter ever loses, the run ends with a Game Over screen where you can either end the tournament and try again, or keep watching the remaining fights play out between the randomly generated combatants.
