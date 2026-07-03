@@ -29,7 +29,7 @@ function randomChoice(list) {
   return list[Math.floor(Math.random() * list.length)];
 }
 
-function baseHealth(stats) {
+export function baseHealth(stats) {
   return Math.max(50, Math.round(stats.stamina * 4 + stats.defense * 6) * HEALTH_MULTIPLIER);
 }
 

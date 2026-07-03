@@ -189,11 +189,21 @@ canvas {
 
 .stat-rows {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 8px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  gap: 10px;
 }
 
-.stat-row {
+.stat-card {
+  background: #232733;
+  border: 1px solid #3a3f4d;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -201,15 +211,32 @@ canvas {
   font-size: 0.9rem;
 }
 
-.stat-row .value {
+.stat-name {
+  font-weight: 600;
+}
+
+.stat-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-controls .value {
   min-width: 2ch;
   text-align: center;
   font-variant-numeric: tabular-nums;
 }
 
-.stat-row button {
+.stat-controls button {
   padding: 2px 10px;
   font-weight: 600;
+}
+
+.stat-description {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: #b9bcc7;
 }
 
 #status {

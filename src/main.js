@@ -1,5 +1,11 @@
-import { FIGHTER_COUNT } from './constants.js';
-import { Combatant } from './combatant.js';
+import {
+  FIGHTER_COUNT,
+  DEFAULT_COOLDOWN,
+  DODGE_THRESHOLD,
+  DAMAGE_MULTIPLIER,
+  HEALTH_MULTIPLIER,
+} from './constants.js';
+import { Combatant, baseHealth } from './combatant.js';
 import { generateCombatants, tournamentSteps, tournamentLogCsv, fightLogCsv } from './tournament.js';
 import { loadMappings, loadImage } from './sprites.js';
 import { TournamentRenderer } from './renderer.js';
@@ -10,6 +16,24 @@ import { TournamentRenderer } from './renderer.js';
 const STATS = ['strength', 'defense', 'agility', 'stamina', 'wisdom'];
 const STAT_BUDGET = 30;
 const STAT_MAX = 10;
+
+// Plain-language guide shown in the creator, derived from the live game
+// constants so it stays accurate if they're tuned.
+const HP_PER_DEFENSE = 6 * HEALTH_MULTIPLIER;
+const HP_PER_STAMINA = 4 * HEALTH_MULTIPLIER;
+const DODGE_PCT = Math.round((1 - DODGE_THRESHOLD) * 100);
+const DODGE_PCT_AT_MAX = Math.round((1 - DODGE_THRESHOLD ** STAT_MAX) * 100);
+const STAT_INFO = {
+  strength: `Hit harder. Each hit deals (your Strength − foe's Defense) × ${DAMAGE_MULTIPLIER} damage, so every point is +${DAMAGE_MULTIPLIER} damage per hit against everyone.`,
+  defense: `Take less damage. Each point cancels one point of the attacker's Strength (hits always deal at least ${DAMAGE_MULTIPLIER}). Also worth +${HP_PER_DEFENSE} max health per point.`,
+  agility: `Land more hits. Each attack lands 1 to Agility hits, and the higher-Agility fighter strikes first. High Agility makes Strength count multiple times.`,
+  stamina: `Attack more often. You attack every ${DEFAULT_COOLDOWN} − Stamina moments, so each point shortens the wait between attacks. Also worth +${HP_PER_STAMINA} max health per point.`,
+  wisdom: `Dodge attacks. Each point grants an extra ${DODGE_PCT}% roll to fully evade an incoming attack (${STAT_MAX} points ≈ ${DODGE_PCT_AT_MAX}% dodge chance).`,
+};
+
+function statLabel(stat) {
+  return stat.charAt(0).toUpperCase() + stat.slice(1);
+}
 
 const el = (id) => document.getElementById(id);
 const canvas = el('arena');
@@ -52,6 +76,7 @@ function pointsRemaining() {
 
 function refreshCreator() {
   el('points-remaining').textContent = `${pointsRemaining()} of ${STAT_BUDGET} points remaining`;
+  el('max-health-preview').textContent = `Max Health: ${baseHealth(statValues)}`;
   for (const stat of STATS) {
     el(`stat-value-${stat}`).textContent = statValues[stat];
     el(`stat-inc-${stat}`).disabled = pointsRemaining() === 0 || statValues[stat] >= STAT_MAX;
@@ -116,12 +141,16 @@ async function buildCreator() {
 
   const rows = el('stat-rows');
   for (const stat of STATS) {
-    const row = document.createElement('div');
-    row.className = 'stat-row';
+    const card = document.createElement('div');
+    card.className = 'stat-card';
+
+    const header = document.createElement('div');
+    header.className = 'stat-header';
     const label = document.createElement('span');
-    label.textContent = stat.charAt(0).toUpperCase() + stat.slice(1);
+    label.className = 'stat-name';
+    label.textContent = statLabel(stat);
     const controls = document.createElement('span');
-    controls.className = 'stat-row';
+    controls.className = 'stat-controls';
     for (const [suffix, delta, text] of [['dec', -1, '−'], ['value', 0, ''], ['inc', 1, '+']]) {
       if (suffix === 'value') {
         const value = document.createElement('span');
@@ -140,8 +169,14 @@ async function buildCreator() {
       });
       controls.append(button);
     }
-    row.append(label, controls);
-    rows.append(row);
+    header.append(label, controls);
+
+    const description = document.createElement('p');
+    description.className = 'stat-description';
+    description.textContent = STAT_INFO[stat];
+
+    card.append(header, description);
+    rows.append(card);
   }
   refreshCreator();
 }
@@ -179,8 +214,8 @@ function promptStatBoost(fighter) {
     for (const stat of STATS) {
       const button = document.createElement('button');
       button.type = 'button';
-      const label = stat.charAt(0).toUpperCase() + stat.slice(1);
-      button.textContent = `${label} ${fighter[stat]} → ${fighter[stat] + 1}`;
+      button.textContent = `${statLabel(stat)} ${fighter[stat]} → ${fighter[stat] + 1}`;
+      button.title = STAT_INFO[stat];
       button.addEventListener('click', () => {
         fighter.increaseStat(stat);
         done();
@@ -272,6 +307,9 @@ async function startTournament() {
 
       if (mine && customAlive) {
         if (step.winner === custom) {
+          // The player's fighter fully recovers between fights (randomized
+          // fighters only recuperate to 1.5x their remaining health, capped).
+          custom.health = custom.maxHealth;
           if (step.record.roundNumber < totalFights) {
             await promptStatBoost(custom);
           }
