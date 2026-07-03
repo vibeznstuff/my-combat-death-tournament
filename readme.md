@@ -43,7 +43,14 @@ The classic experience: every fighter is randomly generated and the whole bracke
 
 Create your own fighter and enter the tournament:
 
-- **Custom fighter creation** — pick a name, choose any of the 18 sprite avatars, and allocate ability points across Strength, Defense, Agility, Stamina and Wisdom. You get a budget of 45 points total (max 15 per stat) — deliberately above the randomized classes' 30, to offset the gender stat multipliers and rank bonus rolls that only randomized fighters receive. Each stat card explains exactly what the stat does in combat, and a live Max Health readout shows how Defense/Stamina choices pay off.
+- **Custom fighter creation** — pick a name, choose any of the 18 sprite avatars, and allocate ability points across Strength, Defense, Agility, Stamina and Wisdom. Each stat card explains exactly what the stat does in combat, and a live Max Health readout shows how Defense/Stamina choices pay off.
+- **Difficulty** — the selected difficulty sets your ability point budget and per-stat cap (switching difficulty resets the allocation to an even spread). Even the Easy budget only offsets the gender stat multipliers and rank bonus rolls that randomized fighters get and you don't.
+
+  | Difficulty | Ability points | Per-stat cap |
+  |---|---|---|
+  | Easy | 45 | 15 |
+  | Normal | 40 | 12 |
+  | Hard | 35 | 10 |
 - **Tournament attrition** — like every other fighter, your fighter carries damage between fights: winners recuperate to 1.5x the health they had left (capped at their max), so winning cleanly matters.
 - **Fair play** — your fighter is never awarded the Elite, Master or Legendary rank bonuses. Instead, after every fight you win you choose one stat to train by +1 before your next bout (raising Defense or Stamina also grows your max health, since health derives from them).
 - **Watch options** — choose whether to watch **all fights** in the bracket or **only your own fights** (the rest resolve instantly in the background and still update the leaderboard).

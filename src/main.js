@@ -10,30 +10,34 @@ import { generateCombatants, tournamentSteps, tournamentLogCsv, fightLogCsv } fr
 import { loadMappings, loadImage } from './sprites.js';
 import { TournamentRenderer } from './renderer.js';
 
-// Character creation: total ability points and per-stat ceiling. Randomized
-// classes allocate 30 points, but they also enjoy gender stat multipliers
-// and a shot at Elite/Master/Legendary bonuses that the player never gets
-// (Samurai even starts from 40 points) — the larger budget offsets that.
-// The cap of 15 forces real specialization trade-offs (maxing three stats
-// zeroes the other two) while staying below the degenerate Stamina builds
-// that DEFAULT_COOLDOWN (20) allows at higher values.
+// Character creation: randomized classes allocate 30 points, but they also
+// enjoy gender stat multipliers and a shot at Elite/Master/Legendary bonuses
+// that the player never gets (Samurai even starts from 40 points). The
+// difficulty tiers trade off how generously the player's budget offsets
+// that, and lower per-stat caps also leave less room to specialize.
 const STATS = ['strength', 'defense', 'agility', 'stamina', 'wisdom'];
-const STAT_BUDGET = 45;
-const STAT_MAX = 15;
+const DIFFICULTIES = {
+  easy: { budget: 45, cap: 15 },
+  normal: { budget: 40, cap: 12 },
+  hard: { budget: 35, cap: 10 },
+};
 
 // Plain-language guide shown in the creator, derived from the live game
-// constants so it stays accurate if they're tuned.
+// constants (and the current difficulty's cap) so it stays accurate.
 const HP_PER_DEFENSE = 6 * HEALTH_MULTIPLIER;
 const HP_PER_STAMINA = 4 * HEALTH_MULTIPLIER;
 const DODGE_PCT = Math.round((1 - DODGE_THRESHOLD) * 100);
-const DODGE_PCT_AT_MAX = Math.round((1 - DODGE_THRESHOLD ** STAT_MAX) * 100);
-const STAT_INFO = {
-  strength: `Hit harder. Each hit deals (your Strength − foe's Defense) × ${DAMAGE_MULTIPLIER} damage, so every point is +${DAMAGE_MULTIPLIER} damage per hit against everyone.`,
-  defense: `Take less damage. Each point cancels one point of the attacker's Strength (hits always deal at least ${DAMAGE_MULTIPLIER}). Also worth +${HP_PER_DEFENSE} max health per point.`,
-  agility: `Land more hits. Each attack lands 1 to Agility hits, and the higher-Agility fighter strikes first. High Agility makes Strength count multiple times.`,
-  stamina: `Attack more often. You attack every ${DEFAULT_COOLDOWN} − Stamina moments, so each point shortens the wait between attacks. Also worth +${HP_PER_STAMINA} max health per point.`,
-  wisdom: `Dodge attacks. Each point grants an extra ${DODGE_PCT}% roll to fully evade an incoming attack (${STAT_MAX} points ≈ ${DODGE_PCT_AT_MAX}% dodge chance).`,
-};
+
+function statInfo(stat, cap) {
+  const dodgeAtCap = Math.round((1 - DODGE_THRESHOLD ** cap) * 100);
+  return {
+    strength: `Hit harder. Each hit deals (your Strength − foe's Defense) × ${DAMAGE_MULTIPLIER} damage, so every point is +${DAMAGE_MULTIPLIER} damage per hit against everyone.`,
+    defense: `Take less damage. Each point cancels one point of the attacker's Strength (hits always deal at least ${DAMAGE_MULTIPLIER}). Also worth +${HP_PER_DEFENSE} max health per point.`,
+    agility: `Land more hits. Each attack lands 1 to Agility hits, and the higher-Agility fighter strikes first. High Agility makes Strength count multiple times.`,
+    stamina: `Attack more often. You attack every ${DEFAULT_COOLDOWN} − Stamina moments, so each point shortens the wait between attacks. Also worth +${HP_PER_STAMINA} max health per point.`,
+    wisdom: `Dodge attacks. Each point grants an extra ${DODGE_PCT}% roll to fully evade an incoming attack (${cap} points ≈ ${dodgeAtCap}% dodge chance).`,
+  }[stat];
+}
 
 function statLabel(stat) {
   return stat.charAt(0).toUpperCase() + stat.slice(1);
@@ -58,7 +62,14 @@ let mappingsPromise = null;
 let renderer = null;
 let creatorBuilt = false;
 let selectedAvatar = null;
-const statValues = { strength: 9, defense: 9, agility: 9, stamina: 9, wisdom: 9 };
+let difficulty = DIFFICULTIES[el('difficulty').value];
+const statValues = {};
+resetAllocation();
+
+function resetAllocation() {
+  const evenSpread = Math.floor(difficulty.budget / STATS.length);
+  for (const stat of STATS) statValues[stat] = evenSpread;
+}
 
 const getMappings = () => (mappingsPromise ??= loadMappings());
 
@@ -75,16 +86,17 @@ function download(filename, text) {
 // Character creator
 
 function pointsRemaining() {
-  return STAT_BUDGET - STATS.reduce((sum, stat) => sum + statValues[stat], 0);
+  return difficulty.budget - STATS.reduce((sum, stat) => sum + statValues[stat], 0);
 }
 
 function refreshCreator() {
-  el('points-remaining').textContent = `${pointsRemaining()} of ${STAT_BUDGET} points remaining`;
+  el('points-remaining').textContent = `${pointsRemaining()} of ${difficulty.budget} points remaining`;
   el('max-health-preview').textContent = `Max Health: ${baseHealth(statValues)}`;
   for (const stat of STATS) {
     el(`stat-value-${stat}`).textContent = statValues[stat];
-    el(`stat-inc-${stat}`).disabled = pointsRemaining() === 0 || statValues[stat] >= STAT_MAX;
+    el(`stat-inc-${stat}`).disabled = pointsRemaining() === 0 || statValues[stat] >= difficulty.cap;
     el(`stat-dec-${stat}`).disabled = statValues[stat] === 0;
+    el(`stat-desc-${stat}`).textContent = statInfo(stat, difficulty.cap);
   }
 }
 
@@ -177,7 +189,7 @@ async function buildCreator() {
 
     const description = document.createElement('p');
     description.className = 'stat-description';
-    description.textContent = STAT_INFO[stat];
+    description.id = `stat-desc-${stat}`;
 
     card.append(header, description);
     rows.append(card);
@@ -189,7 +201,14 @@ modeSelect.addEventListener('change', () => {
   const gameMode = modeSelect.value === 'game';
   creator.hidden = !gameMode;
   watchLabel.hidden = !gameMode;
+  el('difficulty-label').hidden = !gameMode;
   if (gameMode) buildCreator();
+});
+
+el('difficulty').addEventListener('change', () => {
+  difficulty = DIFFICULTIES[el('difficulty').value];
+  resetAllocation();
+  if (creatorBuilt) refreshCreator();
 });
 
 // ---------------------------------------------------------------------------
@@ -219,7 +238,7 @@ function promptStatBoost(fighter) {
       const button = document.createElement('button');
       button.type = 'button';
       button.textContent = `${statLabel(stat)} ${fighter[stat]} → ${fighter[stat] + 1}`;
-      button.title = STAT_INFO[stat];
+      button.title = statInfo(stat, difficulty.cap);
       button.addEventListener('click', () => {
         fighter.increaseStat(stat);
         done();
