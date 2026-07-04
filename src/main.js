@@ -6,6 +6,7 @@ import {
   HEALTH_MULTIPLIER,
 } from './constants.js';
 import { Combatant, baseHealth } from './combatant.js';
+import { DIFFICULTIES, AVATAR_BUILDS } from './difficulty.js';
 import { generateCombatants, tournamentSteps, tournamentLogCsv, fightLogCsv } from './tournament.js';
 import { loadMappings, loadImage } from './sprites.js';
 import { TournamentRenderer } from './renderer.js';
@@ -16,11 +17,6 @@ import { TournamentRenderer } from './renderer.js';
 // difficulty tiers trade off how generously the player's budget offsets
 // that, and lower per-stat caps also leave less room to specialize.
 const STATS = ['strength', 'defense', 'agility', 'stamina', 'wisdom'];
-const DIFFICULTIES = {
-  easy: { budget: 45, cap: 15 },
-  normal: { budget: 40, cap: 12 },
-  hard: { budget: 35, cap: 10 },
-};
 
 // Plain-language guide shown in the creator, derived from the live game
 // constants (and the current difficulty's cap) so it stays accurate.
@@ -64,9 +60,16 @@ let creatorBuilt = false;
 let selectedAvatar = null;
 let difficulty = DIFFICULTIES[el('difficulty').value];
 const statValues = {};
-resetAllocation();
+applyDefaultBuild();
 
-function resetAllocation() {
+// Starting stats come from the selected avatar's themed build for the
+// current difficulty (an even spread before any avatar is chosen).
+function applyDefaultBuild() {
+  const build = selectedAvatar && AVATAR_BUILDS[selectedAvatar].builds[el('difficulty').value];
+  if (build) {
+    Object.assign(statValues, build);
+    return;
+  }
   const evenSpread = Math.floor(difficulty.budget / STATS.length);
   for (const stat of STATS) statValues[stat] = evenSpread;
 }
@@ -144,17 +147,18 @@ async function buildCreator() {
     const frameUrl = `${config.img_dir}${config.img_prefix}_${firstRestFrame}.png`;
     spriteThumbnail(frameUrl).then((src) => { img.src = src; });
     img.alt = config.img_prefix;
-    button.append(img, document.createTextNode(config.img_prefix));
+    const archetype = document.createElement('span');
+    archetype.className = 'archetype';
+    archetype.textContent = AVATAR_BUILDS[key].archetype;
+    button.append(img, document.createTextNode(config.img_prefix), archetype);
     button.addEventListener('click', () => {
       selectedAvatar = key;
       for (const other of grid.children) other.classList.toggle('selected', other === button);
+      applyDefaultBuild();
+      refreshCreator();
     });
     grid.append(button);
   }
-  // Preselect a random avatar so the form is always valid.
-  const buttons = [...grid.children];
-  buttons[Math.floor(Math.random() * buttons.length)].click();
-
   const rows = el('stat-rows');
   for (const stat of STATS) {
     const card = document.createElement('div');
@@ -194,7 +198,11 @@ async function buildCreator() {
     card.append(header, description);
     rows.append(card);
   }
-  refreshCreator();
+
+  // Preselect a random avatar (after the stat rows exist, since selection
+  // applies the avatar's default build and refreshes the form).
+  const buttons = [...grid.children];
+  buttons[Math.floor(Math.random() * buttons.length)].click();
 }
 
 modeSelect.addEventListener('change', () => {
@@ -207,7 +215,7 @@ modeSelect.addEventListener('change', () => {
 
 el('difficulty').addEventListener('change', () => {
   difficulty = DIFFICULTIES[el('difficulty').value];
-  resetAllocation();
+  applyDefaultBuild();
   if (creatorBuilt) refreshCreator();
 });
 
