@@ -43,7 +43,7 @@ The classic experience: every fighter is randomly generated and the whole bracke
 
 Create your own fighter and enter the tournament:
 
-- **Custom fighter creation** — pick a name, choose any of the 18 sprite avatars, and allocate ability points across Strength, Defense, Agility, Stamina and Wisdom. Each stat card explains exactly what the stat does in combat, and a live Max Health readout shows how Defense/Stamina choices pay off.
+- **Custom fighter creation** — pick a name, choose any of the 18 sprite avatars, and allocate ability points across Strength, Defense, Agility, Stamina and Wisdom. Each avatar carries a themed default build (shown as an archetype tag, e.g. Glass Cannon, Juggernaut, Tactician) matched to the character's fighting style — picking one applies its full-budget build for the current difficulty as a starting point you can tweak freely. Each stat card explains exactly what the stat does in combat, and a live Max Health readout shows how Defense/Stamina choices pay off.
 - **Difficulty** — the selected difficulty sets your ability point budget and per-stat cap (switching difficulty resets the allocation to an even spread). Even the Easy budget only offsets the gender stat multipliers and rank bonus rolls that randomized fighters get and you don't.
 
   | Difficulty | Ability points | Per-stat cap |
